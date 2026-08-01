@@ -1,0 +1,3185 @@
+{
+  "abdominal": {
+    "word": "abdominal",
+    "definition": "related to the stomach area of the body",
+    "variations": [
+      "abdominal",
+      "abdomen"
+    ],
+    "emoji": "🧍💪",
+    "id": "gl001"
+  },
+  "accompany": {
+    "word": "accompany",
+    "definition": "to play or sing along with someone to support the music.",
+    "variations": [
+      "accompany",
+      "accompanies",
+      "accompanied",
+      "accompanying"
+    ],
+    "emoji": "🎶🤝",
+    "id": "gl002"
+  },
+  "accuracy": {
+    "word": "accuracy",
+    "definition": "the ability to do something correctly and hit the intended target",
+    "variations": [
+      "accuracy",
+      "accurate"
+    ],
+    "emoji": "🎯✅",
+    "id": "gl003"
+  },
+  "acting": {
+    "word": "acting",
+    "definition": "the art of performing as a character to show a story or message to an audience",
+    "variations": [
+      "act",
+      "acts",
+      "acted",
+      "actor",
+      "actors",
+      "acting"
+    ],
+    "emoji": "🎭🗣️",
+    "id": "gl004"
+  },
+  "actor": {
+    "word": "actor",
+    "definition": "a person or character who performs in a play or story",
+    "variations": [
+      "actor",
+      "actors"
+    ],
+    "emoji": "🎭👤",
+    "id": "gl005"
+  },
+  "adhere": {
+    "word": "adhere",
+    "definition": "to stick firmly to a surface",
+    "variations": [
+      "adhere",
+      "adheres",
+      "adhered",
+      "adhering"
+    ],
+    "emoji": "🩹🔒",
+    "id": "gl006"
+  },
+  "adhesive": {
+    "word": "adhesive",
+    "definition": "a sticky substance used to join things together",
+    "variations": [
+      "adhesive",
+      "adhesives"
+    ],
+    "emoji": "🧴📎",
+    "id": "gl007"
+  },
+  "aim": {
+    "word": "aim",
+    "definition": "to point or direct something toward a target",
+    "variations": [
+      "aim",
+      "aims",
+      "aiming",
+      "aimed"
+    ],
+    "emoji": "🎯👀",
+    "id": "gl008"
+  },
+  "alternating": {
+    "word": "alternating",
+    "definition": "happening by taking turns, one after another in a pattern",
+    "variations": [
+      "alternate",
+      "alternates",
+      "alternating",
+      "alternated"
+    ],
+    "emoji": "🔄↕️",
+    "id": "gl009"
+  },
+  "apron": {
+    "word": "apron",
+    "definition": "a piece of clothing worn over other clothes to keep them clean while working",
+    "variations": [
+      "apron",
+      "aprons"
+    ],
+    "emoji": "🧥🧼",
+    "id": "gl010"
+  },
+  "ascending": {
+    "word": "ascending",
+    "definition": "going from low to high.",
+    "variations": [
+      "ascend",
+      "ascending",
+      "ascended"
+    ],
+    "emoji": "⬆️🎶",
+    "id": "gl011"
+  },
+  "ashes": {
+    "word": "ashes",
+    "definition": "the grey powder left after something has burned",
+    "variations": [
+      "ash",
+      "ashes"
+    ],
+    "emoji": "灰🔥",
+    "id": "gl012"
+  },
+  "assemble": {
+    "word": "assemble",
+    "definition": "to put parts together to make one whole thing",
+    "variations": [
+      "assemble",
+      "assembles",
+      "assembled",
+      "assembling"
+    ],
+    "emoji": "🧩📦",
+    "id": "gl013"
+  },
+  "attacker": {
+    "word": "attacker",
+    "definition": "a player who tries to move the ball forward and help score",
+    "variations": [
+      "attacker",
+      "attackers"
+    ],
+    "emoji": "🏃⚡",
+    "id": "gl014"
+  },
+  "audience": {
+    "word": "audience",
+    "definition": "the people who watch or listen to a performance",
+    "variations": [
+      "audience",
+      "audiences"
+    ],
+    "emoji": "👥👏",
+    "id": "gl015"
+  },
+  "backspin": {
+    "word": "backspin",
+    "definition": "a backward turning motion of the ball as it moves through the air",
+    "variations": [
+      "backspin"
+    ],
+    "emoji": "🔄🏐",
+    "id": "gl016"
+  },
+  "balance": {
+    "word": "balance",
+    "definition": "a state where parts are arranged so they look even and stable",
+    "variations": [
+      "balance",
+      "balanced",
+      "unbalanced",
+      "imbalance"
+    ],
+    "emoji": "⚖️🖼️",
+    "id": "gl017"
+  },
+  "base": {
+    "word": "base",
+    "definition": "the bottom part that supports something.",
+    "variations": [
+      "base",
+      "bases"
+    ],
+    "emoji": "⬛📐",
+    "id": "gl018"
+  },
+  "beads": {
+    "word": "beads",
+    "definition": "small pieces with holes that are used for decoration",
+    "variations": [
+      "bead",
+      "beads"
+    ],
+    "emoji": "📿✨",
+    "id": "gl019"
+  },
+  "beat": {
+    "word": "beat",
+    "definition": "the steady pulse or count in music",
+    "variations": [
+      "beat",
+      "beats"
+    ],
+    "emoji": "🥁⏱️",
+    "id": "gl020"
+  },
+  "bibs": {
+    "word": "bibs",
+    "definition": "light shirts worn over clothes to show which team a player is on",
+    "variations": [
+      "bib",
+      "bibs"
+    ],
+    "emoji": "👕🎽",
+    "id": "gl021"
+  },
+  "body language": {
+    "word": "body language",
+    "definition": "messages shown by the way a person moves or holds their body",
+    "variations": [
+      "body language"
+    ],
+    "emoji": "🙌🧍",
+    "id": "gl022"
+  },
+  "bond": {
+    "word": "bond",
+    "definition": "a strong joining together of two things",
+    "variations": [
+      "bond",
+      "bonds",
+      "bonded",
+      "bonding"
+    ],
+    "emoji": "🔗🤝",
+    "id": "gl023"
+  },
+  "bounce pass": {
+    "word": "bounce pass",
+    "definition": "a pass that hits the ground once before reaching a teammate",
+    "variations": [
+      "bounce pass",
+      "bounce passes"
+    ],
+    "emoji": "🏐↘️",
+    "id": "gl024"
+  },
+  "boundary": {
+    "word": "boundary",
+    "definition": "the edge or limit that shows where a shape or image ends",
+    "variations": [
+      "boundary",
+      "boundaries"
+    ],
+    "emoji": "🚧📍",
+    "id": "gl025"
+  },
+  "breathing technique": {
+    "word": "breathing technique",
+    "definition": "a way of controlling breathing to improve singing or speaking",
+    "variations": [
+      "breathing technique",
+      "breathing techniques"
+    ],
+    "emoji": "🫁🎵",
+    "id": "gl026"
+  },
+  "broad jump": {
+    "word": "broad jump",
+    "definition": "a jump forward with force, landing on both feet",
+    "variations": [
+      "broad jump",
+      "broad jumps"
+    ],
+    "emoji": "🦘↗️",
+    "id": "gl027"
+  },
+  "brushing": {
+    "word": "brushing",
+    "definition": "putting something on a surface using a brush",
+    "variations": [
+      "brushing",
+      "brush",
+      "brushed",
+      "brushes"
+    ],
+    "emoji": "🖌️🎨",
+    "id": "gl028"
+  },
+  "carving": {
+    "word": "carving",
+    "definition": "cutting a material to make shapes or patterns",
+    "variations": [
+      "carving",
+      "carve",
+      "carved",
+      "carves"
+    ],
+    "emoji": "🔪🎨",
+    "id": "gl029"
+  },
+  "casting": {
+    "word": "casting",
+    "definition": "a method of making a shape by pressing or pouring material into a mould",
+    "variations": [
+      "casting",
+      "cast",
+      "casts"
+    ],
+    "emoji": "🫗🧱",
+    "id": "gl030"
+  },
+  "catch": {
+    "word": "catch",
+    "definition": "to take and hold the ball with the hands",
+    "variations": [
+      "catch",
+      "catches",
+      "catching",
+      "caught"
+    ],
+    "emoji": "🫴🏐",
+    "id": "gl031"
+  },
+  "cement": {
+    "word": "cement",
+    "definition": "a strong building material that hardens after mixing with water",
+    "variations": [
+      "cement",
+      "cements"
+    ],
+    "emoji": "🧱🏗️",
+    "id": "gl032"
+  },
+  "character": {
+    "word": "character",
+    "definition": "the person or role played in a story or drama",
+    "variations": [
+      "character",
+      "characters"
+    ],
+    "emoji": "🧍🎬",
+    "id": "gl033"
+  },
+  "chest pass": {
+    "word": "chest pass",
+    "definition": "a pass thrown from the chest directly to a teammate using both hands",
+    "variations": [
+      "chest pass",
+      "chest passes"
+    ],
+    "emoji": "🏐➡️",
+    "id": "gl034"
+  },
+  "circle": {
+    "word": "circle",
+    "definition": "a round shape with no corners",
+    "variations": [
+      "circle",
+      "circles",
+      "circular"
+    ],
+    "emoji": "⚪🔵",
+    "id": "gl035"
+  },
+  "circular": {
+    "word": "circular",
+    "definition": "having the shape of a circle",
+    "variations": [
+      "circular"
+    ],
+    "emoji": "⭕📐",
+    "id": "gl036"
+  },
+  "circulation": {
+    "word": "circulation",
+    "definition": "the movement of blood around the body",
+    "variations": [
+      "circulation"
+    ],
+    "emoji": "🩸❤️",
+    "id": "gl037"
+  },
+  "clay": {
+    "word": "clay",
+    "definition": "soft natural earth that can be shaped and hardened to make objects",
+    "variations": [
+      "clay",
+      "clays"
+    ],
+    "emoji": "🟤🏺",
+    "id": "gl038"
+  },
+  "cleanliness": {
+    "word": "cleanliness",
+    "definition": "the state of being clean and tidy",
+    "variations": [
+      "cleanliness"
+    ],
+    "emoji": "🧼✨",
+    "id": "gl039"
+  },
+  "coach": {
+    "word": "coach",
+    "definition": "a person who trains and guides players",
+    "variations": [
+      "coach",
+      "coaches"
+    ],
+    "emoji": "🧢📣",
+    "id": "gl040"
+  },
+  "cohesion": {
+    "word": "cohesion",
+    "definition": "the quality of parts fitting together well.",
+    "variations": [
+      "cohesion"
+    ],
+    "emoji": "🧩🤝",
+    "id": "gl041"
+  },
+  "coiling": {
+    "word": "coiling",
+    "definition": "a clay-making method that uses long rolls of clay placed in circles",
+    "variations": [
+      "coiling",
+      "coil",
+      "coils"
+    ],
+    "emoji": "🌀🏺",
+    "id": "gl042"
+  },
+  "colour": {
+    "word": "colour",
+    "definition": "the visual quality of something such as red, blue, or green",
+    "variations": [
+      "colour",
+      "colours"
+    ],
+    "emoji": "🎨🌈",
+    "id": "gl043"
+  },
+  "compete": {
+    "word": "compete",
+    "definition": "to try to do better than others in a game or activity",
+    "variations": [
+      "compete",
+      "competes",
+      "competed",
+      "competing",
+      "competition"
+    ],
+    "emoji": "🏁🤼",
+    "id": "gl044"
+  },
+  "competency": {
+    "word": "competency",
+    "definition": "an important skill or ability to do something well",
+    "variations": [
+      "competency",
+      "competencies"
+    ],
+    "emoji": "🏅🧠",
+    "id": "gl045"
+  },
+  "competition": {
+    "word": "competition",
+    "definition": "an event or situation in which people or teams try to win",
+    "variations": [
+      "competition",
+      "competitions"
+    ],
+    "emoji": "🏆🏅",
+    "id": "gl046"
+  },
+  "composition": {
+    "word": "composition",
+    "definition": "the way parts of a drawing are arranged to make a clear and pleasing picture.",
+    "variations": [
+      "composition",
+      "compositions"
+    ],
+    "emoji": "🖼️📐",
+    "id": "gl047"
+  },
+  "conservation": {
+    "word": "conservation",
+    "definition": "the protection and careful use of nature and resources",
+    "variations": [
+      "conservation",
+      "conserve",
+      "conserves",
+      "conserved",
+      "conserving"
+    ],
+    "emoji": "🌍♻️",
+    "id": "gl048"
+  },
+  "control": {
+    "word": "control",
+    "definition": "to manage the ball carefully so it does not get lost or dropped",
+    "variations": [
+      "control",
+      "controls",
+      "controlling",
+      "controlled"
+    ],
+    "emoji": "🎯🏐",
+    "id": "gl049"
+  },
+  "controlling": {
+    "word": "controlling",
+    "definition": "keeping the ball steady and under your command",
+    "variations": [
+      "control",
+      "controls",
+      "controlled",
+      "controlling"
+    ],
+    "emoji": "⚽🎯",
+    "id": "gl050"
+  },
+  "convey": {
+    "word": "convey",
+    "definition": "to show or communicate an idea, feeling, or message.",
+    "variations": [
+      "convey",
+      "conveys",
+      "conveyed",
+      "conveying"
+    ],
+    "emoji": "📢💭",
+    "id": "gl051"
+  },
+  "cooperation": {
+    "word": "cooperation",
+    "definition": "working together with others to achieve the same goal",
+    "variations": [
+      "cooperation",
+      "cooperate",
+      "cooperates",
+      "cooperated",
+      "cooperating"
+    ],
+    "emoji": "🤝👥",
+    "id": "gl052"
+  },
+  "coordination": {
+    "word": "coordination",
+    "definition": "the ability to control different movements so they work well together",
+    "variations": [
+      "coordination",
+      "coordinated",
+      "coordinate",
+      "coordinating"
+    ],
+    "emoji": "🤝🕺",
+    "id": "gl053"
+  },
+  "corner": {
+    "word": "corner",
+    "definition": "the point where two sides or lines meet",
+    "variations": [
+      "corner",
+      "corners"
+    ],
+    "emoji": "📐🔺",
+    "id": "gl054"
+  },
+  "costume": {
+    "word": "costume",
+    "definition": "special clothes worn by a performer to look like a character",
+    "variations": [
+      "costume",
+      "costumes"
+    ],
+    "emoji": "👗🎭",
+    "id": "gl055"
+  },
+  "creativity": {
+    "word": "creativity",
+    "definition": "the ability to make new and original ideas",
+    "variations": [
+      "create",
+      "creates",
+      "created",
+      "creative",
+      "creativity",
+      "creating"
+    ],
+    "emoji": "🧠✨",
+    "id": "gl056"
+  },
+  "crescendo": {
+    "word": "crescendo",
+    "definition": "a gradual increase in loudness in music",
+    "variations": [
+      "crescendo",
+      "crescendos"
+    ],
+    "emoji": "📈🔊",
+    "id": "gl057"
+  },
+  "cube": {
+    "word": "cube",
+    "definition": "a 3D box shape with all sides the same size",
+    "variations": [
+      "cube",
+      "cubes"
+    ],
+    "emoji": "🧊⬜",
+    "id": "gl058"
+  },
+  "cuboid": {
+    "word": "cuboid",
+    "definition": "a 3D box shape with rectangular sides; some sides may be longer than others",
+    "variations": [
+      "cuboid",
+      "cuboids",
+      "rectangular cuboid",
+      "rectangular cuboids"
+    ],
+    "emoji": "📦🧱",
+    "id": "gl059"
+  },
+  "cylinder": {
+    "word": "cylinder",
+    "definition": "a 3D shape with two round ends and one curved side, like a can",
+    "variations": [
+      "cylinder",
+      "cylinders",
+      "cylindrical"
+    ],
+    "emoji": "🥫🧱",
+    "id": "gl060"
+  },
+  "decorate": {
+    "word": "decorate",
+    "definition": "to add things to make something look more attractive",
+    "variations": [
+      "decorate",
+      "decorates",
+      "decorated",
+      "decorating",
+      "decoration",
+      "decorations",
+      "decorative"
+    ],
+    "emoji": "🎀✨",
+    "id": "gl061"
+  },
+  "decoration": {
+    "word": "decoration",
+    "definition": "something added to make a place or object look more beautiful",
+    "variations": [
+      "decoration",
+      "decorations",
+      "decorate"
+    ],
+    "emoji": "🎀✨",
+    "id": "gl062"
+  },
+  "decrescendo": {
+    "word": "decrescendo",
+    "definition": "a gradual decrease in loudness in music",
+    "variations": [
+      "decrescendo",
+      "decrescendos",
+      "diminuendo",
+      "diminuendos"
+    ],
+    "emoji": "📉🔉",
+    "id": "gl063"
+  },
+  "defend": {
+    "word": "defend",
+    "definition": "to stop the other team from passing, shooting, or scoring",
+    "variations": [
+      "defend",
+      "defends",
+      "defending",
+      "defended",
+      "defence",
+      "defenses",
+      "defense"
+    ],
+    "emoji": "🛡️🙅",
+    "id": "gl064"
+  },
+  "defending": {
+    "word": "defending",
+    "definition": "stopping the other team from moving forward, getting the ball, or scoring",
+    "variations": [
+      "defend",
+      "defends",
+      "defended",
+      "defending"
+    ],
+    "emoji": "🛡️⚽",
+    "id": "gl065"
+  },
+  "depth": {
+    "word": "depth",
+    "definition": "the way a drawing shows space so things can look near or far",
+    "variations": [
+      "depth",
+      "depths"
+    ],
+    "emoji": "↕️🖼️",
+    "id": "gl066"
+  },
+  "descending": {
+    "word": "descending",
+    "definition": "going from high to low.",
+    "variations": [
+      "descend",
+      "descending",
+      "descended"
+    ],
+    "emoji": "⬇️🎶",
+    "id": "gl067"
+  },
+  "designated": {
+    "word": "designated",
+    "definition": "chosen or set for a special purpose",
+    "variations": [
+      "designated",
+      "designate",
+      "designates",
+      "designating"
+    ],
+    "emoji": "📍✅",
+    "id": "gl068"
+  },
+  "dimension": {
+    "word": "dimension",
+    "definition": "the size or measurement of something, such as how big or small it is",
+    "variations": [
+      "dimension",
+      "dimensions"
+    ],
+    "emoji": "📏📐",
+    "id": "gl069"
+  },
+  "dipping": {
+    "word": "dipping",
+    "definition": "putting something quickly into a liquid and taking it out again",
+    "variations": [
+      "dipping",
+      "dip",
+      "dips",
+      "dipped"
+    ],
+    "emoji": "💧🏺",
+    "id": "gl070"
+  },
+  "direction": {
+    "word": "direction",
+    "definition": "the way something points or moves",
+    "variations": [
+      "direction",
+      "directions"
+    ],
+    "emoji": "➡️🧭",
+    "id": "gl071"
+  },
+  "discipline": {
+    "word": "discipline",
+    "definition": "the habit of following rules and behaving in a controlled way",
+    "variations": [
+      "discipline",
+      "disciplined"
+    ],
+    "emoji": "📏✅",
+    "id": "gl072"
+  },
+  "distance": {
+    "word": "distance",
+    "definition": "the space between one thing and another",
+    "variations": [
+      "distance",
+      "distances"
+    ],
+    "emoji": "📏🌄",
+    "id": "gl073"
+  },
+  "drama": {
+    "word": "drama",
+    "definition": "a performance that tells a story or gives a message to people watching",
+    "variations": [
+      "drama",
+      "dramas",
+      "dramatic"
+    ],
+    "emoji": "🎭📖",
+    "id": "gl074"
+  },
+  "dribbling": {
+    "word": "dribbling",
+    "definition": "moving with the ball while keeping it close and under control",
+    "variations": [
+      "dribble",
+      "dribbles",
+      "dribbled",
+      "dribbling"
+    ],
+    "emoji": "⚽🏃",
+    "id": "gl075"
+  },
+  "drill": {
+    "word": "drill",
+    "definition": "a practice activity that is repeated to improve a skill",
+    "variations": [
+      "drill",
+      "drills"
+    ],
+    "emoji": "🔁🏋️",
+    "id": "gl076"
+  },
+  "drum": {
+    "word": "drum",
+    "definition": "a musical instrument that is played by hitting it.",
+    "variations": [
+      "drum",
+      "drums"
+    ],
+    "emoji": "🥁",
+    "id": "gl077"
+  },
+  "durable": {
+    "word": "durable",
+    "definition": "strong and able to last a long time without breaking",
+    "variations": [
+      "durable",
+      "durability"
+    ],
+    "emoji": "💪🧺",
+    "id": "gl078"
+  },
+  "duration": {
+    "word": "duration",
+    "definition": "the length of time something lasts.",
+    "variations": [
+      "duration",
+      "durations"
+    ],
+    "emoji": "⏱️⌛",
+    "id": "gl079"
+  },
+  "dynamics": {
+    "word": "dynamics",
+    "definition": "the changes in loudness or softness in music or singing",
+    "variations": [
+      "dynamic",
+      "dynamics"
+    ],
+    "emoji": "🎶🔊🔉",
+    "id": "gl080"
+  },
+  "element": {
+    "word": "element",
+    "definition": "a basic part of something.",
+    "variations": [
+      "element",
+      "elements"
+    ],
+    "emoji": "🧩📘",
+    "id": "gl081"
+  },
+  "embellish": {
+    "word": "embellish",
+    "definition": "to decorate something by adding extra details",
+    "variations": [
+      "embellish",
+      "embellishes",
+      "embellished",
+      "embellishing"
+    ],
+    "emoji": "✨🎀",
+    "id": "gl082"
+  },
+  "embellishment": {
+    "word": "embellishment",
+    "definition": "an extra detail or decoration added to make something look better",
+    "variations": [
+      "embellishment",
+      "embellishments"
+    ],
+    "emoji": "✨🎨",
+    "id": "gl083"
+  },
+  "emotion": {
+    "word": "emotion",
+    "definition": "a feeling such as happiness, sadness, fear, or anger",
+    "variations": [
+      "emotion",
+      "emotions",
+      "emotional"
+    ],
+    "emoji": "😊😢😡",
+    "id": "gl084"
+  },
+  "endurance": {
+    "word": "endurance",
+    "definition": "the ability to continue exercising or playing for a long time",
+    "variations": [
+      "endurance"
+    ],
+    "emoji": "🏃⏱️",
+    "id": "gl085"
+  },
+  "engagement": {
+    "word": "engagement",
+    "definition": "active interest and attention in an activity or performance",
+    "variations": [
+      "engagement",
+      "engage",
+      "engages",
+      "engaged",
+      "engaging"
+    ],
+    "emoji": "👀👏",
+    "id": "gl086"
+  },
+  "engraving": {
+    "word": "engraving",
+    "definition": "cutting lines or patterns into a surface to make a design",
+    "variations": [
+      "engraving",
+      "engrave",
+      "engraved",
+      "engraves"
+    ],
+    "emoji": "✒️🪵",
+    "id": "gl087"
+  },
+  "entrepreneurial": {
+    "word": "entrepreneurial",
+    "definition": "related to starting and managing a business to earn money",
+    "variations": [
+      "entrepreneurial",
+      "entrepreneur",
+      "entrepreneurs",
+      "entrepreneurship"
+    ],
+    "emoji": "💼💰",
+    "id": "gl088"
+  },
+  "envelope": {
+    "word": "envelope",
+    "definition": "a folded paper cover used for holding letters or papers",
+    "variations": [
+      "envelope",
+      "envelopes"
+    ],
+    "emoji": "✉️📄",
+    "id": "gl089"
+  },
+  "erase": {
+    "word": "erase",
+    "definition": "to remove pencil or pen marks from a surface.",
+    "variations": [
+      "erase",
+      "erases",
+      "erased",
+      "erasing"
+    ],
+    "emoji": "🩹✏️",
+    "id": "gl090"
+  },
+  "erosion": {
+    "word": "erosion",
+    "definition": "the wearing away of a surface by water, wind, or other natural forces",
+    "variations": [
+      "erosion",
+      "erode",
+      "eroded",
+      "eroding"
+    ],
+    "emoji": "💧⛰️",
+    "id": "gl091"
+  },
+  "extended": {
+    "word": "extended",
+    "definition": "stretched out fully",
+    "variations": [
+      "extend",
+      "extends",
+      "extended",
+      "extending"
+    ],
+    "emoji": "🙆↔️",
+    "id": "gl092"
+  },
+  "extinguish": {
+    "word": "extinguish",
+    "definition": "to make a fire stop burning",
+    "variations": [
+      "extinguish",
+      "extinguishes",
+      "extinguished",
+      "extinguishing"
+    ],
+    "emoji": "🔥🚫",
+    "id": "gl093"
+  },
+  "facial expression": {
+    "word": "facial expression",
+    "definition": "the look on a person’s face that shows a feeling or reaction",
+    "variations": [
+      "facial expression",
+      "facial expressions"
+    ],
+    "emoji": "😀😮",
+    "id": "gl094"
+  },
+  "figure": {
+    "word": "figure",
+    "definition": "the shape or drawing of a person, animal, or object",
+    "variations": [
+      "figure",
+      "figures"
+    ],
+    "emoji": "🧍🎨",
+    "id": "gl095"
+  },
+  "fired": {
+    "word": "fired",
+    "definition": "heated at a very high temperature to make clay hard and strong",
+    "variations": [
+      "fire",
+      "fired",
+      "firing"
+    ],
+    "emoji": "🔥🏺",
+    "id": "gl096"
+  },
+  "firing": {
+    "word": "firing",
+    "definition": "heating clay objects at a very high temperature to make them hard and strong",
+    "variations": [
+      "firing",
+      "fire",
+      "fires",
+      "fired"
+    ],
+    "emoji": "🔥🏺",
+    "id": "gl097"
+  },
+  "flap": {
+    "word": "flap",
+    "definition": "a part that hangs or folds down and can cover an opening",
+    "variations": [
+      "flap",
+      "flaps"
+    ],
+    "emoji": "✉️📄",
+    "id": "gl098"
+  },
+  "flatten": {
+    "word": "flatten",
+    "definition": "to make something level, smooth, or flat",
+    "variations": [
+      "flatten",
+      "flattens",
+      "flattened",
+      "flattening"
+    ],
+    "emoji": "⬜🖐️",
+    "id": "gl099"
+  },
+  "flexibility": {
+    "word": "flexibility",
+    "definition": "the ability of the body to bend and move easily",
+    "variations": [
+      "flexibility",
+      "flexible"
+    ],
+    "emoji": "🤸🦴",
+    "id": "gl100"
+  },
+  "flowerpot": {
+    "word": "flowerpot",
+    "definition": "a container used for growing flowers or plants",
+    "variations": [
+      "flowerpot",
+      "flowerpots"
+    ],
+    "emoji": "🪴🌸",
+    "id": "gl101"
+  },
+  "football": {
+    "word": "football",
+    "definition": "a team game in which players try to score goals by kicking a ball",
+    "variations": [
+      "football",
+      "footballs"
+    ],
+    "emoji": "⚽🥅",
+    "id": "gl102"
+  },
+  "football boots": {
+    "word": "football boots",
+    "definition": "special shoes worn for playing football, often with spikes underneath for grip",
+    "variations": [
+      "football boot",
+      "football boots"
+    ],
+    "emoji": "👟⚽",
+    "id": "gl103"
+  },
+  "footwork": {
+    "word": "footwork",
+    "definition": "the careful movement and position of the feet during a game or activity",
+    "variations": [
+      "footwork"
+    ],
+    "emoji": "👣🏃",
+    "id": "gl104"
+  },
+  "formation": {
+    "word": "formation",
+    "definition": "the way players are arranged or positioned in a team",
+    "variations": [
+      "formation",
+      "formations"
+    ],
+    "emoji": "📍👥",
+    "id": "gl105"
+  },
+  "forte": {
+    "word": "forte",
+    "definition": "a musical direction that means loud",
+    "variations": [
+      "forte"
+    ],
+    "emoji": "🔊🎵",
+    "id": "gl106"
+  },
+  "fortissimo": {
+    "word": "fortissimo",
+    "definition": "a musical direction that means very loud and powerful",
+    "variations": [
+      "fortissimo"
+    ],
+    "emoji": "📢🎵",
+    "id": "gl107"
+  },
+  "foul": {
+    "word": "foul",
+    "definition": "an unfair or wrong action against another player that breaks the rules",
+    "variations": [
+      "foul",
+      "fouls"
+    ],
+    "emoji": "🚫 whistle",
+    "id": "gl108"
+  },
+  "foundation": {
+    "word": "foundation",
+    "definition": "the base or bottom part that supports something",
+    "variations": [
+      "foundation",
+      "foundations"
+    ],
+    "emoji": "🏗️⬇️",
+    "id": "gl109"
+  },
+  "geometric": {
+    "word": "geometric",
+    "definition": "having shapes like circles, squares, triangles, or lines",
+    "variations": [
+      "geometric",
+      "geometry"
+    ],
+    "emoji": "🔺🔵",
+    "id": "gl110"
+  },
+  "gesture": {
+    "word": "gesture",
+    "definition": "a movement of the hands, head, or body that expresses an idea or feeling",
+    "variations": [
+      "gesture",
+      "gestures"
+    ],
+    "emoji": "👋🙌",
+    "id": "gl111"
+  },
+  "glaze": {
+    "word": "glaze",
+    "definition": "a special coating put on clay objects to make them shiny or waterproof",
+    "variations": [
+      "glaze",
+      "glazes",
+      "glazed",
+      "glazing"
+    ],
+    "emoji": "✨🏺",
+    "id": "gl112"
+  },
+  "glazing": {
+    "word": "glazing",
+    "definition": "covering a clay object with a special liquid that becomes smooth and shiny after firing",
+    "variations": [
+      "glazing",
+      "glaze",
+      "glazed",
+      "glazes"
+    ],
+    "emoji": "✨🏺",
+    "id": "gl113"
+  },
+  "glue": {
+    "word": "glue",
+    "definition": "a sticky substance used for joining things together",
+    "variations": [
+      "glue",
+      "glues",
+      "glued",
+      "gluing"
+    ],
+    "emoji": "🧴📄",
+    "id": "gl114"
+  },
+  "goal": {
+    "word": "goal",
+    "definition": "a point scored when the ball goes into the other team's net",
+    "variations": [
+      "goal",
+      "goals"
+    ],
+    "emoji": "🥅⚽",
+    "id": "gl115"
+  },
+  "goal circle": {
+    "word": "goal circle",
+    "definition": "the marked area near the goal where certain netball players are allowed to play or shoot",
+    "variations": [
+      "goal circle",
+      "goal circles"
+    ],
+    "emoji": "⭕🥅",
+    "id": "gl116"
+  },
+  "goal defender": {
+    "word": "goal defender",
+    "definition": "a player who defends near the goal and stops attackers",
+    "variations": [
+      "goal defender",
+      "goal defenders",
+      "GD"
+    ],
+    "emoji": "🛡️🥅",
+    "id": "gl117"
+  },
+  "goalkeeper": {
+    "word": "goalkeeper",
+    "definition": "the player who protects the goal and tries to stop the ball from going in",
+    "variations": [
+      "goalkeeper",
+      "goalkeepers"
+    ],
+    "emoji": "🥅🧤",
+    "id": "gl118"
+  },
+  "guideline": {
+    "word": "guideline",
+    "definition": "a light line used to help place parts correctly in a drawing",
+    "variations": [
+      "guideline",
+      "guidelines"
+    ],
+    "emoji": "✏️📏",
+    "id": "gl119"
+  },
+  "guitar": {
+    "word": "guitar",
+    "definition": "a musical instrument with strings that are plucked or strummed.",
+    "variations": [
+      "guitar",
+      "guitars"
+    ],
+    "emoji": "🎸",
+    "id": "gl120"
+  },
+  "half note": {
+    "word": "half note",
+    "definition": "a musical note that lasts for two beats",
+    "variations": [
+      "half note",
+      "half notes"
+    ],
+    "emoji": "🎵⏱️",
+    "id": "gl121"
+  },
+  "harmonious blend": {
+    "word": "harmonious blend",
+    "definition": "a pleasant mixing of voices or sounds that fit well together",
+    "variations": [
+      "harmonious blend",
+      "harmonious blends"
+    ],
+    "emoji": "🎶🤝",
+    "id": "gl122"
+  },
+  "high pass": {
+    "word": "high pass",
+    "definition": "a pass thrown high to reach a teammate farther away or to go over opponents",
+    "variations": [
+      "high pass",
+      "high passes"
+    ],
+    "emoji": "🏐⬆️",
+    "id": "gl123"
+  },
+  "horizontal": {
+    "word": "horizontal",
+    "definition": "going from side to side, flat across",
+    "variations": [
+      "horizontal",
+      "horizontally"
+    ],
+    "emoji": "↔️📐",
+    "id": "gl124"
+  },
+  "impact": {
+    "word": "impact",
+    "definition": "the force when one thing hits another",
+    "variations": [
+      "impact",
+      "impacts"
+    ],
+    "emoji": "💥🫱",
+    "id": "gl125"
+  },
+  "imprinting": {
+    "word": "imprinting",
+    "definition": "making a mark or pattern on a surface by pressing something onto it",
+    "variations": [
+      "imprinting",
+      "imprint",
+      "imprinted",
+      "imprints"
+    ],
+    "emoji": "🖐️🔳",
+    "id": "gl126"
+  },
+  "improvised": {
+    "word": "improvised",
+    "definition": "made or performed without full planning before; created at the moment",
+    "variations": [
+      "improvise",
+      "improvises",
+      "improvised",
+      "improvising",
+      "improvisation"
+    ],
+    "emoji": "💡🎭",
+    "id": "gl127"
+  },
+  "improvised drama": {
+    "word": "improvised drama",
+    "definition": "a drama created and acted without a fully prepared script",
+    "variations": [
+      "improvised drama",
+      "improvised dramas",
+      "improvise",
+      "improvised",
+      "improvising"
+    ],
+    "emoji": "🎭⚡",
+    "id": "gl128"
+  },
+  "incising": {
+    "word": "incising",
+    "definition": "making thin cuts or lines on a surface to create a design",
+    "variations": [
+      "incising",
+      "incise",
+      "incised",
+      "incises"
+    ],
+    "emoji": "✂️🌀",
+    "id": "gl129"
+  },
+  "innovative": {
+    "word": "innovative",
+    "definition": "showing new and clever ideas",
+    "variations": [
+      "innovative",
+      "innovation",
+      "innovations",
+      "innovate",
+      "innovates",
+      "innovated",
+      "innovating"
+    ],
+    "emoji": "💡🚀",
+    "id": "gl130"
+  },
+  "instrument": {
+    "word": "instrument",
+    "definition": "a tool used to make musical sounds.",
+    "variations": [
+      "instrument",
+      "instruments"
+    ],
+    "emoji": "🎹🥁🎸",
+    "id": "gl131"
+  },
+  "instrumentalist": {
+    "word": "instrumentalist",
+    "definition": "a person who plays a musical instrument",
+    "variations": [
+      "instrumentalist",
+      "instrumentalists"
+    ],
+    "emoji": "🎺🎹",
+    "id": "gl132"
+  },
+  "intersect": {
+    "word": "intersect",
+    "definition": "to cross each other at one point",
+    "variations": [
+      "intersect",
+      "intersects",
+      "intersecting",
+      "intersected"
+    ],
+    "emoji": "➕📐",
+    "id": "gl133"
+  },
+  "jersey": {
+    "word": "jersey",
+    "definition": "a sports shirt worn by a player as part of a team uniform",
+    "variations": [
+      "jersey",
+      "jerseys"
+    ],
+    "emoji": "👕🏃",
+    "id": "gl134"
+  },
+  "joint": {
+    "word": "joint",
+    "definition": "a place where two parts are connected together",
+    "variations": [
+      "joint",
+      "joints"
+    ],
+    "emoji": "🔗🧩",
+    "id": "gl135"
+  },
+  "kiln": {
+    "word": "kiln",
+    "definition": "a special oven used for heating or firing clay objects",
+    "variations": [
+      "kiln",
+      "kilns"
+    ],
+    "emoji": "🔥🏺",
+    "id": "gl136"
+  },
+  "levelling trowel": {
+    "word": "levelling trowel",
+    "definition": "a flat hand tool used to spread and smooth material evenly",
+    "variations": [
+      "levelling trowel",
+      "levelling trowels",
+      "trowel",
+      "trowels"
+    ],
+    "emoji": "🛠️⬛",
+    "id": "gl137"
+  },
+  "light source": {
+    "word": "light source",
+    "definition": "the place or object that gives light",
+    "variations": [
+      "light source",
+      "light sources"
+    ],
+    "emoji": "💡☀️",
+    "id": "gl138"
+  },
+  "line": {
+    "word": "line",
+    "definition": "a long mark that can show shape, direction, or distance in a drawing",
+    "variations": [
+      "line",
+      "lines"
+    ],
+    "emoji": "➖✏️",
+    "id": "gl139"
+  },
+  "long pass": {
+    "word": "long pass",
+    "definition": "a pass made to a teammate who is far away",
+    "variations": [
+      "long pass",
+      "long passes"
+    ],
+    "emoji": "⚽⤴️",
+    "id": "gl140"
+  },
+  "longevity": {
+    "word": "longevity",
+    "definition": "a long life or a long time something lasts",
+    "variations": [
+      "longevity"
+    ],
+    "emoji": "⏳🛡️",
+    "id": "gl141"
+  },
+  "lyrics": {
+    "word": "lyrics",
+    "definition": "the words of a song.",
+    "variations": [
+      "lyric",
+      "lyrics"
+    ],
+    "emoji": "🎤📝",
+    "id": "gl142"
+  },
+  "major scale": {
+    "word": "major scale",
+    "definition": "a series of musical notes arranged in a fixed pattern, often giving a bright or happy sound",
+    "variations": [
+      "major scale",
+      "major scales"
+    ],
+    "emoji": "🎼🎶",
+    "id": "gl143"
+  },
+  "malleable": {
+    "word": "malleable",
+    "definition": "soft and easy to shape without breaking",
+    "variations": [
+      "malleable"
+    ],
+    "emoji": "🤲🟤",
+    "id": "gl144"
+  },
+  "man-to-man defence": {
+    "word": "man-to-man defence",
+    "definition": "a type of defence where each player closely follows one opponent",
+    "variations": [
+      "man-to-man defence",
+      "man-to-man defense"
+    ],
+    "emoji": "👥🛡️",
+    "id": "gl145"
+  },
+  "manufacturer": {
+    "word": "manufacturer",
+    "definition": "a person or company that makes goods or products",
+    "variations": [
+      "manufacturer",
+      "manufacturers",
+      "manufacture",
+      "manufactured"
+    ],
+    "emoji": "🏭📦",
+    "id": "gl146"
+  },
+  "melody": {
+    "word": "melody",
+    "definition": "a group of musical notes that form a tune.",
+    "variations": [
+      "melody",
+      "melodies"
+    ],
+    "emoji": "🎶🎼",
+    "id": "gl147"
+  },
+  "mezzo-forte": {
+    "word": "mezzo-forte",
+    "definition": "a musical direction that means moderately loud",
+    "variations": [
+      "mezzo-forte"
+    ],
+    "emoji": "🎶🔊",
+    "id": "gl148"
+  },
+  "mezzo-piano": {
+    "word": "mezzo-piano",
+    "definition": "a musical direction that means moderately soft",
+    "variations": [
+      "mezzo-piano"
+    ],
+    "emoji": "🎵🔉",
+    "id": "gl149"
+  },
+  "mime": {
+    "word": "mime",
+    "definition": "acting that uses body movements and facial expressions without speaking",
+    "variations": [
+      "mime",
+      "mimes",
+      "mimed",
+      "miming"
+    ],
+    "emoji": "🤫🎭",
+    "id": "gl150"
+  },
+  "mineral": {
+    "word": "mineral",
+    "definition": "a natural substance found in the earth",
+    "variations": [
+      "mineral",
+      "minerals"
+    ],
+    "emoji": "🪨🌍",
+    "id": "gl151"
+  },
+  "mixture": {
+    "word": "mixture",
+    "definition": "two or more things combined together",
+    "variations": [
+      "mixture",
+      "mixtures",
+      "mix"
+    ],
+    "emoji": "🥣🧪",
+    "id": "gl152"
+  },
+  "modelling": {
+    "word": "modelling",
+    "definition": "the act of shaping a material like clay to make an object",
+    "variations": [
+      "modelling",
+      "model",
+      "models",
+      "modelled"
+    ],
+    "emoji": "👐🏺",
+    "id": "gl153"
+  },
+  "momentum": {
+    "word": "momentum",
+    "definition": "the force of movement that makes a moving ball keep going",
+    "variations": [
+      "momentum"
+    ],
+    "emoji": "💨🏐",
+    "id": "gl154"
+  },
+  "monotonous": {
+    "word": "monotonous",
+    "definition": "too similar all the time and therefore dull or uninteresting",
+    "variations": [
+      "monotonous"
+    ],
+    "emoji": "😐🔁",
+    "id": "gl155"
+  },
+  "motif": {
+    "word": "motif",
+    "definition": "a repeated design or pattern used in art or decoration",
+    "variations": [
+      "motif",
+      "motifs"
+    ],
+    "emoji": "🎨🔷",
+    "id": "gl156"
+  },
+  "mould": {
+    "word": "mould",
+    "definition": "a hollow container or shape used to form something into a desired shape",
+    "variations": [
+      "mould",
+      "moulds",
+      "moulded",
+      "moulding"
+    ],
+    "emoji": "🧩🏺",
+    "id": "gl157"
+  },
+  "moulding": {
+    "word": "moulding",
+    "definition": "the process of shaping something by using a mould",
+    "variations": [
+      "moulding",
+      "mould",
+      "moulds",
+      "moulded"
+    ],
+    "emoji": "🧩🏺",
+    "id": "gl158"
+  },
+  "movement": {
+    "word": "movement",
+    "definition": "the way a player moves the body or feet during a game",
+    "variations": [
+      "movement",
+      "movements"
+    ],
+    "emoji": "🏃↔️",
+    "id": "gl159"
+  },
+  "muscle": {
+    "word": "muscle",
+    "definition": "a body part that helps movement and gives strength",
+    "variations": [
+      "muscle",
+      "muscles",
+      "muscular"
+    ],
+    "emoji": "💪🦵",
+    "id": "gl160"
+  },
+  "musical dynamics": {
+    "word": "musical dynamics",
+    "definition": "changes in how soft or loud music is sung or played",
+    "variations": [
+      "musical dynamics",
+      "dynamics"
+    ],
+    "emoji": "🎶🔉🔊",
+    "id": "gl161"
+  },
+  "musical note": {
+    "word": "musical note",
+    "definition": "a symbol in music that shows a sound and how long it should last.",
+    "variations": [
+      "musical note",
+      "musical notes",
+      "note",
+      "notes"
+    ],
+    "emoji": "🎼🎵",
+    "id": "gl162"
+  },
+  "narrate": {
+    "word": "narrate",
+    "definition": "to tell a story or describe events",
+    "variations": [
+      "narrate",
+      "narrates",
+      "narrated",
+      "narrating",
+      "narration",
+      "narrator"
+    ],
+    "emoji": "📖🗣️",
+    "id": "gl163"
+  },
+  "narration": {
+    "word": "narration",
+    "definition": "the act of telling or explaining a story",
+    "variations": [
+      "narration",
+      "narrations",
+      "narrate",
+      "narrated",
+      "narrating"
+    ],
+    "emoji": "📖🗣️",
+    "id": "gl164"
+  },
+  "narrative literature": {
+    "word": "narrative literature",
+    "definition": "writing that tells a story with characters and events",
+    "variations": [
+      "narrative literature"
+    ],
+    "emoji": "📖📝",
+    "id": "gl165"
+  },
+  "netball": {
+    "word": "netball",
+    "definition": "a team game in which players pass a ball and try to score by getting it through a net",
+    "variations": [
+      "netball"
+    ],
+    "emoji": "🏐🥅",
+    "id": "gl166"
+  },
+  "numerous": {
+    "word": "numerous",
+    "definition": "many in number",
+    "variations": [
+      "numerous"
+    ],
+    "emoji": "🔢📚",
+    "id": "gl167"
+  },
+  "nylon": {
+    "word": "nylon",
+    "definition": "a strong light plastic material used for making sheets, ropes, and other items",
+    "variations": [
+      "nylon",
+      "nylons"
+    ],
+    "emoji": "🧵🪢",
+    "id": "gl168"
+  },
+  "octave": {
+    "word": "octave",
+    "definition": "a group of eight notes where the last note sounds like the first but higher or lower.",
+    "variations": [
+      "octave",
+      "octaves"
+    ],
+    "emoji": "🎵8️⃣",
+    "id": "gl169"
+  },
+  "offside": {
+    "word": "offside",
+    "definition": "a rule that stops a player from gaining an unfair advantage by being too far ahead",
+    "variations": [
+      "offside"
+    ],
+    "emoji": "🚩⚽",
+    "id": "gl170"
+  },
+  "opponent": {
+    "word": "opponent",
+    "definition": "a person or team you play against",
+    "variations": [
+      "opponent",
+      "opponents"
+    ],
+    "emoji": "🥊🏃",
+    "id": "gl171"
+  },
+  "orientation": {
+    "word": "orientation",
+    "definition": "the direction or position something faces or is placed in",
+    "variations": [
+      "orientation",
+      "orientations"
+    ],
+    "emoji": "🧭↔️",
+    "id": "gl172"
+  },
+  "ornamentation": {
+    "word": "ornamentation",
+    "definition": "decoration added to make something look more attractive",
+    "variations": [
+      "ornamentation",
+      "ornament",
+      "ornaments",
+      "ornamental"
+    ],
+    "emoji": "✨💠",
+    "id": "gl173"
+  },
+  "outline": {
+    "word": "outline",
+    "definition": "the outside edge or shape of something that is drawn or marked",
+    "variations": [
+      "outline",
+      "outlines",
+      "outlined",
+      "outlining"
+    ],
+    "emoji": "✏️⬜",
+    "id": "gl174"
+  },
+  "oval": {
+    "word": "oval",
+    "definition": "a rounded shape like a stretched circle",
+    "variations": [
+      "oval",
+      "ovals"
+    ],
+    "emoji": "🥚⭕",
+    "id": "gl175"
+  },
+  "overlap": {
+    "word": "overlap",
+    "definition": "to cover part of one shape with another shape",
+    "variations": [
+      "overlap",
+      "overlapping",
+      "overlapped",
+      "overlaps"
+    ],
+    "emoji": "🔲↔️",
+    "id": "gl176"
+  },
+  "packaging": {
+    "word": "packaging",
+    "definition": "materials used to wrap, cover, or carry products or items",
+    "variations": [
+      "package",
+      "packages",
+      "packaging",
+      "packaged"
+    ],
+    "emoji": "📦🛍️",
+    "id": "gl177"
+  },
+  "pantomime": {
+    "word": "pantomime",
+    "definition": "a performance that tells a story using gestures, facial expressions, and body movements without spoken words",
+    "variations": [
+      "pantomime",
+      "pantomimes",
+      "pantomimic"
+    ],
+    "emoji": "🎭🖐️🤐",
+    "id": "gl178"
+  },
+  "parallel": {
+    "word": "parallel",
+    "definition": "lines that stay the same distance apart and never meet.",
+    "variations": [
+      "parallel",
+      "parallels"
+    ],
+    "emoji": "📏↔️",
+    "id": "gl179"
+  },
+  "pass": {
+    "word": "pass",
+    "definition": "to send the ball to a teammate in a controlled way",
+    "variations": [
+      "pass",
+      "passes",
+      "passing",
+      "passed"
+    ],
+    "emoji": "⚽↔️",
+    "id": "gl180"
+  },
+  "passing": {
+    "word": "passing",
+    "definition": "the act of sending the ball to another player on the same team",
+    "variations": [
+      "pass",
+      "passes",
+      "passed",
+      "passing"
+    ],
+    "emoji": "⚽🤝",
+    "id": "gl181"
+  },
+  "pattern": {
+    "word": "pattern",
+    "definition": "a design or shape used as a guide for making something",
+    "variations": [
+      "pattern",
+      "patterns"
+    ],
+    "emoji": "🔷📏",
+    "id": "gl182"
+  },
+  "performance": {
+    "word": "performance",
+    "definition": "how well a person does an activity or task",
+    "variations": [
+      "performance",
+      "performances",
+      "perform",
+      "performs",
+      "performed",
+      "performing"
+    ],
+    "emoji": "🏃⭐",
+    "id": "gl183"
+  },
+  "performer": {
+    "word": "performer",
+    "definition": "a person who acts, sings, dances, or entertains people",
+    "variations": [
+      "perform",
+      "performs",
+      "performed",
+      "performer",
+      "performers",
+      "performance",
+      "performing"
+    ],
+    "emoji": "🎤🎭",
+    "id": "gl184"
+  },
+  "performing arts": {
+    "word": "performing arts",
+    "definition": "art forms that are presented in front of an audience, such as drama, dance, and music",
+    "variations": [
+      "performing art",
+      "performing arts"
+    ],
+    "emoji": "🎭🎶💃",
+    "id": "gl185"
+  },
+  "perseverance": {
+    "word": "perseverance",
+    "definition": "continuing to work hard even when something is difficult",
+    "variations": [
+      "perseverance",
+      "persevere",
+      "perseveres",
+      "persevered",
+      "persevering"
+    ],
+    "emoji": "💪⏳",
+    "id": "gl186"
+  },
+  "personality": {
+    "word": "personality",
+    "definition": "the kind of person someone is, shown by how they think, feel, and behave",
+    "variations": [
+      "personality",
+      "personalities"
+    ],
+    "emoji": "🧠🙂",
+    "id": "gl187"
+  },
+  "perspective": {
+    "word": "perspective",
+    "definition": "a drawing method that shows depth and makes things look near or far",
+    "variations": [
+      "perspective",
+      "perspectives"
+    ],
+    "emoji": "👁️📐",
+    "id": "gl188"
+  },
+  "physical fitness": {
+    "word": "physical fitness",
+    "definition": "the condition of being healthy, strong, and able to do exercise well",
+    "variations": [
+      "physical fitness",
+      "fitness"
+    ],
+    "emoji": "💪❤️",
+    "id": "gl189"
+  },
+  "pianissimo": {
+    "word": "pianissimo",
+    "definition": "a musical direction that means very soft",
+    "variations": [
+      "pianissimo"
+    ],
+    "emoji": "🎶🤫",
+    "id": "gl190"
+  },
+  "piano": {
+    "word": "piano",
+    "definition": "a musical term that means to sing or play softly",
+    "variations": [
+      "piano"
+    ],
+    "emoji": "🎼🤫",
+    "id": "gl191"
+  },
+  "pinching": {
+    "word": "pinching",
+    "definition": "a clay-making method where clay is pressed and shaped with the fingers",
+    "variations": [
+      "pinching",
+      "pinch",
+      "pinched"
+    ],
+    "emoji": "🤏🏺",
+    "id": "gl192"
+  },
+  "pitch": {
+    "word": "pitch",
+    "definition": "how high or low a sound or note is.",
+    "variations": [
+      "pitch",
+      "pitches"
+    ],
+    "emoji": "🎵⬆️⬇️",
+    "id": "gl193"
+  },
+  "plaster": {
+    "word": "plaster",
+    "definition": "a smooth mixture used on walls or other surfaces in building work",
+    "variations": [
+      "plaster",
+      "plasters",
+      "plastered",
+      "plastering"
+    ],
+    "emoji": "🏠🪣",
+    "id": "gl194"
+  },
+  "play": {
+    "word": "play",
+    "definition": "a story that is written to be performed by actors on stage",
+    "variations": [
+      "play",
+      "plays"
+    ],
+    "emoji": "🎭📜",
+    "id": "gl195"
+  },
+  "pollution": {
+    "word": "pollution",
+    "definition": "damage to the environment caused by dirty or harmful materials",
+    "variations": [
+      "pollution"
+    ],
+    "emoji": "🌍⚠️",
+    "id": "gl196"
+  },
+  "portrait": {
+    "word": "portrait",
+    "definition": "a drawing or picture of a person, especially the face or head",
+    "variations": [
+      "portrait",
+      "portraits"
+    ],
+    "emoji": "🖼️🙂",
+    "id": "gl197"
+  },
+  "portray": {
+    "word": "portray",
+    "definition": "to act or show a character, feeling, or situation",
+    "variations": [
+      "portray",
+      "portrays",
+      "portrayed",
+      "portraying"
+    ],
+    "emoji": "🎭🙂",
+    "id": "gl198"
+  },
+  "possession": {
+    "word": "possession",
+    "definition": "having control of the ball",
+    "variations": [
+      "possession",
+      "possessions"
+    ],
+    "emoji": "⚽🙌",
+    "id": "gl199"
+  },
+  "posture": {
+    "word": "posture",
+    "definition": "the way a person or animal holds or positions the body",
+    "variations": [
+      "posture",
+      "postures"
+    ],
+    "emoji": "🧍🚶",
+    "id": "gl200"
+  },
+  "pouring": {
+    "word": "pouring",
+    "definition": "making liquid flow from one container to another or onto something",
+    "variations": [
+      "pouring",
+      "pour",
+      "pours",
+      "poured"
+    ],
+    "emoji": "🫗💦",
+    "id": "gl201"
+  },
+  "precision": {
+    "word": "precision",
+    "definition": "the quality of being exact and careful",
+    "variations": [
+      "precision"
+    ],
+    "emoji": "🎯📏",
+    "id": "gl202"
+  },
+  "pronunciation": {
+    "word": "pronunciation",
+    "definition": "the way a word is spoken",
+    "variations": [
+      "pronunciation",
+      "pronunciations",
+      "pronounce",
+      "pronounced",
+      "pronouncing"
+    ],
+    "emoji": "🗣️📚",
+    "id": "gl203"
+  },
+  "proportion": {
+    "word": "proportion",
+    "definition": "the correct size and relation of one part compared to another",
+    "variations": [
+      "proportion",
+      "proportions",
+      "proportional"
+    ],
+    "emoji": "⚖️📏",
+    "id": "gl204"
+  },
+  "pyramid": {
+    "word": "pyramid",
+    "definition": "an arrangement with a wide bottom and a narrow top",
+    "variations": [
+      "pyramid",
+      "pyramids"
+    ],
+    "emoji": "🔺📚",
+    "id": "gl205"
+  },
+  "quadrilateral": {
+    "word": "quadrilateral",
+    "definition": "a shape with four sides.",
+    "variations": [
+      "quadrilateral",
+      "quadrilaterals"
+    ],
+    "emoji": "⬛📐",
+    "id": "gl206"
+  },
+  "raffia": {
+    "word": "raffia",
+    "definition": "a natural material from palm leaves used for weaving and tying",
+    "variations": [
+      "raffia"
+    ],
+    "emoji": "🌿🧺",
+    "id": "gl207"
+  },
+  "realism": {
+    "word": "realism",
+    "definition": "showing things in a way that looks real or true to life",
+    "variations": [
+      "realism",
+      "realistic"
+    ],
+    "emoji": "🖼️👀",
+    "id": "gl208"
+  },
+  "realistic": {
+    "word": "realistic",
+    "definition": "looking or sounding like real life",
+    "variations": [
+      "realistic",
+      "realistically",
+      "realism"
+    ],
+    "emoji": "👀✅",
+    "id": "gl209"
+  },
+  "receiving": {
+    "word": "receiving",
+    "definition": "the skill of getting the ball and bringing it under control",
+    "variations": [
+      "receive",
+      "receives",
+      "received",
+      "receiving"
+    ],
+    "emoji": "⚽🦶",
+    "id": "gl210"
+  },
+  "rectangle": {
+    "word": "rectangle",
+    "definition": "a flat shape with four straight sides and four corners, with opposite sides equal",
+    "variations": [
+      "rectangle",
+      "rectangles",
+      "rectangular"
+    ],
+    "emoji": "▭📐",
+    "id": "gl211"
+  },
+  "rectangular": {
+    "word": "rectangular",
+    "definition": "having the shape of a rectangle, with four straight sides and four corners",
+    "variations": [
+      "rectangular",
+      "rectangle",
+      "rectangles"
+    ],
+    "emoji": "▭📐",
+    "id": "gl212"
+  },
+  "recycled": {
+    "word": "recycled",
+    "definition": "used again after being processed instead of being thrown away",
+    "variations": [
+      "recycle",
+      "recycles",
+      "recycled",
+      "recycling"
+    ],
+    "emoji": "♻️📄",
+    "id": "gl213"
+  },
+  "referee": {
+    "word": "referee",
+    "definition": "the official who makes sure the rules of the game are followed",
+    "variations": [
+      "referee",
+      "referees"
+    ],
+    "emoji": "🧑‍⚖️ whistle",
+    "id": "gl214"
+  },
+  "rehearsal": {
+    "word": "rehearsal",
+    "definition": "practice for a play or performance before showing it to an audience",
+    "variations": [
+      "rehearsal",
+      "rehearsals",
+      "rehearse",
+      "rehearsed",
+      "rehearsing"
+    ],
+    "emoji": "🔁🎭",
+    "id": "gl215"
+  },
+  "rehearse": {
+    "word": "rehearse",
+    "definition": "to practise a performance before presenting it to others",
+    "variations": [
+      "rehearse",
+      "rehearses",
+      "rehearsed",
+      "rehearsing",
+      "rehearsal",
+      "rehearsals"
+    ],
+    "emoji": "🔁🎭",
+    "id": "gl216"
+  },
+  "release": {
+    "word": "release",
+    "definition": "to let go of the ball when throwing it",
+    "variations": [
+      "release",
+      "releases",
+      "releasing",
+      "released"
+    ],
+    "emoji": "🫴🏐",
+    "id": "gl217"
+  },
+  "residue": {
+    "word": "residue",
+    "definition": "a small amount left behind after something has been removed or used",
+    "variations": [
+      "residue",
+      "residues"
+    ],
+    "emoji": "🧹◻️",
+    "id": "gl218"
+  },
+  "resistant": {
+    "word": "resistant",
+    "definition": "able to stay strong against damage or change",
+    "variations": [
+      "resistant",
+      "resistance"
+    ],
+    "emoji": "🛡️💪",
+    "id": "gl219"
+  },
+  "rhythm": {
+    "word": "rhythm",
+    "definition": "the pattern of beats in music.",
+    "variations": [
+      "rhythm",
+      "rhythms"
+    ],
+    "emoji": "🥁🎵",
+    "id": "gl220"
+  },
+  "rim": {
+    "word": "rim",
+    "definition": "the top edge around an open container",
+    "variations": [
+      "rim",
+      "rims"
+    ],
+    "emoji": "🧺⭕",
+    "id": "gl221"
+  },
+  "rod carrier": {
+    "word": "rod carrier",
+    "definition": "a device or tool used for carrying or transporting pots",
+    "variations": [
+      "rod carrier",
+      "rod carriers"
+    ],
+    "emoji": "🏺🚚",
+    "id": "gl222"
+  },
+  "rope skipping": {
+    "word": "rope skipping",
+    "definition": "an exercise where a person jumps over a moving rope again and again",
+    "variations": [
+      "rope skipping",
+      "skip rope",
+      "skipping"
+    ],
+    "emoji": "🪢⏭️",
+    "id": "gl223"
+  },
+  "sample": {
+    "word": "sample",
+    "definition": "an example of something used to show what it is like",
+    "variations": [
+      "sample",
+      "samples"
+    ],
+    "emoji": "📄👀",
+    "id": "gl224"
+  },
+  "saturated": {
+    "word": "saturated",
+    "definition": "completely filled or soaked with water",
+    "variations": [
+      "saturated",
+      "saturate",
+      "saturates",
+      "saturating"
+    ],
+    "emoji": "💦🧽",
+    "id": "gl225"
+  },
+  "scholarship": {
+    "word": "scholarship",
+    "definition": "money or support given to help someone study or train",
+    "variations": [
+      "scholarship",
+      "scholarships"
+    ],
+    "emoji": "🎓💰",
+    "id": "gl226"
+  },
+  "scissors": {
+    "word": "scissors",
+    "definition": "a tool with two sharp blades used for cutting",
+    "variations": [
+      "scissors"
+    ],
+    "emoji": "✂️",
+    "id": "gl227"
+  },
+  "scrap": {
+    "word": "scrap",
+    "definition": "a small leftover piece of material that can still be used",
+    "variations": [
+      "scrap",
+      "scraps"
+    ],
+    "emoji": "📄♻️",
+    "id": "gl228"
+  },
+  "scratching": {
+    "word": "scratching",
+    "definition": "making rough lines or marks on a surface with a sharp tool",
+    "variations": [
+      "scratch",
+      "scratches",
+      "scratching",
+      "scratched"
+    ],
+    "emoji": "✏️〰️",
+    "id": "gl229"
+  },
+  "script": {
+    "word": "script",
+    "definition": "the written words and directions for a play or performance",
+    "variations": [
+      "script",
+      "scripts",
+      "scripted"
+    ],
+    "emoji": "📜✍️",
+    "id": "gl230"
+  },
+  "secure": {
+    "word": "secure",
+    "definition": "to fasten something firmly so it stays in place",
+    "variations": [
+      "secure",
+      "secures",
+      "secured",
+      "securing"
+    ],
+    "emoji": "🔒🪢",
+    "id": "gl231"
+  },
+  "segment": {
+    "word": "segment",
+    "definition": "a part or section of a line or shape.",
+    "variations": [
+      "segment",
+      "segments"
+    ],
+    "emoji": "➖📏",
+    "id": "gl232"
+  },
+  "self-reliance": {
+    "word": "self-reliance",
+    "definition": "the ability to do things by yourself without always needing help",
+    "variations": [
+      "self-reliance",
+      "self-reliant"
+    ],
+    "emoji": "🙋🛠️",
+    "id": "gl233"
+  },
+  "shade": {
+    "word": "shade",
+    "definition": "a cool place away from direct sunlight",
+    "variations": [
+      "shade",
+      "shades",
+      "shaded"
+    ],
+    "emoji": "🌤️🌳",
+    "id": "gl234"
+  },
+  "shadow": {
+    "word": "shadow",
+    "definition": "the dark area made when light is blocked by an object",
+    "variations": [
+      "shadow",
+      "shadows"
+    ],
+    "emoji": "🌑🔦",
+    "id": "gl235"
+  },
+  "shape": {
+    "word": "shape",
+    "definition": "the form or outline of an object.",
+    "variations": [
+      "shape",
+      "shapes"
+    ],
+    "emoji": "🔺⚪⬛",
+    "id": "gl236"
+  },
+  "shin guards": {
+    "word": "shin guards",
+    "definition": "protective items worn on the lower legs to prevent injury while playing football",
+    "variations": [
+      "shin guard",
+      "shin guards"
+    ],
+    "emoji": "🦵🛡️",
+    "id": "gl237"
+  },
+  "shoot": {
+    "word": "shoot",
+    "definition": "to throw the ball towards the goal to score",
+    "variations": [
+      "shoot",
+      "shoots",
+      "shooting",
+      "shot"
+    ],
+    "emoji": "🏐🥅",
+    "id": "gl238"
+  },
+  "shooting": {
+    "word": "shooting",
+    "definition": "kicking or throwing the ball toward the goal to score",
+    "variations": [
+      "shoot",
+      "shoots",
+      "shot",
+      "shooting"
+    ],
+    "emoji": "🥅⚽",
+    "id": "gl239"
+  },
+  "short pass": {
+    "word": "short pass",
+    "definition": "a pass made to a teammate who is nearby",
+    "variations": [
+      "short pass",
+      "short passes"
+    ],
+    "emoji": "⚽↔️",
+    "id": "gl240"
+  },
+  "shuttle run": {
+    "word": "shuttle run",
+    "definition": "an exercise in which a person runs quickly back and forth between points",
+    "variations": [
+      "shuttle run",
+      "shuttle runs"
+    ],
+    "emoji": "🏃↔️",
+    "id": "gl241"
+  },
+  "silent film": {
+    "word": "silent film",
+    "definition": "an early film that tells a story without spoken sound",
+    "variations": [
+      "silent film",
+      "silent films"
+    ],
+    "emoji": "🎬🤫",
+    "id": "gl242"
+  },
+  "sisal": {
+    "word": "sisal",
+    "definition": "a strong natural fibre used for making ropes and baskets",
+    "variations": [
+      "sisal"
+    ],
+    "emoji": "🧵🪢",
+    "id": "gl243"
+  },
+  "sketch": {
+    "word": "sketch",
+    "definition": "a simple quick drawing that shows the main idea of an image.",
+    "variations": [
+      "sketch",
+      "sketches",
+      "sketching"
+    ],
+    "emoji": "✏️📄",
+    "id": "gl244"
+  },
+  "skillfully": {
+    "word": "skillfully",
+    "definition": "in a way that shows good ability and control",
+    "variations": [
+      "skillful",
+      "skillfully",
+      "skill"
+    ],
+    "emoji": "👏🎯",
+    "id": "gl245"
+  },
+  "slab": {
+    "word": "slab",
+    "definition": "a flat piece of clay used to build objects",
+    "variations": [
+      "slab",
+      "slabs"
+    ],
+    "emoji": "⬜🏺",
+    "id": "gl246"
+  },
+  "solfa": {
+    "word": "solfa",
+    "definition": "a music system that uses syllables like do, re, mi, fa, so, la, ti to teach singing",
+    "variations": [
+      "solfa",
+      "solfa singing"
+    ],
+    "emoji": "🎵🎶",
+    "id": "gl247"
+  },
+  "sound effect": {
+    "word": "sound effect",
+    "definition": "a sound added to a performance to create meaning or atmosphere",
+    "variations": [
+      "sound effect",
+      "sound effects"
+    ],
+    "emoji": "🔊🎬",
+    "id": "gl248"
+  },
+  "speed": {
+    "word": "speed",
+    "definition": "how fast someone or something moves",
+    "variations": [
+      "speed",
+      "speeds"
+    ],
+    "emoji": "⚡🏃",
+    "id": "gl249"
+  },
+  "spike": {
+    "word": "spike",
+    "definition": "a pointed part under a sports shoe that helps a player hold firmly to the ground",
+    "variations": [
+      "spike",
+      "spikes"
+    ],
+    "emoji": "👟📌",
+    "id": "gl250"
+  },
+  "sponge": {
+    "word": "sponge",
+    "definition": "a soft material that holds water or paint and is used for cleaning or applying colour",
+    "variations": [
+      "sponge",
+      "sponges"
+    ],
+    "emoji": "🧽💧",
+    "id": "gl251"
+  },
+  "sprint": {
+    "word": "sprint",
+    "definition": "a short, very fast run done with maximum speed",
+    "variations": [
+      "sprint",
+      "sprints",
+      "sprinting",
+      "sprinted"
+    ],
+    "emoji": "🏃⚡",
+    "id": "gl252"
+  },
+  "squat": {
+    "word": "squat",
+    "definition": "an exercise in which you bend your knees and lower your body, then stand up again",
+    "variations": [
+      "squat",
+      "squats",
+      "squatting"
+    ],
+    "emoji": "🏋️🦵",
+    "id": "gl253"
+  },
+  "stable": {
+    "word": "stable",
+    "definition": "firm and balanced, not likely to fall or shake",
+    "variations": [
+      "stable",
+      "stability"
+    ],
+    "emoji": "⚖️🧍",
+    "id": "gl254"
+  },
+  "stage": {
+    "word": "stage",
+    "definition": "the place where performers act or present a show",
+    "variations": [
+      "stage",
+      "stages"
+    ],
+    "emoji": "🎭🪜",
+    "id": "gl255"
+  },
+  "stamina": {
+    "word": "stamina",
+    "definition": "the ability to stay active and strong for a long time without getting too tired",
+    "variations": [
+      "stamina"
+    ],
+    "emoji": "💪🏃",
+    "id": "gl256"
+  },
+  "stencil": {
+    "word": "stencil",
+    "definition": "a thin shape or pattern used to copy a design onto another surface",
+    "variations": [
+      "stencil",
+      "stencils",
+      "stencilled",
+      "stenciling"
+    ],
+    "emoji": "🧾🎨",
+    "id": "gl257"
+  },
+  "sticking": {
+    "word": "sticking",
+    "definition": "holding tightly to a surface and not coming off easily",
+    "variations": [
+      "stick",
+      "sticks",
+      "sticking",
+      "stuck"
+    ],
+    "emoji": "🩹✋",
+    "id": "gl258"
+  },
+  "strategy": {
+    "word": "strategy",
+    "definition": "a planned way of playing to help a team do well",
+    "variations": [
+      "strategy",
+      "strategies"
+    ],
+    "emoji": "🧠📋",
+    "id": "gl259"
+  },
+  "strength": {
+    "word": "strength",
+    "definition": "the power of muscles or the body to do hard physical work",
+    "variations": [
+      "strength",
+      "strengths",
+      "strengthen",
+      "strengthens",
+      "strengthened",
+      "strengthening"
+    ],
+    "emoji": "💪🏋️",
+    "id": "gl260"
+  },
+  "strip": {
+    "word": "strip",
+    "definition": "a long, narrow piece of material",
+    "variations": [
+      "strip",
+      "strips",
+      "stripped",
+      "stripping"
+    ],
+    "emoji": "📏📄",
+    "id": "gl261"
+  },
+  "substitution": {
+    "word": "substitution",
+    "definition": "the act of replacing one player with another during a game",
+    "variations": [
+      "substitution",
+      "substitutions"
+    ],
+    "emoji": "🔁👥",
+    "id": "gl262"
+  },
+  "syllable": {
+    "word": "syllable",
+    "definition": "a word part or sound unit; in music, solfa uses sound names like do and re",
+    "variations": [
+      "syllable",
+      "syllables"
+    ],
+    "emoji": "🗣️🎵",
+    "id": "gl263"
+  },
+  "tackling": {
+    "word": "tackling",
+    "definition": "trying to win the ball from an opponent in a fair way",
+    "variations": [
+      "tackle",
+      "tackles",
+      "tackled",
+      "tackling"
+    ],
+    "emoji": "🦵⚽",
+    "id": "gl264"
+  },
+  "tactics": {
+    "word": "tactics",
+    "definition": "careful actions or methods used to win a game",
+    "variations": [
+      "tactic",
+      "tactics"
+    ],
+    "emoji": "♟️🧠",
+    "id": "gl265"
+  },
+  "teammate": {
+    "word": "teammate",
+    "definition": "a person who plays on the same team as you",
+    "variations": [
+      "teammate",
+      "teammates"
+    ],
+    "emoji": "🤝🏃",
+    "id": "gl266"
+  },
+  "teamwork": {
+    "word": "teamwork",
+    "definition": "working together with other people to achieve the same goal",
+    "variations": [
+      "teamwork"
+    ],
+    "emoji": "🤝👥",
+    "id": "gl267"
+  },
+  "technical": {
+    "word": "technical",
+    "definition": "related to special skills, methods, or tools used in a task",
+    "variations": [
+      "technical",
+      "technically"
+    ],
+    "emoji": "🛠️📐",
+    "id": "gl268"
+  },
+  "technique": {
+    "word": "technique",
+    "definition": "a special way of doing a skill correctly and effectively",
+    "variations": [
+      "technique",
+      "techniques"
+    ],
+    "emoji": "🎯📘",
+    "id": "gl269"
+  },
+  "template": {
+    "word": "template",
+    "definition": "a pattern or guide used to make the same shape again",
+    "variations": [
+      "template",
+      "templates"
+    ],
+    "emoji": "📐📝",
+    "id": "gl270"
+  },
+  "tempo": {
+    "word": "tempo",
+    "definition": "the speed of music.",
+    "variations": [
+      "tempo",
+      "tempos"
+    ],
+    "emoji": "⏩🎶",
+    "id": "gl271"
+  },
+  "texture": {
+    "word": "texture",
+    "definition": "how a surface feels or looks, such as rough or smooth",
+    "variations": [
+      "texture",
+      "textures"
+    ],
+    "emoji": "✋🪨",
+    "id": "gl272"
+  },
+  "theatre": {
+    "word": "theatre",
+    "definition": "a place or art form where people perform plays and other acts for an audience",
+    "variations": [
+      "theatre",
+      "theatres"
+    ],
+    "emoji": "🎭🏛️",
+    "id": "gl273"
+  },
+  "theme": {
+    "word": "theme",
+    "definition": "the main idea or message in a play, picture, or other work",
+    "variations": [
+      "theme",
+      "themes"
+    ],
+    "emoji": "💭📚",
+    "id": "gl274"
+  },
+  "thickness": {
+    "word": "thickness",
+    "definition": "the measure of how thick or thin something is",
+    "variations": [
+      "thickness",
+      "thick",
+      "thicker",
+      "thickest"
+    ],
+    "emoji": "📏📄",
+    "id": "gl275"
+  },
+  "tighten": {
+    "word": "tighten",
+    "definition": "to make something firmer, closer, or less loose",
+    "variations": [
+      "tighten",
+      "tightens",
+      "tightened",
+      "tightening"
+    ],
+    "emoji": "🪢💪",
+    "id": "gl276"
+  },
+  "tone": {
+    "word": "tone",
+    "definition": "the way a voice sounds, showing feeling or meaning",
+    "variations": [
+      "tone",
+      "tones"
+    ],
+    "emoji": "🗣️🎵",
+    "id": "gl277"
+  },
+  "traction": {
+    "word": "traction",
+    "definition": "the grip between shoes and the ground that helps prevent slipping",
+    "variations": [
+      "traction"
+    ],
+    "emoji": "👟🛑",
+    "id": "gl278"
+  },
+  "traditional games": {
+    "word": "traditional games",
+    "definition": "games that have been played in a community for a long time and are part of its culture",
+    "variations": [
+      "traditional game",
+      "traditional games"
+    ],
+    "emoji": "🎭🕰️",
+    "id": "gl279"
+  },
+  "trainer": {
+    "word": "trainer",
+    "definition": "a person who helps players improve fitness and skills",
+    "variations": [
+      "trainer",
+      "trainers"
+    ],
+    "emoji": "💪🏋️",
+    "id": "gl280"
+  },
+  "transportation": {
+    "word": "transportation",
+    "definition": "the movement of people or things from one place to another",
+    "variations": [
+      "transportation",
+      "transport",
+      "transports",
+      "transported"
+    ],
+    "emoji": "🚚📦",
+    "id": "gl281"
+  },
+  "triangle": {
+    "word": "triangle",
+    "definition": "a shape with three straight sides and three corners",
+    "variations": [
+      "triangle",
+      "triangles",
+      "triangular"
+    ],
+    "emoji": "🔺📐",
+    "id": "gl282"
+  },
+  "tug-of-war": {
+    "word": "tug-of-war",
+    "definition": "a game in which two teams pull opposite ends of a rope to try to move the other team",
+    "variations": [
+      "tug-of-war",
+      "tug of war"
+    ],
+    "emoji": "🪢👥🏁",
+    "id": "gl283"
+  },
+  "unity": {
+    "word": "unity",
+    "definition": "the way parts of a drawing fit together and look connected",
+    "variations": [
+      "unity",
+      "unified"
+    ],
+    "emoji": "🧩🤝",
+    "id": "gl284"
+  },
+  "upright": {
+    "word": "upright",
+    "definition": "standing straight up",
+    "variations": [
+      "upright"
+    ],
+    "emoji": "🧍⬆️",
+    "id": "gl285"
+  },
+  "utensil": {
+    "word": "utensil",
+    "definition": "a tool or container used for practical work, especially in the home",
+    "variations": [
+      "utensil",
+      "utensils"
+    ],
+    "emoji": "🍴🏠",
+    "id": "gl286"
+  },
+  "vertical": {
+    "word": "vertical",
+    "definition": "standing straight up and down",
+    "variations": [
+      "vertical",
+      "vertically"
+    ],
+    "emoji": "↕️📏",
+    "id": "gl287"
+  },
+  "vessel": {
+    "word": "vessel",
+    "definition": "a container used to hold something",
+    "variations": [
+      "vessel",
+      "vessels"
+    ],
+    "emoji": "🏺📦",
+    "id": "gl288"
+  },
+  "vocal control": {
+    "word": "vocal control",
+    "definition": "the skill of managing the voice well when singing or speaking",
+    "variations": [
+      "vocal control"
+    ],
+    "emoji": "🎤🛠️",
+    "id": "gl289"
+  },
+  "voice balancing": {
+    "word": "voice balancing",
+    "definition": "keeping voices at equal and suitable loudness when singing together",
+    "variations": [
+      "voice balancing",
+      "balance voices",
+      "balanced voices"
+    ],
+    "emoji": "🎤⚖️",
+    "id": "gl290"
+  },
+  "volume": {
+    "word": "volume",
+    "definition": "how loud or soft a sound or voice is",
+    "variations": [
+      "volume",
+      "volumes"
+    ],
+    "emoji": "🔊🔉",
+    "id": "gl291"
+  },
+  "watercolour": {
+    "word": "watercolour",
+    "definition": "a type of paint that is mixed with water",
+    "variations": [
+      "watercolour",
+      "watercolours"
+    ],
+    "emoji": "🎨💧",
+    "id": "gl292"
+  },
+  "weave": {
+    "word": "weave",
+    "definition": "to make something by crossing materials over and under each other",
+    "variations": [
+      "weave",
+      "weaves",
+      "weaving",
+      "woven"
+    ],
+    "emoji": "🧺🧵",
+    "id": "gl293"
+  },
+  "wheel throwing": {
+    "word": "wheel throwing",
+    "definition": "a method of shaping clay on a spinning wheel",
+    "variations": [
+      "wheel throwing"
+    ],
+    "emoji": "🛞🏺",
+    "id": "gl294"
+  },
+  "whole note": {
+    "word": "whole note",
+    "definition": "a musical note that lasts for four beats",
+    "variations": [
+      "whole note",
+      "whole notes"
+    ],
+    "emoji": "🎶⏱️",
+    "id": "gl295"
+  },
+  "wire mesh": {
+    "word": "wire mesh",
+    "definition": "a material made of crossing metal wires with small holes",
+    "variations": [
+      "wire mesh"
+    ],
+    "emoji": "🕸️🔩",
+    "id": "gl296"
+  },
+  "xylophone": {
+    "word": "xylophone",
+    "definition": "a musical instrument with wooden bars that are struck to make sounds.",
+    "variations": [
+      "xylophone",
+      "xylophones"
+    ],
+    "emoji": "🎼🥁",
+    "id": "gl297"
+  },
+  "zonal defence": {
+    "word": "zonal defence",
+    "definition": "a type of defence where players guard certain areas instead of one person",
+    "variations": [
+      "zonal defence",
+      "zonal defense"
+    ],
+    "emoji": "📍🛡️",
+    "id": "gl298"
+  }
+}
