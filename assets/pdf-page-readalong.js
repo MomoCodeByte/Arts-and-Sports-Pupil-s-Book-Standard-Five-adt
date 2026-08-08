@@ -59,22 +59,75 @@
     return value.toLowerCase().replace(/[^a-z0-9]/g, '');
   }
 
-  function mapCuesToPageWords(cues) {
-    const mapping = [];
-    let pageIndex = 0;
-    for (const cue of cues) {
-      const cueWord = normalizedWord(cue.word);
-      let match = -1;
-      for (let candidate = pageIndex; candidate < Math.min(words.length, pageIndex + 6); candidate += 1) {
-        const pageWord = normalizedWord(spokenWords[candidate]);
-        if (pageWord === cueWord || pageWord.includes(cueWord) || cueWord.includes(pageWord)) {
-          match = candidate;
-          break;
-        }
+  function editDistance(left, right) {
+    const previous = Array.from({ length: right.length + 1 }, (_, index) => index);
+    for (let row = 1; row <= left.length; row += 1) {
+      const current = [row];
+      for (let column = 1; column <= right.length; column += 1) {
+        current[column] = Math.min(
+          current[column - 1] + 1,
+          previous[column] + 1,
+          previous[column - 1] + (left[row - 1] === right[column - 1] ? 0 : 1)
+        );
       }
-      if (match < 0) match = Math.min(pageIndex, words.length - 1);
-      mapping.push(match);
-      pageIndex = Math.min(words.length - 1, match + 1);
+      previous.splice(0, previous.length, ...current);
+    }
+    return previous[right.length];
+  }
+
+  function wordMatchScore(left, right) {
+    if (!left || !right) return -3;
+    if (left === right) return 6;
+    if (left.includes(right) || right.includes(left)) return 3;
+    const similarity = 1 - editDistance(left, right) / Math.max(left.length, right.length);
+    return similarity >= 0.72 ? 2 : -3;
+  }
+
+  function mapCuesToPageWords(cues) {
+    const cueWords = cues.map((cue) => normalizedWord(cue.word));
+    const pageWords = spokenWords.map(normalizedWord);
+    const rows = cueWords.length + 1;
+    const columns = pageWords.length + 1;
+    const scores = Array.from({ length: rows }, () => new Int32Array(columns));
+    const moves = Array.from({ length: rows }, () => new Int8Array(columns));
+    for (let row = 1; row < rows; row += 1) scores[row][0] = -row * 2;
+    for (let column = 1; column < columns; column += 1) scores[0][column] = -column * 2;
+    for (let row = 1; row < rows; row += 1) {
+      for (let column = 1; column < columns; column += 1) {
+        const diagonal = scores[row - 1][column - 1] + wordMatchScore(cueWords[row - 1], pageWords[column - 1]);
+        const skipCue = scores[row - 1][column] - 2;
+        const skipPage = scores[row][column - 1] - 2;
+        if (diagonal >= skipCue && diagonal >= skipPage) {
+          scores[row][column] = diagonal;
+          moves[row][column] = 1;
+        } else if (skipCue >= skipPage) {
+          scores[row][column] = skipCue;
+          moves[row][column] = 2;
+        } else {
+          scores[row][column] = skipPage;
+          moves[row][column] = 3;
+        }
+    }
+
+    const mapping = new Array(cues.length).fill(-1);
+    let row = cueWords.length;
+    let column = pageWords.length;
+    while (row > 0 || column > 0) {
+      const move = row > 0 && column > 0 ? moves[row][column] : (row > 0 ? 2 : 3);
+      if (move === 1) {
+        mapping[row - 1] = column - 1;
+        row -= 1;
+        column -= 1;
+      } else if (move === 2) {
+        row -= 1;
+      } else {
+        column -= 1;
+      }
+    }
+    let last = 0;
+    for (let index = 0; index < mapping.length; index += 1) {
+      if (mapping[index] < 0) mapping[index] = last;
+      else last = mapping[index];
     }
     return mapping;
   }
