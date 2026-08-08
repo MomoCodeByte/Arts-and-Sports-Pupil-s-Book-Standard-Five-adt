@@ -107,6 +107,7 @@
           scores[row][column] = skipPage;
           moves[row][column] = 3;
         }
+      }
     }
 
     const mapping = new Array(cues.length).fill(-1);
