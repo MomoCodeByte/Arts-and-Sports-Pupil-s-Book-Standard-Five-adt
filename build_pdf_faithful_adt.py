@@ -170,7 +170,7 @@ def build_page_html(page_number, semantic_items, words):
   <script src="./assets/offline-preloader.js?v=20260808-5"></script>
   <script src="./assets/scorm.js"></script>
   <script src="./assets/base.bundle.local.js"></script>
-  <script src="./assets/pdf-page-readalong.js?v=20260808-6"></script>
+  <script src="./assets/pdf-page-readalong.js?v=20260808-7"></script>
 </body>
 </html>
 '''

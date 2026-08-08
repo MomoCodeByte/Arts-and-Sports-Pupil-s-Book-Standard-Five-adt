@@ -110,7 +110,10 @@
     }
     pageAudio = new Audio(recordedAudio);
     pageAudio.preload = 'auto';
-    pageAudio.playbackRate = 1;
+    // The source was generated deliberately slowly for review. Playing it at
+    // 1.25x restores a natural classroom reading pace while cue timestamps
+    // remain synchronized to the audio's source currentTime.
+    pageAudio.playbackRate = 1.25;
     pageAudio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
     pageAudio.addEventListener('play', highlightRecordedAudio);
     pageAudio.addEventListener('ended', stopPage, { once: true });
