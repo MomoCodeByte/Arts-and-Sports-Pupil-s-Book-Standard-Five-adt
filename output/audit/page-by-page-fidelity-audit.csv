@@ -1,11 +1,11 @@
 ﻿pdf_page,html_files,html_sections,pdf_words,html_words,token_precision_pct,token_recall_pct,token_f1_pct,reading_order_pct,pdf_image_objects,html_image_refs,missing_html_images,severity,notes
-1,index.html,1,47,91,14.3,27.7,18.8,26.9,1,1,,CRITICAL,Large text/content mismatch
+1,index.html,1,47,7,100.0,14.9,25.9,33.1,1,1,,CRITICAL,Large text/content mismatch
 2,pg002_sec001.html,1,126,95,97.9,73.8,84.2,90.7,0,0,,MAJOR,Noticeable text/content mismatch
 3,pg003_sec001.html,1,126,69,94.2,51.6,66.7,83.6,0,0,,CRITICAL,Large text/content mismatch
 4,pg004_sec001.html,1,119,86,100.0,72.3,83.9,90.0,0,0,,MAJOR,Noticeable text/content mismatch
-5,pg005_sec001.html,1,246,219,97.3,86.6,91.6,96.1,1,0,,VISUAL,Content is close; visual layout still requires overlay review
+5,pg005_sec001.html,1,246,219,97.3,86.6,91.6,96.1,1,1,,VISUAL,Content is close; visual layout still requires overlay review
 6,pg006_sec001.html,1,220,190,97.4,84.1,90.2,95.5,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-7,pg007_sec001.html; pg007_sec002.html,2,256,228,97.8,87.1,92.1,96.0,1,1,,LAYOUT,One PDF page split across multiple HTML sections
+7,pg007_sec001.html,1,256,228,97.8,87.1,92.1,96.0,1,1,,VISUAL,Content is close; visual layout still requires overlay review
 8,pg008_sec001.html; pg008_sec002.html; pg008_sec003.html; pg008_sec004.html,4,292,262,99.2,89.0,93.9,96.5,1,1,,LAYOUT,One PDF page split across multiple HTML sections
 9,pg009_sec001.html,1,227,197,98.5,85.5,91.5,95.6,1,2,,VISUAL,Content is close; visual layout still requires overlay review
 10,pg010_sec001.html; pg010_sec002.html,2,341,313,97.8,89.7,93.6,96.8,1,1,,LAYOUT,One PDF page split across multiple HTML sections

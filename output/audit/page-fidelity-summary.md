@@ -6,18 +6,18 @@ This audit compares all 112 physical PDF pages with the matching pg001-pg112 HTM
 
 - PDF physical pages: 112
 - Converted HTML sections (including quizzes): 219
-- PDF pages split into multiple HTML sections: 55
+- PDF pages split into multiple HTML sections: 54
 - Pages with missing referenced image files: 0
 - CRITICAL: 5 pages
 - MAJOR: 57 pages
-- LAYOUT: 24 pages
-- VISUAL: 26 pages
+- LAYOUT: 23 pages
+- VISUAL: 27 pages
 
 ## Lowest content-similarity pages
 
 | PDF page | HTML section(s) | F1 | Reading order | Finding |
 |---:|---|---:|---:|---|
-| 1 | index.html | 18.8% | 26.9% | Large text/content mismatch |
+| 1 | index.html | 25.9% | 33.1% | Large text/content mismatch |
 | 25 | pg025_sec001.html | 55.3% | 64.2% | Large text/content mismatch |
 | 3 | pg003_sec001.html | 66.7% | 83.6% | Large text/content mismatch |
 | 68 | pg068_sec001.html | 71.7% | 78.0% | Large text/content mismatch |
