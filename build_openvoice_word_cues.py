@@ -1,5 +1,6 @@
 """Create true word timestamps for the five OpenVoice review pages."""
 
+import argparse
 import json
 from pathlib import Path
 
@@ -12,9 +13,20 @@ AUDIO_DIR = ROOT / "audio-samples" / "openvoice-sw-tz"
 
 
 def main():
-    model = whisper.load_model("base.en", device="cpu")
-    for page in range(1, 6):
-        audio_path = AUDIO_DIR / f"page-{page:03d}-sample.wav"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--pages", default="1-5")
+    parser.add_argument("--audio-dir", type=Path, default=AUDIO_DIR)
+    parser.add_argument("--model", default="base.en")
+    args = parser.parse_args()
+    if "-" in args.pages:
+        first, last = (int(value) for value in args.pages.split("-", 1))
+        pages = range(first, last + 1)
+    else:
+        pages = [int(args.pages)]
+    audio_dir = args.audio_dir.resolve()
+    model = whisper.load_model(args.model, device="cpu")
+    for page in pages:
+        audio_path = audio_dir / f"page-{page:03d}-sample.wav"
         audio, _ = librosa.load(str(audio_path), sr=16000, mono=True)
         result = model.transcribe(
             audio,
@@ -34,7 +46,7 @@ def main():
             for item in segment.get("words", [])
             if item.get("word", "").strip()
         ]
-        output = AUDIO_DIR / f"page-{page:03d}-cues.json"
+        output = audio_dir / f"page-{page:03d}-cues.json"
         output.write_text(json.dumps(cues, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"{output.name}: {len(cues)} timed words")
 
