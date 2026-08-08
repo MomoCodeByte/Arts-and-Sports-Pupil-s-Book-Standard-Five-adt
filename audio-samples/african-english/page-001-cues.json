@@ -1,0 +1,72 @@
+[
+  {
+    "word": "Arts",
+    "start": 0.0,
+    "end": 0.26
+  },
+  {
+    "word": "and",
+    "start": 0.26,
+    "end": 0.46
+  },
+  {
+    "word": "Sports",
+    "start": 0.46,
+    "end": 0.72
+  },
+  {
+    "word": "pupils",
+    "start": 0.72,
+    "end": 1.14
+  },
+  {
+    "word": "book",
+    "start": 1.14,
+    "end": 1.58
+  },
+  {
+    "word": "Tazisia",
+    "start": 1.58,
+    "end": 2.18
+  },
+  {
+    "word": "limit",
+    "start": 2.18,
+    "end": 2.54
+  },
+  {
+    "word": "Tanzania",
+    "start": 2.54,
+    "end": 2.8
+  },
+  {
+    "word": "standard",
+    "start": 2.8,
+    "end": 3.52
+  },
+  {
+    "word": "5",
+    "start": 3.52,
+    "end": 3.84
+  },
+  {
+    "word": "-10zania",
+    "start": 3.84,
+    "end": 4.48
+  },
+  {
+    "word": "Institute",
+    "start": 4.48,
+    "end": 4.74
+  },
+  {
+    "word": "of",
+    "start": 4.74,
+    "end": 5.1
+  },
+  {
+    "word": "Education.",
+    "start": 5.1,
+    "end": 5.48
+  }
+]

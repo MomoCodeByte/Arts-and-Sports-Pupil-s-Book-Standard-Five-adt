@@ -30,11 +30,11 @@
   const sectionId = document.querySelector('[data-section-id^="pg"]')?.dataset.sectionId || '';
   const pageMatch = sectionId.match(/^pg(\d{3})_/);
   const pageNumber = pageMatch ? Number(pageMatch[1]) : 0;
-  const recordedAudio = pageNumber >= 1 && pageNumber <= 5
-    ? `audio-samples/openvoice-sw-tz/page-${String(pageNumber).padStart(3, '0')}-sample.wav`
+  const recordedAudio = pageNumber >= 1 && pageNumber <= 112
+    ? `audio-samples/african-english/page-${String(pageNumber).padStart(3, '0')}-sample.wav`
     : null;
-  const recordedCues = pageNumber >= 1 && pageNumber <= 5
-    ? `audio-samples/openvoice-sw-tz/page-${String(pageNumber).padStart(3, '0')}-cues.json`
+  const recordedCues = pageNumber >= 1 && pageNumber <= 112
+    ? `audio-samples/african-english/page-${String(pageNumber).padStart(3, '0')}-cues.json`
     : null;
 
   function clearHighlight() {
