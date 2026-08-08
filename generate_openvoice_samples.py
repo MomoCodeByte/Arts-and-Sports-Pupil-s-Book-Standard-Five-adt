@@ -1,6 +1,7 @@
 """Generate slow OpenVoice V2 listening samples for physical pages 1-5."""
 
 from pathlib import Path
+import argparse
 import os
 import re
 from html.parser import HTMLParser
@@ -17,10 +18,7 @@ TOOLS = ROOT.parent / "tools"
 OPENVOICE = TOOLS / "OpenVoice"
 CHECKPOINTS = OPENVOICE / "checkpoints_v2"
 OUT = ROOT / "audio-samples" / "openvoice-sw-tz"
-REFERENCE_MP3 = Path(
-    r"C:\Users\Admin\Desktop\TIE-BOOK-LIST\KISWAHILI-LENYE-MABORESHO-YOTE-adt"
-    r"\content\i18n\sw-TZ\audio\pg098_n0041_easy_read.mp3"
-)
+DEFAULT_REFERENCE = ROOT / "audio-samples" / "references" / "afro-tts-reference-accent.wav"
 
 class ReadWordParser(HTMLParser):
     def __init__(self):
@@ -66,16 +64,28 @@ def visible_page_text(page: int) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--pages", default="1-5", help="Page number or inclusive range, for example 2 or 1-5")
+    parser.add_argument("--reference", type=Path, default=DEFAULT_REFERENCE)
+    parser.add_argument("--output-dir", type=Path, default=OUT)
+    args = parser.parse_args()
+    if "-" in args.pages:
+        first, last = (int(value) for value in args.pages.split("-", 1))
+        pages = range(first, last + 1)
+    else:
+        pages = [int(args.pages)]
+
     os.environ.setdefault("HF_HOME", str(TOOLS / "hf-cache"))
-    OUT.mkdir(parents=True, exist_ok=True)
+    output_dir = args.output_dir.resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     converter = ToneColorConverter(
         str(CHECKPOINTS / "converter" / "config.json"), device="cpu"
     )
     converter.load_ckpt(str(CHECKPOINTS / "converter" / "checkpoint.pth"))
 
-    reference_wav = OUT / "reference-sw-tz.wav"
-    audio, _ = librosa.load(str(REFERENCE_MP3), sr=22050, mono=True)
+    reference_wav = output_dir / "reference-accent.wav"
+    audio, _ = librosa.load(str(args.reference.resolve()), sr=22050, mono=True)
     # A clean 18-second excerpt is enough for stable tone extraction.
     sf.write(reference_wav, audio[: 18 * 22050], 22050)
     target_se = converter.extract_se(str(reference_wav))
@@ -87,10 +97,10 @@ def main() -> None:
         map_location="cpu",
     )
 
-    for page in range(1, 6):
+    for page in pages:
         text = visible_page_text(page)
-        base_wav = OUT / f"page-{page:03d}-base.wav"
-        final_wav = OUT / f"page-{page:03d}-sample.wav"
+        base_wav = output_dir / f"page-{page:03d}-base.wav"
+        final_wav = output_dir / f"page-{page:03d}-sample.wav"
         model.tts_to_file(text, speaker_id, str(base_wav), speed=1.35, quiet=True)
         converter.convert(
             audio_src_path=str(base_wav),
