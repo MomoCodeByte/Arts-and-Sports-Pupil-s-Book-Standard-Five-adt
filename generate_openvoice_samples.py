@@ -68,6 +68,8 @@ def main() -> None:
     parser.add_argument("--pages", default="1-5", help="Page number or inclusive range, for example 2 or 1-5")
     parser.add_argument("--reference", type=Path, default=DEFAULT_REFERENCE)
     parser.add_argument("--output-dir", type=Path, default=OUT)
+    parser.add_argument("--speed", type=float, default=1.35, help="Melo duration scale; larger values speak more slowly")
+    parser.add_argument("--accent-strength", type=float, default=1.0, help="Reference tone blend from 0 to 1")
     args = parser.parse_args()
     if "-" in args.pages:
         first, last = (int(value) for value in args.pages.split("-", 1))
@@ -96,12 +98,14 @@ def main() -> None:
         CHECKPOINTS / "base_speakers" / "ses" / "en-newest.pth",
         map_location="cpu",
     )
+    strength = max(0.0, min(1.0, args.accent_strength))
+    target_se = source_se + (target_se.cpu() - source_se) * strength
 
     for page in pages:
         text = visible_page_text(page)
         base_wav = output_dir / f"page-{page:03d}-base.wav"
         final_wav = output_dir / f"page-{page:03d}-sample.wav"
-        model.tts_to_file(text, speaker_id, str(base_wav), speed=1.35, quiet=True)
+        model.tts_to_file(text, speaker_id, str(base_wav), speed=args.speed, quiet=True)
         converter.convert(
             audio_src_path=str(base_wav),
             src_se=source_se,
