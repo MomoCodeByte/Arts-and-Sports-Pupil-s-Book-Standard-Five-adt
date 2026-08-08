@@ -112,7 +112,7 @@
     pageAudio.preload = 'auto';
     // Calm classroom pace. Cue timestamps remain synchronized because they
     // are compared with the audio element's source currentTime.
-    pageAudio.playbackRate = 0.9;
+    pageAudio.playbackRate = 0.65;
     pageAudio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
     pageAudio.addEventListener('play', highlightRecordedAudio);
     pageAudio.addEventListener('ended', stopPage, { once: true });
