@@ -48,6 +48,8 @@ with (OUT / "exact-page-qa.csv").open("w", encoding="utf-8", newline="") as hand
     writer.writerows(rows)
 
 pages = json.loads((ROOT / "content" / "pages.json").read_text(encoding="utf-8"))
+secondary_files = [p for p in ROOT.glob('pg*_sec*.html') if not p.name.endswith('_sec001.html')]
+legacy_redirects = sum('physical-page-final' in p.read_text(encoding='utf-8') for p in secondary_files)
 summary = f"""# Exact PDF-to-ADT QA report
 
 - Physical pages tested: **112**
@@ -55,7 +57,8 @@ summary = f"""# Exact PDF-to-ADT QA report
 - Failed: **{sum(row['status'] == 'FAIL' for row in rows)}**
 - Reading-order entries: **{len(pages)}** (112 book pages + 33 quizzes)
 - Quiz HTML files retained: **{len(list(ROOT.glob('qz*.html')))}**
-- Secondary/split physical HTML pages: **{len([p for p in ROOT.glob('pg*_sec*.html') if not p.name.endswith('_sec001.html')])}**
+- Secondary/split content pages: **{len(secondary_files) - legacy_redirects}**
+- Legacy secondary links redirected to their physical page: **{legacy_redirects}**
 - Answer inputs/textareas/submit controls found: **0**
 - PDF watermark blocks removed before rendering: **112**
 - Voice language request: **en-TZ**, with en-KE/en-GB/English fallback

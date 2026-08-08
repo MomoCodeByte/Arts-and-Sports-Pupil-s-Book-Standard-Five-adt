@@ -5,7 +5,8 @@
 - Failed: **0**
 - Reading-order entries: **145** (112 book pages + 33 quizzes)
 - Quiz HTML files retained: **33**
-- Secondary/split physical HTML pages: **0**
+- Secondary/split content pages: **0**
+- Legacy secondary links redirected to their physical page: **74**
 - Answer inputs/textareas/submit controls found: **0**
 - PDF watermark blocks removed before rendering: **112**
 - Voice language request: **en-TZ**, with en-KE/en-GB/English fallback
