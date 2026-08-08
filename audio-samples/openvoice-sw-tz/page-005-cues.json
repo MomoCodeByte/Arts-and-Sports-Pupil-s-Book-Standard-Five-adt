@@ -1,0 +1,987 @@
+[
+  {
+    "word": "The",
+    "start": 0.0,
+    "end": 0.18
+  },
+  {
+    "word": "Acknowledgement",
+    "start": 0.18,
+    "end": 0.64
+  },
+  {
+    "word": "Stenzania",
+    "start": 0.64,
+    "end": 1.14
+  },
+  {
+    "word": "Institute",
+    "start": 1.14,
+    "end": 1.36
+  },
+  {
+    "word": "of",
+    "start": 1.36,
+    "end": 1.64
+  },
+  {
+    "word": "Education",
+    "start": 1.64,
+    "end": 1.94
+  },
+  {
+    "word": "tie",
+    "start": 1.94,
+    "end": 2.26
+  },
+  {
+    "word": "would",
+    "start": 2.26,
+    "end": 2.4
+  },
+  {
+    "word": "like",
+    "start": 2.4,
+    "end": 2.56
+  },
+  {
+    "word": "to",
+    "start": 2.56,
+    "end": 2.7
+  },
+  {
+    "word": "acknowledge",
+    "start": 2.7,
+    "end": 2.96
+  },
+  {
+    "word": "the",
+    "start": 2.96,
+    "end": 3.16
+  },
+  {
+    "word": "contributions",
+    "start": 3.16,
+    "end": 3.6
+  },
+  {
+    "word": "of",
+    "start": 3.6,
+    "end": 3.9
+  },
+  {
+    "word": "all",
+    "start": 3.9,
+    "end": 4.04
+  },
+  {
+    "word": "organizations",
+    "start": 4.04,
+    "end": 4.3
+  },
+  {
+    "word": "and",
+    "start": 4.3,
+    "end": 4.8
+  },
+  {
+    "word": "individuals",
+    "start": 4.8,
+    "end": 5.14
+  },
+  {
+    "word": "who",
+    "start": 5.14,
+    "end": 5.42
+  },
+  {
+    "word": "participated",
+    "start": 5.42,
+    "end": 5.62
+  },
+  {
+    "word": "in",
+    "start": 5.62,
+    "end": 6.16
+  },
+  {
+    "word": "designing",
+    "start": 6.16,
+    "end": 6.42
+  },
+  {
+    "word": "and",
+    "start": 6.42,
+    "end": 6.74
+  },
+  {
+    "word": "developing",
+    "start": 6.74,
+    "end": 6.98
+  },
+  {
+    "word": "this",
+    "start": 6.98,
+    "end": 7.28
+  },
+  {
+    "word": "textbook",
+    "start": 7.28,
+    "end": 7.5
+  },
+  {
+    "word": "for",
+    "start": 7.5,
+    "end": 7.86
+  },
+  {
+    "word": "arts",
+    "start": 7.86,
+    "end": 7.98
+  },
+  {
+    "word": "and",
+    "start": 7.98,
+    "end": 8.16
+  },
+  {
+    "word": "sports.",
+    "start": 8.16,
+    "end": 8.38
+  },
+  {
+    "word": "In",
+    "start": 8.82,
+    "end": 8.82
+  },
+  {
+    "word": "particular,",
+    "start": 8.82,
+    "end": 9.22
+  },
+  {
+    "word": "tie",
+    "start": 9.5,
+    "end": 9.72
+  },
+  {
+    "word": "wishes",
+    "start": 9.72,
+    "end": 9.88
+  },
+  {
+    "word": "to",
+    "start": 9.88,
+    "end": 10.12
+  },
+  {
+    "word": "acknowledge",
+    "start": 10.12,
+    "end": 10.38
+  },
+  {
+    "word": "the",
+    "start": 10.38,
+    "end": 10.6
+  },
+  {
+    "word": "University",
+    "start": 10.6,
+    "end": 10.9
+  },
+  {
+    "word": "of",
+    "start": 10.9,
+    "end": 11.22
+  },
+  {
+    "word": "Dara",
+    "start": 11.22,
+    "end": 11.42
+  },
+  {
+    "word": "-Salom",
+    "start": 11.42,
+    "end": 11.76
+  },
+  {
+    "word": "-Uzent.",
+    "start": 11.76,
+    "end": 12.12
+  },
+  {
+    "word": "The",
+    "start": 12.46,
+    "end": 12.62
+  },
+  {
+    "word": "School",
+    "start": 12.62,
+    "end": 12.74
+  },
+  {
+    "word": "Quality",
+    "start": 12.74,
+    "end": 13.08
+  },
+  {
+    "word": "Assurance",
+    "start": 13.08,
+    "end": 13.36
+  },
+  {
+    "word": "Department",
+    "start": 13.36,
+    "end": 13.78
+  },
+  {
+    "word": "Scott",
+    "start": 13.78,
+    "end": 14.08
+  },
+  {
+    "word": "teaches",
+    "start": 14.08,
+    "end": 14.52
+  },
+  {
+    "word": "colleges",
+    "start": 14.52,
+    "end": 14.94
+  },
+  {
+    "word": "Tias",
+    "start": 14.94,
+    "end": 15.3
+  },
+  {
+    "word": "in",
+    "start": 15.3,
+    "end": 15.44
+  },
+  {
+    "word": "primary",
+    "start": 15.44,
+    "end": 15.58
+  },
+  {
+    "word": "schools.",
+    "start": 15.58,
+    "end": 16.02
+  },
+  {
+    "word": "Besides,",
+    "start": 16.46,
+    "end": 16.6
+  },
+  {
+    "word": "the",
+    "start": 16.96,
+    "end": 17.04
+  },
+  {
+    "word": "following",
+    "start": 17.04,
+    "end": 17.28
+  },
+  {
+    "word": "individuals",
+    "start": 17.28,
+    "end": 17.7
+  },
+  {
+    "word": "are",
+    "start": 17.7,
+    "end": 18.0
+  },
+  {
+    "word": "acknowledged.",
+    "start": 18.0,
+    "end": 18.28
+  },
+  {
+    "word": "Translators",
+    "start": 18.78,
+    "end": 19.16
+  },
+  {
+    "word": "Mr.",
+    "start": 19.16,
+    "end": 19.36
+  },
+  {
+    "word": "Bameses,",
+    "start": 19.56,
+    "end": 19.82
+  },
+  {
+    "word": "Benjamin",
+    "start": 20.26,
+    "end": 20.36
+  },
+  {
+    "word": "Tai,",
+    "start": 20.36,
+    "end": 20.7
+  },
+  {
+    "word": "Mr.",
+    "start": 21.18,
+    "end": 21.18
+  },
+  {
+    "word": "Peter",
+    "start": 21.38,
+    "end": 21.52
+  },
+  {
+    "word": "Okazini",
+    "start": 21.52,
+    "end": 21.9
+  },
+  {
+    "word": "Tai,",
+    "start": 21.9,
+    "end": 22.12
+  },
+  {
+    "word": "Mr.",
+    "start": 22.58,
+    "end": 22.58
+  },
+  {
+    "word": "Givina",
+    "start": 22.8,
+    "end": 22.98
+  },
+  {
+    "word": "Babakliwatai,",
+    "start": 22.98,
+    "end": 23.68
+  },
+  {
+    "word": "and",
+    "start": 23.78,
+    "end": 23.78
+  },
+  {
+    "word": "Ms.",
+    "start": 23.78,
+    "end": 23.88
+  },
+  {
+    "word": "Debra",
+    "start": 24.22,
+    "end": 24.36
+  },
+  {
+    "word": "Jai,",
+    "start": 24.36,
+    "end": 24.6
+  },
+  {
+    "word": "Maranja",
+    "start": 24.86,
+    "end": 25.06
+  },
+  {
+    "word": "Tai",
+    "start": 25.06,
+    "end": 25.24
+  },
+  {
+    "word": "Editor's",
+    "start": 25.24,
+    "end": 25.66
+  },
+  {
+    "word": "Doctor.",
+    "start": 25.66,
+    "end": 25.76
+  },
+  {
+    "word": "Danes",
+    "start": 25.76,
+    "end": 26.7
+  },
+  {
+    "word": "N.",
+    "start": 26.7,
+    "end": 26.8
+  },
+  {
+    "word": "Sanga",
+    "start": 26.92,
+    "end": 27.16
+  },
+  {
+    "word": "-Uzim,",
+    "start": 27.16,
+    "end": 27.46
+  },
+  {
+    "word": "Dr.",
+    "start": 27.54,
+    "end": 27.62
+  },
+  {
+    "word": "Kiyago",
+    "start": 27.86,
+    "end": 28.06
+  },
+  {
+    "word": "B.",
+    "start": 28.06,
+    "end": 28.26
+  },
+  {
+    "word": "Kalanzo",
+    "start": 28.38,
+    "end": 28.7
+  },
+  {
+    "word": "-Uzim,",
+    "start": 28.7,
+    "end": 29.0
+  },
+  {
+    "word": "Dr.",
+    "start": 29.08,
+    "end": 29.16
+  },
+  {
+    "word": "Kosomo",
+    "start": 29.56,
+    "end": 29.74
+  },
+  {
+    "word": "Ismakalyu",
+    "start": 29.74,
+    "end": 30.26
+  },
+  {
+    "word": "Retired",
+    "start": 30.26,
+    "end": 30.56
+  },
+  {
+    "word": "-Uzim,",
+    "start": 30.56,
+    "end": 30.9
+  },
+  {
+    "word": "Dr.",
+    "start": 31.2,
+    "end": 31.24
+  },
+  {
+    "word": "Leonard",
+    "start": 31.52,
+    "end": 31.56
+  },
+  {
+    "word": "C.,",
+    "start": 31.56,
+    "end": 32.02
+  },
+  {
+    "word": "Wennessi",
+    "start": 32.02,
+    "end": 32.4
+  },
+  {
+    "word": "-Uzim,",
+    "start": 32.4,
+    "end": 32.72
+  },
+  {
+    "word": "Dr.",
+    "start": 32.86,
+    "end": 33.06
+  },
+  {
+    "word": "Ismeland,",
+    "start": 33.32,
+    "end": 33.62
+  },
+  {
+    "word": "Hongani",
+    "start": 33.88,
+    "end": 34.2
+  },
+  {
+    "word": "-Uzim,",
+    "start": 34.2,
+    "end": 34.6
+  },
+  {
+    "word": "Mr.",
+    "start": 34.88,
+    "end": 34.92
+  },
+  {
+    "word": "James",
+    "start": 35.08,
+    "end": 35.2
+  },
+  {
+    "word": "Peo",
+    "start": 35.2,
+    "end": 35.48
+  },
+  {
+    "word": "-Vellatai,",
+    "start": 35.48,
+    "end": 35.82
+  },
+  {
+    "word": "Mr.",
+    "start": 36.2,
+    "end": 36.2
+  },
+  {
+    "word": "Victor",
+    "start": 36.38,
+    "end": 36.48
+  },
+  {
+    "word": "K.,",
+    "start": 36.48,
+    "end": 36.96
+  },
+  {
+    "word": "Nudalamaskar",
+    "start": 36.96,
+    "end": 37.62
+  },
+  {
+    "word": "-Urombo,",
+    "start": 37.62,
+    "end": 38.0
+  },
+  {
+    "word": "Mr.",
+    "start": 38.3,
+    "end": 38.48
+  },
+  {
+    "word": "Beno",
+    "start": 38.58,
+    "end": 38.78
+  },
+  {
+    "word": "-El,",
+    "start": 38.78,
+    "end": 38.9
+  },
+  {
+    "word": "Malenga",
+    "start": 39.22,
+    "end": 39.52
+  },
+  {
+    "word": "Kedangali",
+    "start": 39.52,
+    "end": 39.86
+  },
+  {
+    "word": "-TS,",
+    "start": 39.86,
+    "end": 40.12
+  },
+  {
+    "word": "and",
+    "start": 40.36,
+    "end": 40.36
+  },
+  {
+    "word": "Mr.",
+    "start": 40.36,
+    "end": 40.48
+  },
+  {
+    "word": "Celestine",
+    "start": 40.76,
+    "end": 40.94
+  },
+  {
+    "word": "N.",
+    "start": 40.94,
+    "end": 41.16
+  },
+  {
+    "word": "Kasaba",
+    "start": 41.32,
+    "end": 41.5
+  },
+  {
+    "word": "-Rider",
+    "start": 41.5,
+    "end": 41.76
+  },
+  {
+    "word": "-Butimatias",
+    "start": 41.76,
+    "end": 42.42
+  },
+  {
+    "word": "Designer,",
+    "start": 42.42,
+    "end": 42.66
+  },
+  {
+    "word": "Mr.",
+    "start": 42.96,
+    "end": 43.0
+  },
+  {
+    "word": "Hamiesia,",
+    "start": 43.24,
+    "end": 43.54
+  },
+  {
+    "word": "Kumbuka",
+    "start": 43.82,
+    "end": 44.2
+  },
+  {
+    "word": "Illustrator,",
+    "start": 44.2,
+    "end": 44.62
+  },
+  {
+    "word": "Mr.",
+    "start": 44.8,
+    "end": 44.92
+  },
+  {
+    "word": "Ficariya",
+    "start": 45.08,
+    "end": 45.36
+  },
+  {
+    "word": "-Mismitai,",
+    "start": 45.36,
+    "end": 45.82
+  },
+  {
+    "word": "Mr.",
+    "start": 46.14,
+    "end": 46.26
+  },
+  {
+    "word": "Hans",
+    "start": 46.42,
+    "end": 46.52
+  },
+  {
+    "word": "E.,",
+    "start": 46.52,
+    "end": 47.02
+  },
+  {
+    "word": "Wertai",
+    "start": 47.02,
+    "end": 47.34
+  },
+  {
+    "word": "and",
+    "start": 47.34,
+    "end": 47.44
+  },
+  {
+    "word": "Mr.",
+    "start": 47.44,
+    "end": 47.66
+  },
+  {
+    "word": "Johanope,",
+    "start": 47.8,
+    "end": 48.08
+  },
+  {
+    "word": "Wanda",
+    "start": 48.52,
+    "end": 48.68
+  },
+  {
+    "word": "Coordinators,",
+    "start": 48.68,
+    "end": 49.12
+  },
+  {
+    "word": "Mr.",
+    "start": 49.44,
+    "end": 49.54
+  },
+  {
+    "word": "Bameses,",
+    "start": 49.64,
+    "end": 49.88
+  },
+  {
+    "word": "Benjamin",
+    "start": 50.32,
+    "end": 50.52
+  },
+  {
+    "word": "Tai",
+    "start": 50.52,
+    "end": 50.78
+  },
+  {
+    "word": "and",
+    "start": 50.78,
+    "end": 50.94
+  },
+  {
+    "word": "Peter",
+    "start": 50.94,
+    "end": 51.1
+  },
+  {
+    "word": "O.,",
+    "start": 51.1,
+    "end": 51.6
+  },
+  {
+    "word": "Kazini",
+    "start": 51.6,
+    "end": 51.78
+  },
+  {
+    "word": "Tai",
+    "start": 51.78,
+    "end": 52.0
+  },
+  {
+    "word": "also",
+    "start": 52.0,
+    "end": 52.28
+  },
+  {
+    "word": "appreciates",
+    "start": 52.28,
+    "end": 52.82
+  },
+  {
+    "word": "contributions",
+    "start": 52.82,
+    "end": 53.0
+  },
+  {
+    "word": "from",
+    "start": 53.0,
+    "end": 53.58
+  },
+  {
+    "word": "the",
+    "start": 53.58,
+    "end": 53.72
+  },
+  {
+    "word": "primary",
+    "start": 53.72,
+    "end": 53.94
+  },
+  {
+    "word": "school",
+    "start": 53.94,
+    "end": 54.24
+  },
+  {
+    "word": "teachers",
+    "start": 54.24,
+    "end": 54.52
+  },
+  {
+    "word": "and",
+    "start": 54.52,
+    "end": 54.76
+  },
+  {
+    "word": "pupils",
+    "start": 54.76,
+    "end": 54.92
+  },
+  {
+    "word": "who",
+    "start": 54.92,
+    "end": 55.26
+  },
+  {
+    "word": "participate.",
+    "start": 55.26,
+    "end": 55.46
+  },
+  {
+    "word": "Likewise,",
+    "start": 57.08,
+    "end": 57.52
+  },
+  {
+    "word": "the",
+    "start": 58.2,
+    "end": 58.36
+  },
+  {
+    "word": "Institute",
+    "start": 58.36,
+    "end": 58.64
+  },
+  {
+    "word": "would",
+    "start": 58.64,
+    "end": 58.86
+  },
+  {
+    "word": "like",
+    "start": 58.86,
+    "end": 59.0
+  },
+  {
+    "word": "to",
+    "start": 59.0,
+    "end": 59.12
+  },
+  {
+    "word": "thank",
+    "start": 59.12,
+    "end": 59.28
+  },
+  {
+    "word": "the",
+    "start": 59.28,
+    "end": 59.44
+  },
+  {
+    "word": "Government",
+    "start": 59.44,
+    "end": 59.64
+  },
+  {
+    "word": "of",
+    "start": 59.64,
+    "end": 59.88
+  },
+  {
+    "word": "the",
+    "start": 59.88,
+    "end": 59.98
+  },
+  {
+    "word": "United",
+    "start": 59.98,
+    "end": 60.12
+  },
+  {
+    "word": "Republic",
+    "start": 60.12,
+    "end": 60.54
+  },
+  {
+    "word": "of",
+    "start": 60.54,
+    "end": 60.76
+  },
+  {
+    "word": "Tanzania",
+    "start": 60.76,
+    "end": 60.96
+  },
+  {
+    "word": "for",
+    "start": 60.96,
+    "end": 61.4
+  },
+  {
+    "word": "facilitating",
+    "start": 61.4,
+    "end": 61.68
+  },
+  {
+    "word": "the",
+    "start": 61.68,
+    "end": 62.06
+  },
+  {
+    "word": "writing",
+    "start": 62.06,
+    "end": 62.24
+  },
+  {
+    "word": "and",
+    "start": 62.24,
+    "end": 62.46
+  },
+  {
+    "word": "printing",
+    "start": 62.46,
+    "end": 62.68
+  },
+  {
+    "word": "of",
+    "start": 62.68,
+    "end": 62.9
+  },
+  {
+    "word": "this",
+    "start": 62.9,
+    "end": 63.04
+  },
+  {
+    "word": "textbook.",
+    "start": 63.04,
+    "end": 63.44
+  },
+  {
+    "word": "Drive",
+    "start": 63.76,
+    "end": 63.92
+  },
+  {
+    "word": "Enith",
+    "start": 63.92,
+    "end": 64.22
+  },
+  {
+    "word": "a",
+    "start": 64.22,
+    "end": 64.3
+  },
+  {
+    "word": "Comba",
+    "start": 64.3,
+    "end": 64.6
+  },
+  {
+    "word": "Director",
+    "start": 64.6,
+    "end": 64.78
+  },
+  {
+    "word": "General",
+    "start": 64.78,
+    "end": 65.14
+  },
+  {
+    "word": "Tanzania",
+    "start": 65.14,
+    "end": 65.42
+  },
+  {
+    "word": "Institute",
+    "start": 65.42,
+    "end": 65.94
+  },
+  {
+    "word": "of",
+    "start": 65.94,
+    "end": 66.7
+  },
+  {
+    "word": "Education.",
+    "start": 66.7,
+    "end": 66.7
+  }
+]

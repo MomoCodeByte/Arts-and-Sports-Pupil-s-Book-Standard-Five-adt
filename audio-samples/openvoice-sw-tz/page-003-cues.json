@@ -1,0 +1,1222 @@
+[
+  {
+    "word": "You",
+    "start": 0.0,
+    "end": 0.16
+  },
+  {
+    "word": "eat",
+    "start": 0.16,
+    "end": 0.26
+  },
+  {
+    "word": "nomad",
+    "start": 0.26,
+    "end": 0.6
+  },
+  {
+    "word": "and",
+    "start": 0.6,
+    "end": 0.68
+  },
+  {
+    "word": "sense",
+    "start": 0.68,
+    "end": 1.42
+  },
+  {
+    "word": "the",
+    "start": 1.42,
+    "end": 2.94
+  },
+  {
+    "word": "introduction",
+    "start": 2.94,
+    "end": 3.3
+  },
+  {
+    "word": "is",
+    "start": 3.3,
+    "end": 3.56
+  },
+  {
+    "word": "if",
+    "start": 3.56,
+    "end": 4.18
+  },
+  {
+    "word": "I",
+    "start": 4.18,
+    "end": 6.66
+  },
+  {
+    "word": "chapter",
+    "start": 6.66,
+    "end": 6.82
+  },
+  {
+    "word": "one",
+    "start": 6.82,
+    "end": 7.16
+  },
+  {
+    "word": "has",
+    "start": 7.16,
+    "end": 8.14
+  },
+  {
+    "word": "been",
+    "start": 8.14,
+    "end": 8.86
+  },
+  {
+    "word": "to",
+    "start": 8.86,
+    "end": 9.06
+  },
+  {
+    "word": "one",
+    "start": 9.06,
+    "end": 10.4
+  },
+  {
+    "word": "acting",
+    "start": 10.4,
+    "end": 10.64
+  },
+  {
+    "word": "as",
+    "start": 11.31,
+    "end": 11.66
+  },
+  {
+    "word": "all",
+    "start": 11.66,
+    "end": 12.06
+  },
+  {
+    "word": "-g",
+    "start": 12.06,
+    "end": 13.36
+  },
+  {
+    "word": "My",
+    "start": 13.36,
+    "end": 13.8
+  },
+  {
+    "word": "one",
+    "start": 14.35,
+    "end": 14.7
+  },
+  {
+    "word": "concept",
+    "start": 14.7,
+    "end": 14.94
+  },
+  {
+    "word": "of",
+    "start": 14.94,
+    "end": 15.18
+  },
+  {
+    "word": "drama,",
+    "start": 15.18,
+    "end": 15.36
+  },
+  {
+    "word": "an",
+    "start": 15.36,
+    "end": 15.58
+  },
+  {
+    "word": "acting",
+    "start": 15.58,
+    "end": 15.78
+  },
+  {
+    "word": "has",
+    "start": 15.78,
+    "end": 15.98
+  },
+  {
+    "word": "us",
+    "start": 15.98,
+    "end": 16.9
+  },
+  {
+    "word": "one",
+    "start": 17.51,
+    "end": 17.86
+  },
+  {
+    "word": "types",
+    "start": 17.86,
+    "end": 18.18
+  },
+  {
+    "word": "of",
+    "start": 18.18,
+    "end": 18.4
+  },
+  {
+    "word": "acting",
+    "start": 18.4,
+    "end": 18.64
+  },
+  {
+    "word": "you",
+    "start": 18.64,
+    "end": 19.48
+  },
+  {
+    "word": "see",
+    "start": 19.48,
+    "end": 20.18
+  },
+  {
+    "word": "the",
+    "start": 20.18,
+    "end": 20.98
+  },
+  {
+    "word": "two",
+    "start": 20.98,
+    "end": 21.7
+  },
+  {
+    "word": "chapter",
+    "start": 21.7,
+    "end": 22.02
+  },
+  {
+    "word": "two",
+    "start": 22.02,
+    "end": 22.28
+  },
+  {
+    "word": "asked",
+    "start": 22.28,
+    "end": 22.86
+  },
+  {
+    "word": "scene",
+    "start": 22.86,
+    "end": 23.68
+  },
+  {
+    "word": "see",
+    "start": 23.68,
+    "end": 24.7
+  },
+  {
+    "word": "the",
+    "start": 24.7,
+    "end": 25.32
+  },
+  {
+    "word": "twelve",
+    "start": 25.32,
+    "end": 25.64
+  },
+  {
+    "word": "singing",
+    "start": 25.64,
+    "end": 25.94
+  },
+  {
+    "word": "in",
+    "start": 25.94,
+    "end": 26.14
+  },
+  {
+    "word": "music",
+    "start": 26.14,
+    "end": 26.32
+  },
+  {
+    "word": "instruments",
+    "start": 26.32,
+    "end": 26.74
+  },
+  {
+    "word": "instruments",
+    "start": 26.74,
+    "end": 26.92
+  },
+  {
+    "word": "in",
+    "start": 26.92,
+    "end": 27.06
+  },
+  {
+    "word": "A",
+    "start": 27.06,
+    "end": 27.22
+  },
+  {
+    "word": ".L.",
+    "start": 27.22,
+    "end": 27.38
+  },
+  {
+    "word": "This",
+    "start": 27.84,
+    "end": 28.26
+  },
+  {
+    "word": "is",
+    "start": 28.26,
+    "end": 28.46
+  },
+  {
+    "word": "in",
+    "start": 28.46,
+    "end": 28.6
+  },
+  {
+    "word": "12",
+    "start": 28.6,
+    "end": 28.8
+  },
+  {
+    "word": "musical",
+    "start": 28.8,
+    "end": 29.04
+  },
+  {
+    "word": "dynamics.",
+    "start": 29.04,
+    "end": 29.4
+  },
+  {
+    "word": "T",
+    "start": 29.92,
+    "end": 30.06
+  },
+  {
+    "word": ".C",
+    "start": 30.06,
+    "end": 30.8
+  },
+  {
+    "word": ".A",
+    "start": 30.8,
+    "end": 31.04
+  },
+  {
+    "word": ".T.",
+    "start": 31.04,
+    "end": 31.14
+  },
+  {
+    "word": "Yeah,",
+    "start": 31.32,
+    "end": 31.48
+  },
+  {
+    "word": "yeah.",
+    "start": 31.76,
+    "end": 31.76
+  },
+  {
+    "word": "In",
+    "start": 32.16,
+    "end": 32.3
+  },
+  {
+    "word": "12",
+    "start": 32.3,
+    "end": 32.46
+  },
+  {
+    "word": "voice",
+    "start": 32.46,
+    "end": 32.7
+  },
+  {
+    "word": "balancing,",
+    "start": 32.7,
+    "end": 32.96
+  },
+  {
+    "word": "16.",
+    "start": 33.18,
+    "end": 33.3
+  },
+  {
+    "word": "T",
+    "start": 34.32,
+    "end": 34.46
+  },
+  {
+    "word": ".A",
+    "start": 34.46,
+    "end": 34.64
+  },
+  {
+    "word": ".S",
+    "start": 34.64,
+    "end": 34.84
+  },
+  {
+    "word": ".C",
+    "start": 34.84,
+    "end": 35.3
+  },
+  {
+    "word": ".A",
+    "start": 35.3,
+    "end": 35.52
+  },
+  {
+    "word": ".S.",
+    "start": 35.52,
+    "end": 35.54
+  },
+  {
+    "word": "It's",
+    "start": 35.54,
+    "end": 35.84
+  },
+  {
+    "word": "14",
+    "start": 35.84,
+    "end": 36.06
+  },
+  {
+    "word": "-sulfasing",
+    "start": 36.06,
+    "end": 36.52
+  },
+  {
+    "word": "in",
+    "start": 36.52,
+    "end": 36.7
+  },
+  {
+    "word": "that...",
+    "start": 36.7,
+    "end": 37.42
+  },
+  {
+    "word": "T",
+    "start": 37.42,
+    "end": 38.32
+  },
+  {
+    "word": ".C",
+    "start": 38.32,
+    "end": 38.32
+  },
+  {
+    "word": ".A",
+    "start": 38.32,
+    "end": 38.32
+  },
+  {
+    "word": ".S",
+    "start": 38.32,
+    "end": 38.32
+  },
+  {
+    "word": ".C",
+    "start": 38.32,
+    "end": 38.64
+  },
+  {
+    "word": ".A",
+    "start": 38.64,
+    "end": 39.36
+  },
+  {
+    "word": ".S.",
+    "start": 39.36,
+    "end": 39.54
+  },
+  {
+    "word": "This",
+    "start": 39.58,
+    "end": 39.64
+  },
+  {
+    "word": "is",
+    "start": 39.64,
+    "end": 39.66
+  },
+  {
+    "word": "15",
+    "start": 39.66,
+    "end": 40.42
+  },
+  {
+    "word": "musical",
+    "start": 40.42,
+    "end": 40.8
+  },
+  {
+    "word": "instruments",
+    "start": 40.8,
+    "end": 41.32
+  },
+  {
+    "word": "in",
+    "start": 41.32,
+    "end": 41.5
+  },
+  {
+    "word": "Solvis",
+    "start": 41.5,
+    "end": 41.78
+  },
+  {
+    "word": "Inhil.",
+    "start": 41.78,
+    "end": 42.06
+  },
+  {
+    "word": "Unhau.",
+    "start": 42.38,
+    "end": 42.86
+  },
+  {
+    "word": "T",
+    "start": 43.2,
+    "end": 43.26
+  },
+  {
+    "word": ".C",
+    "start": 43.26,
+    "end": 49.74
+  },
+  {
+    "word": ".A",
+    "start": 49.74,
+    "end": 49.98
+  },
+  {
+    "word": ".T.",
+    "start": 49.98,
+    "end": 50.22
+  },
+  {
+    "word": "The",
+    "start": 50.22,
+    "end": 50.22
+  },
+  {
+    "word": "twenty",
+    "start": 50.22,
+    "end": 51.54
+  },
+  {
+    "word": "-two",
+    "start": 51.54,
+    "end": 51.8
+  },
+  {
+    "word": "drawing",
+    "start": 51.8,
+    "end": 51.96
+  },
+  {
+    "word": "images",
+    "start": 51.96,
+    "end": 52.26
+  },
+  {
+    "word": "that",
+    "start": 52.26,
+    "end": 52.5
+  },
+  {
+    "word": "express",
+    "start": 52.5,
+    "end": 52.74
+  },
+  {
+    "word": "emotions",
+    "start": 52.74,
+    "end": 53.02
+  },
+  {
+    "word": "and",
+    "start": 53.02,
+    "end": 53.38
+  },
+  {
+    "word": "situations...",
+    "start": 53.38,
+    "end": 54.18
+  },
+  {
+    "word": "T",
+    "start": 54.18,
+    "end": 54.58
+  },
+  {
+    "word": ".C",
+    "start": 54.58,
+    "end": 55.24
+  },
+  {
+    "word": ".A",
+    "start": 55.24,
+    "end": 55.42
+  },
+  {
+    "word": ".S",
+    "start": 55.42,
+    "end": 55.42
+  },
+  {
+    "word": ".C",
+    "start": 55.42,
+    "end": 55.42
+  },
+  {
+    "word": ".S.",
+    "start": 55.42,
+    "end": 55.62
+  },
+  {
+    "word": "T",
+    "start": 55.98,
+    "end": 55.98
+  },
+  {
+    "word": ".C",
+    "start": 55.98,
+    "end": 56.54
+  },
+  {
+    "word": ".A",
+    "start": 56.54,
+    "end": 57.4
+  },
+  {
+    "word": ".S.",
+    "start": 57.4,
+    "end": 58.4
+  },
+  {
+    "word": "T",
+    "start": 59.06,
+    "end": 59.06
+  },
+  {
+    "word": ".C",
+    "start": 59.06,
+    "end": 59.32
+  },
+  {
+    "word": ".A",
+    "start": 59.32,
+    "end": 59.32
+  },
+  {
+    "word": ".S.",
+    "start": 59.32,
+    "end": 59.32
+  },
+  {
+    "word": "T",
+    "start": 59.32,
+    "end": 59.32
+  },
+  {
+    "word": ".C",
+    "start": 59.32,
+    "end": 59.38
+  },
+  {
+    "word": ".A",
+    "start": 59.38,
+    "end": 59.46
+  },
+  {
+    "word": ".S.",
+    "start": 59.46,
+    "end": 59.46
+  },
+  {
+    "word": "T",
+    "start": 59.46,
+    "end": 59.46
+  },
+  {
+    "word": ".C",
+    "start": 59.46,
+    "end": 59.46
+  },
+  {
+    "word": ".A",
+    "start": 59.46,
+    "end": 59.54
+  },
+  {
+    "word": ".S.",
+    "start": 59.54,
+    "end": 59.54
+  },
+  {
+    "word": "T",
+    "start": 59.54,
+    "end": 59.54
+  },
+  {
+    "word": ".C",
+    "start": 59.54,
+    "end": 59.54
+  },
+  {
+    "word": ".A",
+    "start": 59.54,
+    "end": 59.6
+  },
+  {
+    "word": ".S.",
+    "start": 59.6,
+    "end": 59.74
+  },
+  {
+    "word": "T",
+    "start": 59.74,
+    "end": 59.74
+  },
+  {
+    "word": ".C",
+    "start": 59.74,
+    "end": 59.74
+  },
+  {
+    "word": ".A",
+    "start": 59.74,
+    "end": 60.38
+  },
+  {
+    "word": ".S.",
+    "start": 60.38,
+    "end": 60.38
+  },
+  {
+    "word": "T",
+    "start": 60.94,
+    "end": 60.94
+  },
+  {
+    "word": ".C",
+    "start": 60.94,
+    "end": 61.24
+  },
+  {
+    "word": ".A",
+    "start": 61.24,
+    "end": 62.36
+  },
+  {
+    "word": ".S.",
+    "start": 62.36,
+    "end": 62.36
+  },
+  {
+    "word": "And",
+    "start": 62.66,
+    "end": 62.66
+  },
+  {
+    "word": "thirty",
+    "start": 62.66,
+    "end": 63.18
+  },
+  {
+    "word": "-three",
+    "start": 63.18,
+    "end": 63.42
+  },
+  {
+    "word": "shadows.",
+    "start": 63.42,
+    "end": 63.58
+  },
+  {
+    "word": "T",
+    "start": 65.06,
+    "end": 65.06
+  },
+  {
+    "word": ".C",
+    "start": 65.06,
+    "end": 65.96
+  },
+  {
+    "word": ".A",
+    "start": 65.96,
+    "end": 66.16
+  },
+  {
+    "word": ".S.",
+    "start": 66.16,
+    "end": 66.16
+  },
+  {
+    "word": "T",
+    "start": 66.62,
+    "end": 66.62
+  },
+  {
+    "word": ".C",
+    "start": 66.62,
+    "end": 66.64
+  },
+  {
+    "word": ".A",
+    "start": 66.64,
+    "end": 66.84
+  },
+  {
+    "word": ".S.",
+    "start": 66.84,
+    "end": 66.86
+  },
+  {
+    "word": "The",
+    "start": 66.86,
+    "end": 67.02
+  },
+  {
+    "word": "thirty",
+    "start": 67.02,
+    "end": 67.1
+  },
+  {
+    "word": "-seven",
+    "start": 67.1,
+    "end": 67.38
+  },
+  {
+    "word": "ballonset...",
+    "start": 67.38,
+    "end": 68.04
+  },
+  {
+    "word": "T",
+    "start": 68.04,
+    "end": 68.72
+  },
+  {
+    "word": ".C",
+    "start": 68.72,
+    "end": 69.2
+  },
+  {
+    "word": ".A",
+    "start": 69.2,
+    "end": 69.2
+  },
+  {
+    "word": ".S",
+    "start": 69.2,
+    "end": 69.3
+  },
+  {
+    "word": ".C",
+    "start": 69.3,
+    "end": 69.84
+  },
+  {
+    "word": ".A",
+    "start": 69.84,
+    "end": 69.94
+  },
+  {
+    "word": ".S.",
+    "start": 69.94,
+    "end": 70.02
+  },
+  {
+    "word": "T",
+    "start": 72.88,
+    "end": 73.46
+  },
+  {
+    "word": ".C",
+    "start": 73.46,
+    "end": 74.04
+  },
+  {
+    "word": ".A",
+    "start": 74.04,
+    "end": 74.04
+  },
+  {
+    "word": ".S.",
+    "start": 74.04,
+    "end": 74.14
+  },
+  {
+    "word": "T",
+    "start": 75.18,
+    "end": 75.18
+  },
+  {
+    "word": ".C",
+    "start": 75.18,
+    "end": 75.66
+  },
+  {
+    "word": ".A",
+    "start": 75.66,
+    "end": 75.66
+  },
+  {
+    "word": ".S.",
+    "start": 75.66,
+    "end": 76.42
+  },
+  {
+    "word": "T",
+    "start": 76.44,
+    "end": 77.02
+  },
+  {
+    "word": ".C",
+    "start": 77.02,
+    "end": 78.88
+  },
+  {
+    "word": ".A",
+    "start": 78.88,
+    "end": 79.18
+  },
+  {
+    "word": ".S.",
+    "start": 79.18,
+    "end": 80.3
+  },
+  {
+    "word": "T",
+    "start": 80.3,
+    "end": 80.3
+  },
+  {
+    "word": ".C",
+    "start": 80.3,
+    "end": 80.72
+  },
+  {
+    "word": ".A",
+    "start": 80.72,
+    "end": 80.92
+  },
+  {
+    "word": ".S.",
+    "start": 80.92,
+    "end": 81.46
+  },
+  {
+    "word": "T",
+    "start": 81.54,
+    "end": 81.54
+  },
+  {
+    "word": ".C",
+    "start": 81.54,
+    "end": 81.54
+  },
+  {
+    "word": ".A",
+    "start": 81.54,
+    "end": 81.76
+  },
+  {
+    "word": ".S.",
+    "start": 81.76,
+    "end": 81.86
+  },
+  {
+    "word": "T",
+    "start": 82.1,
+    "end": 82.16
+  },
+  {
+    "word": ".C",
+    "start": 82.16,
+    "end": 83.0
+  },
+  {
+    "word": ".A",
+    "start": 83.0,
+    "end": 83.02
+  },
+  {
+    "word": ".S",
+    "start": 83.02,
+    "end": 83.84
+  },
+  {
+    "word": ".D",
+    "start": 83.84,
+    "end": 84.82
+  },
+  {
+    "word": "T",
+    "start": 84.82,
+    "end": 85.02
+  },
+  {
+    "word": ".C",
+    "start": 85.02,
+    "end": 85.42
+  },
+  {
+    "word": ".A",
+    "start": 85.42,
+    "end": 85.66
+  },
+  {
+    "word": ".S.",
+    "start": 85.66,
+    "end": 85.9
+  },
+  {
+    "word": "D",
+    "start": 86.28,
+    "end": 86.28
+  },
+  {
+    "word": ".C",
+    "start": 86.28,
+    "end": 86.48
+  },
+  {
+    "word": ".A",
+    "start": 86.48,
+    "end": 86.48
+  },
+  {
+    "word": ".S.",
+    "start": 86.48,
+    "end": 86.66
+  },
+  {
+    "word": "T",
+    "start": 86.76,
+    "end": 86.76
+  },
+  {
+    "word": ".C",
+    "start": 86.76,
+    "end": 87.2
+  },
+  {
+    "word": ".A",
+    "start": 87.2,
+    "end": 87.48
+  },
+  {
+    "word": ".S.",
+    "start": 87.48,
+    "end": 87.7
+  },
+  {
+    "word": "Inhil.",
+    "start": 88.32,
+    "end": 88.9
+  },
+  {
+    "word": "T",
+    "start": 88.9,
+    "end": 88.9
+  },
+  {
+    "word": ".C",
+    "start": 88.9,
+    "end": 88.98
+  },
+  {
+    "word": ".A",
+    "start": 88.98,
+    "end": 88.98
+  },
+  {
+    "word": ".S.",
+    "start": 88.98,
+    "end": 89.08
+  },
+  {
+    "word": "T",
+    "start": 89.72,
+    "end": 89.72
+  },
+  {
+    "word": ".C",
+    "start": 89.72,
+    "end": 90.58
+  },
+  {
+    "word": ".A",
+    "start": 90.58,
+    "end": 90.58
+  },
+  {
+    "word": ".S.",
+    "start": 90.58,
+    "end": 90.58
+  },
+  {
+    "word": "T",
+    "start": 90.58,
+    "end": 90.88
+  },
+  {
+    "word": ".C",
+    "start": 90.88,
+    "end": 90.88
+  },
+  {
+    "word": ".A",
+    "start": 90.88,
+    "end": 90.9
+  },
+  {
+    "word": ".S.",
+    "start": 90.9,
+    "end": 90.94
+  },
+  {
+    "word": "It's",
+    "start": 91.92,
+    "end": 92.18
+  },
+  {
+    "word": "43",
+    "start": 92.18,
+    "end": 94.36
+  },
+  {
+    "word": "decorating",
+    "start": 94.36,
+    "end": 94.98
+  },
+  {
+    "word": "the",
+    "start": 94.98,
+    "end": 95.1
+  },
+  {
+    "word": "clay",
+    "start": 95.1,
+    "end": 95.24
+  },
+  {
+    "word": "pots.",
+    "start": 95.24,
+    "end": 95.46
+  },
+  {
+    "word": "See,",
+    "start": 95.66,
+    "end": 96.06
+  },
+  {
+    "word": "it's",
+    "start": 96.24,
+    "end": 96.64
+  },
+  {
+    "word": "47",
+    "start": 96.64,
+    "end": 97.1
+  },
+  {
+    "word": "firing",
+    "start": 97.1,
+    "end": 99.02
+  },
+  {
+    "word": "the",
+    "start": 99.02,
+    "end": 99.22
+  },
+  {
+    "word": "clay",
+    "start": 99.22,
+    "end": 99.38
+  },
+  {
+    "word": "pots.",
+    "start": 99.38,
+    "end": 99.6
+  },
+  {
+    "word": "See,",
+    "start": 99.96,
+    "end": 100.36
+  },
+  {
+    "word": "today's",
+    "start": 100.96,
+    "end": 101.78
+  },
+  {
+    "word": "51",
+    "start": 101.78,
+    "end": 102.82
+  },
+  {
+    "word": "glazing",
+    "start": 102.82,
+    "end": 103.18
+  },
+  {
+    "word": "clay",
+    "start": 103.18,
+    "end": 103.48
+  },
+  {
+    "word": "objects.",
+    "start": 103.48,
+    "end": 103.7
+  },
+  {
+    "word": "Uh,",
+    "start": 104.1,
+    "end": 104.24
+  },
+  {
+    "word": "see,",
+    "start": 105.92,
+    "end": 105.92
+  },
+  {
+    "word": "did",
+    "start": 106.24,
+    "end": 106.56
+  },
+  {
+    "word": "the",
+    "start": 106.56,
+    "end": 106.7
+  },
+  {
+    "word": "52",
+    "start": 106.7,
+    "end": 106.96
+  },
+  {
+    "word": "table",
+    "start": 106.96,
+    "end": 107.3
+  },
+  {
+    "word": "of",
+    "start": 107.3,
+    "end": 107.5
+  },
+  {
+    "word": "contents.",
+    "start": 107.5,
+    "end": 107.7
+  }
+]

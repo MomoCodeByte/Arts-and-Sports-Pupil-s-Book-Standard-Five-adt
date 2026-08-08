@@ -1,0 +1,67 @@
+[
+  {
+    "word": "Arts",
+    "start": 0.0,
+    "end": 0.2
+  },
+  {
+    "word": "and",
+    "start": 0.2,
+    "end": 0.38
+  },
+  {
+    "word": "Sports",
+    "start": 0.38,
+    "end": 0.58
+  },
+  {
+    "word": "pupils",
+    "start": 0.58,
+    "end": 0.88
+  },
+  {
+    "word": "book",
+    "start": 0.88,
+    "end": 1.18
+  },
+  {
+    "word": "Tuzzy",
+    "start": 1.18,
+    "end": 1.5
+  },
+  {
+    "word": "Cialimatinzania",
+    "start": 1.5,
+    "end": 2.3
+  },
+  {
+    "word": "standard",
+    "start": 2.3,
+    "end": 2.6
+  },
+  {
+    "word": "5",
+    "start": 2.6,
+    "end": 2.86
+  },
+  {
+    "word": "-10zania",
+    "start": 2.86,
+    "end": 3.34
+  },
+  {
+    "word": "Institute",
+    "start": 3.34,
+    "end": 3.52
+  },
+  {
+    "word": "of",
+    "start": 3.52,
+    "end": 3.8
+  },
+  {
+    "word": "Education.",
+    "start": 3.8,
+    "end": 4.1
+  }
+]

@@ -15,27 +15,26 @@
   const spokenWords = words.map((node) => node.textContent.trim());
   const text = spokenWords.join(' ');
   const starts = [];
-  const playbackWeights = [];
   let offset = 0;
-  let totalPlaybackWeight = 0;
   spokenWords.forEach((word) => {
     starts.push(offset);
     offset += word.length + 1;
-    // Longer words need more speech time. The small constant accounts for
-    // the pause between words and keeps short words from flashing too fast.
-    totalPlaybackWeight += Math.max(2.5, word.replace(/[^A-Za-z0-9]/g, '').length + 0.8);
-    playbackWeights.push(totalPlaybackWeight);
   });
   let active = null;
   let pageAudio = null;
   let animationFrame = null;
   let isReading = false;
+  let timedCues = [];
+  let cueWordMap = [];
 
   const sectionId = document.querySelector('[data-section-id^="pg"]')?.dataset.sectionId || '';
   const pageMatch = sectionId.match(/^pg(\d{3})_/);
   const pageNumber = pageMatch ? Number(pageMatch[1]) : 0;
   const recordedAudio = pageNumber >= 1 && pageNumber <= 5
     ? `audio-samples/openvoice-sw-tz/page-${String(pageNumber).padStart(3, '0')}-sample.wav`
+    : null;
+  const recordedCues = pageNumber >= 1 && pageNumber <= 5
+    ? `audio-samples/openvoice-sw-tz/page-${String(pageNumber).padStart(3, '0')}-cues.json`
     : null;
 
   function clearHighlight() {
@@ -56,18 +55,42 @@
     clearHighlight();
   }
 
-  function highlightRecordedAudio() {
-    if (!pageAudio || !Number.isFinite(pageAudio.duration) || pageAudio.duration <= 0) return;
-    const progress = Math.min(0.999999, pageAudio.currentTime / pageAudio.duration);
-    const targetWeight = progress * totalPlaybackWeight;
-    let low = 0;
-    let high = playbackWeights.length - 1;
-    while (low < high) {
-      const middle = (low + high) >> 1;
-      if (playbackWeights[middle] <= targetWeight) low = middle + 1;
-      else high = middle;
+  function normalizedWord(value) {
+    return value.toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  function mapCuesToPageWords(cues) {
+    const mapping = [];
+    let pageIndex = 0;
+    for (const cue of cues) {
+      const cueWord = normalizedWord(cue.word);
+      let match = -1;
+      for (let candidate = pageIndex; candidate < Math.min(words.length, pageIndex + 6); candidate += 1) {
+        const pageWord = normalizedWord(spokenWords[candidate]);
+        if (pageWord === cueWord || pageWord.includes(cueWord) || cueWord.includes(pageWord)) {
+          match = candidate;
+          break;
+        }
+      }
+      if (match < 0) match = Math.min(pageIndex, words.length - 1);
+      mapping.push(match);
+      pageIndex = Math.min(words.length - 1, match + 1);
     }
-    const index = low;
+    return mapping;
+  }
+
+  function highlightRecordedAudio() {
+    if (!pageAudio || !timedCues.length) return;
+    const time = pageAudio.currentTime;
+    let low = 0;
+    let high = timedCues.length - 1;
+    while (low <= high) {
+      const middle = (low + high) >> 1;
+      if (timedCues[middle].start <= time) low = middle + 1;
+      else high = middle - 1;
+    }
+    const cueIndex = Math.max(0, high);
+    const index = cueWordMap[cueIndex] ?? 0;
     if (words[index] !== active) {
       clearHighlight();
       active = words[index];
@@ -79,9 +102,15 @@
   async function readRecordedPage() {
     stopPage();
     isReading = true;
+    if (!timedCues.length) {
+      const response = await fetch(recordedCues, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Unable to load word cues: ${response.status}`);
+      timedCues = await response.json();
+      cueWordMap = mapCuesToPageWords(timedCues);
+    }
     pageAudio = new Audio(recordedAudio);
     pageAudio.preload = 'auto';
-    pageAudio.playbackRate = 0.92;
+    pageAudio.playbackRate = 1;
     pageAudio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
     pageAudio.addEventListener('play', highlightRecordedAudio);
     pageAudio.addEventListener('ended', stopPage, { once: true });
