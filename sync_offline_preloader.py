@@ -1,9 +1,21 @@
 import json
+import re
 from pathlib import Path
 
 
 root = Path(__file__).resolve().parent
 path = root / "assets" / "offline-preloader.js"
+cache_version = "20260808-2"
+
+# Every page must request the same versioned preloader. Without this, a browser
+# can reuse a stale inline copy of pages that have already been corrected.
+preloader_pattern = re.compile(r"(?P<prefix>\./assets/offline-preloader\.js)(?:\?v=[^\"']*)?")
+for html_path in root.glob("*.html"):
+    source = html_path.read_text(encoding="utf-8")
+    updated = preloader_pattern.sub(rf"\g<prefix>?v={cache_version}", source)
+    if updated != source:
+        html_path.write_text(updated, encoding="utf-8", newline="")
+
 lines = path.read_text(encoding="utf-8").splitlines()
 prefix = "  var INLINE = "
 if not lines[2].startswith(prefix) or not lines[2].endswith(";"):
