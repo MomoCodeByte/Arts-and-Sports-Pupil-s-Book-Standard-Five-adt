@@ -26,6 +26,11 @@ for number in range(1, 113):
         "one_exact_image": source.count(f'images/page-renders/pg{number:03d}.png') == 1,
         "no_input": not re.search(r"<input\b|<textarea\b|type=[\"']submit", source, re.I),
         "no_watermark_text": "FOR ONLINE READING ONLY" not in source,
+        "no_duplicate_approval_html": not (
+            "Title of Publication: Arts and Sports Pupil's Book Standard Five" in source
+            or "MINISTRY OF EDUCATION, SCIENCE AND TECHNOLOGY" in source
+        ),
+        "current_cache_version": "offline-preloader.js?v=20260808-4" in source,
         "readalong": word_count > 0,
         "voice_script": "pdf-page-readalong.js" in source,
     }
