@@ -2,6 +2,8 @@
 
 from pathlib import Path
 import os
+import re
+from html.parser import HTMLParser
 
 import librosa
 import soundfile as sf
@@ -20,14 +22,47 @@ REFERENCE_MP3 = Path(
     r"\content\i18n\sw-TZ\audio\pg098_n0041_easy_read.mp3"
 )
 
-PAGE_TEXTS = {
-    1: """Arts and Sports. Pupil's Book. Standard Five. Tanzania Institute of Education.
-Certificate of Approval, number two thousand and sixty-nine. The title of this publication is Arts and Sports Pupil's Book, Standard Five. The publisher and author are the Tanzania Institute of Education. I S B N: nine seven eight, nine nine one two, seven six five, two six, nine. This book was approved by the Ministry of Education, Science and Technology on the thirty-first of May, two thousand and twenty-five, as a textbook for Standard Five in primary schools in Tanzania, according to the two thousand and twenty-three syllabus. Doctor Lyabwene M. Mtahabwa, Commissioner for Education.""",
-    2: """Arts and Sports Pupil's Book, Standard Five. First edition, two thousand and twenty-five. I S B N: nine seven eight, nine nine one two, seven six five, two six, nine. Published by Tanzania Institute of Education. P. O. Box three five zero nine four, Dar es Salaam, Tanzania. Telephone: plus two five five, seven three five, zero four one, one six eight. Email: director dot general at tie dot go dot tz. Website: www dot tie dot go dot tz. All rights reserved. No part of this textbook may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, without prior written permission from the Tanzania Institute of Education.""",
-    3: """Table of contents. Acknowledgements, page four. Introduction, page five. Chapter One: Acting, page one. Concept of acting, page one. Acting techniques, page two. Acting a short play, page eight. Chapter Two: Singing, page sixteen. The concept of singing, page sixteen. Solfa syllables, page seventeen. Singing techniques, page twenty-one. Singing in two parts, page twenty-seven. Chapter Three: Drawing, page thirty-two. The concept of drawing, page thirty-two. Drawing techniques, page thirty-three. Drawing still-life objects, page thirty-eight. Drawing scenery, page forty-one.""",
-    4: """Table of contents continued. Chapter Four: Clay modelling, page forty-six. The concept of clay modelling, page forty-six. Clay preparation, page forty-seven. Clay modelling techniques, page forty-nine. Modelling objects, page fifty-three. Chapter Five: Making useful objects, page sixty. The concept of making useful objects, page sixty. Materials for making useful objects, page sixty-one. Making useful objects, page sixty-four. Chapter Six: Physical exercises and traditional games, page seventy-one. Chapter Seven: Modern sports, page eighty-seven. Glossary, page one hundred and five. Bibliography, page one hundred and seven.""",
-    5: """Acknowledgements. Tanzania Institute of Education would like to acknowledge the contributions of all organisations and individuals who participated in designing and developing this textbook for Arts and Sports. In particular, the Institute acknowledges the University of Dar es Salaam, the School Quality Assurance Department, teachers' colleges, and primary schools. The translators were Mbezi S. Benjamin, Peter O. Kazeni, Given A. Mbakilwa, and Debora J. Mironjo. The editors were Daines N. Sanga, Kiagho B. Kilonzo, Kassomo A. Mkallyah, Leonard C. Mwenesi, Ismail N. Pangani, James Payovela, Victor K. Mutalemwa, Beno L. Milinga, and Selestine N. Kisabo. The designer was Hamisi A. Kumbuka. The illustrators were Fikiri A. Msimbe, Hance E. Wawar, and Yohana P. Mwenda. The coordinators were Mbezi S. Benjamin and Peter O. Kazeni. The Institute also appreciates the primary school teachers and pupils who participated in the trial phase of the manuscript, and thanks the Government of the United Republic of Tanzania for facilitating the writing and printing of this textbook. Doctor Aneth A. Komba, Director General, Tanzania Institute of Education.""",
-}
+class ReadWordParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.entries = []
+        self.current_style = None
+        self.current_parts = []
+
+    def handle_starttag(self, tag, attrs):
+        values = dict(attrs)
+        if tag == "span" and "read-word" in values.get("class", "").split():
+            self.current_style = values.get("style", "")
+            self.current_parts = []
+
+    def handle_data(self, data):
+        if self.current_style is not None:
+            self.current_parts.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "span" and self.current_style is not None:
+            self.entries.append((" ".join("".join(self.current_parts).split()), self.current_style))
+            self.current_style = None
+            self.current_parts = []
+
+
+def visible_page_text(page: int) -> str:
+    """Return the visible overlay words in their exact DOM/highlight order."""
+    path = ROOT / ("index.html" if page == 1 else f"pg{page:03d}_sec001.html")
+    parser = ReadWordParser()
+    parser.feed(path.read_text(encoding="utf-8"))
+    words = []
+    seen = set()
+    for word, style in parser.entries:
+        top_match = re.search(r"top:([0-9.]+)%", style)
+        if top_match and float(top_match.group(1)) >= 97:
+            continue
+        key = (word, style)
+        if not word or key in seen:
+            continue
+        seen.add(key)
+        words.append(word)
+    return " ".join(words)
 
 
 def main() -> None:
@@ -52,10 +87,11 @@ def main() -> None:
         map_location="cpu",
     )
 
-    for page, text in PAGE_TEXTS.items():
+    for page in range(1, 6):
+        text = visible_page_text(page)
         base_wav = OUT / f"page-{page:03d}-base.wav"
         final_wav = OUT / f"page-{page:03d}-sample.wav"
-        model.tts_to_file(text, speaker_id, str(base_wav), speed=1.18, quiet=True)
+        model.tts_to_file(text, speaker_id, str(base_wav), speed=1.35, quiet=True)
         converter.convert(
             audio_src_path=str(base_wav),
             src_se=source_se,

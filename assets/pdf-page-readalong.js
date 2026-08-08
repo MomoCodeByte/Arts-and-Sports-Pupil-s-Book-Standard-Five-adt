@@ -15,8 +15,17 @@
   const spokenWords = words.map((node) => node.textContent.trim());
   const text = spokenWords.join(' ');
   const starts = [];
+  const playbackWeights = [];
   let offset = 0;
-  spokenWords.forEach((word) => { starts.push(offset); offset += word.length + 1; });
+  let totalPlaybackWeight = 0;
+  spokenWords.forEach((word) => {
+    starts.push(offset);
+    offset += word.length + 1;
+    // Longer words need more speech time. The small constant accounts for
+    // the pause between words and keeps short words from flashing too fast.
+    totalPlaybackWeight += Math.max(2.5, word.replace(/[^A-Za-z0-9]/g, '').length + 0.8);
+    playbackWeights.push(totalPlaybackWeight);
+  });
   let active = null;
   let pageAudio = null;
   let animationFrame = null;
@@ -50,7 +59,15 @@
   function highlightRecordedAudio() {
     if (!pageAudio || !Number.isFinite(pageAudio.duration) || pageAudio.duration <= 0) return;
     const progress = Math.min(0.999999, pageAudio.currentTime / pageAudio.duration);
-    const index = Math.min(words.length - 1, Math.floor(progress * words.length));
+    const targetWeight = progress * totalPlaybackWeight;
+    let low = 0;
+    let high = playbackWeights.length - 1;
+    while (low < high) {
+      const middle = (low + high) >> 1;
+      if (playbackWeights[middle] <= targetWeight) low = middle + 1;
+      else high = middle;
+    }
+    const index = low;
     if (words[index] !== active) {
       clearHighlight();
       active = words[index];
@@ -64,6 +81,7 @@
     isReading = true;
     pageAudio = new Audio(recordedAudio);
     pageAudio.preload = 'auto';
+    pageAudio.playbackRate = 0.92;
     pageAudio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
     pageAudio.addEventListener('play', highlightRecordedAudio);
     pageAudio.addEventListener('ended', stopPage, { once: true });
