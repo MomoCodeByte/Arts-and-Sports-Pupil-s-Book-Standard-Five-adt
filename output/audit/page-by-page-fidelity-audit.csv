@@ -1,113 +1,113 @@
 ﻿pdf_page,html_files,html_sections,pdf_words,html_words,token_precision_pct,token_recall_pct,token_f1_pct,reading_order_pct,pdf_image_objects,html_image_refs,missing_html_images,severity,notes
-1,index.html,1,47,7,100.0,14.9,25.9,33.1,1,1,,CRITICAL,Large text/content mismatch
-2,pg002_sec001.html,1,126,95,97.9,73.8,84.2,90.7,0,0,,MAJOR,Noticeable text/content mismatch
-3,pg003_sec001.html,1,126,69,94.2,51.6,66.7,83.6,0,0,,CRITICAL,Large text/content mismatch
-4,pg004_sec001.html,1,119,86,100.0,72.3,83.9,90.0,0,0,,MAJOR,Noticeable text/content mismatch
-5,pg005_sec001.html,1,246,219,97.3,86.6,91.6,96.1,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-6,pg006_sec001.html,1,220,190,97.4,84.1,90.2,95.5,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+1,index.html,1,47,9,77.8,14.9,25.0,37.8,1,1,,CRITICAL,Large text/content mismatch
+2,pg002_sec001.html,1,126,95,97.9,73.8,84.2,90.7,0,1,,MAJOR,Noticeable text/content mismatch
+3,pg003_sec001.html,1,126,69,94.2,51.6,66.7,83.6,0,1,,CRITICAL,Large text/content mismatch
+4,pg004_sec001.html,1,119,86,100.0,72.3,83.9,90.0,0,1,,MAJOR,Noticeable text/content mismatch
+5,pg005_sec001.html,1,246,233,91.8,87.0,89.4,93.3,1,1,,MAJOR,Noticeable text/content mismatch
+6,pg006_sec001.html,1,220,192,96.4,84.1,89.8,95.1,1,1,,MAJOR,Noticeable text/content mismatch
 7,pg007_sec001.html,1,256,228,97.8,87.1,92.1,96.0,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-8,pg008_sec001.html; pg008_sec002.html; pg008_sec003.html; pg008_sec004.html,4,292,262,99.2,89.0,93.9,96.5,1,1,,LAYOUT,One PDF page split across multiple HTML sections
-9,pg009_sec001.html,1,227,197,98.5,85.5,91.5,95.6,1,2,,VISUAL,Content is close; visual layout still requires overlay review
-10,pg010_sec001.html; pg010_sec002.html,2,341,313,97.8,89.7,93.6,96.8,1,1,,LAYOUT,One PDF page split across multiple HTML sections
-11,pg011_sec001.html,1,368,339,97.6,89.9,93.6,97.2,0,0,,VISUAL,Content is close; visual layout still requires overlay review
-12,pg012_sec001.html; pg012_sec002.html,2,273,245,98.0,87.9,92.7,96.3,1,1,,LAYOUT,One PDF page split across multiple HTML sections
-13,pg013_sec001.html,1,273,245,98.0,87.9,92.7,96.3,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-14,pg014_sec001.html,1,364,338,97.9,90.9,94.3,97.5,0,0,,VISUAL,Content is close; visual layout still requires overlay review
-15,pg015_sec001.html,1,356,326,98.2,89.9,93.8,97.3,0,0,,VISUAL,Content is close; visual layout still requires overlay review
-16,pg016_sec001.html; pg016_sec002.html; pg016_sec003.html,3,256,225,99.1,87.1,92.7,95.8,2,1,,LAYOUT,One PDF page split across multiple HTML sections
-17,pg017_sec001.html; pg017_sec002.html,2,163,134,95.5,78.5,86.2,92.6,0,0,,MAJOR,Noticeable text/content mismatch
+8,pg008_sec001.html,1,292,264,98.5,89.0,93.5,96.0,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+9,pg009_sec001.html,1,227,199,97.5,85.5,91.1,95.0,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+10,pg010_sec001.html,1,341,315,97.1,89.7,93.3,96.5,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+11,pg011_sec001.html,1,368,339,97.6,89.9,93.6,97.2,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+12,pg012_sec001.html,1,273,245,98.0,87.9,92.7,96.3,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+13,pg013_sec001.html,1,273,247,97.2,87.9,92.3,96.2,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+14,pg014_sec001.html,1,364,338,97.9,90.9,94.3,97.5,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+15,pg015_sec001.html,1,356,326,98.2,89.9,93.8,97.3,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+16,pg016_sec001.html,1,256,234,95.3,87.1,91.0,94.5,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+17,pg017_sec001.html,1,163,132,97.0,78.5,86.8,93.2,0,1,,MAJOR,Noticeable text/content mismatch
 18,pg018_sec001.html,1,278,246,98.8,87.4,92.7,96.1,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-19,pg019_sec001.html,1,327,297,98.3,89.3,93.6,96.9,2,0,,VISUAL,Content is close; visual layout still requires overlay review
-20,pg020_sec001.html; pg020_sec002.html; pg020_sec003.html,3,263,233,98.7,87.5,92.7,96.0,2,0,,LAYOUT,One PDF page split across multiple HTML sections
-21,pg021_sec001.html,1,232,201,99.0,85.8,91.9,95.1,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-22,pg022_sec001.html,1,157,133,92.5,78.3,84.8,87.0,4,1,,MAJOR,Noticeable text/content mismatch
-23,pg023_sec001.html,1,95,63,98.4,65.3,78.5,85.3,2,2,,MAJOR,Noticeable text/content mismatch
-24,pg024_sec001.html; pg024_sec002.html,2,83,53,96.2,61.4,75.0,85.0,4,3,,MAJOR,Noticeable text/content mismatch
-25,pg025_sec001.html,1,54,22,95.5,38.9,55.3,64.2,5,5,,CRITICAL,Large text/content mismatch
-26,pg026_sec001.html,1,336,311,97.4,90.2,93.7,97.2,0,0,,VISUAL,Content is close; visual layout still requires overlay review
-27,pg027_sec001.html; pg027_sec002.html,2,138,106,99.1,76.1,86.1,91.9,1,2,,MAJOR,Noticeable text/content mismatch
-28,pg028_sec001.html; pg028_sec002.html,2,203,172,98.8,83.7,90.7,94.9,1,1,,LAYOUT,One PDF page split across multiple HTML sections
-29,pg029_sec001.html,1,365,336,98.8,91.0,94.7,97.0,0,0,,VISUAL,Content is close; visual layout still requires overlay review
-30,pg030_sec001.html,1,239,211,97.6,86.2,91.6,95.1,1,4,,VISUAL,Content is close; visual layout still requires overlay review
-31,pg031_sec001.html,1,210,178,99.4,84.3,91.2,94.2,2,2,,VISUAL,Content is close; visual layout still requires overlay review
-32,pg032_sec001.html; pg032_sec002.html,2,213,183,98.4,84.5,90.9,89.8,2,5,,LAYOUT,One PDF page split across multiple HTML sections
-33,pg033_sec001.html,1,166,135,98.5,80.1,88.4,92.7,2,6,,MAJOR,Noticeable text/content mismatch
-34,pg034_sec001.html; pg034_sec002.html,2,221,191,98.4,85.1,91.3,90.0,2,5,,LAYOUT,One PDF page split across multiple HTML sections
-35,pg035_sec001.html; pg035_sec002.html,2,155,125,97.6,78.7,87.1,92.1,3,5,,MAJOR,Noticeable text/content mismatch
-36,pg036_sec001.html; pg036_sec002.html,2,157,126,99.2,79.6,88.3,92.0,3,2,,MAJOR,Noticeable text/content mismatch
-37,pg037_sec001.html; pg037_sec002.html,2,180,149,97.3,80.6,88.1,87.9,2,2,,MAJOR,Noticeable text/content mismatch
-38,pg038_sec001.html,1,121,88,95.5,69.4,80.4,89.6,2,2,,MAJOR,Noticeable text/content mismatch
-39,pg039_sec001.html; pg039_sec002.html; pg039_sec003.html,3,196,164,99.4,83.2,90.6,94.3,3,2,,LAYOUT,One PDF page split across multiple HTML sections
-40,pg040_sec001.html,1,185,156,97.4,82.2,89.1,94.0,2,2,,MAJOR,Noticeable text/content mismatch
-41,pg041_sec001.html; pg041_sec002.html,2,114,94,87.2,71.9,78.8,84.9,3,4,,MAJOR,Noticeable text/content mismatch
-42,pg042_sec001.html; pg042_sec002.html,2,141,108,100.0,76.6,86.7,91.7,3,2,,MAJOR,Noticeable text/content mismatch
-43,pg043_sec001.html,1,196,165,97.6,82.1,89.2,94.2,2,4,,MAJOR,Noticeable text/content mismatch
-44,pg044_sec001.html; pg044_sec002.html; pg044_sec003.html,3,175,144,99.3,81.7,89.7,93.6,2,2,,MAJOR,Noticeable text/content mismatch
-45,pg045_sec001.html,1,151,124,95.2,78.1,85.8,93.2,2,5,,MAJOR,Noticeable text/content mismatch
-46,pg046_sec001.html; pg046_sec002.html; pg046_sec003.html,3,169,137,97.8,79.3,87.6,92.7,4,5,,MAJOR,Noticeable text/content mismatch
-47,pg047_sec001.html; pg047_sec002.html; pg047_sec003.html,3,178,145,100.0,81.5,89.8,93.3,4,3,,MAJOR,Noticeable text/content mismatch
-48,pg048_sec001.html; pg048_sec002.html,2,128,96,99.0,74.2,84.8,90.4,0,0,,MAJOR,Noticeable text/content mismatch
-49,pg049_sec001.html,1,258,228,98.7,87.2,92.6,95.6,1,4,,VISUAL,Content is close; visual layout still requires overlay review
-50,pg050_sec001.html,1,253,225,97.8,87.0,92.1,95.5,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-51,pg051_sec001.html,1,164,136,96.3,79.9,87.3,92.1,1,1,,MAJOR,Noticeable text/content mismatch
-52,pg052_sec001.html,1,211,182,97.8,84.4,90.6,94.2,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-53,pg053_sec001.html,1,272,244,98.0,87.9,92.6,96.0,0,0,,VISUAL,Content is close; visual layout still requires overlay review
-54,pg054_sec001.html,1,119,87,98.9,72.3,83.5,89.0,2,2,,MAJOR,Noticeable text/content mismatch
-55,pg055_sec001.html,1,108,77,97.4,69.4,81.1,88.0,2,2,,MAJOR,Noticeable text/content mismatch
-56,pg056_sec001.html,1,195,163,98.2,82.1,89.4,94.2,2,2,,MAJOR,Noticeable text/content mismatch
-57,pg057_sec001.html,1,281,251,98.8,88.3,93.2,95.9,2,2,,VISUAL,Content is close; visual layout still requires overlay review
-58,pg058_sec001.html,1,170,137,98.5,79.4,87.9,92.8,2,2,,MAJOR,Noticeable text/content mismatch
-59,pg059_sec001.html; pg059_sec002.html,2,284,255,97.6,87.7,92.4,78.8,1,1,,LAYOUT,One PDF page split across multiple HTML sections
-60,pg060_sec001.html,1,168,137,98.5,80.4,88.5,92.7,2,2,,MAJOR,Noticeable text/content mismatch
-61,pg061_sec001.html; pg061_sec002.html; pg061_sec003.html,3,193,165,97.0,82.9,89.4,94.1,2,2,,MAJOR,Noticeable text/content mismatch
-62,pg062_sec001.html,1,125,94,97.9,73.6,84.0,90.1,0,0,,MAJOR,Noticeable text/content mismatch
-63,pg063_sec001.html; pg063_sec002.html,2,250,218,98.6,86.0,91.9,95.7,1,1,,LAYOUT,One PDF page split across multiple HTML sections
-64,pg064_sec001.html,1,210,177,100.0,84.3,91.5,94.3,4,6,,VISUAL,Content is close; visual layout still requires overlay review
-65,pg065_sec001.html,1,197,167,98.2,83.2,90.1,93.8,3,3,,VISUAL,Content is close; visual layout still requires overlay review
-66,pg066_sec001.html,1,117,84,100.0,71.8,83.6,86.7,3,3,,MAJOR,Noticeable text/content mismatch
-67,pg067_sec001.html; pg067_sec002.html,2,172,140,99.3,80.8,89.1,79.3,2,2,,MAJOR,Noticeable text/content mismatch
-68,pg068_sec001.html,1,76,44,97.7,56.6,71.7,78.0,2,2,,CRITICAL,Large text/content mismatch
-69,pg069_sec001.html,1,98,65,100.0,66.3,79.8,84.4,3,3,,MAJOR,Noticeable text/content mismatch
-70,pg070_sec001.html,1,105,72,100.0,68.6,81.4,86.0,5,4,,MAJOR,Noticeable text/content mismatch
-71,pg071_sec001.html; pg071_sec002.html; pg071_sec003.html,3,181,150,98.7,81.8,89.4,92.7,2,2,,MAJOR,Noticeable text/content mismatch
-72,pg072_sec001.html,1,282,251,98.4,87.6,92.7,95.9,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-73,pg073_sec001.html,1,216,199,92.5,85.2,88.7,90.3,3,2,,MAJOR,Noticeable text/content mismatch
-74,pg074_sec001.html; pg074_sec002.html,2,242,214,97.7,86.4,91.7,96.3,2,0,,LAYOUT,One PDF page split across multiple HTML sections
-75,pg075_sec001.html; pg075_sec002.html,2,98,65,100.0,66.3,79.8,86.8,0,0,,MAJOR,Noticeable text/content mismatch
-76,pg076_sec001.html,1,180,150,95.3,79.4,86.7,94.7,1,4,,MAJOR,Noticeable text/content mismatch
-77,pg077_sec001.html,1,143,111,99.1,76.9,86.6,91.6,1,1,,MAJOR,Noticeable text/content mismatch
-78,pg078_sec001.html,1,102,69,100.0,67.6,80.7,85.9,2,4,,MAJOR,Noticeable text/content mismatch
-79,pg079_sec001.html,1,157,126,98.4,79.0,87.6,92.1,2,3,,MAJOR,Noticeable text/content mismatch
-80,pg080_sec001.html; pg080_sec002.html; pg080_sec003.html,3,155,122,100.0,78.7,88.1,91.6,3,1,,MAJOR,Noticeable text/content mismatch
-81,pg081_sec001.html; pg081_sec002.html,2,128,95,100.0,74.2,85.2,90.1,2,1,,MAJOR,Noticeable text/content mismatch
-82,pg082_sec001.html; pg082_sec002.html,2,190,160,98.1,82.6,89.7,85.4,2,1,,MAJOR,Noticeable text/content mismatch
-83,pg083_sec001.html; pg083_sec002.html,2,145,112,100.0,77.2,87.2,78.3,2,1,,MAJOR,Noticeable text/content mismatch
-84,pg084_sec001.html; pg084_sec002.html; pg084_sec003.html; pg084_sec004.html,4,125,96,95.8,73.6,83.3,91.1,2,2,,MAJOR,Noticeable text/content mismatch
-85,pg085_sec001.html,1,313,286,97.9,89.5,93.5,96.8,0,0,,VISUAL,Content is close; visual layout still requires overlay review
-86,pg086_sec001.html,1,216,185,97.8,83.8,90.3,94.8,1,1,,VISUAL,Content is close; visual layout still requires overlay review
-87,pg087_sec001.html; pg087_sec002.html; pg087_sec003.html,3,202,171,98.8,83.7,90.6,85.1,2,1,,LAYOUT,One PDF page split across multiple HTML sections
-88,pg088_sec001.html,1,158,127,96.9,77.8,86.3,92.8,1,5,,MAJOR,Noticeable text/content mismatch
-89,pg089_sec001.html; pg089_sec002.html; pg089_sec003.html,3,120,87,100.0,72.5,84.1,90.0,6,7,,MAJOR,Noticeable text/content mismatch
-90,pg090_sec001.html; pg090_sec002.html,2,225,194,99.0,85.3,91.6,86.8,2,1,,LAYOUT,One PDF page split across multiple HTML sections
-91,pg091_sec001.html; pg091_sec002.html,2,120,87,97.7,70.8,82.1,88.6,2,1,,MAJOR,Noticeable text/content mismatch
-92,pg092_sec001.html,1,132,99,98.0,73.5,84.0,90.6,5,4,,MAJOR,Noticeable text/content mismatch
-93,pg093_sec001.html; pg093_sec002.html,2,148,116,99.1,77.7,87.1,91.6,2,1,,MAJOR,Noticeable text/content mismatch
-94,pg094_sec001.html; pg094_sec002.html,2,159,127,99.2,79.2,88.1,92.6,2,1,,MAJOR,Noticeable text/content mismatch
-95,pg095_sec001.html; pg095_sec002.html; pg095_sec003.html; pg095_sec004.html,4,246,213,99.1,85.8,91.9,95.3,2,2,,LAYOUT,One PDF page split across multiple HTML sections
-96,pg096_sec001.html; pg096_sec002.html,2,329,302,98.0,90.0,93.8,97.0,0,1,,LAYOUT,One PDF page split across multiple HTML sections
-97,pg097_sec001.html; pg097_sec002.html,2,229,197,99.5,85.6,92.0,83.1,1,1,,LAYOUT,One PDF page split across multiple HTML sections
-98,pg098_sec001.html; pg098_sec002.html,2,193,162,98.8,82.9,90.1,93.6,3,3,,LAYOUT,One PDF page split across multiple HTML sections
-99,pg099_sec001.html; pg099_sec002.html,2,197,168,97.6,83.2,89.9,94.3,2,1,,MAJOR,Noticeable text/content mismatch
-100,pg100_sec001.html; pg100_sec002.html,2,222,189,100.0,85.1,92.0,91.1,2,1,,LAYOUT,One PDF page split across multiple HTML sections
-101,pg101_sec001.html,1,213,181,98.3,83.6,90.4,94.6,2,1,,VISUAL,Content is close; visual layout still requires overlay review
-102,pg102_sec001.html; pg102_sec002.html,2,126,96,96.9,73.8,83.8,64.9,3,2,,MAJOR,Noticeable text/content mismatch
-103,pg103_sec001.html; pg103_sec002.html,2,218,185,98.9,83.9,90.8,92.9,2,1,,LAYOUT,One PDF page split across multiple HTML sections
-104,pg104_sec001.html; pg104_sec002.html; pg104_sec003.html,3,153,121,99.2,78.4,87.6,92.1,2,1,,MAJOR,Noticeable text/content mismatch
-105,pg105_sec001.html; pg105_sec002.html; pg105_sec003.html,3,83,50,96.0,57.8,72.2,83.8,2,1,,CRITICAL,Large text/content mismatch
-106,pg106_sec001.html; pg106_sec002.html,2,352,320,99.1,90.1,94.3,89.2,0,1,,LAYOUT,One PDF page split across multiple HTML sections
-107,pg107_sec001.html; pg107_sec002.html,2,330,301,98.7,90.0,94.1,85.6,1,1,,LAYOUT,One PDF page split across multiple HTML sections
-108,pg108_sec001.html; pg108_sec002.html,2,214,184,98.4,84.6,91.0,94.8,0,1,,LAYOUT,One PDF page split across multiple HTML sections
-109,pg109_sec001.html,1,190,159,99.4,83.2,90.5,93.1,0,0,,VISUAL,Content is close; visual layout still requires overlay review
-110,pg110_sec001.html,1,185,155,98.1,82.2,89.4,92.6,0,0,,MAJOR,Noticeable text/content mismatch
-111,pg111_sec001.html; pg111_sec002.html,2,153,141,85.1,78.4,81.6,87.8,0,0,,MAJOR,Noticeable text/content mismatch
-112,pg112_sec001.html; pg112_sec002.html,2,185,157,96.8,82.2,88.9,93.8,0,0,,MAJOR,Noticeable text/content mismatch
+19,pg019_sec001.html,1,327,297,98.3,89.3,93.6,96.9,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+20,pg020_sec001.html,1,263,233,98.7,87.5,92.7,96.0,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+21,pg021_sec001.html,1,232,204,97.5,85.8,91.3,94.7,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+22,pg022_sec001.html,1,157,135,91.1,78.3,84.2,86.0,4,1,,MAJOR,Noticeable text/content mismatch
+23,pg023_sec001.html,1,95,67,92.5,65.3,76.5,83.9,2,1,,MAJOR,Noticeable text/content mismatch
+24,pg024_sec001.html,1,83,57,89.5,61.4,72.9,82.2,4,1,,CRITICAL,Large text/content mismatch
+25,pg025_sec001.html,1,54,39,56.4,40.7,47.3,58.1,5,1,,CRITICAL,Large text/content mismatch
+26,pg026_sec001.html,1,336,311,97.4,90.2,93.7,97.2,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+27,pg027_sec001.html,1,138,115,91.3,76.1,83.0,89.4,1,1,,MAJOR,Noticeable text/content mismatch
+28,pg028_sec001.html,1,203,172,98.8,83.7,90.7,94.9,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+29,pg029_sec001.html,1,365,336,98.8,91.0,94.7,97.0,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+30,pg030_sec001.html,1,239,219,94.1,86.2,90.0,92.8,1,1,,MAJOR,Noticeable text/content mismatch
+31,pg031_sec001.html,1,210,178,99.4,84.3,91.2,94.2,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+32,pg032_sec001.html,1,213,199,90.5,84.5,87.4,86.1,2,1,,MAJOR,Noticeable text/content mismatch
+33,pg033_sec001.html,1,166,210,63.8,80.7,71.3,74.4,2,1,,CRITICAL,Large text/content mismatch
+34,pg034_sec001.html,1,221,199,94.5,85.1,89.5,87.9,2,1,,MAJOR,Noticeable text/content mismatch
+35,pg035_sec001.html,1,155,141,86.5,78.7,82.4,86.6,3,1,,MAJOR,Noticeable text/content mismatch
+36,pg036_sec001.html,1,157,128,97.7,79.6,87.7,91.0,3,1,,MAJOR,Noticeable text/content mismatch
+37,pg037_sec001.html,1,180,152,95.4,80.6,87.3,87.4,2,1,,MAJOR,Noticeable text/content mismatch
+38,pg038_sec001.html,1,121,92,91.3,69.4,78.9,88.8,2,1,,MAJOR,Noticeable text/content mismatch
+39,pg039_sec001.html,1,196,167,97.6,83.2,89.8,93.6,3,1,,MAJOR,Noticeable text/content mismatch
+40,pg040_sec001.html,1,185,160,95.0,82.2,88.1,93.2,2,1,,MAJOR,Noticeable text/content mismatch
+41,pg041_sec001.html,1,114,102,80.4,71.9,75.9,83.6,3,1,,MAJOR,Noticeable text/content mismatch
+42,pg042_sec001.html,1,141,114,94.7,76.6,84.7,90.5,3,1,,MAJOR,Noticeable text/content mismatch
+43,pg043_sec001.html,1,196,184,87.5,82.1,84.7,90.1,2,1,,MAJOR,Noticeable text/content mismatch
+44,pg044_sec001.html,1,175,146,97.9,81.7,89.1,93.3,2,1,,MAJOR,Noticeable text/content mismatch
+45,pg045_sec001.html,1,151,134,88.1,78.1,82.8,89.7,2,1,,MAJOR,Noticeable text/content mismatch
+46,pg046_sec001.html,1,169,153,87.6,79.3,83.2,89.6,4,1,,MAJOR,Noticeable text/content mismatch
+47,pg047_sec001.html,1,178,149,97.3,81.5,88.7,92.7,4,1,,MAJOR,Noticeable text/content mismatch
+48,pg048_sec001.html,1,128,96,99.0,74.2,84.8,90.4,0,1,,MAJOR,Noticeable text/content mismatch
+49,pg049_sec001.html,1,258,234,96.2,87.2,91.5,94.5,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+50,pg050_sec001.html,1,253,227,96.9,87.0,91.7,95.2,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+51,pg051_sec001.html,1,164,148,89.2,80.5,84.6,89.0,1,1,,MAJOR,Noticeable text/content mismatch
+52,pg052_sec001.html,1,211,184,96.7,84.4,90.1,93.9,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+53,pg053_sec001.html,1,272,244,98.0,87.9,92.6,96.0,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+54,pg054_sec001.html,1,119,91,94.5,72.3,81.9,88.1,2,1,,MAJOR,Noticeable text/content mismatch
+55,pg055_sec001.html,1,108,81,92.6,69.4,79.4,86.5,2,1,,MAJOR,Noticeable text/content mismatch
+56,pg056_sec001.html,1,195,172,93.0,82.1,87.2,92.5,2,1,,MAJOR,Noticeable text/content mismatch
+57,pg057_sec001.html,1,281,251,98.8,88.3,93.2,95.9,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+58,pg058_sec001.html,1,170,143,94.4,79.4,86.3,91.4,2,1,,MAJOR,Noticeable text/content mismatch
+59,pg059_sec001.html,1,284,255,97.6,87.7,92.4,78.8,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+60,pg060_sec001.html,1,168,156,86.5,80.4,83.3,87.9,2,1,,MAJOR,Noticeable text/content mismatch
+61,pg061_sec001.html,1,193,171,94.2,83.4,88.5,93.1,2,1,,MAJOR,Noticeable text/content mismatch
+62,pg062_sec001.html,1,125,94,97.9,73.6,84.0,90.1,0,1,,MAJOR,Noticeable text/content mismatch
+63,pg063_sec001.html,1,250,218,98.6,86.0,91.9,95.7,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+64,pg064_sec001.html,1,210,189,93.7,84.3,88.7,92.2,4,1,,MAJOR,Noticeable text/content mismatch
+65,pg065_sec001.html,1,197,176,93.2,83.2,87.9,91.4,3,1,,MAJOR,Noticeable text/content mismatch
+66,pg066_sec001.html,1,117,96,87.5,71.8,78.9,83.0,3,1,,MAJOR,Noticeable text/content mismatch
+67,pg067_sec001.html,1,172,142,97.9,80.8,88.5,78.6,2,1,,MAJOR,Noticeable text/content mismatch
+68,pg068_sec001.html,1,76,48,89.6,56.6,69.4,77.9,2,1,,CRITICAL,Large text/content mismatch
+69,pg069_sec001.html,1,98,79,82.3,66.3,73.4,80.2,3,1,,CRITICAL,Large text/content mismatch
+70,pg070_sec001.html,1,105,123,59.3,69.5,64.0,70.3,5,1,,CRITICAL,Large text/content mismatch
+71,pg071_sec001.html,1,181,152,97.4,81.8,88.9,92.6,2,1,,MAJOR,Noticeable text/content mismatch
+72,pg072_sec001.html,1,282,258,95.7,87.6,91.5,93.8,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+73,pg073_sec001.html,1,216,203,90.1,84.7,87.4,89.8,3,1,,MAJOR,Noticeable text/content mismatch
+74,pg074_sec001.html,1,242,214,97.7,86.4,91.7,96.3,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+75,pg075_sec001.html,1,98,65,100.0,66.3,79.8,86.8,0,1,,MAJOR,Noticeable text/content mismatch
+76,pg076_sec001.html,1,180,154,92.9,79.4,85.6,93.9,1,1,,MAJOR,Noticeable text/content mismatch
+77,pg077_sec001.html,1,143,115,95.7,76.9,85.3,89.7,1,1,,MAJOR,Noticeable text/content mismatch
+78,pg078_sec001.html,1,102,77,89.6,67.6,77.1,83.1,2,1,,MAJOR,Noticeable text/content mismatch
+79,pg079_sec001.html,1,157,136,91.2,79.0,84.6,90.2,2,1,,MAJOR,Noticeable text/content mismatch
+80,pg080_sec001.html,1,155,124,98.4,78.7,87.5,91.5,3,1,,MAJOR,Noticeable text/content mismatch
+81,pg081_sec001.html,1,128,97,97.9,74.2,84.4,89.9,2,1,,MAJOR,Noticeable text/content mismatch
+82,pg082_sec001.html,1,190,162,96.9,82.6,89.2,85.0,2,1,,MAJOR,Noticeable text/content mismatch
+83,pg083_sec001.html,1,145,114,98.2,77.2,86.5,78.1,2,1,,MAJOR,Noticeable text/content mismatch
+84,pg084_sec001.html,1,125,102,90.2,73.6,81.1,88.7,2,1,,MAJOR,Noticeable text/content mismatch
+85,pg085_sec001.html,1,313,286,97.9,89.5,93.5,96.8,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+86,pg086_sec001.html,1,216,187,96.8,83.8,89.8,94.4,1,1,,MAJOR,Noticeable text/content mismatch
+87,pg087_sec001.html,1,202,173,97.7,83.7,90.1,84.7,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+88,pg088_sec001.html,1,158,135,91.1,77.8,84.0,90.0,1,1,,MAJOR,Noticeable text/content mismatch
+89,pg089_sec001.html,1,120,99,87.9,72.5,79.5,84.9,6,1,,MAJOR,Noticeable text/content mismatch
+90,pg090_sec001.html,1,225,196,98.0,85.3,91.2,86.8,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+91,pg091_sec001.html,1,120,89,95.5,70.8,81.3,88.0,2,1,,MAJOR,Noticeable text/content mismatch
+92,pg092_sec001.html,1,132,114,85.1,73.5,78.9,85.8,5,1,,MAJOR,Noticeable text/content mismatch
+93,pg093_sec001.html,1,148,118,97.5,77.7,86.5,91.1,2,1,,MAJOR,Noticeable text/content mismatch
+94,pg094_sec001.html,1,159,133,95.5,79.9,87.0,90.9,2,1,,MAJOR,Noticeable text/content mismatch
+95,pg095_sec001.html,1,246,217,97.2,85.8,91.1,94.3,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+96,pg096_sec001.html,1,329,309,96.1,90.3,93.1,96.1,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+97,pg097_sec001.html,1,229,201,97.5,85.6,91.2,82.5,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+98,pg098_sec001.html,1,193,166,96.4,82.9,89.1,92.7,3,1,,MAJOR,Noticeable text/content mismatch
+99,pg099_sec001.html,1,197,172,95.3,83.2,88.9,93.7,2,1,,MAJOR,Noticeable text/content mismatch
+100,pg100_sec001.html,1,222,191,99.0,85.1,91.5,90.9,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+101,pg101_sec001.html,1,213,183,97.3,83.6,89.9,94.2,2,1,,MAJOR,Noticeable text/content mismatch
+102,pg102_sec001.html,1,126,118,79.7,74.6,77.0,60.2,3,1,,MAJOR,Noticeable text/content mismatch
+103,pg103_sec001.html,1,218,188,97.3,83.9,90.1,91.9,2,1,,VISUAL,Content is close; visual layout still requires overlay review
+104,pg104_sec001.html,1,153,123,97.6,78.4,87.0,91.7,2,1,,MAJOR,Noticeable text/content mismatch
+105,pg105_sec001.html,1,83,52,92.3,57.8,71.1,83.0,2,1,,CRITICAL,Large text/content mismatch
+106,pg106_sec001.html,1,352,350,90.9,90.3,90.6,85.4,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+107,pg107_sec001.html,1,330,301,98.7,90.0,94.1,85.6,1,1,,VISUAL,Content is close; visual layout still requires overlay review
+108,pg108_sec001.html,1,214,209,86.6,84.6,85.6,89.5,0,1,,MAJOR,Noticeable text/content mismatch
+109,pg109_sec001.html,1,190,159,99.4,83.2,90.5,93.1,0,1,,VISUAL,Content is close; visual layout still requires overlay review
+110,pg110_sec001.html,1,185,155,98.1,82.2,89.4,92.6,0,1,,MAJOR,Noticeable text/content mismatch
+111,pg111_sec001.html,1,153,141,85.1,78.4,81.6,87.8,0,1,,MAJOR,Noticeable text/content mismatch
+112,pg112_sec001.html,1,185,157,96.8,82.2,88.9,93.8,0,1,,MAJOR,Noticeable text/content mismatch
