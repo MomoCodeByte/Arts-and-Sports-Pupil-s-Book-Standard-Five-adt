@@ -8,9 +8,9 @@
     seenWords.add(key);
     return true;
   });
-  const readButton = document.querySelector('[data-page-read]');
-  const stopButton = document.querySelector('[data-page-stop]');
-  if (!words.length || !readButton || !stopButton) return;
+  const legacyControls = document.querySelector('.page-voice-controls');
+  if (legacyControls) legacyControls.remove();
+  if (!words.length) return;
 
   const spokenWords = words.map((node) => node.textContent.trim());
   const text = spokenWords.join(' ');
@@ -20,6 +20,7 @@
   let active = null;
   let pageAudio = null;
   let animationFrame = null;
+  let isReading = false;
 
   const sectionId = document.querySelector('[data-section-id^="pg"]')?.dataset.sectionId || '';
   const pageMatch = sectionId.match(/^pg(\d{3})_/);
@@ -42,6 +43,7 @@
     }
     if (animationFrame) cancelAnimationFrame(animationFrame);
     animationFrame = null;
+    isReading = false;
     clearHighlight();
   }
 
@@ -59,6 +61,7 @@
 
   async function readRecordedPage() {
     stopPage();
+    isReading = true;
     pageAudio = new Audio(recordedAudio);
     pageAudio.preload = 'auto';
     pageAudio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
@@ -98,6 +101,7 @@
     if (!('speechSynthesis' in window)) return;
     speechSynthesis.cancel();
     clearHighlight();
+    isReading = true;
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-TZ';
     utterance.rate = 0.9;
@@ -107,15 +111,28 @@
     utterance.onboundary = (event) => {
       if (event.name === 'word' || typeof event.charIndex === 'number') highlightAt(event.charIndex);
     };
-    utterance.onend = clearHighlight;
-    utterance.onerror = clearHighlight;
+    utterance.onend = stopPage;
+    utterance.onerror = stopPage;
     speechSynthesis.speak(utterance);
   }
 
-  readButton.addEventListener('click', () => {
+  function startPage() {
     if (recordedAudio) readRecordedPage().catch(() => readSyntheticPage());
     else readSyntheticPage();
-  });
-  stopButton.addEventListener('click', stopPage);
+  }
+
+  // The reader dock is loaded after this script. Capture its TTS button clicks
+  // so the standard speaker icon controls this page's recorded read-aloud.
+  document.addEventListener('click', (event) => {
+    const button = event.target.closest?.(
+      'button[title$="tts-label"], button[aria-label$="tts-label"]'
+    );
+    if (!button) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if (isReading) stopPage();
+    else startPage();
+  }, true);
+
   window.addEventListener('beforeunload', stopPage);
 })();
