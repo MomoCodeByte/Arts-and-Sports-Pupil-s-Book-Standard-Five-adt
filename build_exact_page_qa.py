@@ -30,7 +30,7 @@ for number in range(1, 113):
             "Title of Publication: Arts and Sports Pupil's Book Standard Five" in source
             or "MINISTRY OF EDUCATION, SCIENCE AND TECHNOLOGY" in source
         ),
-        "current_cache_version": "offline-preloader.js?v=20260808-4" in source,
+        "current_cache_version": "offline-preloader.js?v=20260808-5" in source,
         "readalong": word_count > 0,
         "voice_script": "pdf-page-readalong.js" in source,
     }
@@ -50,6 +50,34 @@ with (OUT / "exact-page-qa.csv").open("w", encoding="utf-8", newline="") as hand
 pages = json.loads((ROOT / "content" / "pages.json").read_text(encoding="utf-8"))
 secondary_files = [p for p in ROOT.glob('pg*_sec*.html') if not p.name.endswith('_sec001.html')]
 legacy_redirects = sum('physical-page-final' in p.read_text(encoding='utf-8') for p in secondary_files)
+chapter_starts = {
+    "Chapter One": 7, "Chapter Two": 18, "Chapter Three": 28,
+    "Chapter Four": 49, "Chapter Five": 63, "Chapter Six": 76,
+    "Chapter Seven": 88,
+}
+chapter_results = []
+for chapter, number in chapter_starts.items():
+    chapter_source = (ROOT / f"pg{number:03d}_sec001.html").read_text(encoding="utf-8")
+    chapter_results.append((chapter, number, chapter in chapter_source))
+manifest = (ROOT / "imsmanifest.xml").read_text(encoding="utf-8")
+manifest_pages = all(
+    ("index.html" if number == 1 else f"pg{number:03d}_sec001.html") in manifest
+    and f"images/page-renders/pg{number:03d}.png" in manifest
+    for number in range(1, 113)
+)
+offline_source = (ROOT / "assets" / "offline-preloader.js").read_text(encoding="utf-8")
+offline_pages = all(
+    ("./index.html" if number == 1 else f"./pg{number:03d}_sec001.html") in offline_source
+    for number in range(1, 113)
+)
+quiz_controls = sum(
+    bool(re.search(r"<input\b|<textarea\b|type=[\"']submit", path.read_text(encoding="utf-8"), re.I))
+    for path in ROOT.glob("qz*.html")
+)
+chapter_lines = "\n".join(
+    f"  - {chapter}: PDF/ADT page {number} — **{'PASS' if passed else 'FAIL'}**"
+    for chapter, number, passed in chapter_results
+)
 summary = f"""# Exact PDF-to-ADT QA report
 
 - Physical pages tested: **112**
@@ -63,6 +91,13 @@ summary = f"""# Exact PDF-to-ADT QA report
 - PDF watermark blocks removed before rendering: **112**
 - Voice language request: **en-TZ**, with en-KE/en-GB/English fallback
 - Word highlighting: **enabled for {sum(row['words_highlightable'] for row in rows):,} positioned words**
+- Manifest contains every physical HTML page and render: **{'PASS' if manifest_pages else 'FAIL'}**
+- Offline bundle contains every physical page: **{'PASS' if offline_pages else 'FAIL'}**
+- Quiz files containing answer inputs/submit controls: **{quiz_controls}**
+
+## Chapter start verification
+
+{chapter_lines}
 
 Every ADT physical page uses the corresponding watermark-free page render, so layout, typography, drawings, tables, signatures, and page numbering retain the PDF geometry. See `exact-page-qa.csv` for all 112 page results.
 """

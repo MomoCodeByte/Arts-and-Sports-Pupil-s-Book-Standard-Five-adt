@@ -128,6 +128,9 @@ def build_page_html(page_number, semantic_items, words):
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="expires" content="0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Arts and Sports Pupil's Book Standard Five - PDF page {page_number}</title>
   <meta name="title-id" content="{section_id}">
@@ -164,7 +167,7 @@ def build_page_html(page_number, semantic_items, words):
   <div class="page-voice-controls" aria-label="Page voice controls"><button type="button" data-page-read>🔊 Read page</button><button type="button" data-page-stop>■ Stop</button></div>
   <div class="relative z-50" id="interface-container"></div>
   <div class="relative z-50" id="nav-container"></div>
-  <script src="./assets/offline-preloader.js?v=20260808-4"></script>
+  <script src="./assets/offline-preloader.js?v=20260808-5"></script>
   <script src="./assets/scorm.js"></script>
   <script src="./assets/base.bundle.local.js"></script>
   <script src="./assets/pdf-page-readalong.js?v=20260808-2"></script>
@@ -184,7 +187,16 @@ def rebuild_html_pages(page_words):
         primary.write_text(build_page_html(page_number, semantic_items, page_words[page_number]), encoding="utf-8", newline="")
         secondary_files.extend(path for path in paths if path != primary)
     for path in secondary_files:
-        path.unlink()
+        page_number = int(path.name[2:5])
+        target = f"pg{page_number:03d}_sec001.html?v=physical-page-final"
+        path.write_text(f'''<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="refresh" content="0;url={target}">
+<title>Opening physical PDF page {page_number}</title>
+<script>location.replace({target!r});</script></head>
+<body><p><a href="{target}">Open physical PDF page {page_number}</a></p></body></html>
+''', encoding="utf-8", newline="")
     return len(secondary_files)
 
 
@@ -255,7 +267,7 @@ def main():
     shutil.rmtree(TMP_DIR.parent, ignore_errors=True)
     print(f"watermarks_removed={removed}")
     print(f"page_images={len(list(PAGE_IMAGE_DIR.glob('pg*.png')))}")
-    print(f"secondary_sections_removed={deleted_sections}")
+    print(f"legacy_sections_redirected={deleted_sections}")
 
 
 if __name__ == "__main__":
