@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Arts and Sports Standard Five - PDF-faithful preview</title>
+  <title>Arts and Sports Standard Five - Converted book preview</title>
   <style>
     :root { color-scheme: light; font-family: Arial, sans-serif; }
     * { box-sizing: border-box; }
@@ -30,25 +30,47 @@
 </head>
 <body>
   <header>
-    <h1>Arts and Sports Pupil's Book - Original page view</h1>
-    <button id="previous" type="button" aria-label="Previous PDF page">Previous</button>
-    <span class="page-count">Page <strong id="page">1</strong> / 112</span>
-    <button id="next" type="button" aria-label="Next PDF page">Next</button>
+    <h1>Arts and Sports Pupil's Book - Converted HTML view</h1>
+    <button id="previous" type="button" aria-label="Previous book section">Previous</button>
+    <span class="page-count">Section <strong id="page">1</strong> / <strong id="total">…</strong></span>
+    <button id="next" type="button" aria-label="Next book section">Next</button>
   </header>
-  <iframe id="book" title="Arts and Sports textbook without online-reading watermark" src="output/pdf/arts-sports-no-online-reading-watermark.pdf#page=1&zoom=page-fit"></iframe>
+  <iframe id="book" title="Arts and Sports converted textbook" src="index.html"></iframe>
   <script>
     const frame = document.getElementById('book');
     const pageLabel = document.getElementById('page');
-    let currentPage = 1;
-    const maxPage = 112;
-    function showPage(value) {
-      const page = Math.max(1, Math.min(maxPage, Number(value) || 1));
-      currentPage = page;
-      pageLabel.textContent = page;
-      frame.src = `output/pdf/arts-sports-no-online-reading-watermark.pdf#page=${page}&zoom=page-fit`;
+    const totalLabel = document.getElementById('total');
+    const previousButton = document.getElementById('previous');
+    const nextButton = document.getElementById('next');
+    let sections = [];
+    let currentIndex = 0;
+
+    function showSection(value) {
+      if (!sections.length) return;
+      currentIndex = Math.max(0, Math.min(sections.length - 1, Number(value) || 0));
+      pageLabel.textContent = currentIndex + 1;
+      frame.src = sections[currentIndex].href;
+      previousButton.disabled = currentIndex === 0;
+      nextButton.disabled = currentIndex === sections.length - 1;
     }
-    document.getElementById('previous').addEventListener('click', () => showPage(currentPage - 1));
-    document.getElementById('next').addEventListener('click', () => showPage(currentPage + 1));
+
+    previousButton.addEventListener('click', () => showSection(currentIndex - 1));
+    nextButton.addEventListener('click', () => showSection(currentIndex + 1));
+
+    fetch('content/pages.json')
+      .then(response => {
+        if (!response.ok) throw new Error(`Could not load pages (${response.status})`);
+        return response.json();
+      })
+      .then(items => {
+        sections = items.filter(item => item && item.href);
+        totalLabel.textContent = sections.length;
+        showSection(0);
+      })
+      .catch(error => {
+        totalLabel.textContent = '1';
+        console.error(error);
+      });
   </script>
 </body>
 </html>
