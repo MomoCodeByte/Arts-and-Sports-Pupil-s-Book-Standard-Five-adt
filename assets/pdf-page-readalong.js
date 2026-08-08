@@ -207,7 +207,7 @@
     isReading = true;
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-TZ';
-    utterance.rate = 0.9;
+    utterance.rate = 0.65;
     utterance.pitch = 1;
     const voice = chooseVoice();
     if (voice) utterance.voice = voice;
