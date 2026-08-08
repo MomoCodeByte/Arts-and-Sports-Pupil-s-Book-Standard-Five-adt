@@ -1,8 +1,16 @@
 (function () {
-  const words = Array.from(document.querySelectorAll('.read-word'));
+  const allWords = Array.from(document.querySelectorAll('.read-word'));
+  const seenWords = new Set();
+  const words = allWords.filter((node) => {
+    const top = Number.parseFloat((node.style.top || '0').replace('%', ''));
+    const key = `${node.textContent.trim()}|${node.getAttribute('style')}`;
+    if (top >= 97 || seenWords.has(key)) return false;
+    seenWords.add(key);
+    return true;
+  });
   const readButton = document.querySelector('[data-page-read]');
   const stopButton = document.querySelector('[data-page-stop]');
-  if (!words.length || !readButton || !stopButton || !('speechSynthesis' in window)) return;
+  if (!words.length || !readButton || !stopButton) return;
 
   const spokenWords = words.map((node) => node.textContent.trim());
   const text = spokenWords.join(' ');
@@ -10,10 +18,57 @@
   let offset = 0;
   spokenWords.forEach((word) => { starts.push(offset); offset += word.length + 1; });
   let active = null;
+  let pageAudio = null;
+  let animationFrame = null;
+
+  const sectionId = document.querySelector('[data-section-id^="pg"]')?.dataset.sectionId || '';
+  const pageMatch = sectionId.match(/^pg(\d{3})_/);
+  const pageNumber = pageMatch ? Number(pageMatch[1]) : 0;
+  const recordedAudio = pageNumber >= 1 && pageNumber <= 5
+    ? `audio-samples/openvoice-sw-tz/page-${String(pageNumber).padStart(3, '0')}-sample.wav`
+    : null;
 
   function clearHighlight() {
     if (active) active.classList.remove('is-speaking');
     active = null;
+  }
+
+  function stopPage() {
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    if (pageAudio) {
+      pageAudio.pause();
+      pageAudio.currentTime = 0;
+      pageAudio = null;
+    }
+    if (animationFrame) cancelAnimationFrame(animationFrame);
+    animationFrame = null;
+    clearHighlight();
+  }
+
+  function highlightRecordedAudio() {
+    if (!pageAudio || !Number.isFinite(pageAudio.duration) || pageAudio.duration <= 0) return;
+    const progress = Math.min(0.999999, pageAudio.currentTime / pageAudio.duration);
+    const index = Math.min(words.length - 1, Math.floor(progress * words.length));
+    if (words[index] !== active) {
+      clearHighlight();
+      active = words[index];
+      active?.classList.add('is-speaking');
+    }
+    if (!pageAudio.paused && !pageAudio.ended) animationFrame = requestAnimationFrame(highlightRecordedAudio);
+  }
+
+  async function readRecordedPage() {
+    stopPage();
+    pageAudio = new Audio(recordedAudio);
+    pageAudio.preload = 'auto';
+    pageAudio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
+    pageAudio.addEventListener('play', highlightRecordedAudio);
+    pageAudio.addEventListener('ended', stopPage, { once: true });
+    pageAudio.addEventListener('error', () => {
+      stopPage();
+      readSyntheticPage();
+    }, { once: true });
+    await pageAudio.play();
   }
 
   function highlightAt(characterIndex) {
@@ -39,7 +94,8 @@
       voices.find((voice) => /^en/i.test(voice.lang));
   }
 
-  function readPage() {
+  function readSyntheticPage() {
+    if (!('speechSynthesis' in window)) return;
     speechSynthesis.cancel();
     clearHighlight();
     const utterance = new SpeechSynthesisUtterance(text);
@@ -56,7 +112,10 @@
     speechSynthesis.speak(utterance);
   }
 
-  readButton.addEventListener('click', readPage);
-  stopButton.addEventListener('click', () => { speechSynthesis.cancel(); clearHighlight(); });
-  window.addEventListener('beforeunload', () => speechSynthesis.cancel());
+  readButton.addEventListener('click', () => {
+    if (recordedAudio) readRecordedPage().catch(() => readSyntheticPage());
+    else readSyntheticPage();
+  });
+  stopButton.addEventListener('click', stopPage);
+  window.addEventListener('beforeunload', stopPage);
 })();
