@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arts and Sports Standard Five - PDF-faithful preview</title>
+  <style>
+    :root { color-scheme: light; font-family: Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #e5e7eb; color: #111827; overflow: hidden; }
+    header {
+      height: 56px; display: flex; align-items: center; gap: 12px;
+      padding: 8px 16px; background: #fff; border-bottom: 1px solid #cbd5e1;
+    }
+    h1 { margin: 0 auto 0 0; font-size: 17px; }
+    button {
+      height: 36px; border: 1px solid #94a3b8; border-radius: 7px;
+      background: #fff; padding: 0 12px; font: inherit;
+    }
+    button { cursor: pointer; font-weight: 700; }
+    button:hover { background: #f1f5f9; }
+    .page-count { white-space: nowrap; }
+    iframe { display: block; width: 100%; height: calc(100vh - 56px); border: 0; background: #525659; }
+    @media (max-width: 650px) {
+      header { padding: 8px; gap: 6px; }
+      h1 { font-size: 13px; }
+      button { padding: 0 9px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arts and Sports Pupil's Book - Original page view</h1>
+    <button id="previous" type="button" aria-label="Previous PDF page">Previous</button>
+    <span class="page-count">Page <strong id="page">1</strong> / 112</span>
+    <button id="next" type="button" aria-label="Next PDF page">Next</button>
+  </header>
+  <iframe id="book" title="Arts and Sports textbook without online-reading watermark" src="output/pdf/arts-sports-no-online-reading-watermark.pdf#page=1&zoom=page-fit"></iframe>
+  <script>
+    const frame = document.getElementById('book');
+    const pageLabel = document.getElementById('page');
+    let currentPage = 1;
+    const maxPage = 112;
+    function showPage(value) {
+      const page = Math.max(1, Math.min(maxPage, Number(value) || 1));
+      currentPage = page;
+      pageLabel.textContent = page;
+      frame.src = `output/pdf/arts-sports-no-online-reading-watermark.pdf#page=${page}&zoom=page-fit`;
+    }
+    document.getElementById('previous').addEventListener('click', () => showPage(currentPage - 1));
+    document.getElementById('next').addEventListener('click', () => showPage(currentPage + 1));
+  </script>
+</body>
+</html>
