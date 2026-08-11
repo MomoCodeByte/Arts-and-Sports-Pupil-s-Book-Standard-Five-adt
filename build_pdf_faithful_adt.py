@@ -232,9 +232,9 @@ def build_page_html(page_number, semantic_items, words):
   <div class="page-voice-controls" aria-label="Page voice controls"><button type="button" data-page-read>🔊 Read page</button><button type="button" data-page-stop>■ Stop</button></div>
   <div class="relative z-50" id="interface-container"></div>
   <div class="relative z-50" id="nav-container"></div>
-  <script src="./assets/offline-preloader.js?v=20260811-21"></script>
+  <script src="./assets/offline-preloader.js?v=20260811-23"></script>
   <script src="./assets/scorm.js"></script>
-  <script src="./assets/pdf-page-readalong.js?v=20260811-42"></script>
+  <script src="./assets/pdf-page-readalong.js?v=20260811-44"></script>
   <script src="./assets/base.bundle.local.js"></script>
 </body>
 </html>

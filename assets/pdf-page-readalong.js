@@ -219,7 +219,6 @@
     audio.preload = 'auto';
     // Recorded audio is generated at the intended classroom pace.
     audio.playbackRate = 1;
-    audio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
     audio.addEventListener('play', highlightRecordedAudio);
     audio.addEventListener('ended', () => {
       activePageAudios.delete(audio);
@@ -229,6 +228,19 @@
       activePageAudios.delete(audio);
       if (pageAudio === audio) stopPage();
     }, { once: true });
+    const firstCue = timedCues[0]?.word?.trim() || '';
+    const startsWithPrintedPageNumber = /^\d+$/.test(firstCue) || /^[ivxlcdm]+$/i.test(firstCue);
+    if (startsWithPrintedPageNumber && timedCues.length > 1) {
+      await new Promise((resolve, reject) => {
+        if (audio.readyState >= 1) resolve();
+        else {
+          audio.addEventListener('loadedmetadata', resolve, { once: true });
+          audio.addEventListener('error', reject, { once: true });
+          audio.load();
+        }
+      });
+      audio.currentTime = timedCues[1].start;
+    }
     await originalMediaPlay.call(audio);
     if (generation !== playbackGeneration) {
       audio.pause();
