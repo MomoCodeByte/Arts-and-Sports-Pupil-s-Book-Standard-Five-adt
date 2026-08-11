@@ -137,6 +137,11 @@ def render_page_images():
              (x1 - x0) / width * 100, (y1 - y0) / height * 100)
             for x0, y0, x1, y1, word, *_ in page.get_text("words", sort=True)
             if word.strip() and "FOR ONLINE READING ONLY" not in word.upper()
+            and not (
+                index == 1
+                and 80 <= y0 / height * 100 <= 84
+                and word.casefold() in {"taasisi", "ya", "elimu", "tanzania"}
+            )
         ]
     return page_words
 
@@ -229,7 +234,7 @@ def build_page_html(page_number, semantic_items, words):
   <div class="relative z-50" id="nav-container"></div>
   <script src="./assets/offline-preloader.js?v=20260811-15"></script>
   <script src="./assets/scorm.js"></script>
-  <script src="./assets/pdf-page-readalong.js?v=20260811-37"></script>
+  <script src="./assets/pdf-page-readalong.js?v=20260811-38"></script>
   <script src="./assets/base.bundle.local.js"></script>
 </body>
 </html>

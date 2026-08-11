@@ -27,54 +27,34 @@
       "end": 2.038624
     },
     {
-      "text": "Taasisi",
-      "start": 2.138083,
-      "end": 2.621041
-    },
-    {
-      "text": "ya",
-      "start": 2.663625,
-      "end": 2.748833
-    },
-    {
-      "text": "Elimu",
-      "start": 2.834083,
-      "end": 3.231791
-    },
-    {
-      "text": "Tanzania",
-      "start": 3.302833,
-      "end": 3.842624
-    },
-    {
       "text": "Standard",
-      "start": 3.927833,
-      "end": 4.282958
+      "start": 2.127833,
+      "end": 2.482958
     },
     {
       "text": "Five",
-      "start": 4.339791,
-      "end": 4.567082
+      "start": 2.539791,
+      "end": 2.767082
     },
     {
       "text": "Tanzania",
-      "start": 4.666458,
-      "end": 5.206249
+      "start": 2.866458,
+      "end": 3.406249
     },
     {
       "text": "Institute",
-      "start": 5.277291,
-      "end": 5.859666
+      "start": 3.477291,
+      "end": 4.059666
     },
     {
       "text": "of",
-      "start": 5.902291,
-      "end": 6.030124
+      "start": 4.102291,
+      "end": 4.230124
     },
     {
       "text": "Education",
-      "start": 6.072708,
-      "end": 6.811333
+      "start": 4.272708,
+      "end": 5.011333
     }
   ]
 }
