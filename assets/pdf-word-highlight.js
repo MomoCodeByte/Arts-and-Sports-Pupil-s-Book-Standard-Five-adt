@@ -10,7 +10,10 @@
   var readAlongCancelled = false;
   var dockReadingActive = false;
   var readAlongRunId = 0;
-  var voiceDisabled = true;
+  // Keep narration enabled, but route every read-aloud request through the
+  // single recorded narrator below. Competing browser/runtime voices remain
+  // blocked by the media and speech-synthesis guards in this file.
+  var voiceDisabled = false;
 
   // This edition uses one recorded narrator only. Never let the browser
   // substitute a platform voice, which can change between male and female.
@@ -25,21 +28,6 @@
     if (window.speechSynthesis) window.speechSynthesis.cancel();
     document.querySelectorAll("audio").forEach(function (audio) {
       if (audio.dataset.singleReaderAudio === "1") return;
-      audio.pause();
-      audio.muted = true;
-      audio.volume = 0;
-    });
-  }
-
-  function disableAllVoiceControls() {
-    stopReadAlong();
-    document.querySelectorAll('button[aria-label*="text to speech" i]').forEach(function (button) {
-      button.disabled = true;
-      button.setAttribute("aria-disabled", "true");
-      button.setAttribute("aria-pressed", "false");
-      button.setAttribute("aria-label", "Text to speech disabled");
-    });
-    document.querySelectorAll("audio").forEach(function (audio) {
       audio.pause();
       audio.muted = true;
       audio.volume = 0;
@@ -388,11 +376,6 @@
       stopReadAlong();
     }
   }, true);
-
-  var voiceDisabledObserver = new MutationObserver(disableAllVoiceControls);
-  voiceDisabledObserver.observe(document.documentElement, { childList: true, subtree: true });
-  window.setTimeout(disableAllVoiceControls, 0);
-  window.setTimeout(disableAllVoiceControls, 500);
 
   window.addEventListener("beforeunload", stopReadAlong);
 
