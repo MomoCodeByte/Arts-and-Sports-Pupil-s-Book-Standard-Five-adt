@@ -1,10 +1,37 @@
 (function () {
+  const speechEngine = window.speechSynthesis || null;
+  const originalSpeak = window.__imaniNativeSpeechSpeak ||
+    (speechEngine ? speechEngine.speak.bind(speechEngine) : null);
+  const originalCancel = window.__imaniNativeSpeechCancel ||
+    (speechEngine ? speechEngine.cancel.bind(speechEngine) : null);
+  const NativeAudio = window.Audio;
+  const originalMediaPlay = window.__imaniNativeMediaPlay ||
+    window.HTMLMediaElement?.prototype.play;
+  window.__imaniNativeSpeechSpeak = originalSpeak;
+  window.__imaniNativeSpeechCancel = originalCancel;
+  window.__imaniNativeMediaPlay = originalMediaPlay;
+  if (typeof window.__imaniStopPageAudio === 'function') {
+    window.__imaniStopPageAudio();
+  }
+  if (speechEngine) {
+    originalCancel();
+    speechEngine.speak = function () {};
+    speechEngine.cancel = function () {};
+  }
+  // The bundled reader has its own audio engine. Block every generic media
+  // playback request; this page reader calls the saved native method directly.
+  if (originalMediaPlay) {
+    window.HTMLMediaElement.prototype.play = function () {
+      return Promise.resolve();
+    };
+  }
   const allWords = Array.from(document.querySelectorAll('.read-word'));
   const seenWords = new Set();
   const words = allWords.filter((node) => {
     const top = Number.parseFloat((node.style.top || '0').replace('%', ''));
+    const value = node.textContent.trim();
     const key = `${node.textContent.trim()}|${node.getAttribute('style')}`;
-    if (top >= 97 || seenWords.has(key)) return false;
+    if (top >= 97 || (top >= 90 && /^\d+$/.test(value)) || seenWords.has(key)) return false;
     seenWords.add(key);
     return true;
   });
@@ -22,19 +49,25 @@
   });
   let active = null;
   let pageAudio = null;
+  const activePageAudios = new Set();
   let animationFrame = null;
   let isReading = false;
+  let playbackGeneration = 0;
   let timedCues = [];
   let cueWordMap = [];
+  let customButton = null;
 
   const sectionId = document.querySelector('[data-section-id^="pg"]')?.dataset.sectionId || '';
   const pageMatch = sectionId.match(/^pg(\d{3})_/);
   const pageNumber = pageMatch ? Number(pageMatch[1]) : 0;
-  const recordedAudio = pageNumber >= 1 && pageNumber <= 112
-    ? `audio-samples/african-english/page-${String(pageNumber).padStart(3, '0')}-sample.wav`
+  const pageFile = pageNumber >= 1 && pageNumber <= 112
+    ? `page-${String(pageNumber).padStart(3, '0')}`
     : null;
-  const recordedCues = pageNumber >= 1 && pageNumber <= 112
-    ? `audio-samples/african-english/page-${String(pageNumber).padStart(3, '0')}-cues.json`
+  const recordedAudio = pageFile
+    ? `content/imani/${pageFile}.mp3?v=tzall1`
+    : null;
+  const recordedCues = pageFile
+    ? `content/imani/${pageFile}.json?v=tzall1`
     : null;
 
   function clearHighlight() {
@@ -43,17 +76,21 @@
   }
 
   function stopPage() {
-    if ('speechSynthesis' in window) speechSynthesis.cancel();
-    if (pageAudio) {
-      pageAudio.pause();
-      pageAudio.currentTime = 0;
-      pageAudio = null;
+    playbackGeneration += 1;
+    if (originalCancel) originalCancel();
+    for (const audio of activePageAudios) {
+      audio.pause();
+      audio.currentTime = 0;
     }
+    activePageAudios.clear();
+    pageAudio = null;
     if (animationFrame) cancelAnimationFrame(animationFrame);
     animationFrame = null;
     isReading = false;
     clearHighlight();
+    updateCustomButton();
   }
+  window.__imaniStopPageAudio = stopPage;
 
   function normalizedWord(value) {
     return value.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -155,26 +192,46 @@
 
   async function readRecordedPage() {
     stopPage();
+    const generation = playbackGeneration;
     isReading = true;
+    updateCustomButton();
     if (!timedCues.length) {
       const response = await fetch(recordedCues, { cache: 'no-store' });
       if (!response.ok) throw new Error(`Unable to load word cues: ${response.status}`);
-      timedCues = await response.json();
+      const cuePayload = await response.json();
+      if (generation !== playbackGeneration) return;
+      timedCues = Array.isArray(cuePayload)
+        ? cuePayload
+        : (cuePayload.words || []).map((cue) => ({
+          word: cue.word || cue.text || '',
+          start: cue.start,
+          end: cue.end
+        }));
       cueWordMap = mapCuesToPageWords(timedCues);
     }
-    pageAudio = new Audio(recordedAudio);
-    pageAudio.preload = 'auto';
-    // Calm classroom pace. Cue timestamps remain synchronized because they
-    // are compared with the audio element's source currentTime.
-    pageAudio.playbackRate = 0.65;
-    pageAudio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
-    pageAudio.addEventListener('play', highlightRecordedAudio);
-    pageAudio.addEventListener('ended', stopPage, { once: true });
-    pageAudio.addEventListener('error', () => {
-      stopPage();
-      readSyntheticPage();
+    if (generation !== playbackGeneration) return;
+    const audio = new NativeAudio(recordedAudio);
+    activePageAudios.add(audio);
+    pageAudio = audio;
+    audio.preload = 'auto';
+    // Recorded audio is generated at the intended classroom pace.
+    audio.playbackRate = 1;
+    audio.addEventListener('loadedmetadata', highlightRecordedAudio, { once: true });
+    audio.addEventListener('play', highlightRecordedAudio);
+    audio.addEventListener('ended', () => {
+      activePageAudios.delete(audio);
+      if (pageAudio === audio) stopPage();
     }, { once: true });
-    await pageAudio.play();
+    audio.addEventListener('error', () => {
+      activePageAudios.delete(audio);
+      if (pageAudio === audio) stopPage();
+    }, { once: true });
+    await originalMediaPlay.call(audio);
+    if (generation !== playbackGeneration) {
+      audio.pause();
+      audio.currentTime = 0;
+      activePageAudios.delete(audio);
+    }
   }
 
   function highlightAt(characterIndex) {
@@ -193,16 +250,16 @@
   }
 
   function chooseVoice() {
-    const voices = speechSynthesis.getVoices();
+    const voices = speechEngine ? speechEngine.getVoices() : [];
     return voices.find((voice) => /^en-TZ$/i.test(voice.lang)) ||
       voices.find((voice) => /^en-KE$/i.test(voice.lang)) ||
       voices.find((voice) => /^en-(TZ|KE|UG|GB)/i.test(voice.lang)) ||
       voices.find((voice) => /^en/i.test(voice.lang));
   }
 
-  function readSyntheticPage() {
-    if (!('speechSynthesis' in window)) return;
-    speechSynthesis.cancel();
+  function readOriginalVoice() {
+    if (!speechEngine || !originalSpeak || !originalCancel) return;
+    originalCancel();
     clearHighlight();
     isReading = true;
     const utterance = new SpeechSynthesisUtterance(text);
@@ -216,19 +273,85 @@
     };
     utterance.onend = stopPage;
     utterance.onerror = stopPage;
-    speechSynthesis.speak(utterance);
+    originalSpeak(utterance);
   }
 
   function startPage() {
-    if (recordedAudio) readRecordedPage().catch(() => readSyntheticPage());
-    else readSyntheticPage();
+    if (recordedAudio) {
+      const playback = readRecordedPage();
+      const generation = playbackGeneration;
+      playback.catch(() => {
+        if (generation === playbackGeneration) stopPage();
+      });
+    }
   }
+
+  function updateCustomButton() {
+    if (!customButton) return;
+    customButton.setAttribute('aria-label', isReading ? 'Stop page audio' : 'Read page');
+    customButton.setAttribute('title', isReading ? 'Stop page audio' : 'Read page');
+    customButton.textContent = isReading ? '■' : '🔊';
+  }
+
+  function installCustomButton() {
+    if (customButton?.isConnected) return true;
+    const dock = document.querySelector('[role="group"][aria-label="Reader controls"]');
+    if (!dock) return false;
+    customButton = document.createElement('button');
+    customButton.type = 'button';
+    customButton.dataset.imaniReader = 'true';
+    customButton.style.cssText = [
+      'width:44px', 'height:44px', 'border:0', 'border-radius:10px',
+      'display:inline-flex', 'align-items:center', 'justify-content:center',
+      'font-size:22px', 'cursor:pointer', 'background:rgba(255,255,255,.08)',
+      'color:inherit'
+    ].join(';');
+    const placeBeforeLanguage = () => {
+      const languageButton = Array.from(dock.querySelectorAll('button')).find((button) => {
+        const label = `${button.getAttribute('aria-label') || ''} ${button.getAttribute('title') || ''}`;
+        return /(^|\s)language(\s|$)/i.test(label) || /language-label/i.test(label);
+      });
+      if (!languageButton) return false;
+      const languageGroup = languageButton.parentElement;
+      if (!languageGroup) return false;
+      if (customButton.parentElement !== languageGroup || customButton.nextElementSibling !== languageButton) {
+        languageGroup.insertBefore(customButton, languageButton);
+      }
+      return true;
+    };
+    placeBeforeLanguage();
+    const positionObserver = new MutationObserver(placeBeforeLanguage);
+    positionObserver.observe(dock, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['aria-label', 'title']
+    });
+    updateCustomButton();
+    return true;
+  }
+
+  installCustomButton();
+  const dockObserver = new MutationObserver(installCustomButton);
+  dockObserver.observe(document.documentElement, { childList: true, subtree: true });
+
+  // Delegation keeps the control working even when the React dock replaces
+  // its DOM while loading a new page or restoring reader settings.
+  document.addEventListener('click', (event) => {
+    const button = event.target.closest?.('[data-imani-reader="true"]');
+    if (!button) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if (isReading) stopPage();
+    else startPage();
+  }, true);
 
   // The reader dock is loaded after this script. Capture its TTS button clicks
   // so the standard speaker icon controls this page's recorded read-aloud.
   document.addEventListener('click', (event) => {
     const button = event.target.closest?.(
-      'button[title$="tts-label"], button[aria-label$="tts-label"]'
+      'button[title$="tts-label"], button[aria-label$="tts-label"], ' +
+      'button[title*="text to speech" i], button[aria-label*="text to speech" i]'
     );
     if (!button) return;
     event.preventDefault();
@@ -238,4 +361,8 @@
   }, true);
 
   window.addEventListener('beforeunload', stopPage);
+  window.addEventListener('pagehide', stopPage);
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) stopPage();
+  });
 })();

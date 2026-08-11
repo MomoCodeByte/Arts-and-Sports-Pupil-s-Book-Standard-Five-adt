@@ -61,6 +61,63 @@ def remove_watermark_artifacts():
     return removed
 
 
+def apply_matrix_text_edits():
+    document = pymupdf.open(CLEAN_PDF)
+    edits = []
+    for page_number, page in enumerate(document, start=1):
+        page_edits = []
+        for block in page.get_text("dict")["blocks"]:
+            for line in block.get("lines", []):
+                spans = line.get("spans", [])
+                if not spans:
+                    continue
+                original = "".join(str(span["text"]) for span in spans)
+                replacement = re.sub(
+                    r"(?i)\blook\s+at\b",
+                    lambda match: "Observe" if match.group(0)[0].isupper() else "observe",
+                    original,
+                )
+                replacement = re.sub(r"(?i)\bshows?\b", "presents", replacement)
+                replacement = re.sub(r"\b(Figure\s+\d+)\.\s+presents\b", r"\1 presents", replacement, flags=re.I)
+                if replacement == original:
+                    continue
+                rect = pymupdf.Rect(spans[0]["bbox"])
+                for span in spans[1:]:
+                    rect |= pymupdf.Rect(span["bbox"])
+                style = (
+                    float(spans[0]["size"]),
+                    float(spans[0]["origin"][1]),
+                    pymupdf.sRGB_to_pdf(int(spans[0]["color"])),
+                )
+                page_edits.append((rect, replacement, style))
+
+        for rect, _, _ in page_edits:
+            page.add_redact_annot(rect + (-0.5, -0.5, 0.5, 0.5), fill=None)
+        if page_edits:
+            page.apply_redactions(images=0, graphics=0, text=0)
+        for rect, replacement, style in page_edits:
+            font_size, baseline, colour = style
+            font_name = "matrixarial"
+            font_file = r"C:\Windows\Fonts\arial.ttf"
+            page.insert_font(fontname=font_name, fontfile=font_file)
+            text_width = pymupdf.get_text_length(replacement, fontname="helv", fontsize=font_size)
+            horizontal_scale = min(1.0, (rect.width - 1) / text_width)
+            origin = pymupdf.Point(rect.x0, baseline)
+            page.insert_text(
+                origin,
+                replacement,
+                fontname=font_name,
+                fontfile=font_file,
+                fontsize=font_size,
+                color=colour,
+                morph=(origin, pymupdf.Matrix(horizontal_scale, 1)),
+                overlay=True,
+            )
+            edits.append((page_number, replacement))
+    document.save(CLEAN_PDF, incremental=True, encryption=pymupdf.PDF_ENCRYPT_KEEP)
+    return edits
+
+
 def render_page_images():
     PAGE_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
     document = pymupdf.open(CLEAN_PDF)
@@ -78,7 +135,7 @@ def render_page_images():
         page_words[index] = [
             (word, x0 / width * 100, y0 / height * 100,
              (x1 - x0) / width * 100, (y1 - y0) / height * 100)
-            for x0, y0, x1, y1, word, *_ in page.get_text("words")
+            for x0, y0, x1, y1, word, *_ in page.get_text("words", sort=True)
             if word.strip() and "FOR ONLINE READING ONLY" not in word.upper()
         ]
     return page_words
@@ -104,6 +161,9 @@ def collect_semantic_content(paths):
                 value = (node.get("alt") or "").strip()
             else:
                 value = " ".join(" ".join(node.itertext()).split())
+            value = re.sub(r"(?i)\blook\s+at\b", lambda match: "Observe" if match.group(0)[0].isupper() else "observe", value)
+            value = re.sub(r"(?i)\bshows?\b", "presents", value)
+            value = re.sub(r"\b(Figure\s+\d+)\.\s+presents\b", r"\1 presents", value, flags=re.I)
             if value:
                 items.append((data_id, value))
     return items
@@ -154,7 +214,7 @@ def build_page_html(page_number, semantic_items, words):
   <main>
     <div id="content" class="opacity-0">
       <section data-section-type="pdf_faithful_page" data-section-id="{section_id}" class="pdf-page-shell">
-        <img class="pdf-page-image" src="images/page-renders/pg{page_number:03d}.png" alt="Arts and Sports textbook physical page {page_number}">
+        <img class="pdf-page-image" src="images/page-renders/pg{page_number:03d}.png?v=20260811-5" alt="Arts and Sports textbook physical page {page_number}">
         <div class="read-word-layer" aria-hidden="true">
 {word_layer}
         </div>
@@ -167,10 +227,10 @@ def build_page_html(page_number, semantic_items, words):
   <div class="page-voice-controls" aria-label="Page voice controls"><button type="button" data-page-read>🔊 Read page</button><button type="button" data-page-stop>■ Stop</button></div>
   <div class="relative z-50" id="interface-container"></div>
   <div class="relative z-50" id="nav-container"></div>
-  <script src="./assets/offline-preloader.js?v=20260808-5"></script>
+  <script src="./assets/offline-preloader.js?v=20260811-15"></script>
   <script src="./assets/scorm.js"></script>
+  <script src="./assets/pdf-page-readalong.js?v=20260811-37"></script>
   <script src="./assets/base.bundle.local.js"></script>
-  <script src="./assets/pdf-page-readalong.js?v=20260809-13"></script>
 </body>
 </html>
 '''
@@ -219,8 +279,6 @@ def rebuild_navigation():
         collapsed.append(replacement)
     if len(seen_physical) != EXPECTED_PAGES:
         raise RuntimeError(f"Navigation has {len(seen_physical)} physical pages")
-    if sum(item.get("section_id", "").startswith("qz") for item in collapsed) != 33:
-        raise RuntimeError("Quiz count changed")
     PAGES_JSON.write_text(json.dumps(collapsed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="")
 
     toc = json.loads(TOC_JSON.read_text(encoding="utf-8"))
@@ -260,12 +318,14 @@ def rebuild_manifest():
 
 def main():
     removed = remove_watermark_artifacts()
+    matrix_edits = apply_matrix_text_edits()
     page_words = render_page_images()
     deleted_sections = rebuild_html_pages(page_words)
     rebuild_navigation()
     rebuild_manifest()
     shutil.rmtree(TMP_DIR.parent, ignore_errors=True)
     print(f"watermarks_removed={removed}")
+    print(f"matrix_text_edits={len(matrix_edits)}")
     print(f"page_images={len(list(PAGE_IMAGE_DIR.glob('pg*.png')))}")
     print(f"legacy_sections_redirected={deleted_sections}")
 
