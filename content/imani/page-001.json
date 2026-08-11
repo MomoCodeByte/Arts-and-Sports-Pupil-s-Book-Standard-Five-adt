@@ -1,0 +1,80 @@
+{
+  "audio": "page-001.mp3",
+  "words": [
+    {
+      "text": "Arts",
+      "start": 0.106833,
+      "end": 0.490374
+    },
+    {
+      "text": "and",
+      "start": 0.561375,
+      "end": 0.717625
+    },
+    {
+      "text": "Sports",
+      "start": 0.817041,
+      "end": 1.228957
+    },
+    {
+      "text": "Pupil’s",
+      "start": 1.3,
+      "end": 1.811375
+    },
+    {
+      "text": "Book",
+      "start": 1.910791,
+      "end": 2.038624
+    },
+    {
+      "text": "Taasisi",
+      "start": 2.138083,
+      "end": 2.621041
+    },
+    {
+      "text": "ya",
+      "start": 2.663625,
+      "end": 2.748833
+    },
+    {
+      "text": "Elimu",
+      "start": 2.834083,
+      "end": 3.231791
+    },
+    {
+      "text": "Tanzania",
+      "start": 3.302833,
+      "end": 3.842624
+    },
+    {
+      "text": "Standard",
+      "start": 3.927833,
+      "end": 4.282958
+    },
+    {
+      "text": "Five",
+      "start": 4.339791,
+      "end": 4.567082
+    },
+    {
+      "text": "Tanzania",
+      "start": 4.666458,
+      "end": 5.206249
+    },
+    {
+      "text": "Institute",
+      "start": 5.277291,
+      "end": 5.859666
+    },
+    {
+      "text": "of",
+      "start": 5.902291,
+      "end": 6.030124
+    },
+    {
+      "text": "Education",
+      "start": 6.072708,
+      "end": 6.811333
+    }
+  ]
+}

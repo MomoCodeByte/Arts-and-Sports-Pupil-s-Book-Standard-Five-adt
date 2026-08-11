@@ -1,0 +1,815 @@
+{
+  "audio": "page-043.mp3",
+  "words": [
+    {
+      "text": "37",
+      "start": 0.106833,
+      "end": 0.8738739
+    },
+    {
+      "text": "Shadows",
+      "start": 0.902291,
+      "end": 1.371041
+    },
+    {
+      "text": "Shadows",
+      "start": 1.427833,
+      "end": 1.910791
+    },
+    {
+      "text": "in",
+      "start": 1.910791,
+      "end": 2.024416
+    },
+    {
+      "text": "a",
+      "start": 2.024416,
+      "end": 2.095457
+    },
+    {
+      "text": "picture",
+      "start": 2.194875,
+      "end": 2.521583
+    },
+    {
+      "text": "indicate",
+      "start": 2.578416,
+      "end": 3.018749
+    },
+    {
+      "text": "the",
+      "start": 3.146583,
+      "end": 3.217624
+    },
+    {
+      "text": "direction",
+      "start": 3.288625,
+      "end": 3.828416
+    },
+    {
+      "text": "from",
+      "start": 3.856833,
+      "end": 4.084124
+    },
+    {
+      "text": "which",
+      "start": 4.140916,
+      "end": 4.396582
+    },
+    {
+      "text": "light",
+      "start": 4.439208,
+      "end": 4.694874
+    },
+    {
+      "text": "is",
+      "start": 4.765916,
+      "end": 4.907957
+    },
+    {
+      "text": "coming",
+      "start": 4.964791,
+      "end": 5.461957
+    },
+    {
+      "text": "Shadows",
+      "start": 6.505666,
+      "end": 7.102249
+    },
+    {
+      "text": "are",
+      "start": 7.159083,
+      "end": 7.329541
+    },
+    {
+      "text": "used",
+      "start": 7.329541,
+      "end": 7.585207
+    },
+    {
+      "text": "to",
+      "start": 7.627833,
+      "end": 7.713041
+    },
+    {
+      "text": "separate",
+      "start": 7.769875,
+      "end": 8.309666
+    },
+    {
+      "text": "one",
+      "start": 8.366458,
+      "end": 8.579541
+    },
+    {
+      "text": "shape",
+      "start": 8.607958,
+      "end": 8.892041
+    },
+    {
+      "text": "from",
+      "start": 8.934666,
+      "end": 9.176124
+    },
+    {
+      "text": "another",
+      "start": 9.176125,
+      "end": 9.588041
+    },
+    {
+      "text": "in",
+      "start": 9.659083,
+      "end": 9.758499
+    },
+    {
+      "text": "the",
+      "start": 9.815333,
+      "end": 9.857958
+    },
+    {
+      "text": "image",
+      "start": 10.0,
+      "end": 10.426125
+    },
+    {
+      "text": "Figure 20",
+      "start": 11.590916,
+      "end": 12.386374
+    },
+    {
+      "text": "shows",
+      "start": 12.400583,
+      "end": 12.713083
+    },
+    {
+      "text": "pictures",
+      "start": 12.798291,
+      "end": 13.267041
+    },
+    {
+      "text": "with",
+      "start": 13.295458,
+      "end": 13.423291
+    },
+    {
+      "text": "shadows",
+      "start": 13.451708,
+      "end": 13.934666
+    },
+    {
+      "text": "that",
+      "start": 13.977291,
+      "end": 14.190374
+    },
+    {
+      "text": "depict",
+      "start": 14.303958,
+      "end": 14.616458
+    },
+    {
+      "text": "the",
+      "start": 14.701708,
+      "end": 14.786916
+    },
+    {
+      "text": "direction",
+      "start": 14.857958,
+      "end": 15.397708
+    },
+    {
+      "text": "of",
+      "start": 15.397708,
+      "end": 15.497124
+    },
+    {
+      "text": "the",
+      "start": 15.568166,
+      "end": 15.653374
+    },
+    {
+      "text": "light",
+      "start": 15.667625,
+      "end": 15.923291
+    },
+    {
+      "text": "source",
+      "start": 16.008541,
+      "end": 16.420457
+    },
+    {
+      "text": "Figure 20",
+      "start": 17.5,
+      "end": 18.4517079
+    },
+    {
+      "text": "An",
+      "start": 18.707375,
+      "end": 18.877833
+    },
+    {
+      "text": "example",
+      "start": 18.877833,
+      "end": 19.474416
+    },
+    {
+      "text": "of",
+      "start": 19.474416,
+      "end": 19.630666
+    },
+    {
+      "text": "an",
+      "start": 19.630666,
+      "end": 19.786916
+    },
+    {
+      "text": "image",
+      "start": 19.84375,
+      "end": 20.170458
+    },
+    {
+      "text": "showing",
+      "start": 20.213083,
+      "end": 20.553999
+    },
+    {
+      "text": "the",
+      "start": 20.639208,
+      "end": 20.710249
+    },
+    {
+      "text": "direction",
+      "start": 20.78125,
+      "end": 21.306833
+    },
+    {
+      "text": "of",
+      "start": 21.306833,
+      "end": 21.406249
+    },
+    {
+      "text": "the",
+      "start": 21.477291,
+      "end": 21.562499
+    },
+    {
+      "text": "light",
+      "start": 21.576708,
+      "end": 21.832374
+    },
+    {
+      "text": "source",
+      "start": 21.860791,
+      "end": 22.187499
+    },
+    {
+      "text": "Balance",
+      "start": 22.272708,
+      "end": 22.698833
+    },
+    {
+      "text": "Balance",
+      "start": 22.769875,
+      "end": 23.224416
+    },
+    {
+      "text": "is",
+      "start": 23.252833,
+      "end": 23.366458
+    },
+    {
+      "text": "the",
+      "start": 23.409083,
+      "end": 23.508499
+    },
+    {
+      "text": "state",
+      "start": 23.579541,
+      "end": 23.863624
+    },
+    {
+      "text": "in",
+      "start": 23.977291,
+      "end": 24.105124
+    },
+    {
+      "text": "which",
+      "start": 24.161916,
+      "end": 24.403374
+    },
+    {
+      "text": "the",
+      "start": 24.488625,
+      "end": 24.573833
+    },
+    {
+      "text": "weight",
+      "start": 24.588083,
+      "end": 24.857958
+    },
+    {
+      "text": "of",
+      "start": 24.900583,
+      "end": 25.014208
+    },
+    {
+      "text": "an",
+      "start": 25.028416,
+      "end": 25.170457
+    },
+    {
+      "text": "object",
+      "start": 25.227291,
+      "end": 25.653416
+    },
+    {
+      "text": "is",
+      "start": 25.752833,
+      "end": 25.909083
+    },
+    {
+      "text": "evenly",
+      "start": 25.951708,
+      "end": 26.363624
+    },
+    {
+      "text": "distributed",
+      "start": 26.448875,
+      "end": 27.159083
+    },
+    {
+      "text": "on",
+      "start": 27.1875,
+      "end": 27.329541
+    },
+    {
+      "text": "all",
+      "start": 27.386375,
+      "end": 27.58525
+    },
+    {
+      "text": "sides",
+      "start": 27.684666,
+      "end": 28.025582
+    },
+    {
+      "text": "to",
+      "start": 28.082375,
+      "end": 28.167583
+    },
+    {
+      "text": "ensure",
+      "start": 28.224416,
+      "end": 28.678957
+    },
+    {
+      "text": "stability",
+      "start": 28.735791,
+      "end": 29.431832
+    },
+    {
+      "text": "This",
+      "start": 30.554,
+      "end": 30.980125
+    },
+    {
+      "text": "weight",
+      "start": 30.994333,
+      "end": 31.249999
+    },
+    {
+      "text": "can",
+      "start": 31.349416,
+      "end": 31.519874
+    },
+    {
+      "text": "be",
+      "start": 31.605125,
+      "end": 31.690333
+    },
+    {
+      "text": "physical",
+      "start": 31.704541,
+      "end": 32.372166
+    },
+    {
+      "text": "felt",
+      "start": 32.58525,
+      "end": 32.982958
+    },
+    {
+      "text": "when",
+      "start": 33.025583,
+      "end": 33.252874
+    },
+    {
+      "text": "carrying",
+      "start": 33.28125,
+      "end": 33.650583
+    },
+    {
+      "text": "something",
+      "start": 33.707375,
+      "end": 34.318166
+    },
+    {
+      "text": "or",
+      "start": 34.573875,
+      "end": 34.715916
+    },
+    {
+      "text": "visual",
+      "start": 34.730125,
+      "end": 35.198875
+    },
+    {
+      "text": "perceived",
+      "start": 35.46875,
+      "end": 35.866458
+    },
+    {
+      "text": "by",
+      "start": 36.008541,
+      "end": 36.107957
+    },
+    {
+      "text": "looking",
+      "start": 36.150583,
+      "end": 36.562499
+    },
+    {
+      "text": "at",
+      "start": 36.633541,
+      "end": 36.803999
+    },
+    {
+      "text": "objects",
+      "start": 36.889208,
+      "end": 37.613624
+    },
+    {
+      "text": "In",
+      "start": 38.650583,
+      "end": 38.849458
+    },
+    {
+      "text": "drawing",
+      "start": 38.963083,
+      "end": 39.417624
+    },
+    {
+      "text": "balance",
+      "start": 39.673291,
+      "end": 40.113624
+    },
+    {
+      "text": "refers",
+      "start": 40.184666,
+      "end": 40.610791
+    },
+    {
+      "text": "to",
+      "start": 40.667625,
+      "end": 40.738666
+    },
+    {
+      "text": "the",
+      "start": 40.809666,
+      "end": 40.909082
+    },
+    {
+      "text": "visual",
+      "start": 40.923291,
+      "end": 41.335207
+    },
+    {
+      "text": "weight",
+      "start": 41.363625,
+      "end": 41.6335
+    },
+    {
+      "text": "perceived",
+      "start": 41.704541,
+      "end": 42.130666
+    },
+    {
+      "text": "through",
+      "start": 42.27275,
+      "end": 42.485833
+    },
+    {
+      "text": "sight",
+      "start": 42.58525,
+      "end": 42.840916
+    },
+    {
+      "text": "An",
+      "start": 44.034083,
+      "end": 44.289749
+    },
+    {
+      "text": "image",
+      "start": 44.360791,
+      "end": 44.744332
+    },
+    {
+      "text": "needs",
+      "start": 44.786916,
+      "end": 45.156249
+    },
+    {
+      "text": "to",
+      "start": 45.213083,
+      "end": 45.298291
+    },
+    {
+      "text": "have",
+      "start": 45.326708,
+      "end": 45.582374
+    },
+    {
+      "text": "a",
+      "start": 45.596583,
+      "end": 45.653416
+    },
+    {
+      "text": "balance",
+      "start": 45.752833,
+      "end": 46.306791
+    },
+    {
+      "text": "otherwise",
+      "start": 46.576708,
+      "end": 47.244333
+    },
+    {
+      "text": "it",
+      "start": 47.5,
+      "end": 47.684666
+    },
+    {
+      "text": "may",
+      "start": 47.713083,
+      "end": 47.855124
+    },
+    {
+      "text": "make",
+      "start": 47.883541,
+      "end": 48.096624
+    },
+    {
+      "text": "the",
+      "start": 48.21025,
+      "end": 48.295458
+    },
+    {
+      "text": "viewer",
+      "start": 48.309666,
+      "end": 48.636374
+    },
+    {
+      "text": "feel",
+      "start": 48.650583,
+      "end": 48.934666
+    },
+    {
+      "text": "a",
+      "start": 48.977291,
+      "end": 49.076707
+    },
+    {
+      "text": "sense",
+      "start": 49.133541,
+      "end": 49.460249
+    },
+    {
+      "text": "of",
+      "start": 49.517041,
+      "end": 49.644874
+    },
+    {
+      "text": "imbalance",
+      "start": 49.6875,
+      "end": 50.3125
+    },
+    {
+      "text": "and",
+      "start": 50.383541,
+      "end": 50.525582
+    },
+    {
+      "text": "instability",
+      "start": 50.568166,
+      "end": 51.392041
+    },
+    {
+      "text": "For",
+      "start": 52.485791,
+      "end": 52.713082
+    },
+    {
+      "text": "example",
+      "start": 52.769875,
+      "end": 53.409083
+    },
+    {
+      "text": "Figure 21",
+      "start": 53.622166,
+      "end": 54.602249
+    },
+    {
+      "text": "shows",
+      "start": 54.630666,
+      "end": 54.957374
+    },
+    {
+      "text": "an",
+      "start": 54.957375,
+      "end": 55.085208
+    },
+    {
+      "text": "unbalanced",
+      "start": 55.127833,
+      "end": 55.852249
+    },
+    {
+      "text": "image",
+      "start": 55.909083,
+      "end": 56.278416
+    },
+    {
+      "text": "where",
+      "start": 56.321041,
+      "end": 56.534124
+    },
+    {
+      "text": "the",
+      "start": 56.576708,
+      "end": 56.661916
+    },
+    {
+      "text": "artist",
+      "start": 56.775583,
+      "end": 57.230124
+    },
+    {
+      "text": "places",
+      "start": 57.301125,
+      "end": 57.741458
+    },
+    {
+      "text": "many",
+      "start": 57.784083,
+      "end": 58.053958
+    },
+    {
+      "text": "objects",
+      "start": 58.139208,
+      "end": 58.749999
+    },
+    {
+      "text": "a",
+      "start": 58.977291,
+      "end": 59.062499
+    },
+    {
+      "text": "tree",
+      "start": 59.133541,
+      "end": 59.403416
+    },
+    {
+      "text": "a",
+      "start": 59.644875,
+      "end": 59.744291
+    },
+    {
+      "text": "rock",
+      "start": 59.829541,
+      "end": 60.085207
+    },
+    {
+      "text": "and",
+      "start": 60.383541,
+      "end": 60.525582
+    },
+    {
+      "text": "a",
+      "start": 60.525583,
+      "end": 60.624999
+    },
+    {
+      "text": "hill",
+      "start": 60.653416,
+      "end": 60.980124
+    },
+    {
+      "text": "on",
+      "start": 61.25,
+      "end": 61.363625
+    },
+    {
+      "text": "the",
+      "start": 61.434666,
+      "end": 61.505707
+    },
+    {
+      "text": "left",
+      "start": 61.534083,
+      "end": 61.846583
+    },
+    {
+      "text": "side",
+      "start": 61.946041,
+      "end": 62.258541
+    },
+    {
+      "text": "making",
+      "start": 62.5,
+      "end": 62.883541
+    },
+    {
+      "text": "the",
+      "start": 62.96875,
+      "end": 63.025583
+    },
+    {
+      "text": "image",
+      "start": 63.139208,
+      "end": 63.480124
+    },
+    {
+      "text": "appear",
+      "start": 63.551125,
+      "end": 63.90625
+    },
+    {
+      "text": "tilted",
+      "start": 63.9915,
+      "end": 64.403416
+    },
+    {
+      "text": "toward",
+      "start": 64.488625,
+      "end": 64.659083
+    },
+    {
+      "text": "that",
+      "start": 64.77275,
+      "end": 64.943208
+    },
+    {
+      "text": "side",
+      "start": 65.028416,
+      "end": 65.369332
+    },
+    {
+      "text": "Figure 21",
+      "start": 66.420458,
+      "end": 67.656249
+    },
+    {
+      "text": "An",
+      "start": 67.855125,
+      "end": 68.025583
+    },
+    {
+      "text": "example",
+      "start": 68.025583,
+      "end": 68.622166
+    },
+    {
+      "text": "of",
+      "start": 68.636375,
+      "end": 68.792625
+    },
+    {
+      "text": "an",
+      "start": 68.792625,
+      "end": 68.948875
+    },
+    {
+      "text": "image",
+      "start": 69.005666,
+      "end": 69.332374
+    },
+    {
+      "text": "demonstrating",
+      "start": 69.446041,
+      "end": 70.213082
+    },
+    {
+      "text": "an",
+      "start": 70.269875,
+      "end": 70.411916
+    },
+    {
+      "text": "imbalance",
+      "start": 70.411916,
+      "end": 71.065332
+    },
+    {
+      "text": "scenario",
+      "start": 71.065333,
+      "end": 71.647708
+    }
+  ]
+}

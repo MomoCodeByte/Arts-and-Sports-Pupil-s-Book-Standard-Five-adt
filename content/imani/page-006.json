@@ -1,0 +1,915 @@
+{
+  "audio": "page-006.mp3",
+  "words": [
+    {
+      "text": "vi",
+      "start": 0.106833,
+      "end": 0.547166
+    },
+    {
+      "text": "Introduction",
+      "start": 0.603958,
+      "end": 1.370999
+    },
+    {
+      "text": "This",
+      "start": 1.470458,
+      "end": 1.711916
+    },
+    {
+      "text": "textbook",
+      "start": 1.754541,
+      "end": 2.393749
+    },
+    {
+      "text": "Arts",
+      "start": 2.692041,
+      "end": 3.004541
+    },
+    {
+      "text": "and",
+      "start": 3.103958,
+      "end": 3.245999
+    },
+    {
+      "text": "Sports",
+      "start": 3.345458,
+      "end": 3.799999
+    },
+    {
+      "text": "is",
+      "start": 4.069875,
+      "end": 4.197708
+    },
+    {
+      "text": "written",
+      "start": 4.26875,
+      "end": 4.638083
+    },
+    {
+      "text": "specifically",
+      "start": 4.7375,
+      "end": 5.447708
+    },
+    {
+      "text": "for",
+      "start": 5.476125,
+      "end": 5.646583
+    },
+    {
+      "text": "Standard",
+      "start": 5.703416,
+      "end": 6.086957
+    },
+    {
+      "text": "Five",
+      "start": 6.14375,
+      "end": 6.413625
+    },
+    {
+      "text": "Pupils",
+      "start": 6.498875,
+      "end": 6.967625
+    },
+    {
+      "text": "in",
+      "start": 7.038625,
+      "end": 7.166458
+    },
+    {
+      "text": "mainland",
+      "start": 7.251708,
+      "end": 7.706249
+    },
+    {
+      "text": "Tanzania",
+      "start": 7.805666,
+      "end": 8.444874
+    },
+    {
+      "text": "This",
+      "start": 9.474416,
+      "end": 9.857957
+    },
+    {
+      "text": "book",
+      "start": 9.957375,
+      "end": 10.15625
+    },
+    {
+      "text": "has",
+      "start": 10.213083,
+      "end": 10.468749
+    },
+    {
+      "text": "been",
+      "start": 10.539791,
+      "end": 10.724457
+    },
+    {
+      "text": "prepared",
+      "start": 10.767041,
+      "end": 11.221582
+    },
+    {
+      "text": "according",
+      "start": 11.235791,
+      "end": 11.775582
+    },
+    {
+      "text": "to",
+      "start": 11.775583,
+      "end": 11.832416
+    },
+    {
+      "text": "the",
+      "start": 11.917625,
+      "end": 11.974458
+    },
+    {
+      "text": "Arts",
+      "start": 12.073875,
+      "end": 12.386375
+    },
+    {
+      "text": "and",
+      "start": 12.457375,
+      "end": 12.599416
+    },
+    {
+      "text": "Sports",
+      "start": 12.698875,
+      "end": 13.125
+    },
+    {
+      "text": "syllabus",
+      "start": 13.125,
+      "end": 13.650583
+    },
+    {
+      "text": "issued",
+      "start": 13.707375,
+      "end": 14.005666
+    },
+    {
+      "text": "by",
+      "start": 14.090916,
+      "end": 14.176124
+    },
+    {
+      "text": "the",
+      "start": 14.21875,
+      "end": 14.332375
+    },
+    {
+      "text": "Ministry",
+      "start": 14.346583,
+      "end": 14.886374
+    },
+    {
+      "text": "of",
+      "start": 14.957375,
+      "end": 15.099416
+    },
+    {
+      "text": "Education",
+      "start": 15.15625,
+      "end": 15.909083
+    },
+    {
+      "text": "Science",
+      "start": 16.107958,
+      "end": 16.661916
+    },
+    {
+      "text": "and",
+      "start": 16.747166,
+      "end": 16.917624
+    },
+    {
+      "text": "Technology",
+      "start": 16.931833,
+      "end": 17.613666
+    },
+    {
+      "text": "in 2023",
+      "start": 17.698875,
+      "end": 18.849457
+    },
+    {
+      "text": "Some",
+      "start": 19.955666,
+      "end": 20.182957
+    },
+    {
+      "text": "of",
+      "start": 20.225583,
+      "end": 20.339208
+    },
+    {
+      "text": "the",
+      "start": 20.410208,
+      "end": 20.509624
+    },
+    {
+      "text": "themes",
+      "start": 20.594875,
+      "end": 21.006791
+    },
+    {
+      "text": "in",
+      "start": 21.006833,
+      "end": 21.120458
+    },
+    {
+      "text": "this",
+      "start": 21.219875,
+      "end": 21.461333
+    },
+    {
+      "text": "book",
+      "start": 21.546583,
+      "end": 21.745458
+    },
+    {
+      "text": "have",
+      "start": 21.759666,
+      "end": 21.986957
+    },
+    {
+      "text": "been",
+      "start": 22.029541,
+      "end": 22.214207
+    },
+    {
+      "text": "taken",
+      "start": 22.242625,
+      "end": 22.59775
+    },
+    {
+      "text": "from",
+      "start": 22.626125,
+      "end": 22.810791
+    },
+    {
+      "text": "the",
+      "start": 22.881833,
+      "end": 22.952874
+    },
+    {
+      "text": "previous",
+      "start": 23.023875,
+      "end": 23.492625
+    },
+    {
+      "text": "books",
+      "start": 23.577833,
+      "end": 23.876124
+    },
+    {
+      "text": "of",
+      "start": 23.890333,
+      "end": 23.961374
+    },
+    {
+      "text": "Vocational",
+      "start": 24.003958,
+      "end": 24.657374
+    },
+    {
+      "text": "Skills",
+      "start": 24.756833,
+      "end": 25.182958
+    },
+    {
+      "text": "Standard",
+      "start": 25.182958,
+      "end": 25.609083
+    },
+    {
+      "text": "Six",
+      "start": 25.665916,
+      "end": 26.006832
+    },
+    {
+      "text": "and",
+      "start": 26.049416,
+      "end": 26.191457
+    },
+    {
+      "text": "Seven",
+      "start": 26.205666,
+      "end": 26.660207
+    },
+    {
+      "text": "published",
+      "start": 26.8875,
+      "end": 27.413083
+    },
+    {
+      "text": "in 2018",
+      "start": 27.427291,
+      "end": 28.5920409
+    },
+    {
+      "text": "in",
+      "start": 28.620458,
+      "end": 28.734083
+    },
+    {
+      "text": "accordance",
+      "start": 28.734083,
+      "end": 29.373291
+    },
+    {
+      "text": "with",
+      "start": 29.401708,
+      "end": 29.430124
+    },
+    {
+      "text": "the",
+      "start": 29.501125,
+      "end": 29.600541
+    },
+    {
+      "text": "2016",
+      "start": 29.685791,
+      "end": 30.793749
+    },
+    {
+      "text": "syllabi",
+      "start": 30.822166,
+      "end": 31.376124
+    },
+    {
+      "text": "This",
+      "start": 32.471583,
+      "end": 32.840916
+    },
+    {
+      "text": "book",
+      "start": 32.940333,
+      "end": 33.167624
+    },
+    {
+      "text": "has",
+      "start": 33.21025,
+      "end": 33.465916
+    },
+    {
+      "text": "seven",
+      "start": 33.494333,
+      "end": 33.920458
+    },
+    {
+      "text": "chapters",
+      "start": 33.920458,
+      "end": 34.531249
+    },
+    {
+      "text": "Acting",
+      "start": 34.815333,
+      "end": 35.326708
+    },
+    {
+      "text": "Singing",
+      "start": 35.525583,
+      "end": 36.051166
+    },
+    {
+      "text": "and",
+      "start": 36.122166,
+      "end": 36.249999
+    },
+    {
+      "text": "musical",
+      "start": 36.321041,
+      "end": 36.860832
+    },
+    {
+      "text": "instruments",
+      "start": 36.917625,
+      "end": 37.713083
+    },
+    {
+      "text": "Drawing",
+      "start": 37.96875,
+      "end": 38.480125
+    },
+    {
+      "text": "Clay",
+      "start": 38.707375,
+      "end": 38.934666
+    },
+    {
+      "text": "modelling",
+      "start": 38.963083,
+      "end": 39.531249
+    },
+    {
+      "text": "Creating",
+      "start": 39.77275,
+      "end": 40.269916
+    },
+    {
+      "text": "simple",
+      "start": 40.298291,
+      "end": 40.738624
+    },
+    {
+      "text": "shapes",
+      "start": 40.767041,
+      "end": 41.193166
+    },
+    {
+      "text": "Physical",
+      "start": 41.363625,
+      "end": 41.946
+    },
+    {
+      "text": "exercises",
+      "start": 41.988625,
+      "end": 42.798291
+    },
+    {
+      "text": "and",
+      "start": 42.883541,
+      "end": 43.039791
+    },
+    {
+      "text": "traditional",
+      "start": 43.068166,
+      "end": 43.749999
+    },
+    {
+      "text": "games",
+      "start": 43.821041,
+      "end": 44.218749
+    },
+    {
+      "text": "and",
+      "start": 44.289791,
+      "end": 44.417624
+    },
+    {
+      "text": "Modern",
+      "start": 44.474416,
+      "end": 44.886332
+    },
+    {
+      "text": "sports",
+      "start": 44.985791,
+      "end": 45.553957
+    },
+    {
+      "text": "By",
+      "start": 46.605125,
+      "end": 46.903416
+    },
+    {
+      "text": "learning",
+      "start": 46.96025,
+      "end": 47.429
+    },
+    {
+      "text": "its",
+      "start": 47.443166,
+      "end": 47.627832
+    },
+    {
+      "text": "contents",
+      "start": 47.698875,
+      "end": 48.380708
+    },
+    {
+      "text": "you",
+      "start": 48.607958,
+      "end": 48.693166
+    },
+    {
+      "text": "will",
+      "start": 48.764208,
+      "end": 48.892041
+    },
+    {
+      "text": "master",
+      "start": 48.934666,
+      "end": 49.346582
+    },
+    {
+      "text": "the",
+      "start": 49.431833,
+      "end": 49.502874
+    },
+    {
+      "text": "basics",
+      "start": 49.602291,
+      "end": 50.042624
+    },
+    {
+      "text": "of",
+      "start": 50.099416,
+      "end": 50.213041
+    },
+    {
+      "text": "singing",
+      "start": 50.269875,
+      "end": 50.653416
+    },
+    {
+      "text": "and",
+      "start": 50.696041,
+      "end": 50.838082
+    },
+    {
+      "text": "acting",
+      "start": 50.894875,
+      "end": 51.420458
+    },
+    {
+      "text": "drawing",
+      "start": 51.64775,
+      "end": 52.059666
+    },
+    {
+      "text": "pictures",
+      "start": 52.130666,
+      "end": 52.656249
+    },
+    {
+      "text": "modelling",
+      "start": 52.855125,
+      "end": 53.3665
+    },
+    {
+      "text": "and",
+      "start": 53.423291,
+      "end": 53.622166
+    },
+    {
+      "text": "creating",
+      "start": 53.636375,
+      "end": 54.119333
+    },
+    {
+      "text": "simple",
+      "start": 54.14775,
+      "end": 54.559666
+    },
+    {
+      "text": "shapes",
+      "start": 54.588083,
+      "end": 55.127874
+    },
+    {
+      "text": "You",
+      "start": 56.193166,
+      "end": 56.335207
+    },
+    {
+      "text": "will",
+      "start": 56.349416,
+      "end": 56.519874
+    },
+    {
+      "text": "also",
+      "start": 56.5625,
+      "end": 56.903416
+    },
+    {
+      "text": "manage",
+      "start": 56.931833,
+      "end": 57.357958
+    },
+    {
+      "text": "physical",
+      "start": 57.400583,
+      "end": 57.940374
+    },
+    {
+      "text": "exercises",
+      "start": 57.982958,
+      "end": 58.735791
+    },
+    {
+      "text": "and",
+      "start": 58.778416,
+      "end": 58.948874
+    },
+    {
+      "text": "play",
+      "start": 58.977291,
+      "end": 59.147749
+    },
+    {
+      "text": "traditional",
+      "start": 59.21875,
+      "end": 59.857958
+    },
+    {
+      "text": "games",
+      "start": 59.929,
+      "end": 60.298333
+    },
+    {
+      "text": "and",
+      "start": 60.369333,
+      "end": 60.468749
+    },
+    {
+      "text": "modern",
+      "start": 60.539791,
+      "end": 60.909124
+    },
+    {
+      "text": "sports",
+      "start": 61.008541,
+      "end": 61.548332
+    },
+    {
+      "text": "The",
+      "start": 62.58525,
+      "end": 62.7415
+    },
+    {
+      "text": "contents",
+      "start": 62.826708,
+      "end": 63.380666
+    },
+    {
+      "text": "of",
+      "start": 63.4375,
+      "end": 63.536916
+    },
+    {
+      "text": "these",
+      "start": 63.622166,
+      "end": 63.892041
+    },
+    {
+      "text": "chapters",
+      "start": 63.948875,
+      "end": 64.431833
+    },
+    {
+      "text": "are",
+      "start": 64.502833,
+      "end": 64.602249
+    },
+    {
+      "text": "presented",
+      "start": 64.6875,
+      "end": 65.284083
+    },
+    {
+      "text": "in",
+      "start": 65.340916,
+      "end": 65.397749
+    },
+    {
+      "text": "the",
+      "start": 65.46875,
+      "end": 65.539791
+    },
+    {
+      "text": "form",
+      "start": 65.568166,
+      "end": 65.866457
+    },
+    {
+      "text": "of",
+      "start": 65.923291,
+      "end": 66.065332
+    },
+    {
+      "text": "text",
+      "start": 66.164791,
+      "end": 66.519916
+    },
+    {
+      "text": "activities",
+      "start": 66.789791,
+      "end": 67.642082
+    },
+    {
+      "text": "interesting",
+      "start": 67.911916,
+      "end": 68.565332
+    },
+    {
+      "text": "pictures",
+      "start": 68.622166,
+      "end": 69.133541
+    },
+    {
+      "text": "and",
+      "start": 69.332375,
+      "end": 69.502833
+    },
+    {
+      "text": "exercises",
+      "start": 69.559666,
+      "end": 70.340916
+    },
+    {
+      "text": "Therefore",
+      "start": 71.4915,
+      "end": 72.159125
+    },
+    {
+      "text": "perform",
+      "start": 72.429,
+      "end": 72.869333
+    },
+    {
+      "text": "all",
+      "start": 72.911916,
+      "end": 73.053957
+    },
+    {
+      "text": "the",
+      "start": 73.110791,
+      "end": 73.195999
+    },
+    {
+      "text": "tasks",
+      "start": 73.28125,
+      "end": 73.764208
+    },
+    {
+      "text": "in",
+      "start": 73.83525,
+      "end": 73.948875
+    },
+    {
+      "text": "this",
+      "start": 74.034083,
+      "end": 74.275541
+    },
+    {
+      "text": "book",
+      "start": 74.360791,
+      "end": 74.573874
+    },
+    {
+      "text": "and",
+      "start": 74.630666,
+      "end": 74.801124
+    },
+    {
+      "text": "other",
+      "start": 74.857958,
+      "end": 75.099416
+    },
+    {
+      "text": "tasks",
+      "start": 75.184666,
+      "end": 75.639207
+    },
+    {
+      "text": "that",
+      "start": 75.681833,
+      "end": 75.795458
+    },
+    {
+      "text": "the",
+      "start": 75.8665,
+      "end": 75.951708
+    },
+    {
+      "text": "teacher",
+      "start": 76.036916,
+      "end": 76.349416
+    },
+    {
+      "text": "will",
+      "start": 76.349416,
+      "end": 76.519874
+    },
+    {
+      "text": "provide",
+      "start": 76.590916,
+      "end": 77.088082
+    },
+    {
+      "text": "This",
+      "start": 78.139208,
+      "end": 78.480124
+    },
+    {
+      "text": "will",
+      "start": 78.494333,
+      "end": 78.607958
+    },
+    {
+      "text": "enable",
+      "start": 78.622166,
+      "end": 79.090916
+    },
+    {
+      "text": "you",
+      "start": 79.105125,
+      "end": 79.190333
+    },
+    {
+      "text": "to",
+      "start": 79.275583,
+      "end": 79.360791
+    },
+    {
+      "text": "develop",
+      "start": 79.431833,
+      "end": 79.843749
+    },
+    {
+      "text": "the",
+      "start": 79.957375,
+      "end": 80.028416
+    },
+    {
+      "text": "knowledge",
+      "start": 80.056833,
+      "end": 80.454541
+    },
+    {
+      "text": "and",
+      "start": 80.525583,
+      "end": 80.681833
+    },
+    {
+      "text": "skills",
+      "start": 80.767041,
+      "end": 81.207374
+    },
+    {
+      "text": "intended",
+      "start": 81.221583,
+      "end": 81.818166
+    },
+    {
+      "text": "Additional",
+      "start": 82.89775,
+      "end": 83.536958
+    },
+    {
+      "text": "learning",
+      "start": 83.565333,
+      "end": 83.948874
+    },
+    {
+      "text": "resources",
+      "start": 83.977291,
+      "end": 84.531249
+    },
+    {
+      "text": "are",
+      "start": 84.602291,
+      "end": 84.730124
+    },
+    {
+      "text": "available",
+      "start": 84.730125,
+      "end": 85.355125
+    },
+    {
+      "text": "at",
+      "start": 85.39775,
+      "end": 85.639208
+    },
+    {
+      "text": "https://ol.tie.go.tz",
+      "start": 85.667625,
+      "end": 90.823875
+    },
+    {
+      "text": "or",
+      "start": 90.909083,
+      "end": 91.079541
+    },
+    {
+      "text": "ol.tie.go.tz",
+      "start": 91.150583,
+      "end": 93.636374
+    },
+    {
+      "text": "Tanzania",
+      "start": 93.721583,
+      "end": 94.261374
+    },
+    {
+      "text": "Institute",
+      "start": 94.332375,
+      "end": 94.91475
+    },
+    {
+      "text": "of",
+      "start": 94.971583,
+      "end": 95.113624
+    },
+    {
+      "text": "Education",
+      "start": 95.15625,
+      "end": 95.894875
+    }
+  ]
+}

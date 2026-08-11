@@ -1,0 +1,490 @@
+{
+  "audio": "page-048.mp3",
+  "words": [
+    {
+      "text": "42",
+      "start": 0.106833,
+      "end": 0.746041
+    },
+    {
+      "text": "Exercise",
+      "start": 0.83125,
+      "end": 1.484666
+    },
+    {
+      "text": "1",
+      "start": 1.513083,
+      "end": 1.825583
+    },
+    {
+      "text": "Explain",
+      "start": 2.926125,
+      "end": 3.536916
+    },
+    {
+      "text": "why",
+      "start": 3.607958,
+      "end": 3.749999
+    },
+    {
+      "text": "lines",
+      "start": 3.778416,
+      "end": 4.204541
+    },
+    {
+      "text": "that",
+      "start": 4.247166,
+      "end": 4.417624
+    },
+    {
+      "text": "show",
+      "start": 4.446041,
+      "end": 4.602291
+    },
+    {
+      "text": "perspective",
+      "start": 4.701708,
+      "end": 5.369333
+    },
+    {
+      "text": "are",
+      "start": 5.426125,
+      "end": 5.610791
+    },
+    {
+      "text": "important",
+      "start": 5.610791,
+      "end": 6.249999
+    },
+    {
+      "text": "in",
+      "start": 6.264208,
+      "end": 6.392041
+    },
+    {
+      "text": "drawing",
+      "start": 6.40625,
+      "end": 6.903416
+    },
+    {
+      "text": "2",
+      "start": 7.940333,
+      "end": 8.210208
+    },
+    {
+      "text": "Describe",
+      "start": 8.522708,
+      "end": 9.048291
+    },
+    {
+      "text": "the",
+      "start": 9.133541,
+      "end": 9.204582
+    },
+    {
+      "text": "use",
+      "start": 9.289791,
+      "end": 9.545457
+    },
+    {
+      "text": "of",
+      "start": 9.545458,
+      "end": 9.687499
+    },
+    {
+      "text": "lines",
+      "start": 9.701708,
+      "end": 10.099416
+    },
+    {
+      "text": "in",
+      "start": 10.15625,
+      "end": 10.284083
+    },
+    {
+      "text": "a",
+      "start": 10.284083,
+      "end": 10.369291
+    },
+    {
+      "text": "drawing",
+      "start": 10.454541,
+      "end": 10.809666
+    },
+    {
+      "text": "of",
+      "start": 10.823875,
+      "end": 10.980125
+    },
+    {
+      "text": "images",
+      "start": 11.022708,
+      "end": 11.676124
+    },
+    {
+      "text": "Vocabulary",
+      "start": 12.784083,
+      "end": 13.650541
+    },
+    {
+      "text": "Shadow",
+      "start": 13.664791,
+      "end": 14.190374
+    },
+    {
+      "text": "The",
+      "start": 14.474416,
+      "end": 14.545457
+    },
+    {
+      "text": "darkened",
+      "start": 14.630666,
+      "end": 15.042582
+    },
+    {
+      "text": "area",
+      "start": 15.099416,
+      "end": 15.369291
+    },
+    {
+      "text": "created",
+      "start": 15.440333,
+      "end": 15.909083
+    },
+    {
+      "text": "when",
+      "start": 15.951708,
+      "end": 16.107958
+    },
+    {
+      "text": "an",
+      "start": 16.107958,
+      "end": 16.249999
+    },
+    {
+      "text": "object",
+      "start": 16.306833,
+      "end": 16.761374
+    },
+    {
+      "text": "blocks",
+      "start": 16.875,
+      "end": 17.230125
+    },
+    {
+      "text": "light",
+      "start": 17.258541,
+      "end": 17.499999
+    },
+    {
+      "text": "from",
+      "start": 17.585208,
+      "end": 17.812499
+    },
+    {
+      "text": "reaching",
+      "start": 17.840916,
+      "end": 18.238624
+    },
+    {
+      "text": "a",
+      "start": 18.28125,
+      "end": 18.366458
+    },
+    {
+      "text": "surface",
+      "start": 18.394875,
+      "end": 18.863625
+    },
+    {
+      "text": "Balance",
+      "start": 18.948875,
+      "end": 19.517041
+    },
+    {
+      "text": "The",
+      "start": 19.744333,
+      "end": 19.829541
+    },
+    {
+      "text": "harmony",
+      "start": 19.84375,
+      "end": 20.3125
+    },
+    {
+      "text": "or",
+      "start": 20.397708,
+      "end": 20.511333
+    },
+    {
+      "text": "proportion",
+      "start": 20.582375,
+      "end": 21.150541
+    },
+    {
+      "text": "of",
+      "start": 21.164791,
+      "end": 21.278416
+    },
+    {
+      "text": "various",
+      "start": 21.278416,
+      "end": 21.732957
+    },
+    {
+      "text": "elements",
+      "start": 21.775583,
+      "end": 22.343749
+    },
+    {
+      "text": "in",
+      "start": 22.372166,
+      "end": 22.499999
+    },
+    {
+      "text": "a",
+      "start": 22.5,
+      "end": 22.585208
+    },
+    {
+      "text": "piece",
+      "start": 22.684666,
+      "end": 22.926124
+    },
+    {
+      "text": "of",
+      "start": 22.940333,
+      "end": 23.082374
+    },
+    {
+      "text": "art",
+      "start": 23.153416,
+      "end": 23.366499
+    },
+    {
+      "text": "to",
+      "start": 23.423291,
+      "end": 23.536916
+    },
+    {
+      "text": "create",
+      "start": 23.607958,
+      "end": 23.948874
+    },
+    {
+      "text": "a",
+      "start": 23.948875,
+      "end": 24.034083
+    },
+    {
+      "text": "sense",
+      "start": 24.076708,
+      "end": 24.403416
+    },
+    {
+      "text": "of",
+      "start": 24.446041,
+      "end": 24.616499
+    },
+    {
+      "text": "calm",
+      "start": 24.673291,
+      "end": 24.985791
+    },
+    {
+      "text": "order",
+      "start": 25.213083,
+      "end": 25.525583
+    },
+    {
+      "text": "and",
+      "start": 25.738625,
+      "end": 25.894875
+    },
+    {
+      "text": "visual",
+      "start": 25.9375,
+      "end": 26.349416
+    },
+    {
+      "text": "appeal",
+      "start": 26.349416,
+      "end": 26.718749
+    },
+    {
+      "text": "Unity",
+      "start": 26.789791,
+      "end": 27.244332
+    },
+    {
+      "text": "A",
+      "start": 27.443166,
+      "end": 27.528374
+    },
+    {
+      "text": "principle",
+      "start": 27.627833,
+      "end": 28.181791
+    },
+    {
+      "text": "that",
+      "start": 28.252833,
+      "end": 28.423291
+    },
+    {
+      "text": "refers",
+      "start": 28.536916,
+      "end": 28.948832
+    },
+    {
+      "text": "to",
+      "start": 29.005666,
+      "end": 29.062499
+    },
+    {
+      "text": "the",
+      "start": 29.133541,
+      "end": 29.218749
+    },
+    {
+      "text": "balance",
+      "start": 29.318166,
+      "end": 29.772707
+    },
+    {
+      "text": "and",
+      "start": 29.829541,
+      "end": 30.014207
+    },
+    {
+      "text": "good",
+      "start": 30.056833,
+      "end": 30.284124
+    },
+    {
+      "text": "connection",
+      "start": 30.326708,
+      "end": 30.866499
+    },
+    {
+      "text": "between",
+      "start": 30.951708,
+      "end": 31.306833
+    },
+    {
+      "text": "different",
+      "start": 31.377833,
+      "end": 31.803958
+    },
+    {
+      "text": "components",
+      "start": 31.860791,
+      "end": 32.528416
+    },
+    {
+      "text": "in",
+      "start": 32.556833,
+      "end": 32.670458
+    },
+    {
+      "text": "a",
+      "start": 32.670458,
+      "end": 32.755666
+    },
+    {
+      "text": "drawing",
+      "start": 32.840916,
+      "end": 33.196041
+    },
+    {
+      "text": "to",
+      "start": 33.224416,
+      "end": 33.323832
+    },
+    {
+      "text": "make",
+      "start": 33.338083,
+      "end": 33.607958
+    },
+    {
+      "text": "it",
+      "start": 33.664791,
+      "end": 33.835249
+    },
+    {
+      "text": "appear",
+      "start": 33.877833,
+      "end": 34.289749
+    },
+    {
+      "text": "as",
+      "start": 34.346583,
+      "end": 34.545458
+    },
+    {
+      "text": "one",
+      "start": 34.573875,
+      "end": 34.801166
+    },
+    {
+      "text": "complete",
+      "start": 34.857958,
+      "end": 35.340916
+    },
+    {
+      "text": "work",
+      "start": 35.411916,
+      "end": 35.624999
+    },
+    {
+      "text": "Texture",
+      "start": 35.738625,
+      "end": 36.25
+    },
+    {
+      "text": "The",
+      "start": 36.4915,
+      "end": 36.576708
+    },
+    {
+      "text": "degree",
+      "start": 36.661916,
+      "end": 37.017041
+    },
+    {
+      "text": "of",
+      "start": 37.088083,
+      "end": 37.244333
+    },
+    {
+      "text": "roughness",
+      "start": 37.286916,
+      "end": 37.769874
+    },
+    {
+      "text": "or",
+      "start": 37.826708,
+      "end": 37.940333
+    },
+    {
+      "text": "softness",
+      "start": 37.982958,
+      "end": 38.607958
+    },
+    {
+      "text": "at",
+      "start": 38.664791,
+      "end": 38.792624
+    },
+    {
+      "text": "a",
+      "start": 38.792625,
+      "end": 38.863666
+    },
+    {
+      "text": "surface",
+      "start": 38.920458,
+      "end": 39.545458
+    }
+  ]
+}

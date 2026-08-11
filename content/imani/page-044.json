@@ -1,0 +1,715 @@
+{
+  "audio": "page-044.mp3",
+  "words": [
+    {
+      "text": "38",
+      "start": 0.106833,
+      "end": 0.76025
+    },
+    {
+      "text": "Additionally",
+      "start": 0.802833,
+      "end": 1.513041
+    },
+    {
+      "text": "Figure 22",
+      "start": 1.711916,
+      "end": 2.649416
+    },
+    {
+      "text": "shows",
+      "start": 2.663625,
+      "end": 3.004541
+    },
+    {
+      "text": "a",
+      "start": 3.004541,
+      "end": 3.075582
+    },
+    {
+      "text": "balanced",
+      "start": 3.175,
+      "end": 3.629541
+    },
+    {
+      "text": "scenario",
+      "start": 3.629541,
+      "end": 4.183499
+    },
+    {
+      "text": "where",
+      "start": 4.382375,
+      "end": 4.623833
+    },
+    {
+      "text": "the",
+      "start": 4.652291,
+      "end": 4.751707
+    },
+    {
+      "text": "artist",
+      "start": 4.865333,
+      "end": 5.291458
+    },
+    {
+      "text": "places",
+      "start": 5.3625,
+      "end": 5.817041
+    },
+    {
+      "text": "objects",
+      "start": 5.873875,
+      "end": 6.470458
+    },
+    {
+      "text": "such",
+      "start": 6.470458,
+      "end": 6.669333
+    },
+    {
+      "text": "as",
+      "start": 6.683541,
+      "end": 6.839791
+    },
+    {
+      "text": "trees",
+      "start": 6.910791,
+      "end": 7.280124
+    },
+    {
+      "text": "grass",
+      "start": 7.606833,
+      "end": 8.032958
+    },
+    {
+      "text": "and",
+      "start": 8.203416,
+      "end": 8.331249
+    },
+    {
+      "text": "mountains",
+      "start": 8.402291,
+      "end": 9.027291
+    },
+    {
+      "text": "on",
+      "start": 9.098291,
+      "end": 9.211916
+    },
+    {
+      "text": "both",
+      "start": 9.325583,
+      "end": 9.510249
+    },
+    {
+      "text": "sides",
+      "start": 9.595458,
+      "end": 10.007374
+    },
+    {
+      "text": "creating",
+      "start": 10.263083,
+      "end": 10.760249
+    },
+    {
+      "text": "equal",
+      "start": 10.802833,
+      "end": 11.157958
+    },
+    {
+      "text": "visual",
+      "start": 11.186375,
+      "end": 11.626708
+    },
+    {
+      "text": "weight",
+      "start": 11.640916,
+      "end": 11.910791
+    },
+    {
+      "text": "on",
+      "start": 12.010208,
+      "end": 12.123833
+    },
+    {
+      "text": "the",
+      "start": 12.180666,
+      "end": 12.251707
+    },
+    {
+      "text": "left",
+      "start": 12.280125,
+      "end": 12.606833
+    },
+    {
+      "text": "and",
+      "start": 12.677833,
+      "end": 12.834083
+    },
+    {
+      "text": "right",
+      "start": 12.8625,
+      "end": 13.089791
+    },
+    {
+      "text": "sides",
+      "start": 13.118166,
+      "end": 13.473291
+    },
+    {
+      "text": "of",
+      "start": 13.530125,
+      "end": 13.629541
+    },
+    {
+      "text": "the",
+      "start": 13.686375,
+      "end": 13.729
+    },
+    {
+      "text": "image",
+      "start": 13.856833,
+      "end": 14.282958
+    },
+    {
+      "text": "Figure 22",
+      "start": 15.46875,
+      "end": 16.5908739
+    },
+    {
+      "text": "An",
+      "start": 16.875,
+      "end": 17.045458
+    },
+    {
+      "text": "example",
+      "start": 17.045458,
+      "end": 17.642041
+    },
+    {
+      "text": "of",
+      "start": 17.642041,
+      "end": 17.798291
+    },
+    {
+      "text": "an",
+      "start": 17.798291,
+      "end": 17.954541
+    },
+    {
+      "text": "image",
+      "start": 18.011375,
+      "end": 18.338083
+    },
+    {
+      "text": "showing",
+      "start": 18.394875,
+      "end": 18.806791
+    },
+    {
+      "text": "a",
+      "start": 18.835208,
+      "end": 18.892041
+    },
+    {
+      "text": "balanced",
+      "start": 18.977291,
+      "end": 19.417624
+    },
+    {
+      "text": "scenario",
+      "start": 19.417625,
+      "end": 19.886375
+    },
+    {
+      "text": "Activity",
+      "start": 19.943166,
+      "end": 20.553957
+    },
+    {
+      "text": "13",
+      "start": 20.639208,
+      "end": 21.051124
+    },
+    {
+      "text": "Make",
+      "start": 21.107958,
+      "end": 21.321041
+    },
+    {
+      "text": "a",
+      "start": 21.335208,
+      "end": 21.392041
+    },
+    {
+      "text": "drawing",
+      "start": 21.477291,
+      "end": 21.846624
+    },
+    {
+      "text": "of",
+      "start": 21.875,
+      "end": 22.045458
+    },
+    {
+      "text": "anything",
+      "start": 22.102291,
+      "end": 22.613666
+    },
+    {
+      "text": "found",
+      "start": 22.642041,
+      "end": 22.997166
+    },
+    {
+      "text": "at",
+      "start": 23.053958,
+      "end": 23.210208
+    },
+    {
+      "text": "school",
+      "start": 23.295458,
+      "end": 23.607958
+    },
+    {
+      "text": "or",
+      "start": 23.664791,
+      "end": 23.877832
+    },
+    {
+      "text": "home",
+      "start": 23.877833,
+      "end": 24.119291
+    },
+    {
+      "text": "to",
+      "start": 24.204541,
+      "end": 24.289749
+    },
+    {
+      "text": "demonstrate",
+      "start": 24.375,
+      "end": 25.056833
+    },
+    {
+      "text": "a",
+      "start": 25.340916,
+      "end": 25.525582
+    },
+    {
+      "text": "A",
+      "start": 25.795458,
+      "end": 25.894874
+    },
+    {
+      "text": "balanced",
+      "start": 25.980125,
+      "end": 26.448875
+    },
+    {
+      "text": "scenario",
+      "start": 26.448875,
+      "end": 27.03125
+    },
+    {
+      "text": "b",
+      "start": 28.052291,
+      "end": 28.336374
+    },
+    {
+      "text": "The",
+      "start": 28.663083,
+      "end": 28.776708
+    },
+    {
+      "text": "use",
+      "start": 28.876125,
+      "end": 29.174416
+    },
+    {
+      "text": "of",
+      "start": 29.23125,
+      "end": 29.359083
+    },
+    {
+      "text": "shadows",
+      "start": 29.3875,
+      "end": 30.069333
+    },
+    {
+      "text": "Colour",
+      "start": 31.136375,
+      "end": 31.4915
+    },
+    {
+      "text": "Colour",
+      "start": 31.5625,
+      "end": 31.875
+    },
+    {
+      "text": "enhances",
+      "start": 31.931833,
+      "end": 32.627874
+    },
+    {
+      "text": "beauty",
+      "start": 32.713083,
+      "end": 33.025583
+    },
+    {
+      "text": "and",
+      "start": 33.096583,
+      "end": 33.238624
+    },
+    {
+      "text": "describes",
+      "start": 33.309666,
+      "end": 33.877832
+    },
+    {
+      "text": "objects",
+      "start": 33.934666,
+      "end": 34.460249
+    },
+    {
+      "text": "with",
+      "start": 34.502833,
+      "end": 34.616458
+    },
+    {
+      "text": "a",
+      "start": 34.6165,
+      "end": 34.701708
+    },
+    {
+      "text": "great",
+      "start": 34.786916,
+      "end": 35.028374
+    },
+    {
+      "text": "sense",
+      "start": 35.042625,
+      "end": 35.426166
+    },
+    {
+      "text": "of",
+      "start": 35.454541,
+      "end": 35.568166
+    },
+    {
+      "text": "realism",
+      "start": 35.610791,
+      "end": 36.193166
+    },
+    {
+      "text": "and",
+      "start": 36.193166,
+      "end": 36.377832
+    },
+    {
+      "text": "clarity",
+      "start": 36.40625,
+      "end": 36.974416
+    },
+    {
+      "text": "It",
+      "start": 38.082375,
+      "end": 38.295458
+    },
+    {
+      "text": "is",
+      "start": 38.309666,
+      "end": 38.465916
+    },
+    {
+      "text": "also",
+      "start": 38.52275,
+      "end": 38.877875
+    },
+    {
+      "text": "used",
+      "start": 38.934666,
+      "end": 39.190332
+    },
+    {
+      "text": "to",
+      "start": 39.247166,
+      "end": 39.346582
+    },
+    {
+      "text": "differentiate",
+      "start": 39.431833,
+      "end": 40.198874
+    },
+    {
+      "text": "one",
+      "start": 40.2415,
+      "end": 40.440375
+    },
+    {
+      "text": "object",
+      "start": 40.482958,
+      "end": 40.852291
+    },
+    {
+      "text": "from",
+      "start": 40.994333,
+      "end": 41.193166
+    },
+    {
+      "text": "another",
+      "start": 41.193166,
+      "end": 41.633499
+    },
+    {
+      "text": "in",
+      "start": 41.704541,
+      "end": 41.818166
+    },
+    {
+      "text": "an",
+      "start": 41.818166,
+      "end": 41.974416
+    },
+    {
+      "text": "image",
+      "start": 42.045458,
+      "end": 42.471583
+    },
+    {
+      "text": "For",
+      "start": 43.664791,
+      "end": 43.877874
+    },
+    {
+      "text": "example",
+      "start": 43.934666,
+      "end": 44.602291
+    },
+    {
+      "text": "the",
+      "start": 44.886375,
+      "end": 44.971583
+    },
+    {
+      "text": "green",
+      "start": 45.071041,
+      "end": 45.340916
+    },
+    {
+      "text": "colour",
+      "start": 45.383541,
+      "end": 45.681832
+    },
+    {
+      "text": "often",
+      "start": 45.738625,
+      "end": 46.107958
+    },
+    {
+      "text": "represents",
+      "start": 46.136375,
+      "end": 46.775583
+    },
+    {
+      "text": "plants",
+      "start": 46.846583,
+      "end": 47.315333
+    },
+    {
+      "text": "the",
+      "start": 47.542625,
+      "end": 47.642041
+    },
+    {
+      "text": "blue",
+      "start": 47.7415,
+      "end": 47.911958
+    },
+    {
+      "text": "colour",
+      "start": 47.997166,
+      "end": 48.281249
+    },
+    {
+      "text": "indicates",
+      "start": 48.338083,
+      "end": 48.948874
+    },
+    {
+      "text": "the",
+      "start": 49.005666,
+      "end": 49.034082
+    },
+    {
+      "text": "ocean",
+      "start": 49.14775,
+      "end": 49.573875
+    },
+    {
+      "text": "or",
+      "start": 49.644875,
+      "end": 49.772708
+    },
+    {
+      "text": "mountains",
+      "start": 49.815333,
+      "end": 50.468749
+    },
+    {
+      "text": "seen",
+      "start": 50.46875,
+      "end": 50.724416
+    },
+    {
+      "text": "from",
+      "start": 50.752833,
+      "end": 51.008499
+    },
+    {
+      "text": "a",
+      "start": 51.008541,
+      "end": 51.079582
+    },
+    {
+      "text": "distance",
+      "start": 51.164791,
+      "end": 51.761374
+    },
+    {
+      "text": "and",
+      "start": 51.917625,
+      "end": 52.045458
+    },
+    {
+      "text": "the",
+      "start": 52.130666,
+      "end": 52.201707
+    },
+    {
+      "text": "brown",
+      "start": 52.301125,
+      "end": 52.571
+    },
+    {
+      "text": "colour",
+      "start": 52.642041,
+      "end": 52.926124
+    },
+    {
+      "text": "represents",
+      "start": 52.954541,
+      "end": 53.664749
+    },
+    {
+      "text": "the",
+      "start": 53.693166,
+      "end": 53.735791
+    },
+    {
+      "text": "earth",
+      "start": 53.863625,
+      "end": 54.275541
+    },
+    {
+      "text": "Figure 23",
+      "start": 55.326708,
+      "end": 56.477291
+    },
+    {
+      "text": "shows",
+      "start": 56.4915,
+      "end": 56.846625
+    },
+    {
+      "text": "how",
+      "start": 56.860791,
+      "end": 57.059666
+    },
+    {
+      "text": "colour",
+      "start": 57.144875,
+      "end": 57.41475
+    },
+    {
+      "text": "portrays",
+      "start": 57.5,
+      "end": 57.997166
+    },
+    {
+      "text": "realism",
+      "start": 58.068166,
+      "end": 58.664749
+    },
+    {
+      "text": "in",
+      "start": 58.693166,
+      "end": 58.792582
+    },
+    {
+      "text": "the",
+      "start": 58.849416,
+      "end": 58.920457
+    },
+    {
+      "text": "painting",
+      "start": 59.019875,
+      "end": 59.488625
+    },
+    {
+      "text": "and",
+      "start": 59.545458,
+      "end": 59.659083
+    },
+    {
+      "text": "distinguishes",
+      "start": 59.744333,
+      "end": 60.539791
+    },
+    {
+      "text": "the",
+      "start": 60.596583,
+      "end": 60.653416
+    },
+    {
+      "text": "objects",
+      "start": 60.767041,
+      "end": 61.377832
+    },
+    {
+      "text": "such",
+      "start": 61.619333,
+      "end": 61.931833
+    },
+    {
+      "text": "as",
+      "start": 61.96025,
+      "end": 62.102291
+    },
+    {
+      "text": "mountains",
+      "start": 62.144875,
+      "end": 62.840916
+    },
+    {
+      "text": "plants",
+      "start": 63.125,
+      "end": 63.636375
+    },
+    {
+      "text": "and",
+      "start": 63.83525,
+      "end": 63.948875
+    },
+    {
+      "text": "the",
+      "start": 64.019875,
+      "end": 64.090916
+    },
+    {
+      "text": "land",
+      "start": 64.119333,
+      "end": 64.517041
+    }
+  ]
+}

@@ -1,0 +1,985 @@
+{
+  "audio": "page-009.mp3",
+  "words": [
+    {
+      "text": "3",
+      "start": 0.106833,
+      "end": 0.376708
+    },
+    {
+      "text": "Acting",
+      "start": 0.447708,
+      "end": 0.873833
+    },
+    {
+      "text": "with",
+      "start": 0.930666,
+      "end": 1.086916
+    },
+    {
+      "text": "actions",
+      "start": 1.157958,
+      "end": 1.669333
+    },
+    {
+      "text": "and",
+      "start": 1.669333,
+      "end": 1.782958
+    },
+    {
+      "text": "voice",
+      "start": 1.839791,
+      "end": 2.152291
+    },
+    {
+      "text": "This",
+      "start": 2.180666,
+      "end": 2.436332
+    },
+    {
+      "text": "is",
+      "start": 2.436375,
+      "end": 2.578416
+    },
+    {
+      "text": "a",
+      "start": 2.578416,
+      "end": 2.649457
+    },
+    {
+      "text": "type",
+      "start": 2.734666,
+      "end": 2.976124
+    },
+    {
+      "text": "of",
+      "start": 3.004541,
+      "end": 3.146582
+    },
+    {
+      "text": "acting",
+      "start": 3.189208,
+      "end": 3.572749
+    },
+    {
+      "text": "that",
+      "start": 3.657958,
+      "end": 3.856833
+    },
+    {
+      "text": "involves",
+      "start": 3.899416,
+      "end": 4.368166
+    },
+    {
+      "text": "the",
+      "start": 4.410791,
+      "end": 4.495999
+    },
+    {
+      "text": "use",
+      "start": 4.58125,
+      "end": 4.851125
+    },
+    {
+      "text": "of",
+      "start": 4.865333,
+      "end": 5.049999
+    },
+    {
+      "text": "words",
+      "start": 5.05,
+      "end": 5.348291
+    },
+    {
+      "text": "and",
+      "start": 5.405125,
+      "end": 5.547166
+    },
+    {
+      "text": "actions",
+      "start": 5.603958,
+      "end": 6.101124
+    },
+    {
+      "text": "to",
+      "start": 6.14375,
+      "end": 6.228958
+    },
+    {
+      "text": "convey",
+      "start": 6.3,
+      "end": 6.655125
+    },
+    {
+      "text": "a",
+      "start": 6.711916,
+      "end": 6.797124
+    },
+    {
+      "text": "message",
+      "start": 6.825583,
+      "end": 7.209124
+    },
+    {
+      "text": "to",
+      "start": 7.308541,
+      "end": 7.393749
+    },
+    {
+      "text": "the",
+      "start": 7.450583,
+      "end": 7.507416
+    },
+    {
+      "text": "audience",
+      "start": 7.606833,
+      "end": 8.331249
+    },
+    {
+      "text": "A",
+      "start": 9.375,
+      "end": 9.502833
+    },
+    {
+      "text": "successful",
+      "start": 9.53125,
+      "end": 10.170458
+    },
+    {
+      "text": "performance",
+      "start": 10.269875,
+      "end": 10.823833
+    },
+    {
+      "text": "relies",
+      "start": 10.880666,
+      "end": 11.278374
+    },
+    {
+      "text": "on",
+      "start": 11.306833,
+      "end": 11.377874
+    },
+    {
+      "text": "the",
+      "start": 11.448875,
+      "end": 11.463083
+    },
+    {
+      "text": "actor’s",
+      "start": 11.576708,
+      "end": 12.002833
+    },
+    {
+      "text": "ability",
+      "start": 12.002833,
+      "end": 12.514208
+    },
+    {
+      "text": "to",
+      "start": 12.585208,
+      "end": 12.670416
+    },
+    {
+      "text": "balance",
+      "start": 12.755666,
+      "end": 13.195999
+    },
+    {
+      "text": "actions",
+      "start": 13.267041,
+      "end": 13.749999
+    },
+    {
+      "text": "and",
+      "start": 13.778416,
+      "end": 13.892041
+    },
+    {
+      "text": "voice",
+      "start": 13.948875,
+      "end": 14.431833
+    },
+    {
+      "text": "Figure 1",
+      "start": 15.511375,
+      "end": 16.2925819
+    },
+    {
+      "text": "shows",
+      "start": 16.321041,
+      "end": 16.676166
+    },
+    {
+      "text": "pupils",
+      "start": 16.761375,
+      "end": 17.215916
+    },
+    {
+      "text": "performing",
+      "start": 17.286916,
+      "end": 17.869291
+    },
+    {
+      "text": "on",
+      "start": 17.911916,
+      "end": 18.039749
+    },
+    {
+      "text": "a",
+      "start": 18.039791,
+      "end": 18.124999
+    },
+    {
+      "text": "stage",
+      "start": 18.238625,
+      "end": 18.59375
+    },
+    {
+      "text": "Figure 1",
+      "start": 19.772708,
+      "end": 20.596583
+    },
+    {
+      "text": "Pupils",
+      "start": 20.894875,
+      "end": 21.349416
+    },
+    {
+      "text": "performing",
+      "start": 21.420458,
+      "end": 21.946041
+    },
+    {
+      "text": "on",
+      "start": 21.960208,
+      "end": 22.088041
+    },
+    {
+      "text": "a",
+      "start": 22.088083,
+      "end": 22.187499
+    },
+    {
+      "text": "stage",
+      "start": 22.272708,
+      "end": 22.570999
+    },
+    {
+      "text": "Aspects",
+      "start": 22.627833,
+      "end": 23.224416
+    },
+    {
+      "text": "to",
+      "start": 23.28125,
+      "end": 23.366458
+    },
+    {
+      "text": "consider",
+      "start": 23.4375,
+      "end": 23.934666
+    },
+    {
+      "text": "when",
+      "start": 23.963083,
+      "end": 24.161958
+    },
+    {
+      "text": "acting",
+      "start": 24.21875,
+      "end": 24.602291
+    },
+    {
+      "text": "with",
+      "start": 24.659083,
+      "end": 24.801124
+    },
+    {
+      "text": "actions",
+      "start": 24.872166,
+      "end": 25.383541
+    },
+    {
+      "text": "and",
+      "start": 25.426125,
+      "end": 25.525541
+    },
+    {
+      "text": "voice",
+      "start": 25.596583,
+      "end": 25.909083
+    },
+    {
+      "text": "Acting",
+      "start": 25.980125,
+      "end": 26.349458
+    },
+    {
+      "text": "that",
+      "start": 26.434666,
+      "end": 26.633541
+    },
+    {
+      "text": "involves",
+      "start": 26.704541,
+      "end": 27.215916
+    },
+    {
+      "text": "both",
+      "start": 27.315333,
+      "end": 27.499999
+    },
+    {
+      "text": "actions",
+      "start": 27.58525,
+      "end": 28.096625
+    },
+    {
+      "text": "and",
+      "start": 28.139208,
+      "end": 28.252833
+    },
+    {
+      "text": "voice",
+      "start": 28.323875,
+      "end": 28.622166
+    },
+    {
+      "text": "requires",
+      "start": 28.693166,
+      "end": 29.190332
+    },
+    {
+      "text": "careful",
+      "start": 29.247166,
+      "end": 29.630707
+    },
+    {
+      "text": "attention",
+      "start": 29.659083,
+      "end": 30.269874
+    },
+    {
+      "text": "and",
+      "start": 30.269875,
+      "end": 30.426125
+    },
+    {
+      "text": "thorough",
+      "start": 30.46875,
+      "end": 30.696041
+    },
+    {
+      "text": "preparation",
+      "start": 30.78125,
+      "end": 31.548291
+    },
+    {
+      "text": "The",
+      "start": 32.613625,
+      "end": 32.826708
+    },
+    {
+      "text": "following",
+      "start": 32.840916,
+      "end": 33.409082
+    },
+    {
+      "text": "are",
+      "start": 33.451708,
+      "end": 33.593749
+    },
+    {
+      "text": "some",
+      "start": 33.636375,
+      "end": 33.892041
+    },
+    {
+      "text": "important",
+      "start": 33.920458,
+      "end": 34.559666
+    },
+    {
+      "text": "aspects",
+      "start": 34.6165,
+      "end": 35.184666
+    },
+    {
+      "text": "to",
+      "start": 35.2415,
+      "end": 35.326708
+    },
+    {
+      "text": "consider",
+      "start": 35.39775,
+      "end": 35.894916
+    },
+    {
+      "text": "in",
+      "start": 35.965916,
+      "end": 36.079541
+    },
+    {
+      "text": "this",
+      "start": 36.164791,
+      "end": 36.406249
+    },
+    {
+      "text": "type",
+      "start": 36.434666,
+      "end": 36.633541
+    },
+    {
+      "text": "of",
+      "start": 36.676125,
+      "end": 36.818166
+    },
+    {
+      "text": "acting",
+      "start": 36.875,
+      "end": 37.414791
+    },
+    {
+      "text": "a",
+      "start": 37.613625,
+      "end": 37.784083
+    },
+    {
+      "text": "Understanding",
+      "start": 38.153416,
+      "end": 38.835249
+    },
+    {
+      "text": "the",
+      "start": 38.920458,
+      "end": 38.991499
+    },
+    {
+      "text": "character",
+      "start": 39.076708,
+      "end": 39.531249
+    },
+    {
+      "text": "you",
+      "start": 39.602291,
+      "end": 39.659082
+    },
+    {
+      "text": "are",
+      "start": 39.659083,
+      "end": 39.758499
+    },
+    {
+      "text": "portraying",
+      "start": 39.829541,
+      "end": 40.426124
+    },
+    {
+      "text": "It",
+      "start": 41.448875,
+      "end": 41.661958
+    },
+    {
+      "text": "is",
+      "start": 41.676125,
+      "end": 41.832375
+    },
+    {
+      "text": "essential",
+      "start": 41.832375,
+      "end": 42.372166
+    },
+    {
+      "text": "to",
+      "start": 42.457375,
+      "end": 42.542583
+    },
+    {
+      "text": "understand",
+      "start": 42.613625,
+      "end": 43.181791
+    },
+    {
+      "text": "the",
+      "start": 43.28125,
+      "end": 43.352291
+    },
+    {
+      "text": "character’s",
+      "start": 43.423291,
+      "end": 44.019874
+    },
+    {
+      "text": "personality",
+      "start": 44.090916,
+      "end": 44.843749
+    },
+    {
+      "text": "background",
+      "start": 45.127833,
+      "end": 45.738624
+    },
+    {
+      "text": "and",
+      "start": 45.8665,
+      "end": 46.051166
+    },
+    {
+      "text": "goals",
+      "start": 46.122166,
+      "end": 46.647749
+    },
+    {
+      "text": "Additionally",
+      "start": 47.713083,
+      "end": 48.465916
+    },
+    {
+      "text": "develop",
+      "start": 48.75,
+      "end": 49.204541
+    },
+    {
+      "text": "an",
+      "start": 49.204541,
+      "end": 49.346582
+    },
+    {
+      "text": "awareness",
+      "start": 49.346583,
+      "end": 49.971583
+    },
+    {
+      "text": "of",
+      "start": 49.985791,
+      "end": 50.070999
+    },
+    {
+      "text": "the",
+      "start": 50.113625,
+      "end": 50.170458
+    },
+    {
+      "text": "character’s",
+      "start": 50.2415,
+      "end": 50.852291
+    },
+    {
+      "text": "emotions",
+      "start": 50.880666,
+      "end": 51.505666
+    },
+    {
+      "text": "in",
+      "start": 51.548291,
+      "end": 51.690332
+    },
+    {
+      "text": "each",
+      "start": 51.761375,
+      "end": 51.946041
+    },
+    {
+      "text": "scene",
+      "start": 51.974416,
+      "end": 52.301124
+    },
+    {
+      "text": "and",
+      "start": 52.357958,
+      "end": 52.499999
+    },
+    {
+      "text": "how",
+      "start": 52.514208,
+      "end": 52.727291
+    },
+    {
+      "text": "they",
+      "start": 52.798291,
+      "end": 52.897707
+    },
+    {
+      "text": "can",
+      "start": 52.96875,
+      "end": 53.153416
+    },
+    {
+      "text": "be",
+      "start": 53.238625,
+      "end": 53.323833
+    },
+    {
+      "text": "expressed",
+      "start": 53.423291,
+      "end": 54.005666
+    },
+    {
+      "text": "through",
+      "start": 54.0625,
+      "end": 54.289791
+    },
+    {
+      "text": "actions",
+      "start": 54.375,
+      "end": 54.872166
+    },
+    {
+      "text": "and",
+      "start": 54.900583,
+      "end": 55.014208
+    },
+    {
+      "text": "voice",
+      "start": 55.071041,
+      "end": 55.553999
+    },
+    {
+      "text": "It",
+      "start": 56.64775,
+      "end": 56.875
+    },
+    {
+      "text": "is",
+      "start": 56.875,
+      "end": 57.03125
+    },
+    {
+      "text": "important",
+      "start": 57.059666,
+      "end": 57.698874
+    },
+    {
+      "text": "to",
+      "start": 57.769875,
+      "end": 57.911916
+    },
+    {
+      "text": "know",
+      "start": 57.926125,
+      "end": 58.139208
+    },
+    {
+      "text": "how",
+      "start": 58.153416,
+      "end": 58.352291
+    },
+    {
+      "text": "the",
+      "start": 58.423291,
+      "end": 58.494332
+    },
+    {
+      "text": "character",
+      "start": 58.565333,
+      "end": 59.105124
+    },
+    {
+      "text": "walks",
+      "start": 59.14775,
+      "end": 59.559666
+    },
+    {
+      "text": "speaks",
+      "start": 59.84375,
+      "end": 60.255666
+    },
+    {
+      "text": "and",
+      "start": 60.355125,
+      "end": 60.482958
+    },
+    {
+      "text": "struggles",
+      "start": 60.568166,
+      "end": 61.164749
+    },
+    {
+      "text": "to",
+      "start": 61.207375,
+      "end": 61.292583
+    },
+    {
+      "text": "achieve",
+      "start": 61.33525,
+      "end": 61.704583
+    },
+    {
+      "text": "their",
+      "start": 61.789791,
+      "end": 61.931832
+    },
+    {
+      "text": "objectives",
+      "start": 61.974416,
+      "end": 62.855082
+    },
+    {
+      "text": "b",
+      "start": 63.934666,
+      "end": 64.204541
+    },
+    {
+      "text": "Mastering",
+      "start": 64.446041,
+      "end": 65.113666
+    },
+    {
+      "text": "the",
+      "start": 65.198875,
+      "end": 65.284083
+    },
+    {
+      "text": "use",
+      "start": 65.369333,
+      "end": 65.639208
+    },
+    {
+      "text": "of",
+      "start": 65.639208,
+      "end": 65.781249
+    },
+    {
+      "text": "body",
+      "start": 65.8665,
+      "end": 66.136375
+    },
+    {
+      "text": "language",
+      "start": 66.179,
+      "end": 66.775583
+    },
+    {
+      "text": "Ensure",
+      "start": 67.954541,
+      "end": 68.465916
+    },
+    {
+      "text": "that",
+      "start": 68.52275,
+      "end": 68.764208
+    },
+    {
+      "text": "your",
+      "start": 68.806833,
+      "end": 68.892041
+    },
+    {
+      "text": "body",
+      "start": 68.977291,
+      "end": 69.232957
+    },
+    {
+      "text": "movements",
+      "start": 69.261375,
+      "end": 69.872166
+    },
+    {
+      "text": "match",
+      "start": 69.900583,
+      "end": 70.184666
+    },
+    {
+      "text": "the",
+      "start": 70.255666,
+      "end": 70.284082
+    },
+    {
+      "text": "emotions",
+      "start": 70.383541,
+      "end": 71.051166
+    },
+    {
+      "text": "you",
+      "start": 71.065333,
+      "end": 71.107958
+    },
+    {
+      "text": "are",
+      "start": 71.107958,
+      "end": 71.235791
+    },
+    {
+      "text": "intending",
+      "start": 71.235791,
+      "end": 71.803957
+    },
+    {
+      "text": "to",
+      "start": 71.818166,
+      "end": 71.889207
+    },
+    {
+      "text": "portray",
+      "start": 71.974416,
+      "end": 72.372124
+    },
+    {
+      "text": "Your",
+      "start": 73.465916,
+      "end": 73.650582
+    },
+    {
+      "text": "movements",
+      "start": 73.693166,
+      "end": 74.303957
+    },
+    {
+      "text": "must",
+      "start": 74.332375,
+      "end": 74.616458
+    },
+    {
+      "text": "be",
+      "start": 74.715916,
+      "end": 74.772749
+    },
+    {
+      "text": "purposeful",
+      "start": 74.872166,
+      "end": 75.568207
+    },
+    {
+      "text": "Avoid",
+      "start": 76.64775,
+      "end": 77.1165
+    },
+    {
+      "text": "unnecessary",
+      "start": 77.201708,
+      "end": 78.039791
+    },
+    {
+      "text": "movements",
+      "start": 78.082375,
+      "end": 78.678958
+    },
+    {
+      "text": "on",
+      "start": 78.721583,
+      "end": 78.863624
+    },
+    {
+      "text": "stage",
+      "start": 78.977291,
+      "end": 79.360832
+    },
+    {
+      "text": "Use",
+      "start": 80.511375,
+      "end": 80.894916
+    },
+    {
+      "text": "your",
+      "start": 80.923291,
+      "end": 81.036916
+    },
+    {
+      "text": "hands",
+      "start": 81.107958,
+      "end": 81.491499
+    },
+    {
+      "text": "and",
+      "start": 81.505708,
+      "end": 81.647749
+    },
+    {
+      "text": "facial",
+      "start": 81.676125,
+      "end": 82.130666
+    },
+    {
+      "text": "expressions",
+      "start": 82.173291,
+      "end": 82.954541
+    },
+    {
+      "text": "to",
+      "start": 82.997166,
+      "end": 83.068207
+    },
+    {
+      "text": "convey",
+      "start": 83.139208,
+      "end": 83.508541
+    },
+    {
+      "text": "different",
+      "start": 83.607958,
+      "end": 84.076708
+    },
+    {
+      "text": "emotions",
+      "start": 84.133541,
+      "end": 84.801124
+    },
+    {
+      "text": "such",
+      "start": 84.801125,
+      "end": 85.028416
+    },
+    {
+      "text": "as",
+      "start": 85.028416,
+      "end": 85.184666
+    },
+    {
+      "text": "happiness",
+      "start": 85.227291,
+      "end": 85.880707
+    },
+    {
+      "text": "sadness",
+      "start": 86.065333,
+      "end": 86.732958
+    },
+    {
+      "text": "surprise",
+      "start": 86.903416,
+      "end": 87.542624
+    },
+    {
+      "text": "or",
+      "start": 87.784083,
+      "end": 87.940333
+    },
+    {
+      "text": "anger",
+      "start": 87.982958,
+      "end": 88.323874
+    },
+    {
+      "text": "rather",
+      "start": 88.551125,
+      "end": 88.849416
+    },
+    {
+      "text": "than",
+      "start": 88.892041,
+      "end": 89.048291
+    },
+    {
+      "text": "relying",
+      "start": 89.105125,
+      "end": 89.659083
+    },
+    {
+      "text": "on",
+      "start": 89.715916,
+      "end": 89.829541
+    },
+    {
+      "text": "words",
+      "start": 89.914791,
+      "end": 90.255707
+    },
+    {
+      "text": "only",
+      "start": 90.326708,
+      "end": 90.710249
+    }
+  ]
+}

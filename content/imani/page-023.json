@@ -1,0 +1,310 @@
+{
+  "audio": "page-023.mp3",
+  "words": [
+    {
+      "text": "17",
+      "start": 0.106833,
+      "end": 0.802874
+    },
+    {
+      "text": "When",
+      "start": 0.859666,
+      "end": 1.044332
+    },
+    {
+      "text": "the",
+      "start": 1.115333,
+      "end": 1.143749
+    },
+    {
+      "text": "arrangement",
+      "start": 1.228958,
+      "end": 1.981791
+    },
+    {
+      "text": "of",
+      "start": 1.981833,
+      "end": 2.109666
+    },
+    {
+      "text": "notes",
+      "start": 2.152291,
+      "end": 2.549999
+    },
+    {
+      "text": "starts",
+      "start": 2.55,
+      "end": 2.933541
+    },
+    {
+      "text": "from",
+      "start": 2.976125,
+      "end": 3.189208
+    },
+    {
+      "text": "high",
+      "start": 3.203416,
+      "end": 3.402291
+    },
+    {
+      "text": "to",
+      "start": 3.501708,
+      "end": 3.601124
+    },
+    {
+      "text": "low",
+      "start": 3.615333,
+      "end": 3.885208
+    },
+    {
+      "text": "the",
+      "start": 4.155125,
+      "end": 4.240333
+    },
+    {
+      "text": "solfa",
+      "start": 4.282958,
+      "end": 4.694874
+    },
+    {
+      "text": "syllables",
+      "start": 4.723291,
+      "end": 5.362499
+    },
+    {
+      "text": "are",
+      "start": 5.447708,
+      "end": 5.575541
+    },
+    {
+      "text": "do",
+      "start": 5.660791,
+      "end": 5.774416
+    },
+    {
+      "text": "ti",
+      "start": 5.930666,
+      "end": 6.299999
+    },
+    {
+      "text": "la",
+      "start": 6.328416,
+      "end": 6.513082
+    },
+    {
+      "text": "so",
+      "start": 6.569875,
+      "end": 6.726125
+    },
+    {
+      "text": "fa",
+      "start": 6.811375,
+      "end": 7.109666
+    },
+    {
+      "text": "mi",
+      "start": 7.152291,
+      "end": 7.308541
+    },
+    {
+      "text": "re",
+      "start": 7.351125,
+      "end": 7.493166
+    },
+    {
+      "text": "do",
+      "start": 7.606833,
+      "end": 7.763083
+    },
+    {
+      "text": "Figure 3",
+      "start": 8.792625,
+      "end": 9.5880409
+    },
+    {
+      "text": "Shows",
+      "start": 10.681833,
+      "end": 11.107958
+    },
+    {
+      "text": "the",
+      "start": 11.178958,
+      "end": 11.264166
+    },
+    {
+      "text": "major",
+      "start": 11.292625,
+      "end": 11.676166
+    },
+    {
+      "text": "scale",
+      "start": 11.732958,
+      "end": 12.059666
+    },
+    {
+      "text": "in",
+      "start": 12.116458,
+      "end": 12.244291
+    },
+    {
+      "text": "descending",
+      "start": 12.329541,
+      "end": 12.855124
+    },
+    {
+      "text": "order",
+      "start": 12.911916,
+      "end": 13.295457
+    },
+    {
+      "text": "Figure 3",
+      "start": 14.375,
+      "end": 15.2272489
+    },
+    {
+      "text": "Major",
+      "start": 15.440333,
+      "end": 15.823874
+    },
+    {
+      "text": "scale",
+      "start": 15.880666,
+      "end": 16.178957
+    },
+    {
+      "text": "in",
+      "start": 16.235791,
+      "end": 16.349416
+    },
+    {
+      "text": "descending",
+      "start": 16.420458,
+      "end": 16.960249
+    },
+    {
+      "text": "order",
+      "start": 17.017041,
+      "end": 17.301124
+    },
+    {
+      "text": "Moreover",
+      "start": 17.329541,
+      "end": 17.897707
+    },
+    {
+      "text": "these",
+      "start": 18.153416,
+      "end": 18.423291
+    },
+    {
+      "text": "notes",
+      "start": 18.451708,
+      "end": 18.806833
+    },
+    {
+      "text": "can",
+      "start": 18.863625,
+      "end": 19.019875
+    },
+    {
+      "text": "be",
+      "start": 19.090916,
+      "end": 19.176124
+    },
+    {
+      "text": "sung",
+      "start": 19.232958,
+      "end": 19.517041
+    },
+    {
+      "text": "in",
+      "start": 19.559666,
+      "end": 19.659082
+    },
+    {
+      "text": "ascending",
+      "start": 19.659083,
+      "end": 20.241458
+    },
+    {
+      "text": "and",
+      "start": 20.298291,
+      "end": 20.411916
+    },
+    {
+      "text": "descending",
+      "start": 20.497166,
+      "end": 21.036957
+    },
+    {
+      "text": "order",
+      "start": 21.09375,
+      "end": 21.392041
+    },
+    {
+      "text": "as",
+      "start": 21.448875,
+      "end": 21.619333
+    },
+    {
+      "text": "shown",
+      "start": 21.704541,
+      "end": 21.988624
+    },
+    {
+      "text": "in",
+      "start": 22.045458,
+      "end": 22.201708
+    },
+    {
+      "text": "Figure 4",
+      "start": 22.244333,
+      "end": 22.940333
+    },
+    {
+      "text": "Figure",
+      "start": 24.005666,
+      "end": 24.559624
+    },
+    {
+      "text": "4",
+      "start": 25.582375,
+      "end": 25.85225
+    },
+    {
+      "text": "Major",
+      "start": 26.09375,
+      "end": 26.505666
+    },
+    {
+      "text": "scale",
+      "start": 26.5625,
+      "end": 26.903416
+    },
+    {
+      "text": "in",
+      "start": 26.96025,
+      "end": 27.102291
+    },
+    {
+      "text": "ascending",
+      "start": 27.102291,
+      "end": 27.684666
+    },
+    {
+      "text": "and",
+      "start": 27.7415,
+      "end": 27.869333
+    },
+    {
+      "text": "descending",
+      "start": 27.954541,
+      "end": 28.494332
+    },
+    {
+      "text": "order",
+      "start": 28.565333,
+      "end": 28.934666
+    }
+  ]
+}

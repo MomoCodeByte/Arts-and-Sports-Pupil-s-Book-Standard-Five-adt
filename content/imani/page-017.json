@@ -1,0 +1,665 @@
+{
+  "audio": "page-017.mp3",
+  "words": [
+    {
+      "text": "11",
+      "start": 0.106833,
+      "end": 0.674999
+    },
+    {
+      "text": "Exercise",
+      "start": 0.717625,
+      "end": 1.371041
+    },
+    {
+      "text": "4",
+      "start": 1.413625,
+      "end": 1.655083
+    },
+    {
+      "text": "1",
+      "start": 1.697708,
+      "end": 1.981791
+    },
+    {
+      "text": "Why",
+      "start": 3.082375,
+      "end": 3.366458
+    },
+    {
+      "text": "is",
+      "start": 3.451708,
+      "end": 3.650583
+    },
+    {
+      "text": "voice",
+      "start": 3.678958,
+      "end": 4.019874
+    },
+    {
+      "text": "an",
+      "start": 4.019875,
+      "end": 4.147708
+    },
+    {
+      "text": "important",
+      "start": 4.161916,
+      "end": 4.786916
+    },
+    {
+      "text": "element",
+      "start": 4.84375,
+      "end": 5.326708
+    },
+    {
+      "text": "in",
+      "start": 5.326708,
+      "end": 5.454541
+    },
+    {
+      "text": "acting",
+      "start": 5.511375,
+      "end": 6.036958
+    },
+    {
+      "text": "and",
+      "start": 6.264208,
+      "end": 6.406249
+    },
+    {
+      "text": "how",
+      "start": 6.434666,
+      "end": 6.633541
+    },
+    {
+      "text": "does",
+      "start": 6.71875,
+      "end": 6.931833
+    },
+    {
+      "text": "it",
+      "start": 6.931833,
+      "end": 7.073874
+    },
+    {
+      "text": "contribute",
+      "start": 7.116458,
+      "end": 7.741458
+    },
+    {
+      "text": "to",
+      "start": 7.840916,
+      "end": 7.940332
+    },
+    {
+      "text": "expressing",
+      "start": 7.997166,
+      "end": 8.678999
+    },
+    {
+      "text": "a",
+      "start": 8.707375,
+      "end": 8.778416
+    },
+    {
+      "text": "character’s",
+      "start": 8.849416,
+      "end": 9.417582
+    },
+    {
+      "text": "emotions",
+      "start": 9.446041,
+      "end": 10.198874
+    },
+    {
+      "text": "2",
+      "start": 11.278416,
+      "end": 11.548291
+    },
+    {
+      "text": "What",
+      "start": 11.789791,
+      "end": 12.031249
+    },
+    {
+      "text": "are",
+      "start": 12.144875,
+      "end": 12.230083
+    },
+    {
+      "text": "the",
+      "start": 12.315333,
+      "end": 12.414749
+    },
+    {
+      "text": "main",
+      "start": 12.428958,
+      "end": 12.727249
+    },
+    {
+      "text": "techniques",
+      "start": 12.769875,
+      "end": 13.366458
+    },
+    {
+      "text": "used",
+      "start": 13.380666,
+      "end": 13.664749
+    },
+    {
+      "text": "in",
+      "start": 13.664791,
+      "end": 13.792624
+    },
+    {
+      "text": "mime",
+      "start": 13.849416,
+      "end": 14.076707
+    },
+    {
+      "text": "to",
+      "start": 14.176125,
+      "end": 14.247166
+    },
+    {
+      "text": "convey",
+      "start": 14.318166,
+      "end": 14.715874
+    },
+    {
+      "text": "emotions",
+      "start": 14.801125,
+      "end": 15.3835
+    },
+    {
+      "text": "and",
+      "start": 15.397708,
+      "end": 15.539749
+    },
+    {
+      "text": "themes",
+      "start": 15.582375,
+      "end": 16.079541
+    },
+    {
+      "text": "Vocabulary",
+      "start": 17.144875,
+      "end": 17.982958
+    },
+    {
+      "text": "Dance",
+      "start": 18.068166,
+      "end": 18.423291
+    },
+    {
+      "text": "acting",
+      "start": 18.494333,
+      "end": 19.034124
+    },
+    {
+      "text": "A",
+      "start": 19.275583,
+      "end": 19.346624
+    },
+    {
+      "text": "type",
+      "start": 19.431833,
+      "end": 19.673291
+    },
+    {
+      "text": "of",
+      "start": 19.6875,
+      "end": 19.829541
+    },
+    {
+      "text": "performance",
+      "start": 19.872166,
+      "end": 20.525582
+    },
+    {
+      "text": "where",
+      "start": 20.553958,
+      "end": 20.752833
+    },
+    {
+      "text": "the",
+      "start": 20.809666,
+      "end": 20.852291
+    },
+    {
+      "text": "intended",
+      "start": 20.951708,
+      "end": 21.463083
+    },
+    {
+      "text": "message",
+      "start": 21.505666,
+      "end": 21.960207
+    },
+    {
+      "text": "is",
+      "start": 21.974416,
+      "end": 22.116457
+    },
+    {
+      "text": "conveyed",
+      "start": 22.173291,
+      "end": 22.613624
+    },
+    {
+      "text": "to",
+      "start": 22.642041,
+      "end": 22.727249
+    },
+    {
+      "text": "the",
+      "start": 22.784083,
+      "end": 22.855124
+    },
+    {
+      "text": "audience",
+      "start": 22.954541,
+      "end": 23.494332
+    },
+    {
+      "text": "through",
+      "start": 23.536916,
+      "end": 23.735791
+    },
+    {
+      "text": "dance",
+      "start": 23.835208,
+      "end": 24.190333
+    },
+    {
+      "text": "movements",
+      "start": 24.21875,
+      "end": 24.801125
+    },
+    {
+      "text": "Facial",
+      "start": 24.829541,
+      "end": 25.213082
+    },
+    {
+      "text": "expression",
+      "start": 25.241458,
+      "end": 26.022708
+    },
+    {
+      "text": "Emotions",
+      "start": 26.264208,
+      "end": 26.917624
+    },
+    {
+      "text": "that",
+      "start": 26.96025,
+      "end": 27.159125
+    },
+    {
+      "text": "are",
+      "start": 27.230125,
+      "end": 27.386375
+    },
+    {
+      "text": "expressed",
+      "start": 27.400583,
+      "end": 28.053999
+    },
+    {
+      "text": "using",
+      "start": 28.054,
+      "end": 28.338083
+    },
+    {
+      "text": "the",
+      "start": 28.423291,
+      "end": 28.508499
+    },
+    {
+      "text": "face",
+      "start": 28.52275,
+      "end": 28.892083
+    },
+    {
+      "text": "Image",
+      "start": 28.934666,
+      "end": 29.289791
+    },
+    {
+      "text": "theatre",
+      "start": 29.375,
+      "end": 29.900583
+    },
+    {
+      "text": "A",
+      "start": 30.056833,
+      "end": 30.142041
+    },
+    {
+      "text": "type",
+      "start": 30.213083,
+      "end": 30.440374
+    },
+    {
+      "text": "of",
+      "start": 30.46875,
+      "end": 30.610791
+    },
+    {
+      "text": "acting",
+      "start": 30.667625,
+      "end": 31.079541
+    },
+    {
+      "text": "where",
+      "start": 31.122166,
+      "end": 31.292624
+    },
+    {
+      "text": "the",
+      "start": 31.33525,
+      "end": 31.434666
+    },
+    {
+      "text": "performer",
+      "start": 31.519875,
+      "end": 31.988625
+    },
+    {
+      "text": "remains",
+      "start": 32.017041,
+      "end": 32.570999
+    },
+    {
+      "text": "still",
+      "start": 32.599416,
+      "end": 32.940332
+    },
+    {
+      "text": "does",
+      "start": 33.267041,
+      "end": 33.465916
+    },
+    {
+      "text": "not",
+      "start": 33.494333,
+      "end": 33.721624
+    },
+    {
+      "text": "speak",
+      "start": 33.83525,
+      "end": 34.14775
+    },
+    {
+      "text": "and",
+      "start": 34.417625,
+      "end": 34.545458
+    },
+    {
+      "text": "does",
+      "start": 34.630666,
+      "end": 34.801124
+    },
+    {
+      "text": "not",
+      "start": 34.829541,
+      "end": 35.085207
+    },
+    {
+      "text": "use",
+      "start": 35.170458,
+      "end": 35.383541
+    },
+    {
+      "text": "their",
+      "start": 35.440333,
+      "end": 35.610791
+    },
+    {
+      "text": "voice",
+      "start": 35.639208,
+      "end": 35.965916
+    },
+    {
+      "text": "Movement",
+      "start": 35.994333,
+      "end": 36.562499
+    },
+    {
+      "text": "The",
+      "start": 36.789791,
+      "end": 36.860832
+    },
+    {
+      "text": "manner",
+      "start": 36.889208,
+      "end": 37.244333
+    },
+    {
+      "text": "of",
+      "start": 37.286916,
+      "end": 37.457374
+    },
+    {
+      "text": "leaving",
+      "start": 37.471583,
+      "end": 37.855124
+    },
+    {
+      "text": "or",
+      "start": 37.911916,
+      "end": 38.025541
+    },
+    {
+      "text": "the",
+      "start": 38.110791,
+      "end": 38.195999
+    },
+    {
+      "text": "way",
+      "start": 38.224416,
+      "end": 38.423291
+    },
+    {
+      "text": "of",
+      "start": 38.480125,
+      "end": 38.679
+    },
+    {
+      "text": "going",
+      "start": 38.735791,
+      "end": 39.019874
+    },
+    {
+      "text": "Pantomime",
+      "start": 39.0625,
+      "end": 39.730125
+    },
+    {
+      "text": "A",
+      "start": 40.042625,
+      "end": 40.184666
+    },
+    {
+      "text": "form",
+      "start": 40.198875,
+      "end": 40.454541
+    },
+    {
+      "text": "of",
+      "start": 40.511375,
+      "end": 40.639208
+    },
+    {
+      "text": "theatrical",
+      "start": 40.71025,
+      "end": 41.292625
+    },
+    {
+      "text": "performance",
+      "start": 41.392041,
+      "end": 42.031249
+    },
+    {
+      "text": "that",
+      "start": 42.045458,
+      "end": 42.244333
+    },
+    {
+      "text": "conveys",
+      "start": 42.301125,
+      "end": 42.755666
+    },
+    {
+      "text": "a",
+      "start": 42.755666,
+      "end": 42.840874
+    },
+    {
+      "text": "story",
+      "start": 42.911916,
+      "end": 43.281249
+    },
+    {
+      "text": "or",
+      "start": 43.3665,
+      "end": 43.494333
+    },
+    {
+      "text": "message",
+      "start": 43.52275,
+      "end": 43.9915
+    },
+    {
+      "text": "using",
+      "start": 44.048291,
+      "end": 44.389207
+    },
+    {
+      "text": "only",
+      "start": 44.446041,
+      "end": 44.744332
+    },
+    {
+      "text": "gestures",
+      "start": 44.829541,
+      "end": 45.411916
+    },
+    {
+      "text": "facial",
+      "start": 45.639208,
+      "end": 46.065333
+    },
+    {
+      "text": "expressions",
+      "start": 46.107958,
+      "end": 47.002833
+    },
+    {
+      "text": "and",
+      "start": 47.215916,
+      "end": 47.357957
+    },
+    {
+      "text": "body",
+      "start": 47.457375,
+      "end": 47.741458
+    },
+    {
+      "text": "movements",
+      "start": 47.784083,
+      "end": 48.437499
+    },
+    {
+      "text": "without",
+      "start": 48.636375,
+      "end": 49.105125
+    },
+    {
+      "text": "spoken",
+      "start": 50.2415,
+      "end": 50.823875
+    },
+    {
+      "text": "words",
+      "start": 50.909083,
+      "end": 51.235791
+    },
+    {
+      "text": "Play",
+      "start": 51.321041,
+      "end": 51.633541
+    },
+    {
+      "text": "A",
+      "start": 51.889208,
+      "end": 51.988624
+    },
+    {
+      "text": "theatrical",
+      "start": 52.045458,
+      "end": 52.613624
+    },
+    {
+      "text": "performance",
+      "start": 52.713083,
+      "end": 53.309666
+    },
+    {
+      "text": "acted",
+      "start": 53.3665,
+      "end": 53.721625
+    },
+    {
+      "text": "by",
+      "start": 53.806833,
+      "end": 53.934666
+    },
+    {
+      "text": "a",
+      "start": 53.934666,
+      "end": 54.034082
+    },
+    {
+      "text": "group",
+      "start": 54.119333,
+      "end": 54.360791
+    },
+    {
+      "text": "of",
+      "start": 54.389208,
+      "end": 54.559666
+    },
+    {
+      "text": "people",
+      "start": 54.588083,
+      "end": 54.900583
+    },
+    {
+      "text": "reflecting",
+      "start": 55.15625,
+      "end": 55.838083
+    },
+    {
+      "text": "real-life",
+      "start": 55.8665,
+      "end": 56.33525
+    },
+    {
+      "text": "situations",
+      "start": 56.363625,
+      "end": 57.201708
+    },
+    {
+      "text": "in",
+      "start": 57.244333,
+      "end": 57.357958
+    },
+    {
+      "text": "society",
+      "start": 57.372166,
+      "end": 58.039791
+    }
+  ]
+}

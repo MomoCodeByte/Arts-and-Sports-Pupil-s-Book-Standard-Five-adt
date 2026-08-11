@@ -1,0 +1,1235 @@
+{
+  "audio": "page-018.mp3",
+  "words": [
+    {
+      "text": "12",
+      "start": 0.106833,
+      "end": 0.461958
+    },
+    {
+      "text": "Chapter",
+      "start": 0.561375,
+      "end": 0.944916
+    },
+    {
+      "text": "Two",
+      "start": 1.030125,
+      "end": 1.186375
+    },
+    {
+      "text": "Introduction",
+      "start": 1.257375,
+      "end": 2.052833
+    },
+    {
+      "text": "Singing",
+      "start": 2.123875,
+      "end": 2.479
+    },
+    {
+      "text": "enables",
+      "start": 2.507375,
+      "end": 3.061333
+    },
+    {
+      "text": "the",
+      "start": 3.103958,
+      "end": 3.132374
+    },
+    {
+      "text": "artist",
+      "start": 3.260208,
+      "end": 3.686333
+    },
+    {
+      "text": "to",
+      "start": 3.686375,
+      "end": 3.757416
+    },
+    {
+      "text": "convey",
+      "start": 3.828416,
+      "end": 4.211957
+    },
+    {
+      "text": "a",
+      "start": 4.282958,
+      "end": 4.368166
+    },
+    {
+      "text": "message",
+      "start": 4.396583,
+      "end": 4.836916
+    },
+    {
+      "text": "or",
+      "start": 4.922166,
+      "end": 5.035791
+    },
+    {
+      "text": "feeling",
+      "start": 5.05,
+      "end": 5.476125
+    },
+    {
+      "text": "through",
+      "start": 5.532958,
+      "end": 5.731833
+    },
+    {
+      "text": "songs",
+      "start": 5.817041,
+      "end": 6.314207
+    },
+    {
+      "text": "In",
+      "start": 7.414791,
+      "end": 7.599457
+    },
+    {
+      "text": "this",
+      "start": 7.698875,
+      "end": 7.911958
+    },
+    {
+      "text": "chapter",
+      "start": 7.954541,
+      "end": 8.423291
+    },
+    {
+      "text": "you",
+      "start": 8.664791,
+      "end": 8.764207
+    },
+    {
+      "text": "will",
+      "start": 8.806833,
+      "end": 8.934666
+    },
+    {
+      "text": "learn",
+      "start": 8.934666,
+      "end": 9.232957
+    },
+    {
+      "text": "about",
+      "start": 9.275583,
+      "end": 9.673291
+    },
+    {
+      "text": "musical",
+      "start": 9.701708,
+      "end": 10.127833
+    },
+    {
+      "text": "dynamics",
+      "start": 10.213083,
+      "end": 10.866499
+    },
+    {
+      "text": "voice",
+      "start": 11.065333,
+      "end": 11.363624
+    },
+    {
+      "text": "balance",
+      "start": 11.448875,
+      "end": 11.988666
+    },
+    {
+      "text": "and",
+      "start": 12.215916,
+      "end": 12.357957
+    },
+    {
+      "text": "how",
+      "start": 12.386375,
+      "end": 12.599458
+    },
+    {
+      "text": "to",
+      "start": 12.698875,
+      "end": 12.784083
+    },
+    {
+      "text": "sing",
+      "start": 12.869333,
+      "end": 13.082416
+    },
+    {
+      "text": "solfa",
+      "start": 13.125,
+      "end": 13.565333
+    },
+    {
+      "text": "accompanied",
+      "start": 13.622166,
+      "end": 14.261374
+    },
+    {
+      "text": "by",
+      "start": 14.346583,
+      "end": 14.460208
+    },
+    {
+      "text": "musical",
+      "start": 14.502833,
+      "end": 15.042624
+    },
+    {
+      "text": "instruments",
+      "start": 15.099416,
+      "end": 15.965874
+    },
+    {
+      "text": "The",
+      "start": 17.017041,
+      "end": 17.159082
+    },
+    {
+      "text": "competencies",
+      "start": 17.244333,
+      "end": 18.068208
+    },
+    {
+      "text": "developed",
+      "start": 18.125,
+      "end": 18.607958
+    },
+    {
+      "text": "will",
+      "start": 18.693166,
+      "end": 18.820999
+    },
+    {
+      "text": "enable",
+      "start": 18.821041,
+      "end": 19.275582
+    },
+    {
+      "text": "you",
+      "start": 19.303958,
+      "end": 19.360791
+    },
+    {
+      "text": "to",
+      "start": 19.446041,
+      "end": 19.545457
+    },
+    {
+      "text": "sing",
+      "start": 19.630666,
+      "end": 19.815332
+    },
+    {
+      "text": "various",
+      "start": 19.857958,
+      "end": 20.255666
+    },
+    {
+      "text": "songs",
+      "start": 20.255666,
+      "end": 20.639207
+    },
+    {
+      "text": "while",
+      "start": 20.667625,
+      "end": 20.852291
+    },
+    {
+      "text": "observing",
+      "start": 20.866458,
+      "end": 21.420416
+    },
+    {
+      "text": "musical",
+      "start": 21.505666,
+      "end": 21.903374
+    },
+    {
+      "text": "dynamics",
+      "start": 21.988625,
+      "end": 22.627833
+    },
+    {
+      "text": "and",
+      "start": 22.698875,
+      "end": 22.8125
+    },
+    {
+      "text": "voice",
+      "start": 22.883541,
+      "end": 23.181832
+    },
+    {
+      "text": "balance",
+      "start": 23.267041,
+      "end": 23.792624
+    },
+    {
+      "text": "as",
+      "start": 24.034083,
+      "end": 24.261374
+    },
+    {
+      "text": "well",
+      "start": 24.275583,
+      "end": 24.446041
+    },
+    {
+      "text": "as",
+      "start": 24.517041,
+      "end": 24.744332
+    },
+    {
+      "text": "using",
+      "start": 24.786916,
+      "end": 25.099416
+    },
+    {
+      "text": "musical",
+      "start": 25.184666,
+      "end": 25.667624
+    },
+    {
+      "text": "instruments",
+      "start": 25.724416,
+      "end": 26.434624
+    },
+    {
+      "text": "to",
+      "start": 26.477291,
+      "end": 26.548332
+    },
+    {
+      "text": "accompany",
+      "start": 26.605125,
+      "end": 27.230125
+    },
+    {
+      "text": "solfa",
+      "start": 27.286916,
+      "end": 27.698832
+    },
+    {
+      "text": "singing",
+      "start": 27.7415,
+      "end": 28.252875
+    },
+    {
+      "text": "Think",
+      "start": 29.289791,
+      "end": 29.602291
+    },
+    {
+      "text": "How",
+      "start": 29.602291,
+      "end": 29.829582
+    },
+    {
+      "text": "musical",
+      "start": 29.857958,
+      "end": 30.383541
+    },
+    {
+      "text": "dynamics",
+      "start": 30.46875,
+      "end": 31.065333
+    },
+    {
+      "text": "and",
+      "start": 31.09375,
+      "end": 31.221583
+    },
+    {
+      "text": "vocal",
+      "start": 31.264208,
+      "end": 31.576708
+    },
+    {
+      "text": "balance",
+      "start": 31.676125,
+      "end": 32.116458
+    },
+    {
+      "text": "improve",
+      "start": 32.159083,
+      "end": 32.570999
+    },
+    {
+      "text": "singing",
+      "start": 32.627833,
+      "end": 32.968749
+    },
+    {
+      "text": "Musical",
+      "start": 33.054,
+      "end": 33.480125
+    },
+    {
+      "text": "dynamics",
+      "start": 33.565333,
+      "end": 34.161916
+    },
+    {
+      "text": "Musical",
+      "start": 34.190333,
+      "end": 34.644874
+    },
+    {
+      "text": "dynamics",
+      "start": 34.730125,
+      "end": 35.355125
+    },
+    {
+      "text": "involve",
+      "start": 35.369333,
+      "end": 35.767041
+    },
+    {
+      "text": "changes",
+      "start": 35.852291,
+      "end": 36.335249
+    },
+    {
+      "text": "in",
+      "start": 36.377833,
+      "end": 36.406249
+    },
+    {
+      "text": "the",
+      "start": 36.477291,
+      "end": 36.562499
+    },
+    {
+      "text": "level",
+      "start": 36.590916,
+      "end": 36.974416
+    },
+    {
+      "text": "of",
+      "start": 36.974416,
+      "end": 37.088041
+    },
+    {
+      "text": "the",
+      "start": 37.144875,
+      "end": 37.215916
+    },
+    {
+      "text": "volume",
+      "start": 37.244333,
+      "end": 37.670458
+    },
+    {
+      "text": "during",
+      "start": 37.755666,
+      "end": 38.124999
+    },
+    {
+      "text": "singing",
+      "start": 38.181833,
+      "end": 38.607958
+    },
+    {
+      "text": "or",
+      "start": 38.664791,
+      "end": 38.792624
+    },
+    {
+      "text": "playing",
+      "start": 38.863625,
+      "end": 39.21875
+    },
+    {
+      "text": "a",
+      "start": 39.261375,
+      "end": 39.346583
+    },
+    {
+      "text": "musical",
+      "start": 39.375,
+      "end": 39.928958
+    },
+    {
+      "text": "instrument",
+      "start": 39.985791,
+      "end": 40.695999
+    },
+    {
+      "text": "These",
+      "start": 41.832375,
+      "end": 42.173291
+    },
+    {
+      "text": "changes",
+      "start": 42.230125,
+      "end": 42.727291
+    },
+    {
+      "text": "involve",
+      "start": 42.755666,
+      "end": 43.224416
+    },
+    {
+      "text": "increasing",
+      "start": 43.252833,
+      "end": 43.920458
+    },
+    {
+      "text": "or",
+      "start": 43.963083,
+      "end": 44.076708
+    },
+    {
+      "text": "decreasing",
+      "start": 44.161916,
+      "end": 44.715874
+    },
+    {
+      "text": "the",
+      "start": 44.801125,
+      "end": 44.872166
+    },
+    {
+      "text": "volume",
+      "start": 44.900583,
+      "end": 45.454541
+    },
+    {
+      "text": "It",
+      "start": 46.4915,
+      "end": 46.704541
+    },
+    {
+      "text": "is",
+      "start": 46.704541,
+      "end": 46.846582
+    },
+    {
+      "text": "important",
+      "start": 46.875,
+      "end": 47.471583
+    },
+    {
+      "text": "for",
+      "start": 47.485791,
+      "end": 47.642041
+    },
+    {
+      "text": "a",
+      "start": 47.670458,
+      "end": 47.769874
+    },
+    {
+      "text": "singer",
+      "start": 47.840916,
+      "end": 48.181832
+    },
+    {
+      "text": "or",
+      "start": 48.224416,
+      "end": 48.409082
+    },
+    {
+      "text": "an",
+      "start": 48.409083,
+      "end": 48.565333
+    },
+    {
+      "text": "instrumentalist",
+      "start": 48.579541,
+      "end": 49.531249
+    },
+    {
+      "text": "to",
+      "start": 49.545458,
+      "end": 49.644874
+    },
+    {
+      "text": "know",
+      "start": 49.673291,
+      "end": 49.857957
+    },
+    {
+      "text": "when",
+      "start": 49.886375,
+      "end": 50.142041
+    },
+    {
+      "text": "to",
+      "start": 50.142041,
+      "end": 50.241457
+    },
+    {
+      "text": "increase",
+      "start": 50.3125,
+      "end": 50.809666
+    },
+    {
+      "text": "the",
+      "start": 50.852291,
+      "end": 50.937499
+    },
+    {
+      "text": "volume",
+      "start": 50.951708,
+      "end": 51.363624
+    },
+    {
+      "text": "and",
+      "start": 51.392041,
+      "end": 51.505666
+    },
+    {
+      "text": "when",
+      "start": 51.576708,
+      "end": 51.803999
+    },
+    {
+      "text": "to",
+      "start": 51.818166,
+      "end": 51.917582
+    },
+    {
+      "text": "decrease",
+      "start": 51.988625,
+      "end": 52.443166
+    },
+    {
+      "text": "it",
+      "start": 52.471583,
+      "end": 52.670458
+    },
+    {
+      "text": "This",
+      "start": 53.806833,
+      "end": 54.133541
+    },
+    {
+      "text": "helps",
+      "start": 54.161916,
+      "end": 54.588041
+    },
+    {
+      "text": "to",
+      "start": 54.659083,
+      "end": 54.744291
+    },
+    {
+      "text": "convey",
+      "start": 54.815333,
+      "end": 55.198874
+    },
+    {
+      "text": "a",
+      "start": 55.255666,
+      "end": 55.340874
+    },
+    {
+      "text": "message",
+      "start": 55.369333,
+      "end": 55.795458
+    },
+    {
+      "text": "and",
+      "start": 55.838083,
+      "end": 55.965916
+    },
+    {
+      "text": "make",
+      "start": 56.036916,
+      "end": 56.235791
+    },
+    {
+      "text": "the",
+      "start": 56.349416,
+      "end": 56.392041
+    },
+    {
+      "text": "emotion",
+      "start": 56.4915,
+      "end": 57.017041
+    },
+    {
+      "text": "of",
+      "start": 57.017041,
+      "end": 57.116457
+    },
+    {
+      "text": "the",
+      "start": 57.173291,
+      "end": 57.258499
+    },
+    {
+      "text": "song",
+      "start": 57.34375,
+      "end": 57.613625
+    },
+    {
+      "text": "clearer",
+      "start": 57.642041,
+      "end": 58.096582
+    },
+    {
+      "text": "Often",
+      "start": 59.14775,
+      "end": 59.659125
+    },
+    {
+      "text": "lowering",
+      "start": 59.872166,
+      "end": 60.355124
+    },
+    {
+      "text": "the",
+      "start": 60.440333,
+      "end": 60.511374
+    },
+    {
+      "text": "volume",
+      "start": 60.539791,
+      "end": 60.994332
+    },
+    {
+      "text": "is",
+      "start": 60.994333,
+      "end": 61.164791
+    },
+    {
+      "text": "one",
+      "start": 61.179,
+      "end": 61.392041
+    },
+    {
+      "text": "of",
+      "start": 61.392041,
+      "end": 61.477249
+    },
+    {
+      "text": "the",
+      "start": 61.534083,
+      "end": 61.605124
+    },
+    {
+      "text": "ways",
+      "start": 61.64775,
+      "end": 61.96025
+    },
+    {
+      "text": "of",
+      "start": 61.974416,
+      "end": 62.088041
+    },
+    {
+      "text": "achieving",
+      "start": 62.088083,
+      "end": 62.627874
+    },
+    {
+      "text": "a",
+      "start": 62.65625,
+      "end": 62.755666
+    },
+    {
+      "text": "soft",
+      "start": 62.798291,
+      "end": 63.124999
+    },
+    {
+      "text": "or",
+      "start": 63.238625,
+      "end": 63.338041
+    },
+    {
+      "text": "gentle",
+      "start": 63.409083,
+      "end": 63.820999
+    },
+    {
+      "text": "sound",
+      "start": 63.920458,
+      "end": 64.261374
+    },
+    {
+      "text": "Music",
+      "start": 65.355125,
+      "end": 65.767041
+    },
+    {
+      "text": "dynamics",
+      "start": 65.894875,
+      "end": 66.519875
+    },
+    {
+      "text": "help",
+      "start": 66.548291,
+      "end": 66.846582
+    },
+    {
+      "text": "a",
+      "start": 66.860791,
+      "end": 66.931832
+    },
+    {
+      "text": "listener",
+      "start": 66.96025,
+      "end": 67.301166
+    },
+    {
+      "text": "to",
+      "start": 67.386375,
+      "end": 67.457416
+    },
+    {
+      "text": "understand",
+      "start": 67.542625,
+      "end": 68.167625
+    },
+    {
+      "text": "and",
+      "start": 68.167625,
+      "end": 68.323875
+    },
+    {
+      "text": "feel",
+      "start": 68.352291,
+      "end": 68.636374
+    },
+    {
+      "text": "the",
+      "start": 68.707375,
+      "end": 68.735791
+    },
+    {
+      "text": "emotions",
+      "start": 68.821041,
+      "end": 69.460249
+    },
+    {
+      "text": "expressed",
+      "start": 69.488625,
+      "end": 70.042583
+    },
+    {
+      "text": "through",
+      "start": 70.099416,
+      "end": 70.298291
+    },
+    {
+      "text": "the",
+      "start": 70.355125,
+      "end": 70.454541
+    },
+    {
+      "text": "song",
+      "start": 70.554,
+      "end": 70.8665
+    },
+    {
+      "text": "There",
+      "start": 71.931833,
+      "end": 72.230124
+    },
+    {
+      "text": "are",
+      "start": 72.301125,
+      "end": 72.471583
+    },
+    {
+      "text": "terms",
+      "start": 72.542625,
+      "end": 72.89775
+    },
+    {
+      "text": "and",
+      "start": 72.89775,
+      "end": 73.054
+    },
+    {
+      "text": "signs",
+      "start": 73.082375,
+      "end": 73.536916
+    },
+    {
+      "text": "used",
+      "start": 73.565333,
+      "end": 73.806791
+    },
+    {
+      "text": "to",
+      "start": 73.83525,
+      "end": 73.920458
+    },
+    {
+      "text": "represent",
+      "start": 73.948875,
+      "end": 74.602291
+    },
+    {
+      "text": "dynamics",
+      "start": 74.701708,
+      "end": 75.312499
+    },
+    {
+      "text": "in",
+      "start": 75.369333,
+      "end": 75.482958
+    },
+    {
+      "text": "a",
+      "start": 75.482958,
+      "end": 75.568166
+    },
+    {
+      "text": "song",
+      "start": 75.667625,
+      "end": 75.951708
+    },
+    {
+      "text": "These",
+      "start": 77.03125,
+      "end": 77.400583
+    },
+    {
+      "text": "terms",
+      "start": 77.457375,
+      "end": 77.869291
+    },
+    {
+      "text": "and",
+      "start": 77.940333,
+      "end": 78.110791
+    },
+    {
+      "text": "signs",
+      "start": 78.125,
+      "end": 78.607958
+    },
+    {
+      "text": "include",
+      "start": 78.664791,
+      "end": 79.204582
+    },
+    {
+      "text": "a",
+      "start": 79.417625,
+      "end": 79.6165
+    },
+    {
+      "text": "Piano",
+      "start": 79.914791,
+      "end": 80.397749
+    },
+    {
+      "text": "p",
+      "start": 80.767041,
+      "end": 80.909082
+    },
+    {
+      "text": "This",
+      "start": 81.988625,
+      "end": 82.357958
+    },
+    {
+      "text": "directs",
+      "start": 82.429,
+      "end": 82.926166
+    },
+    {
+      "text": "to",
+      "start": 82.96875,
+      "end": 83.068166
+    },
+    {
+      "text": "sing",
+      "start": 83.153416,
+      "end": 83.423291
+    },
+    {
+      "text": "or",
+      "start": 83.480125,
+      "end": 83.607958
+    },
+    {
+      "text": "play",
+      "start": 83.679,
+      "end": 83.934666
+    },
+    {
+      "text": "an",
+      "start": 84.005708,
+      "end": 84.176166
+    },
+    {
+      "text": "instrument",
+      "start": 84.21875,
+      "end": 84.872166
+    },
+    {
+      "text": "softly",
+      "start": 84.929,
+      "end": 85.440375
+    },
+    {
+      "text": "It",
+      "start": 86.519875,
+      "end": 86.732958
+    },
+    {
+      "text": "is",
+      "start": 86.747166,
+      "end": 86.903416
+    },
+    {
+      "text": "often",
+      "start": 86.96025,
+      "end": 87.315375
+    },
+    {
+      "text": "used",
+      "start": 87.400583,
+      "end": 87.684666
+    },
+    {
+      "text": "when",
+      "start": 87.7415,
+      "end": 87.940375
+    },
+    {
+      "text": "singing",
+      "start": 87.96875,
+      "end": 88.366458
+    },
+    {
+      "text": "or",
+      "start": 88.409083,
+      "end": 88.522708
+    },
+    {
+      "text": "playing",
+      "start": 88.59375,
+      "end": 88.934666
+    },
+    {
+      "text": "an",
+      "start": 88.963083,
+      "end": 89.105124
+    },
+    {
+      "text": "instrument",
+      "start": 89.14775,
+      "end": 89.786958
+    },
+    {
+      "text": "in",
+      "start": 89.801125,
+      "end": 89.91475
+    },
+    {
+      "text": "a",
+      "start": 89.914791,
+      "end": 89.999999
+    },
+    {
+      "text": "calm",
+      "start": 90.08525,
+      "end": 90.255708
+    },
+    {
+      "text": "manner",
+      "start": 90.284083,
+      "end": 90.724416
+    },
+    {
+      "text": "b",
+      "start": 91.773875,
+      "end": 92.04375
+    },
+    {
+      "text": "Mezzo-piano",
+      "start": 92.299458,
+      "end": 93.336374
+    },
+    {
+      "text": "mp",
+      "start": 93.60625,
+      "end": 94.018166
+    },
+    {
+      "text": "This",
+      "start": 95.113625,
+      "end": 95.497166
+    },
+    {
+      "text": "directs",
+      "start": 95.568208,
+      "end": 96.065374
+    },
+    {
+      "text": "to",
+      "start": 96.107958,
+      "end": 96.207374
+    },
+    {
+      "text": "sing",
+      "start": 96.292625,
+      "end": 96.5625
+    },
+    {
+      "text": "or",
+      "start": 96.619333,
+      "end": 96.732958
+    },
+    {
+      "text": "play",
+      "start": 96.818208,
+      "end": 97.059666
+    },
+    {
+      "text": "an",
+      "start": 97.1165,
+      "end": 97.286958
+    },
+    {
+      "text": "instrument",
+      "start": 97.329541,
+      "end": 98.011374
+    },
+    {
+      "text": "at",
+      "start": 98.011375,
+      "end": 98.196041
+    },
+    {
+      "text": "a",
+      "start": 98.196041,
+      "end": 98.267082
+    },
+    {
+      "text": "moderately",
+      "start": 98.295458,
+      "end": 98.934666
+    },
+    {
+      "text": "soft",
+      "start": 98.9915,
+      "end": 99.332416
+    },
+    {
+      "text": "but",
+      "start": 99.46025,
+      "end": 99.644916
+    },
+    {
+      "text": "with",
+      "start": 99.715916,
+      "end": 99.843749
+    },
+    {
+      "text": "gentleness",
+      "start": 99.929,
+      "end": 100.752875
+    },
+    {
+      "text": "It",
+      "start": 101.818208,
+      "end": 102.045458
+    },
+    {
+      "text": "is",
+      "start": 102.045458,
+      "end": 102.187499
+    },
+    {
+      "text": "used",
+      "start": 102.244333,
+      "end": 102.556833
+    },
+    {
+      "text": "when",
+      "start": 102.599458,
+      "end": 102.826749
+    },
+    {
+      "text": "singing",
+      "start": 102.855125,
+      "end": 103.295458
+    },
+    {
+      "text": "or",
+      "start": 103.338083,
+      "end": 103.465916
+    },
+    {
+      "text": "playing",
+      "start": 103.536958,
+      "end": 103.906291
+    },
+    {
+      "text": "an",
+      "start": 103.934666,
+      "end": 104.090916
+    },
+    {
+      "text": "instrument",
+      "start": 104.133541,
+      "end": 104.801124
+    },
+    {
+      "text": "in",
+      "start": 104.801125,
+      "end": 104.91475
+    },
+    {
+      "text": "a",
+      "start": 104.914791,
+      "end": 104.999999
+    },
+    {
+      "text": "calm",
+      "start": 105.071041,
+      "end": 105.269916
+    },
+    {
+      "text": "manner",
+      "start": 105.284083,
+      "end": 105.653416
+    },
+    {
+      "text": "with",
+      "start": 105.696041,
+      "end": 105.852291
+    },
+    {
+      "text": "slight",
+      "start": 105.9375,
+      "end": 106.25
+    },
+    {
+      "text": "emphasis",
+      "start": 106.349458,
+      "end": 107.102291
+    },
+    {
+      "text": "Singing",
+      "start": 108.181833,
+      "end": 108.693208
+    },
+    {
+      "text": "and",
+      "start": 108.735791,
+      "end": 108.863624
+    },
+    {
+      "text": "musical",
+      "start": 108.934666,
+      "end": 109.502832
+    },
+    {
+      "text": "instruments",
+      "start": 109.559666,
+      "end": 110.497166
+    }
+  ]
+}

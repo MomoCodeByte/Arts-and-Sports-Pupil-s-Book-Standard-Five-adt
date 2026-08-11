@@ -1,0 +1,535 @@
+{
+  "audio": "page-042.mp3",
+  "words": [
+    {
+      "text": "36",
+      "start": 0.106833,
+      "end": 0.845457
+    },
+    {
+      "text": "Images",
+      "start": 0.902291,
+      "end": 1.427874
+    },
+    {
+      "text": "that",
+      "start": 1.470458,
+      "end": 1.626708
+    },
+    {
+      "text": "demonstrate",
+      "start": 1.754541,
+      "end": 2.422166
+    },
+    {
+      "text": "distance",
+      "start": 2.55,
+      "end": 3.061375
+    },
+    {
+      "text": "Drawing",
+      "start": 3.146583,
+      "end": 3.515916
+    },
+    {
+      "text": "images",
+      "start": 3.558541,
+      "end": 4.069916
+    },
+    {
+      "text": "that",
+      "start": 4.1125,
+      "end": 4.297166
+    },
+    {
+      "text": "show",
+      "start": 4.311375,
+      "end": 4.524458
+    },
+    {
+      "text": "distance",
+      "start": 4.623875,
+      "end": 5.078416
+    },
+    {
+      "text": "requires",
+      "start": 5.149416,
+      "end": 5.660791
+    },
+    {
+      "text": "various",
+      "start": 5.717625,
+      "end": 6.14375
+    },
+    {
+      "text": "techniques",
+      "start": 6.186375,
+      "end": 6.740333
+    },
+    {
+      "text": "of",
+      "start": 6.782958,
+      "end": 6.910791
+    },
+    {
+      "text": "using",
+      "start": 6.967625,
+      "end": 7.32275
+    },
+    {
+      "text": "lines",
+      "start": 7.351125,
+      "end": 7.848291
+    },
+    {
+      "text": "proportion",
+      "start": 8.103958,
+      "end": 8.757374
+    },
+    {
+      "text": "and",
+      "start": 8.970458,
+      "end": 9.084083
+    },
+    {
+      "text": "direction",
+      "start": 9.183541,
+      "end": 9.737499
+    },
+    {
+      "text": "of",
+      "start": 9.7375,
+      "end": 9.836916
+    },
+    {
+      "text": "the",
+      "start": 9.89375,
+      "end": 9.964791
+    },
+    {
+      "text": "painter",
+      "start": 10.05,
+      "end": 10.504541
+    },
+    {
+      "text": "To",
+      "start": 11.5625,
+      "end": 11.71875
+    },
+    {
+      "text": "draw",
+      "start": 11.818166,
+      "end": 12.059624
+    },
+    {
+      "text": "an",
+      "start": 12.130666,
+      "end": 12.343749
+    },
+    {
+      "text": "image",
+      "start": 12.400583,
+      "end": 12.741499
+    },
+    {
+      "text": "that",
+      "start": 12.826708,
+      "end": 13.011374
+    },
+    {
+      "text": "demonstrates",
+      "start": 13.139208,
+      "end": 13.906249
+    },
+    {
+      "text": "distance",
+      "start": 13.991458,
+      "end": 14.630666
+    },
+    {
+      "text": "it",
+      "start": 14.872166,
+      "end": 15.042624
+    },
+    {
+      "text": "is",
+      "start": 15.042625,
+      "end": 15.198875
+    },
+    {
+      "text": "important",
+      "start": 15.213083,
+      "end": 15.852291
+    },
+    {
+      "text": "to",
+      "start": 15.909083,
+      "end": 15.994291
+    },
+    {
+      "text": "consider",
+      "start": 16.051125,
+      "end": 16.505666
+    },
+    {
+      "text": "the",
+      "start": 16.5625,
+      "end": 16.661916
+    },
+    {
+      "text": "use",
+      "start": 16.747166,
+      "end": 17.017041
+    },
+    {
+      "text": "of",
+      "start": 17.045458,
+      "end": 17.187499
+    },
+    {
+      "text": "lines",
+      "start": 17.201708,
+      "end": 17.684666
+    },
+    {
+      "text": "proportion",
+      "start": 17.940333,
+      "end": 18.593749
+    },
+    {
+      "text": "and",
+      "start": 18.806833,
+      "end": 18.920458
+    },
+    {
+      "text": "direction",
+      "start": 19.019875,
+      "end": 19.573833
+    },
+    {
+      "text": "of",
+      "start": 19.573875,
+      "end": 19.659083
+    },
+    {
+      "text": "the",
+      "start": 19.715916,
+      "end": 19.786957
+    },
+    {
+      "text": "painter",
+      "start": 19.872166,
+      "end": 20.298291
+    },
+    {
+      "text": "The",
+      "start": 21.349416,
+      "end": 21.562499
+    },
+    {
+      "text": "image",
+      "start": 21.661916,
+      "end": 22.045457
+    },
+    {
+      "text": "in",
+      "start": 22.073875,
+      "end": 22.201708
+    },
+    {
+      "text": "Figures 18",
+      "start": 22.230125,
+      "end": 23.181791
+    },
+    {
+      "text": "and",
+      "start": 23.210208,
+      "end": 23.281249
+    },
+    {
+      "text": "19",
+      "start": 23.366458,
+      "end": 23.792583
+    },
+    {
+      "text": "show",
+      "start": 23.821041,
+      "end": 24.034124
+    },
+    {
+      "text": "the",
+      "start": 24.090916,
+      "end": 24.147749
+    },
+    {
+      "text": "appearance",
+      "start": 24.21875,
+      "end": 24.829541
+    },
+    {
+      "text": "of",
+      "start": 24.84375,
+      "end": 24.928958
+    },
+    {
+      "text": "distance",
+      "start": 25.014208,
+      "end": 25.724416
+    },
+    {
+      "text": "Examine",
+      "start": 26.761375,
+      "end": 27.329541
+    },
+    {
+      "text": "the",
+      "start": 27.400583,
+      "end": 27.485791
+    },
+    {
+      "text": "use",
+      "start": 27.571041,
+      "end": 27.840916
+    },
+    {
+      "text": "of",
+      "start": 27.840916,
+      "end": 27.982957
+    },
+    {
+      "text": "lines",
+      "start": 27.997166,
+      "end": 28.394874
+    },
+    {
+      "text": "that",
+      "start": 28.423291,
+      "end": 28.650582
+    },
+    {
+      "text": "express",
+      "start": 28.650583,
+      "end": 29.176166
+    },
+    {
+      "text": "distance",
+      "start": 29.261375,
+      "end": 29.786916
+    },
+    {
+      "text": "in",
+      "start": 29.786916,
+      "end": 29.872124
+    },
+    {
+      "text": "these",
+      "start": 29.957375,
+      "end": 30.213041
+    },
+    {
+      "text": "images",
+      "start": 30.269875,
+      "end": 30.85225
+    },
+    {
+      "text": "Figure 18",
+      "start": 31.988625,
+      "end": 33.039791
+    },
+    {
+      "text": "Use",
+      "start": 33.309666,
+      "end": 33.565332
+    },
+    {
+      "text": "of",
+      "start": 33.565333,
+      "end": 33.693166
+    },
+    {
+      "text": "lines",
+      "start": 33.707375,
+      "end": 34.090916
+    },
+    {
+      "text": "to",
+      "start": 34.133541,
+      "end": 34.218749
+    },
+    {
+      "text": "demonstrate",
+      "start": 34.289791,
+      "end": 34.957374
+    },
+    {
+      "text": "a",
+      "start": 34.957375,
+      "end": 35.028416
+    },
+    {
+      "text": "distance",
+      "start": 35.099416,
+      "end": 35.596582
+    },
+    {
+      "text": "Figure 19",
+      "start": 35.596583,
+      "end": 36.448875
+    },
+    {
+      "text": "Use",
+      "start": 36.690333,
+      "end": 36.960208
+    },
+    {
+      "text": "of",
+      "start": 36.974416,
+      "end": 37.088041
+    },
+    {
+      "text": "lines",
+      "start": 37.1165,
+      "end": 37.485833
+    },
+    {
+      "text": "to",
+      "start": 37.542625,
+      "end": 37.627833
+    },
+    {
+      "text": "demonstrate",
+      "start": 37.698875,
+      "end": 38.338083
+    },
+    {
+      "text": "a",
+      "start": 38.352291,
+      "end": 38.409124
+    },
+    {
+      "text": "distance",
+      "start": 38.494333,
+      "end": 38.991499
+    },
+    {
+      "text": "by",
+      "start": 39.076708,
+      "end": 39.176124
+    },
+    {
+      "text": "using",
+      "start": 39.232958,
+      "end": 39.588083
+    },
+    {
+      "text": "proportions",
+      "start": 39.6165,
+      "end": 40.312541
+    },
+    {
+      "text": "Activity",
+      "start": 40.369333,
+      "end": 40.937499
+    },
+    {
+      "text": "12",
+      "start": 41.008541,
+      "end": 41.349457
+    },
+    {
+      "text": "Make",
+      "start": 41.363625,
+      "end": 41.619291
+    },
+    {
+      "text": "a",
+      "start": 41.633541,
+      "end": 41.704582
+    },
+    {
+      "text": "drawing",
+      "start": 41.789791,
+      "end": 42.116499
+    },
+    {
+      "text": "that",
+      "start": 42.201708,
+      "end": 42.372166
+    },
+    {
+      "text": "shows",
+      "start": 42.414791,
+      "end": 42.741499
+    },
+    {
+      "text": "both",
+      "start": 42.840916,
+      "end": 43.096582
+    },
+    {
+      "text": "near",
+      "start": 43.139208,
+      "end": 43.423291
+    },
+    {
+      "text": "and",
+      "start": 43.480125,
+      "end": 43.636375
+    },
+    {
+      "text": "distant",
+      "start": 43.707375,
+      "end": 44.176125
+    },
+    {
+      "text": "objects",
+      "start": 44.232958,
+      "end": 44.957374
+    },
+    {
+      "text": "Choose",
+      "start": 45.994333,
+      "end": 46.321041
+    },
+    {
+      "text": "a",
+      "start": 46.321041,
+      "end": 46.406249
+    },
+    {
+      "text": "single",
+      "start": 46.448875,
+      "end": 46.832416
+    },
+    {
+      "text": "direction",
+      "start": 46.917625,
+      "end": 47.471583
+    },
+    {
+      "text": "where",
+      "start": 47.542625,
+      "end": 47.713083
+    },
+    {
+      "text": "the",
+      "start": 47.7415,
+      "end": 47.869333
+    },
+    {
+      "text": "lines",
+      "start": 47.883541,
+      "end": 48.295457
+    },
+    {
+      "text": "will",
+      "start": 48.323875,
+      "end": 48.465916
+    },
+    {
+      "text": "meet",
+      "start": 48.494333,
+      "end": 48.806833
+    }
+  ]
+}

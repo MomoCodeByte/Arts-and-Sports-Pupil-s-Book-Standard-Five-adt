@@ -1,0 +1,770 @@
+{
+  "audio": "page-040.mp3",
+  "words": [
+    {
+      "text": "34",
+      "start": 0.106833,
+      "end": 0.6749989
+    },
+    {
+      "text": "Figure 14",
+      "start": 0.689208,
+      "end": 1.669291
+    },
+    {
+      "text": "An",
+      "start": 1.896583,
+      "end": 2.052833
+    },
+    {
+      "text": "example",
+      "start": 2.052833,
+      "end": 2.663624
+    },
+    {
+      "text": "of",
+      "start": 2.663625,
+      "end": 2.819875
+    },
+    {
+      "text": "an",
+      "start": 2.834083,
+      "end": 2.990333
+    },
+    {
+      "text": "image",
+      "start": 3.047166,
+      "end": 3.402291
+    },
+    {
+      "text": "appearing",
+      "start": 3.459083,
+      "end": 3.984666
+    },
+    {
+      "text": "in",
+      "start": 4.013083,
+      "end": 4.098291
+    },
+    {
+      "text": "vertical",
+      "start": 4.155125,
+      "end": 4.623875
+    },
+    {
+      "text": "direction",
+      "start": 4.723291,
+      "end": 5.291457
+    },
+    {
+      "text": "Images",
+      "start": 5.348291,
+      "end": 5.845457
+    },
+    {
+      "text": "appearing",
+      "start": 5.902291,
+      "end": 6.399457
+    },
+    {
+      "text": "in",
+      "start": 6.427833,
+      "end": 6.541458
+    },
+    {
+      "text": "horizontal",
+      "start": 6.569875,
+      "end": 7.294291
+    },
+    {
+      "text": "direction",
+      "start": 7.379541,
+      "end": 7.919332
+    },
+    {
+      "text": "The",
+      "start": 8.004541,
+      "end": 8.089749
+    },
+    {
+      "text": "use",
+      "start": 8.175,
+      "end": 8.416458
+    },
+    {
+      "text": "of",
+      "start": 8.430666,
+      "end": 8.572707
+    },
+    {
+      "text": "lines",
+      "start": 8.586916,
+      "end": 8.984624
+    },
+    {
+      "text": "is",
+      "start": 9.027291,
+      "end": 9.183541
+    },
+    {
+      "text": "very",
+      "start": 9.211916,
+      "end": 9.481791
+    },
+    {
+      "text": "important",
+      "start": 9.567041,
+      "end": 10.220457
+    },
+    {
+      "text": "when",
+      "start": 10.248875,
+      "end": 10.405125
+    },
+    {
+      "text": "drawing",
+      "start": 10.490333,
+      "end": 10.802833
+    },
+    {
+      "text": "horizontal",
+      "start": 10.83125,
+      "end": 11.6125
+    },
+    {
+      "text": "images",
+      "start": 11.669333,
+      "end": 12.322749
+    },
+    {
+      "text": "as",
+      "start": 12.592625,
+      "end": 12.777291
+    },
+    {
+      "text": "they",
+      "start": 12.834083,
+      "end": 12.933499
+    },
+    {
+      "text": "help",
+      "start": 12.976125,
+      "end": 13.231791
+    },
+    {
+      "text": "to",
+      "start": 13.345458,
+      "end": 13.444874
+    },
+    {
+      "text": "show",
+      "start": 13.473291,
+      "end": 13.672166
+    },
+    {
+      "text": "direction",
+      "start": 13.757375,
+      "end": 14.382375
+    },
+    {
+      "text": "depth",
+      "start": 14.666458,
+      "end": 14.964749
+    },
+    {
+      "text": "and",
+      "start": 15.248875,
+      "end": 15.433541
+    },
+    {
+      "text": "composition",
+      "start": 15.476125,
+      "end": 16.21475
+    },
+    {
+      "text": "in",
+      "start": 16.257375,
+      "end": 16.356791
+    },
+    {
+      "text": "the",
+      "start": 16.413625,
+      "end": 16.442041
+    },
+    {
+      "text": "image",
+      "start": 16.569875,
+      "end": 17.010208
+    },
+    {
+      "text": "For",
+      "start": 18.181833,
+      "end": 18.394916
+    },
+    {
+      "text": "example",
+      "start": 18.451708,
+      "end": 19.147749
+    },
+    {
+      "text": "the",
+      "start": 19.417625,
+      "end": 19.517041
+    },
+    {
+      "text": "lines",
+      "start": 19.53125,
+      "end": 19.985791
+    },
+    {
+      "text": "in",
+      "start": 20.042625,
+      "end": 20.184666
+    },
+    {
+      "text": "Figure 15",
+      "start": 20.213083,
+      "end": 21.107958
+    },
+    {
+      "text": "in",
+      "start": 21.150583,
+      "end": 21.235791
+    },
+    {
+      "text": "the",
+      "start": 21.306833,
+      "end": 21.392041
+    },
+    {
+      "text": "trees",
+      "start": 21.463083,
+      "end": 21.775583
+    },
+    {
+      "text": "show",
+      "start": 21.832375,
+      "end": 22.002833
+    },
+    {
+      "text": "the",
+      "start": 22.059666,
+      "end": 22.159082
+    },
+    {
+      "text": "horizontal",
+      "start": 22.1875,
+      "end": 22.926125
+    },
+    {
+      "text": "direction",
+      "start": 23.011375,
+      "end": 23.636375
+    },
+    {
+      "text": "Look",
+      "start": 24.715916,
+      "end": 25.028416
+    },
+    {
+      "text": "at",
+      "start": 25.127833,
+      "end": 25.198874
+    },
+    {
+      "text": "the",
+      "start": 25.284083,
+      "end": 25.369291
+    },
+    {
+      "text": "position",
+      "start": 25.454541,
+      "end": 25.980124
+    },
+    {
+      "text": "of",
+      "start": 25.980125,
+      "end": 26.079541
+    },
+    {
+      "text": "the",
+      "start": 26.150583,
+      "end": 26.249999
+    },
+    {
+      "text": "log",
+      "start": 26.264208,
+      "end": 26.619333
+    },
+    {
+      "text": "also",
+      "start": 26.846583,
+      "end": 27.173291
+    },
+    {
+      "text": "examine",
+      "start": 27.230125,
+      "end": 27.755708
+    },
+    {
+      "text": "the",
+      "start": 27.826708,
+      "end": 27.897749
+    },
+    {
+      "text": "lines",
+      "start": 27.911916,
+      "end": 28.338041
+    },
+    {
+      "text": "inside",
+      "start": 28.394875,
+      "end": 28.778416
+    },
+    {
+      "text": "the",
+      "start": 28.849416,
+      "end": 28.934624
+    },
+    {
+      "text": "log",
+      "start": 28.948875,
+      "end": 29.261375
+    },
+    {
+      "text": "and",
+      "start": 29.502833,
+      "end": 29.673291
+    },
+    {
+      "text": "in",
+      "start": 29.6875,
+      "end": 29.772708
+    },
+    {
+      "text": "the",
+      "start": 29.84375,
+      "end": 29.928958
+    },
+    {
+      "text": "cut",
+      "start": 30.014208,
+      "end": 30.227291
+    },
+    {
+      "text": "section",
+      "start": 30.255666,
+      "end": 30.809624
+    },
+    {
+      "text": "you",
+      "start": 31.02275,
+      "end": 31.122166
+    },
+    {
+      "text": "will",
+      "start": 31.193166,
+      "end": 31.363624
+    },
+    {
+      "text": "see",
+      "start": 31.420458,
+      "end": 31.576708
+    },
+    {
+      "text": "the",
+      "start": 31.64775,
+      "end": 31.747166
+    },
+    {
+      "text": "horizontal",
+      "start": 31.775583,
+      "end": 32.499999
+    },
+    {
+      "text": "direction",
+      "start": 32.58525,
+      "end": 33.196041
+    },
+    {
+      "text": "Figure 15",
+      "start": 34.275583,
+      "end": 35.369333
+    },
+    {
+      "text": "An",
+      "start": 35.625,
+      "end": 35.795458
+    },
+    {
+      "text": "example",
+      "start": 35.795458,
+      "end": 36.392041
+    },
+    {
+      "text": "of",
+      "start": 36.392041,
+      "end": 36.562499
+    },
+    {
+      "text": "an",
+      "start": 36.5625,
+      "end": 36.71875
+    },
+    {
+      "text": "image",
+      "start": 36.775583,
+      "end": 37.130708
+    },
+    {
+      "text": "appearing",
+      "start": 37.1875,
+      "end": 37.698875
+    },
+    {
+      "text": "in",
+      "start": 37.713083,
+      "end": 37.798291
+    },
+    {
+      "text": "the",
+      "start": 37.869333,
+      "end": 37.940374
+    },
+    {
+      "text": "horizontal",
+      "start": 37.954541,
+      "end": 38.664749
+    },
+    {
+      "text": "direction",
+      "start": 38.75,
+      "end": 39.318166
+    },
+    {
+      "text": "Images",
+      "start": 39.375,
+      "end": 39.872166
+    },
+    {
+      "text": "appearing",
+      "start": 39.929,
+      "end": 40.440375
+    },
+    {
+      "text": "in",
+      "start": 40.46875,
+      "end": 40.596583
+    },
+    {
+      "text": "different",
+      "start": 40.667625,
+      "end": 41.136375
+    },
+    {
+      "text": "directions",
+      "start": 41.221583,
+      "end": 41.903416
+    },
+    {
+      "text": "In",
+      "start": 41.974416,
+      "end": 42.088041
+    },
+    {
+      "text": "drawing",
+      "start": 42.159083,
+      "end": 42.642041
+    },
+    {
+      "text": "lines",
+      "start": 42.855125,
+      "end": 43.267041
+    },
+    {
+      "text": "provide",
+      "start": 43.338083,
+      "end": 43.693208
+    },
+    {
+      "text": "guidance",
+      "start": 43.778416,
+      "end": 44.289791
+    },
+    {
+      "text": "on",
+      "start": 44.332375,
+      "end": 44.446
+    },
+    {
+      "text": "how",
+      "start": 44.488625,
+      "end": 44.701708
+    },
+    {
+      "text": "to",
+      "start": 44.801125,
+      "end": 44.886333
+    },
+    {
+      "text": "create",
+      "start": 44.957375,
+      "end": 45.3125
+    },
+    {
+      "text": "an",
+      "start": 45.3125,
+      "end": 45.46875
+    },
+    {
+      "text": "image",
+      "start": 45.525583,
+      "end": 45.866499
+    },
+    {
+      "text": "that",
+      "start": 45.951708,
+      "end": 46.136374
+    },
+    {
+      "text": "reflects",
+      "start": 46.264208,
+      "end": 46.803999
+    },
+    {
+      "text": "different",
+      "start": 46.889208,
+      "end": 47.329541
+    },
+    {
+      "text": "orientations",
+      "start": 47.386375,
+      "end": 48.4375
+    },
+    {
+      "text": "Each",
+      "start": 49.517041,
+      "end": 49.772707
+    },
+    {
+      "text": "type",
+      "start": 49.857958,
+      "end": 50.085249
+    },
+    {
+      "text": "of",
+      "start": 50.142041,
+      "end": 50.255666
+    },
+    {
+      "text": "direction",
+      "start": 50.326708,
+      "end": 50.909083
+    },
+    {
+      "text": "relies",
+      "start": 50.9375,
+      "end": 51.420458
+    },
+    {
+      "text": "on",
+      "start": 51.477291,
+      "end": 51.562499
+    },
+    {
+      "text": "the",
+      "start": 51.633541,
+      "end": 51.718749
+    },
+    {
+      "text": "use",
+      "start": 51.789791,
+      "end": 52.045457
+    },
+    {
+      "text": "of",
+      "start": 52.059666,
+      "end": 52.173291
+    },
+    {
+      "text": "a",
+      "start": 52.173291,
+      "end": 52.258499
+    },
+    {
+      "text": "specific",
+      "start": 52.357958,
+      "end": 52.897749
+    },
+    {
+      "text": "kind",
+      "start": 52.982958,
+      "end": 53.267041
+    },
+    {
+      "text": "of",
+      "start": 53.267041,
+      "end": 53.423291
+    },
+    {
+      "text": "line",
+      "start": 53.4375,
+      "end": 53.821041
+    },
+    {
+      "text": "Figure 16",
+      "start": 54.857958,
+      "end": 55.866458
+    },
+    {
+      "text": "is",
+      "start": 55.909083,
+      "end": 56.036916
+    },
+    {
+      "text": "a",
+      "start": 56.036916,
+      "end": 56.122124
+    },
+    {
+      "text": "stump",
+      "start": 56.207375,
+      "end": 56.5625
+    },
+    {
+      "text": "where",
+      "start": 56.818166,
+      "end": 57.059624
+    },
+    {
+      "text": "the",
+      "start": 57.102291,
+      "end": 57.215916
+    },
+    {
+      "text": "log",
+      "start": 57.230125,
+      "end": 57.528416
+    },
+    {
+      "text": "has",
+      "start": 57.556833,
+      "end": 57.812499
+    },
+    {
+      "text": "been",
+      "start": 57.883541,
+      "end": 58.068207
+    },
+    {
+      "text": "cut",
+      "start": 58.125,
+      "end": 58.4375
+    },
+    {
+      "text": "Examine",
+      "start": 59.602291,
+      "end": 60.170457
+    },
+    {
+      "text": "the",
+      "start": 60.255666,
+      "end": 60.326707
+    },
+    {
+      "text": "direction",
+      "start": 60.39775,
+      "end": 60.980125
+    },
+    {
+      "text": "of",
+      "start": 60.980125,
+      "end": 61.079541
+    },
+    {
+      "text": "the",
+      "start": 61.136375,
+      "end": 61.221583
+    },
+    {
+      "text": "lines",
+      "start": 61.235791,
+      "end": 61.661916
+    },
+    {
+      "text": "in",
+      "start": 61.704541,
+      "end": 61.775582
+    },
+    {
+      "text": "the",
+      "start": 61.846583,
+      "end": 61.903416
+    },
+    {
+      "text": "image",
+      "start": 62.017041,
+      "end": 62.428957
+    },
+    {
+      "text": "you",
+      "start": 62.713083,
+      "end": 62.812499
+    },
+    {
+      "text": "will",
+      "start": 62.869333,
+      "end": 62.997166
+    },
+    {
+      "text": "notice",
+      "start": 63.054,
+      "end": 63.494333
+    },
+    {
+      "text": "that",
+      "start": 63.52275,
+      "end": 63.622166
+    },
+    {
+      "text": "the",
+      "start": 63.693166,
+      "end": 63.778374
+    },
+    {
+      "text": "lines",
+      "start": 63.792625,
+      "end": 64.21875
+    },
+    {
+      "text": "in",
+      "start": 64.275583,
+      "end": 64.360791
+    },
+    {
+      "text": "this",
+      "start": 64.446041,
+      "end": 64.687499
+    },
+    {
+      "text": "image",
+      "start": 64.730125,
+      "end": 65.056833
+    },
+    {
+      "text": "show",
+      "start": 65.08525,
+      "end": 65.312541
+    },
+    {
+      "text": "different",
+      "start": 65.411916,
+      "end": 65.866457
+    },
+    {
+      "text": "directions",
+      "start": 65.951708,
+      "end": 66.775583
+    }
+  ]
+}

@@ -1,0 +1,1590 @@
+{
+  "audio": "page-106.mp3",
+  "words": [
+    {
+      "text": "100",
+      "start": 0.106833,
+      "end": 0.746041
+    },
+    {
+      "text": "Basic",
+      "start": 0.845458,
+      "end": 1.228999
+    },
+    {
+      "text": "netball",
+      "start": 1.271583,
+      "end": 1.782958
+    },
+    {
+      "text": "rules",
+      "start": 1.839791,
+      "end": 2.209124
+    },
+    {
+      "text": "1",
+      "start": 2.251708,
+      "end": 2.521583
+    },
+    {
+      "text": "The",
+      "start": 3.622166,
+      "end": 3.806832
+    },
+    {
+      "text": "game",
+      "start": 3.90625,
+      "end": 4.119333
+    },
+    {
+      "text": "is",
+      "start": 4.161916,
+      "end": 4.332374
+    },
+    {
+      "text": "played",
+      "start": 4.403416,
+      "end": 4.673291
+    },
+    {
+      "text": "in",
+      "start": 4.744333,
+      "end": 4.886374
+    },
+    {
+      "text": "four",
+      "start": 4.928958,
+      "end": 5.142041
+    },
+    {
+      "text": "quarters",
+      "start": 5.213083,
+      "end": 5.653416
+    },
+    {
+      "text": "of",
+      "start": 5.667625,
+      "end": 5.78125
+    },
+    {
+      "text": "15",
+      "start": 5.78125,
+      "end": 6.264208
+    },
+    {
+      "text": "minutes",
+      "start": 6.349416,
+      "end": 6.761332
+    },
+    {
+      "text": "each",
+      "start": 6.832375,
+      "end": 7.059666
+    },
+    {
+      "text": "A",
+      "start": 8.252833,
+      "end": 8.394874
+    },
+    {
+      "text": "3-minutes",
+      "start": 8.465916,
+      "end": 9.147708
+    },
+    {
+      "text": "break",
+      "start": 9.247166,
+      "end": 9.502832
+    },
+    {
+      "text": "is",
+      "start": 9.53125,
+      "end": 9.6875
+    },
+    {
+      "text": "given",
+      "start": 9.744333,
+      "end": 10.071041
+    },
+    {
+      "text": "between",
+      "start": 10.15625,
+      "end": 10.454541
+    },
+    {
+      "text": "the",
+      "start": 10.525583,
+      "end": 10.596624
+    },
+    {
+      "text": "first",
+      "start": 10.653416,
+      "end": 11.036957
+    },
+    {
+      "text": "and",
+      "start": 11.09375,
+      "end": 11.221583
+    },
+    {
+      "text": "second",
+      "start": 11.25,
+      "end": 11.676125
+    },
+    {
+      "text": "quarters",
+      "start": 11.732958,
+      "end": 12.315333
+    },
+    {
+      "text": "Players",
+      "start": 13.394875,
+      "end": 13.863625
+    },
+    {
+      "text": "are",
+      "start": 13.920458,
+      "end": 14.062499
+    },
+    {
+      "text": "given",
+      "start": 14.147708,
+      "end": 14.488624
+    },
+    {
+      "text": "a",
+      "start": 14.488625,
+      "end": 14.588041
+    },
+    {
+      "text": "5-minutes",
+      "start": 14.602291,
+      "end": 15.355125
+    },
+    {
+      "text": "break",
+      "start": 15.454541,
+      "end": 15.710207
+    },
+    {
+      "text": "after",
+      "start": 15.767041,
+      "end": 16.051124
+    },
+    {
+      "text": "the",
+      "start": 16.107958,
+      "end": 16.207374
+    },
+    {
+      "text": "second",
+      "start": 16.292625,
+      "end": 16.690333
+    },
+    {
+      "text": "quarter",
+      "start": 16.732958,
+      "end": 17.073874
+    },
+    {
+      "text": "ends",
+      "start": 17.144875,
+      "end": 17.556791
+    },
+    {
+      "text": "which",
+      "start": 17.784083,
+      "end": 18.053958
+    },
+    {
+      "text": "marks",
+      "start": 18.096583,
+      "end": 18.465916
+    },
+    {
+      "text": "half",
+      "start": 18.508541,
+      "end": 18.693207
+    },
+    {
+      "text": "time",
+      "start": 18.792625,
+      "end": 19.133541
+    },
+    {
+      "text": "Between",
+      "start": 20.15625,
+      "end": 20.639208
+    },
+    {
+      "text": "the",
+      "start": 20.710208,
+      "end": 20.795416
+    },
+    {
+      "text": "third",
+      "start": 20.894875,
+      "end": 21.150541
+    },
+    {
+      "text": "and",
+      "start": 21.207375,
+      "end": 21.363625
+    },
+    {
+      "text": "fourth",
+      "start": 21.40625,
+      "end": 21.747166
+    },
+    {
+      "text": "quarters",
+      "start": 21.832375,
+      "end": 22.329541
+    },
+    {
+      "text": "players",
+      "start": 22.556833,
+      "end": 22.954541
+    },
+    {
+      "text": "rest",
+      "start": 23.025583,
+      "end": 23.338083
+    },
+    {
+      "text": "for",
+      "start": 23.394875,
+      "end": 23.551125
+    },
+    {
+      "text": "another",
+      "start": 23.59375,
+      "end": 24.005666
+    },
+    {
+      "text": "3",
+      "start": 24.076708,
+      "end": 24.275583
+    },
+    {
+      "text": "minutes",
+      "start": 24.318166,
+      "end": 24.914749
+    },
+    {
+      "text": "2",
+      "start": 25.965916,
+      "end": 26.249999
+    },
+    {
+      "text": "Each",
+      "start": 26.519875,
+      "end": 26.747166
+    },
+    {
+      "text": "team",
+      "start": 26.860791,
+      "end": 27.073874
+    },
+    {
+      "text": "must",
+      "start": 27.1165,
+      "end": 27.443208
+    },
+    {
+      "text": "have",
+      "start": 27.471583,
+      "end": 27.698874
+    },
+    {
+      "text": "seven",
+      "start": 27.7415,
+      "end": 28.153416
+    },
+    {
+      "text": "players",
+      "start": 28.196041,
+      "end": 28.622166
+    },
+    {
+      "text": "on",
+      "start": 28.693166,
+      "end": 28.778374
+    },
+    {
+      "text": "the",
+      "start": 28.83525,
+      "end": 28.892083
+    },
+    {
+      "text": "court",
+      "start": 28.9915,
+      "end": 29.318208
+    },
+    {
+      "text": "A",
+      "start": 30.46875,
+      "end": 30.610791
+    },
+    {
+      "text": "team",
+      "start": 30.696041,
+      "end": 30.909124
+    },
+    {
+      "text": "may",
+      "start": 30.951708,
+      "end": 31.093749
+    },
+    {
+      "text": "make",
+      "start": 31.136375,
+      "end": 31.363666
+    },
+    {
+      "text": "substitutions",
+      "start": 31.420458,
+      "end": 32.386374
+    },
+    {
+      "text": "with",
+      "start": 32.414791,
+      "end": 32.514207
+    },
+    {
+      "text": "reserve",
+      "start": 32.571041,
+      "end": 33.025582
+    },
+    {
+      "text": "players",
+      "start": 33.068166,
+      "end": 33.494291
+    },
+    {
+      "text": "during",
+      "start": 33.565333,
+      "end": 33.892041
+    },
+    {
+      "text": "breaks",
+      "start": 33.963083,
+      "end": 34.318208
+    },
+    {
+      "text": "or",
+      "start": 34.403416,
+      "end": 34.559666
+    },
+    {
+      "text": "in",
+      "start": 34.573875,
+      "end": 34.786958
+    },
+    {
+      "text": "case",
+      "start": 34.801125,
+      "end": 35.056791
+    },
+    {
+      "text": "of",
+      "start": 35.056833,
+      "end": 35.213083
+    },
+    {
+      "text": "injuries",
+      "start": 35.269875,
+      "end": 35.880666
+    },
+    {
+      "text": "3",
+      "start": 36.988625,
+      "end": 37.329541
+    },
+    {
+      "text": "A",
+      "start": 37.5,
+      "end": 37.585208
+    },
+    {
+      "text": "player",
+      "start": 37.698875,
+      "end": 38.039791
+    },
+    {
+      "text": "is",
+      "start": 38.096583,
+      "end": 38.238624
+    },
+    {
+      "text": "not",
+      "start": 38.28125,
+      "end": 38.536916
+    },
+    {
+      "text": "allowed",
+      "start": 38.536916,
+      "end": 38.906249
+    },
+    {
+      "text": "to",
+      "start": 38.934666,
+      "end": 39.062499
+    },
+    {
+      "text": "run",
+      "start": 39.133541,
+      "end": 39.346624
+    },
+    {
+      "text": "with",
+      "start": 39.417625,
+      "end": 39.53125
+    },
+    {
+      "text": "the",
+      "start": 39.545458,
+      "end": 39.616499
+    },
+    {
+      "text": "ball",
+      "start": 39.715916,
+      "end": 40.042624
+    },
+    {
+      "text": "4",
+      "start": 41.107958,
+      "end": 41.406249
+    },
+    {
+      "text": "Scoring",
+      "start": 41.576708,
+      "end": 42.144874
+    },
+    {
+      "text": "is",
+      "start": 42.173291,
+      "end": 42.329541
+    },
+    {
+      "text": "only",
+      "start": 42.400583,
+      "end": 42.684666
+    },
+    {
+      "text": "done",
+      "start": 42.784083,
+      "end": 42.982958
+    },
+    {
+      "text": "within",
+      "start": 43.068166,
+      "end": 43.366457
+    },
+    {
+      "text": "the",
+      "start": 43.451708,
+      "end": 43.522749
+    },
+    {
+      "text": "goal",
+      "start": 43.607958,
+      "end": 43.835249
+    },
+    {
+      "text": "circle",
+      "start": 43.90625,
+      "end": 44.289791
+    },
+    {
+      "text": "by",
+      "start": 44.389208,
+      "end": 44.488624
+    },
+    {
+      "text": "players",
+      "start": 44.573875,
+      "end": 45.0
+    },
+    {
+      "text": "playing",
+      "start": 45.071041,
+      "end": 45.369332
+    },
+    {
+      "text": "the",
+      "start": 45.454541,
+      "end": 45.539749
+    },
+    {
+      "text": "GS",
+      "start": 45.610791,
+      "end": 45.994332
+    },
+    {
+      "text": "and",
+      "start": 46.065333,
+      "end": 46.221583
+    },
+    {
+      "text": "GA",
+      "start": 46.235791,
+      "end": 46.463082
+    },
+    {
+      "text": "positions",
+      "start": 46.548291,
+      "end": 47.329541
+    },
+    {
+      "text": "5",
+      "start": 48.409083,
+      "end": 48.806791
+    },
+    {
+      "text": "A",
+      "start": 49.034083,
+      "end": 49.119291
+    },
+    {
+      "text": "player",
+      "start": 49.21875,
+      "end": 49.53125
+    },
+    {
+      "text": "may",
+      "start": 49.559666,
+      "end": 49.701707
+    },
+    {
+      "text": "not",
+      "start": 49.758541,
+      "end": 50.028416
+    },
+    {
+      "text": "hold",
+      "start": 50.071041,
+      "end": 50.340916
+    },
+    {
+      "text": "the",
+      "start": 50.440333,
+      "end": 50.511374
+    },
+    {
+      "text": "ball",
+      "start": 50.596583,
+      "end": 50.838041
+    },
+    {
+      "text": "for",
+      "start": 50.852291,
+      "end": 51.036957
+    },
+    {
+      "text": "more",
+      "start": 51.051125,
+      "end": 51.25
+    },
+    {
+      "text": "than",
+      "start": 51.292625,
+      "end": 51.463083
+    },
+    {
+      "text": "three",
+      "start": 51.519875,
+      "end": 51.704541
+    },
+    {
+      "text": "seconds",
+      "start": 51.775583,
+      "end": 52.286958
+    },
+    {
+      "text": "without",
+      "start": 52.315333,
+      "end": 52.670458
+    },
+    {
+      "text": "passing",
+      "start": 52.769875,
+      "end": 53.181791
+    },
+    {
+      "text": "or",
+      "start": 53.238625,
+      "end": 53.380666
+    },
+    {
+      "text": "scoring",
+      "start": 53.423291,
+      "end": 54.019874
+    },
+    {
+      "text": "Exercise",
+      "start": 55.042625,
+      "end": 55.738625
+    },
+    {
+      "text": "7",
+      "start": 55.738625,
+      "end": 56.150541
+    },
+    {
+      "text": "1",
+      "start": 56.235791,
+      "end": 56.519874
+    },
+    {
+      "text": "Explain",
+      "start": 57.613625,
+      "end": 58.210208
+    },
+    {
+      "text": "at",
+      "start": 58.224416,
+      "end": 58.380666
+    },
+    {
+      "text": "least",
+      "start": 58.451708,
+      "end": 58.749999
+    },
+    {
+      "text": "two",
+      "start": 58.778416,
+      "end": 58.892041
+    },
+    {
+      "text": "basic",
+      "start": 58.9915,
+      "end": 59.417625
+    },
+    {
+      "text": "rules",
+      "start": 59.446041,
+      "end": 59.815374
+    },
+    {
+      "text": "of",
+      "start": 59.829541,
+      "end": 59.928957
+    },
+    {
+      "text": "netball",
+      "start": 59.971583,
+      "end": 60.568166
+    },
+    {
+      "text": "2",
+      "start": 61.619333,
+      "end": 61.860791
+    },
+    {
+      "text": "Why",
+      "start": 62.130666,
+      "end": 62.301124
+    },
+    {
+      "text": "is",
+      "start": 62.386375,
+      "end": 62.58525
+    },
+    {
+      "text": "a",
+      "start": 62.58525,
+      "end": 62.670458
+    },
+    {
+      "text": "netball",
+      "start": 62.698875,
+      "end": 63.196041
+    },
+    {
+      "text": "player",
+      "start": 63.295458,
+      "end": 63.579541
+    },
+    {
+      "text": "not",
+      "start": 63.622166,
+      "end": 63.877832
+    },
+    {
+      "text": "allowed",
+      "start": 63.877833,
+      "end": 64.218749
+    },
+    {
+      "text": "to",
+      "start": 64.247166,
+      "end": 64.346582
+    },
+    {
+      "text": "run",
+      "start": 64.403416,
+      "end": 64.602291
+    },
+    {
+      "text": "with",
+      "start": 64.673291,
+      "end": 64.801124
+    },
+    {
+      "text": "the",
+      "start": 64.815333,
+      "end": 64.886374
+    },
+    {
+      "text": "ball",
+      "start": 64.985791,
+      "end": 65.298291
+    },
+    {
+      "text": "3",
+      "start": 66.363625,
+      "end": 66.704541
+    },
+    {
+      "text": "What",
+      "start": 66.946041,
+      "end": 67.187499
+    },
+    {
+      "text": "are",
+      "start": 67.315333,
+      "end": 67.414749
+    },
+    {
+      "text": "the",
+      "start": 67.514208,
+      "end": 67.585249
+    },
+    {
+      "text": "only",
+      "start": 67.670458,
+      "end": 67.997166
+    },
+    {
+      "text": "scoring",
+      "start": 68.068166,
+      "end": 68.536916
+    },
+    {
+      "text": "positions",
+      "start": 68.579541,
+      "end": 69.261374
+    },
+    {
+      "text": "in",
+      "start": 69.332375,
+      "end": 69.403416
+    },
+    {
+      "text": "netball",
+      "start": 69.502833,
+      "end": 70.056791
+    },
+    {
+      "text": "Netball",
+      "start": 71.107958,
+      "end": 71.747166
+    },
+    {
+      "text": "skill-building",
+      "start": 71.804,
+      "end": 72.613666
+    },
+    {
+      "text": "strategies",
+      "start": 72.670458,
+      "end": 73.409083
+    },
+    {
+      "text": "To",
+      "start": 73.451708,
+      "end": 73.508541
+    },
+    {
+      "text": "become",
+      "start": 73.59375,
+      "end": 73.991458
+    },
+    {
+      "text": "a",
+      "start": 73.9915,
+      "end": 74.076708
+    },
+    {
+      "text": "good",
+      "start": 74.161916,
+      "end": 74.303957
+    },
+    {
+      "text": "netball",
+      "start": 74.360791,
+      "end": 74.928957
+    },
+    {
+      "text": "player",
+      "start": 75.014208,
+      "end": 75.383541
+    },
+    {
+      "text": "it",
+      "start": 75.610791,
+      "end": 75.752832
+    },
+    {
+      "text": "is",
+      "start": 75.752833,
+      "end": 75.894874
+    },
+    {
+      "text": "important",
+      "start": 75.909083,
+      "end": 76.548291
+    },
+    {
+      "text": "to",
+      "start": 76.605125,
+      "end": 76.71875
+    },
+    {
+      "text": "ensure",
+      "start": 76.775583,
+      "end": 77.286958
+    },
+    {
+      "text": "the",
+      "start": 77.329541,
+      "end": 77.443166
+    },
+    {
+      "text": "following",
+      "start": 77.471583,
+      "end": 77.982958
+    },
+    {
+      "text": "strategies",
+      "start": 78.039791,
+      "end": 78.849457
+    },
+    {
+      "text": "a",
+      "start": 79.133541,
+      "end": 79.303999
+    },
+    {
+      "text": "Practising",
+      "start": 79.602291,
+      "end": 80.184666
+    },
+    {
+      "text": "regularly",
+      "start": 80.227291,
+      "end": 80.880707
+    },
+    {
+      "text": "A",
+      "start": 81.931833,
+      "end": 82.059666
+    },
+    {
+      "text": "player",
+      "start": 82.159083,
+      "end": 82.471583
+    },
+    {
+      "text": "should",
+      "start": 82.485791,
+      "end": 82.698874
+    },
+    {
+      "text": "practice",
+      "start": 82.8125,
+      "end": 83.295458
+    },
+    {
+      "text": "regularly",
+      "start": 83.352291,
+      "end": 83.920457
+    },
+    {
+      "text": "to",
+      "start": 84.005708,
+      "end": 84.105124
+    },
+    {
+      "text": "strengthen",
+      "start": 84.176125,
+      "end": 84.744291
+    },
+    {
+      "text": "their",
+      "start": 84.815333,
+      "end": 84.943166
+    },
+    {
+      "text": "playing",
+      "start": 85.028416,
+      "end": 85.369332
+    },
+    {
+      "text": "skills",
+      "start": 85.454541,
+      "end": 86.022707
+    },
+    {
+      "text": "such",
+      "start": 86.33525,
+      "end": 86.605125
+    },
+    {
+      "text": "as",
+      "start": 86.619333,
+      "end": 86.775583
+    },
+    {
+      "text": "passing",
+      "start": 86.860791,
+      "end": 87.315332
+    },
+    {
+      "text": "receiving",
+      "start": 87.528416,
+      "end": 88.082374
+    },
+    {
+      "text": "passes",
+      "start": 88.139208,
+      "end": 88.650583
+    },
+    {
+      "text": "and",
+      "start": 88.863625,
+      "end": 89.019875
+    },
+    {
+      "text": "shooting",
+      "start": 89.076708,
+      "end": 89.630666
+    },
+    {
+      "text": "These",
+      "start": 90.681833,
+      "end": 91.036958
+    },
+    {
+      "text": "exercises",
+      "start": 91.122166,
+      "end": 91.846582
+    },
+    {
+      "text": "help",
+      "start": 91.875,
+      "end": 92.173291
+    },
+    {
+      "text": "improve",
+      "start": 92.258541,
+      "end": 92.727291
+    },
+    {
+      "text": "the",
+      "start": 92.784083,
+      "end": 92.826708
+    },
+    {
+      "text": "accuracy",
+      "start": 92.926125,
+      "end": 93.536916
+    },
+    {
+      "text": "and",
+      "start": 93.622166,
+      "end": 93.749999
+    },
+    {
+      "text": "speed",
+      "start": 93.849458,
+      "end": 94.076708
+    },
+    {
+      "text": "of",
+      "start": 94.076708,
+      "end": 94.261374
+    },
+    {
+      "text": "passing",
+      "start": 94.304,
+      "end": 94.786958
+    },
+    {
+      "text": "as",
+      "start": 95.028416,
+      "end": 95.227291
+    },
+    {
+      "text": "well",
+      "start": 95.2415,
+      "end": 95.39775
+    },
+    {
+      "text": "as",
+      "start": 95.426125,
+      "end": 95.625
+    },
+    {
+      "text": "the",
+      "start": 95.667625,
+      "end": 95.724458
+    },
+    {
+      "text": "ability",
+      "start": 95.767041,
+      "end": 96.320999
+    },
+    {
+      "text": "to",
+      "start": 96.392041,
+      "end": 96.491457
+    },
+    {
+      "text": "receive",
+      "start": 96.519875,
+      "end": 96.917583
+    },
+    {
+      "text": "the",
+      "start": 97.002833,
+      "end": 97.088041
+    },
+    {
+      "text": "ball",
+      "start": 97.1875,
+      "end": 97.414791
+    },
+    {
+      "text": "without",
+      "start": 97.443208,
+      "end": 97.826749
+    },
+    {
+      "text": "dropping",
+      "start": 97.954541,
+      "end": 98.380666
+    },
+    {
+      "text": "it",
+      "start": 98.394875,
+      "end": 98.650541
+    },
+    {
+      "text": "b",
+      "start": 99.77275,
+      "end": 100.071041
+    },
+    {
+      "text": "Participating",
+      "start": 100.340916,
+      "end": 101.164791
+    },
+    {
+      "text": "in",
+      "start": 101.207375,
+      "end": 101.335208
+    },
+    {
+      "text": "trial",
+      "start": 101.349458,
+      "end": 101.732999
+    },
+    {
+      "text": "matches",
+      "start": 101.761375,
+      "end": 102.244333
+    },
+    {
+      "text": "at",
+      "start": 102.286958,
+      "end": 102.443208
+    },
+    {
+      "text": "school",
+      "start": 102.528416,
+      "end": 102.826707
+    },
+    {
+      "text": "or",
+      "start": 102.883541,
+      "end": 103.068207
+    },
+    {
+      "text": "out",
+      "start": 103.110791,
+      "end": 103.366457
+    },
+    {
+      "text": "of",
+      "start": 103.3665,
+      "end": 103.465916
+    },
+    {
+      "text": "school",
+      "start": 103.536958,
+      "end": 103.863666
+    },
+    {
+      "text": "Participating",
+      "start": 104.105125,
+      "end": 104.929
+    },
+    {
+      "text": "in",
+      "start": 104.971583,
+      "end": 105.099416
+    },
+    {
+      "text": "trial",
+      "start": 105.127833,
+      "end": 105.482958
+    },
+    {
+      "text": "matches",
+      "start": 105.511375,
+      "end": 105.965916
+    },
+    {
+      "text": "is",
+      "start": 105.980125,
+      "end": 106.107958
+    },
+    {
+      "text": "an",
+      "start": 106.107958,
+      "end": 106.264208
+    },
+    {
+      "text": "excellent",
+      "start": 106.306833,
+      "end": 106.917624
+    },
+    {
+      "text": "way",
+      "start": 106.974458,
+      "end": 107.102291
+    },
+    {
+      "text": "to",
+      "start": 107.201708,
+      "end": 107.301124
+    },
+    {
+      "text": "learn",
+      "start": 107.315333,
+      "end": 107.570999
+    },
+    {
+      "text": "by",
+      "start": 107.65625,
+      "end": 107.755666
+    },
+    {
+      "text": "doing",
+      "start": 107.869333,
+      "end": 108.238666
+    },
+    {
+      "text": "These",
+      "start": 109.275583,
+      "end": 109.644916
+    },
+    {
+      "text": "matches",
+      "start": 109.673291,
+      "end": 110.170457
+    },
+    {
+      "text": "enhance",
+      "start": 110.198875,
+      "end": 110.767041
+    },
+    {
+      "text": "the",
+      "start": 110.809666,
+      "end": 110.838082
+    },
+    {
+      "text": "experience",
+      "start": 110.923291,
+      "end": 111.619332
+    },
+    {
+      "text": "of",
+      "start": 111.633541,
+      "end": 111.789791
+    },
+    {
+      "text": "playing",
+      "start": 111.832375,
+      "end": 112.201708
+    },
+    {
+      "text": "as",
+      "start": 112.244333,
+      "end": 112.428999
+    },
+    {
+      "text": "a",
+      "start": 112.429,
+      "end": 112.500041
+    },
+    {
+      "text": "team",
+      "start": 112.58525,
+      "end": 112.89775
+    },
+    {
+      "text": "help",
+      "start": 113.096583,
+      "end": 113.338041
+    },
+    {
+      "text": "players",
+      "start": 113.451708,
+      "end": 113.849416
+    },
+    {
+      "text": "understand",
+      "start": 113.920458,
+      "end": 114.517041
+    },
+    {
+      "text": "each",
+      "start": 114.602291,
+      "end": 114.758541
+    },
+    {
+      "text": "other’s",
+      "start": 114.801125,
+      "end": 115.15625
+    },
+    {
+      "text": "tactics",
+      "start": 115.198875,
+      "end": 115.795458
+    },
+    {
+      "text": "and",
+      "start": 115.965916,
+      "end": 116.136374
+    },
+    {
+      "text": "improve",
+      "start": 116.136375,
+      "end": 116.576708
+    },
+    {
+      "text": "communication",
+      "start": 116.619333,
+      "end": 117.343749
+    },
+    {
+      "text": "between",
+      "start": 117.429,
+      "end": 117.7415
+    },
+    {
+      "text": "them",
+      "start": 117.855125,
+      "end": 118.139208
+    },
+    {
+      "text": "It",
+      "start": 119.176125,
+      "end": 119.389208
+    },
+    {
+      "text": "also",
+      "start": 119.474458,
+      "end": 119.801166
+    },
+    {
+      "text": "helps",
+      "start": 119.84375,
+      "end": 120.227291
+    },
+    {
+      "text": "to",
+      "start": 120.298291,
+      "end": 120.369332
+    },
+    {
+      "text": "increase",
+      "start": 120.440333,
+      "end": 120.951708
+    },
+    {
+      "text": "confidence",
+      "start": 121.02275,
+      "end": 121.704583
+    },
+    {
+      "text": "and",
+      "start": 121.71875,
+      "end": 121.832375
+    },
+    {
+      "text": "strengthen",
+      "start": 121.917625,
+      "end": 122.429
+    },
+    {
+      "text": "the",
+      "start": 122.5,
+      "end": 122.542625
+    },
+    {
+      "text": "ability",
+      "start": 122.58525,
+      "end": 123.139208
+    },
+    {
+      "text": "to",
+      "start": 123.21025,
+      "end": 123.309666
+    },
+    {
+      "text": "make",
+      "start": 123.323875,
+      "end": 123.59375
+    },
+    {
+      "text": "quick",
+      "start": 123.664791,
+      "end": 123.849457
+    },
+    {
+      "text": "decisions",
+      "start": 123.963083,
+      "end": 124.588083
+    },
+    {
+      "text": "during",
+      "start": 124.673291,
+      "end": 124.957374
+    },
+    {
+      "text": "the",
+      "start": 125.042625,
+      "end": 125.113666
+    },
+    {
+      "text": "game",
+      "start": 125.213083,
+      "end": 125.553999
+    },
+    {
+      "text": "c",
+      "start": 126.590916,
+      "end": 126.960249
+    },
+    {
+      "text": "Watching",
+      "start": 127.258541,
+      "end": 127.713082
+    },
+    {
+      "text": "netball",
+      "start": 127.798291,
+      "end": 128.267041
+    },
+    {
+      "text": "matches",
+      "start": 128.309666,
+      "end": 128.792624
+    },
+    {
+      "text": "to",
+      "start": 128.83525,
+      "end": 128.920458
+    },
+    {
+      "text": "help",
+      "start": 128.948875,
+      "end": 129.21875
+    },
+    {
+      "text": "learning",
+      "start": 129.261375,
+      "end": 129.6875
+    },
+    {
+      "text": "new",
+      "start": 129.715916,
+      "end": 129.829541
+    },
+    {
+      "text": "techniques",
+      "start": 129.929,
+      "end": 130.610833
+    },
+    {
+      "text": "A",
+      "start": 130.823875,
+      "end": 130.894916
+    },
+    {
+      "text": "player",
+      "start": 130.980125,
+      "end": 131.306833
+    },
+    {
+      "text": "can",
+      "start": 131.377833,
+      "end": 131.548291
+    },
+    {
+      "text": "learn",
+      "start": 131.605125,
+      "end": 131.860791
+    },
+    {
+      "text": "better",
+      "start": 131.946041,
+      "end": 132.173332
+    },
+    {
+      "text": "techniques",
+      "start": 132.258541,
+      "end": 132.812499
+    },
+    {
+      "text": "by",
+      "start": 132.89775,
+      "end": 132.997166
+    },
+    {
+      "text": "watching",
+      "start": 133.039791,
+      "end": 133.494332
+    },
+    {
+      "text": "experienced",
+      "start": 133.52275,
+      "end": 134.275583
+    },
+    {
+      "text": "players",
+      "start": 134.346583,
+      "end": 134.758499
+    },
+    {
+      "text": "through",
+      "start": 134.801166,
+      "end": 135.014249
+    },
+    {
+      "text": "live",
+      "start": 135.042625,
+      "end": 135.3125
+    },
+    {
+      "text": "matches",
+      "start": 135.340916,
+      "end": 135.823874
+    },
+    {
+      "text": "or",
+      "start": 135.909083,
+      "end": 136.008499
+    },
+    {
+      "text": "videos",
+      "start": 136.036958,
+      "end": 136.647749
+    },
+    {
+      "text": "Watching",
+      "start": 137.7415,
+      "end": 138.267083
+    },
+    {
+      "text": "top-level",
+      "start": 138.309666,
+      "end": 138.948874
+    },
+    {
+      "text": "games",
+      "start": 139.019916,
+      "end": 139.389249
+    },
+    {
+      "text": "helps",
+      "start": 139.417625,
+      "end": 139.829541
+    },
+    {
+      "text": "to",
+      "start": 139.900583,
+      "end": 139.943208
+    },
+    {
+      "text": "understand",
+      "start": 140.028416,
+      "end": 140.582374
+    },
+    {
+      "text": "various",
+      "start": 140.625,
+      "end": 141.051125
+    },
+    {
+      "text": "techniques",
+      "start": 141.09375,
+      "end": 141.690333
+    },
+    {
+      "text": "such",
+      "start": 141.690333,
+      "end": 141.860791
+    },
+    {
+      "text": "as",
+      "start": 141.875,
+      "end": 142.03125
+    },
+    {
+      "text": "fast",
+      "start": 142.073875,
+      "end": 142.386375
+    },
+    {
+      "text": "passing",
+      "start": 142.485791,
+      "end": 142.954541
+    },
+    {
+      "text": "effective",
+      "start": 143.125,
+      "end": 143.650583
+    },
+    {
+      "text": "tackling",
+      "start": 143.75,
+      "end": 144.303958
+    },
+    {
+      "text": "and",
+      "start": 144.517041,
+      "end": 144.659082
+    },
+    {
+      "text": "better",
+      "start": 144.744333,
+      "end": 145.099458
+    }
+  ]
+}

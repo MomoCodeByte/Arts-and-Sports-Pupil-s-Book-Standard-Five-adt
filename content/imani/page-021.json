@@ -1,0 +1,1005 @@
+{
+  "audio": "page-021.mp3",
+  "words": [
+    {
+      "text": "15",
+      "start": 0.106833,
+      "end": 0.689208
+    },
+    {
+      "text": "Exercise",
+      "start": 0.746041,
+      "end": 1.413666
+    },
+    {
+      "text": "1",
+      "start": 1.442041,
+      "end": 1.655124
+    },
+    {
+      "text": "1",
+      "start": 1.754541,
+      "end": 2.038624
+    },
+    {
+      "text": "Why",
+      "start": 3.125,
+      "end": 3.380666
+    },
+    {
+      "text": "is",
+      "start": 3.465916,
+      "end": 3.650582
+    },
+    {
+      "text": "it",
+      "start": 3.650583,
+      "end": 3.806833
+    },
+    {
+      "text": "important",
+      "start": 3.821041,
+      "end": 4.431832
+    },
+    {
+      "text": "to",
+      "start": 4.502833,
+      "end": 4.588041
+    },
+    {
+      "text": "consider",
+      "start": 4.659083,
+      "end": 5.142041
+    },
+    {
+      "text": "musical",
+      "start": 5.170458,
+      "end": 5.639208
+    },
+    {
+      "text": "dynamics",
+      "start": 5.724416,
+      "end": 6.320999
+    },
+    {
+      "text": "when",
+      "start": 6.349416,
+      "end": 6.534082
+    },
+    {
+      "text": "singing",
+      "start": 6.576708,
+      "end": 6.988624
+    },
+    {
+      "text": "a",
+      "start": 7.03125,
+      "end": 7.130666
+    },
+    {
+      "text": "song",
+      "start": 7.230125,
+      "end": 7.5
+    },
+    {
+      "text": "2",
+      "start": 8.565333,
+      "end": 8.835208
+    },
+    {
+      "text": "Explain",
+      "start": 9.034083,
+      "end": 9.602249
+    },
+    {
+      "text": "factors",
+      "start": 9.630666,
+      "end": 10.170457
+    },
+    {
+      "text": "that",
+      "start": 10.213083,
+      "end": 10.411958
+    },
+    {
+      "text": "can",
+      "start": 10.46875,
+      "end": 10.696041
+    },
+    {
+      "text": "cause",
+      "start": 10.724416,
+      "end": 10.994291
+    },
+    {
+      "text": "lack",
+      "start": 11.022708,
+      "end": 11.306791
+    },
+    {
+      "text": "of",
+      "start": 11.321041,
+      "end": 11.448874
+    },
+    {
+      "text": "voice",
+      "start": 11.448875,
+      "end": 11.747166
+    },
+    {
+      "text": "balance",
+      "start": 11.832375,
+      "end": 12.286916
+    },
+    {
+      "text": "in",
+      "start": 12.34375,
+      "end": 12.457375
+    },
+    {
+      "text": "a",
+      "start": 12.457375,
+      "end": 12.556791
+    },
+    {
+      "text": "singing",
+      "start": 12.627833,
+      "end": 13.011374
+    },
+    {
+      "text": "group",
+      "start": 13.082375,
+      "end": 13.380666
+    },
+    {
+      "text": "3",
+      "start": 14.474416,
+      "end": 14.786916
+    },
+    {
+      "text": "Explain",
+      "start": 14.971583,
+      "end": 15.539749
+    },
+    {
+      "text": "how",
+      "start": 15.568166,
+      "end": 15.795457
+    },
+    {
+      "text": "you",
+      "start": 15.852291,
+      "end": 15.923332
+    },
+    {
+      "text": "can",
+      "start": 16.008541,
+      "end": 16.193207
+    },
+    {
+      "text": "solve",
+      "start": 16.221583,
+      "end": 16.491458
+    },
+    {
+      "text": "the",
+      "start": 16.5625,
+      "end": 16.633541
+    },
+    {
+      "text": "problem",
+      "start": 16.704541,
+      "end": 17.144874
+    },
+    {
+      "text": "of",
+      "start": 17.173291,
+      "end": 17.343749
+    },
+    {
+      "text": "voice",
+      "start": 17.34375,
+      "end": 17.670458
+    },
+    {
+      "text": "imbalance",
+      "start": 17.713083,
+      "end": 18.380708
+    },
+    {
+      "text": "in",
+      "start": 18.4375,
+      "end": 18.551125
+    },
+    {
+      "text": "a",
+      "start": 18.551125,
+      "end": 18.650541
+    },
+    {
+      "text": "singing",
+      "start": 18.707375,
+      "end": 19.090916
+    },
+    {
+      "text": "group",
+      "start": 19.161916,
+      "end": 19.445999
+    },
+    {
+      "text": "Solfa",
+      "start": 20.525583,
+      "end": 21.107958
+    },
+    {
+      "text": "singing",
+      "start": 21.150583,
+      "end": 21.505708
+    },
+    {
+      "text": "This",
+      "start": 21.590916,
+      "end": 21.832374
+    },
+    {
+      "text": "is",
+      "start": 21.832375,
+      "end": 21.974416
+    },
+    {
+      "text": "a",
+      "start": 21.974416,
+      "end": 22.059624
+    },
+    {
+      "text": "method",
+      "start": 22.073875,
+      "end": 22.485791
+    },
+    {
+      "text": "of",
+      "start": 22.485791,
+      "end": 22.627832
+    },
+    {
+      "text": "singing",
+      "start": 22.670458,
+      "end": 23.011374
+    },
+    {
+      "text": "melodies",
+      "start": 23.082375,
+      "end": 23.607958
+    },
+    {
+      "text": "using",
+      "start": 23.650583,
+      "end": 23.948874
+    },
+    {
+      "text": "specific",
+      "start": 24.048291,
+      "end": 24.588082
+    },
+    {
+      "text": "syllables",
+      "start": 24.630666,
+      "end": 25.255666
+    },
+    {
+      "text": "that",
+      "start": 25.284083,
+      "end": 25.426124
+    },
+    {
+      "text": "represent",
+      "start": 25.525583,
+      "end": 26.107958
+    },
+    {
+      "text": "musical",
+      "start": 26.136375,
+      "end": 26.619333
+    },
+    {
+      "text": "pitches",
+      "start": 26.704541,
+      "end": 27.088082
+    },
+    {
+      "text": "instead",
+      "start": 27.102291,
+      "end": 27.556832
+    },
+    {
+      "text": "of",
+      "start": 27.556833,
+      "end": 27.698874
+    },
+    {
+      "text": "the",
+      "start": 27.7415,
+      "end": 27.769916
+    },
+    {
+      "text": "actual",
+      "start": 27.883541,
+      "end": 28.295457
+    },
+    {
+      "text": "lyrics",
+      "start": 28.295458,
+      "end": 28.806833
+    },
+    {
+      "text": "of",
+      "start": 28.863625,
+      "end": 28.963041
+    },
+    {
+      "text": "a",
+      "start": 28.977291,
+      "end": 29.076707
+    },
+    {
+      "text": "song",
+      "start": 29.176125,
+      "end": 29.446
+    },
+    {
+      "text": "These",
+      "start": 30.525583,
+      "end": 30.823874
+    },
+    {
+      "text": "syllables",
+      "start": 30.823875,
+      "end": 31.4915
+    },
+    {
+      "text": "are",
+      "start": 31.5625,
+      "end": 31.690333
+    },
+    {
+      "text": "known",
+      "start": 31.747166,
+      "end": 32.031249
+    },
+    {
+      "text": "as",
+      "start": 32.088083,
+      "end": 32.301166
+    },
+    {
+      "text": "solfa",
+      "start": 32.315333,
+      "end": 32.812499
+    },
+    {
+      "text": "They",
+      "start": 33.877833,
+      "end": 34.119291
+    },
+    {
+      "text": "are",
+      "start": 34.190333,
+      "end": 34.460208
+    },
+    {
+      "text": "do",
+      "start": 34.84375,
+      "end": 35.071041
+    },
+    {
+      "text": "re",
+      "start": 35.369333,
+      "end": 35.596624
+    },
+    {
+      "text": "mi",
+      "start": 35.8665,
+      "end": 36.107958
+    },
+    {
+      "text": "fa",
+      "start": 36.321041,
+      "end": 36.747166
+    },
+    {
+      "text": "so",
+      "start": 37.073875,
+      "end": 37.372166
+    },
+    {
+      "text": "la",
+      "start": 37.670458,
+      "end": 37.940333
+    },
+    {
+      "text": "ti",
+      "start": 38.252833,
+      "end": 38.664749
+    },
+    {
+      "text": "This",
+      "start": 39.758541,
+      "end": 40.113666
+    },
+    {
+      "text": "method",
+      "start": 40.142041,
+      "end": 40.539749
+    },
+    {
+      "text": "makes",
+      "start": 40.582375,
+      "end": 40.923291
+    },
+    {
+      "text": "it",
+      "start": 40.923291,
+      "end": 41.093749
+    },
+    {
+      "text": "easier",
+      "start": 41.150583,
+      "end": 41.448874
+    },
+    {
+      "text": "to",
+      "start": 41.534083,
+      "end": 41.647708
+    },
+    {
+      "text": "learn",
+      "start": 41.661916,
+      "end": 41.917582
+    },
+    {
+      "text": "accurate",
+      "start": 41.96025,
+      "end": 42.500041
+    },
+    {
+      "text": "note",
+      "start": 42.514208,
+      "end": 42.755666
+    },
+    {
+      "text": "singing",
+      "start": 42.784083,
+      "end": 43.238624
+    },
+    {
+      "text": "and",
+      "start": 43.28125,
+      "end": 43.423291
+    },
+    {
+      "text": "helps",
+      "start": 43.4375,
+      "end": 43.877833
+    },
+    {
+      "text": "improve",
+      "start": 43.920458,
+      "end": 44.303999
+    },
+    {
+      "text": "the",
+      "start": 44.360791,
+      "end": 44.417624
+    },
+    {
+      "text": "ability",
+      "start": 44.417625,
+      "end": 44.971583
+    },
+    {
+      "text": "to",
+      "start": 45.042625,
+      "end": 45.15625
+    },
+    {
+      "text": "read",
+      "start": 45.198875,
+      "end": 45.426166
+    },
+    {
+      "text": "and",
+      "start": 45.454541,
+      "end": 45.610791
+    },
+    {
+      "text": "write",
+      "start": 45.639208,
+      "end": 45.937499
+    },
+    {
+      "text": "music",
+      "start": 45.980125,
+      "end": 46.448875
+    },
+    {
+      "text": "Figure 1",
+      "start": 47.471583,
+      "end": 48.267041
+    },
+    {
+      "text": "shows",
+      "start": 48.295458,
+      "end": 48.636374
+    },
+    {
+      "text": "pupils",
+      "start": 48.721583,
+      "end": 49.218749
+    },
+    {
+      "text": "singing",
+      "start": 49.21875,
+      "end": 49.602291
+    },
+    {
+      "text": "using",
+      "start": 49.6875,
+      "end": 49.985791
+    },
+    {
+      "text": "solfa",
+      "start": 50.042625,
+      "end": 50.511375
+    },
+    {
+      "text": "Figure 1",
+      "start": 51.548291,
+      "end": 52.372166
+    },
+    {
+      "text": "Pupils",
+      "start": 52.684666,
+      "end": 53.181832
+    },
+    {
+      "text": "singing",
+      "start": 53.181833,
+      "end": 53.593749
+    },
+    {
+      "text": "solfa",
+      "start": 53.636375,
+      "end": 54.090916
+    },
+    {
+      "text": "Musical",
+      "start": 54.119333,
+      "end": 54.616499
+    },
+    {
+      "text": "notes",
+      "start": 54.659083,
+      "end": 55.028416
+    },
+    {
+      "text": "Musical",
+      "start": 55.056833,
+      "end": 55.525583
+    },
+    {
+      "text": "notes",
+      "start": 55.582375,
+      "end": 55.909083
+    },
+    {
+      "text": "are",
+      "start": 55.980125,
+      "end": 56.107958
+    },
+    {
+      "text": "symbols",
+      "start": 56.150583,
+      "end": 56.690374
+    },
+    {
+      "text": "used",
+      "start": 56.71875,
+      "end": 57.002833
+    },
+    {
+      "text": "to",
+      "start": 57.017041,
+      "end": 57.088082
+    },
+    {
+      "text": "represent",
+      "start": 57.1165,
+      "end": 57.769916
+    },
+    {
+      "text": "duration",
+      "start": 57.869333,
+      "end": 58.366499
+    },
+    {
+      "text": "in",
+      "start": 58.409083,
+      "end": 58.480124
+    },
+    {
+      "text": "written",
+      "start": 58.551125,
+      "end": 58.920458
+    },
+    {
+      "text": "music",
+      "start": 58.977291,
+      "end": 59.446041
+    },
+    {
+      "text": "Musical",
+      "start": 60.46875,
+      "end": 61.022708
+    },
+    {
+      "text": "notes",
+      "start": 61.079541,
+      "end": 61.420457
+    },
+    {
+      "text": "indicate",
+      "start": 61.477291,
+      "end": 61.903416
+    },
+    {
+      "text": "the",
+      "start": 62.045458,
+      "end": 62.116499
+    },
+    {
+      "text": "duration",
+      "start": 62.1875,
+      "end": 62.684666
+    },
+    {
+      "text": "for",
+      "start": 62.713083,
+      "end": 62.897749
+    },
+    {
+      "text": "which",
+      "start": 62.911916,
+      "end": 63.167582
+    },
+    {
+      "text": "a",
+      "start": 63.196041,
+      "end": 63.252874
+    },
+    {
+      "text": "particular",
+      "start": 63.338083,
+      "end": 63.892041
+    },
+    {
+      "text": "note",
+      "start": 63.934666,
+      "end": 64.161957
+    },
+    {
+      "text": "should",
+      "start": 64.21875,
+      "end": 64.346583
+    },
+    {
+      "text": "be",
+      "start": 64.46025,
+      "end": 64.545458
+    },
+    {
+      "text": "sung",
+      "start": 64.588083,
+      "end": 64.886374
+    },
+    {
+      "text": "or",
+      "start": 64.957375,
+      "end": 65.071
+    },
+    {
+      "text": "played",
+      "start": 65.142041,
+      "end": 65.411916
+    },
+    {
+      "text": "accurately",
+      "start": 65.482958,
+      "end": 66.164791
+    },
+    {
+      "text": "In",
+      "start": 67.215916,
+      "end": 67.414791
+    },
+    {
+      "text": "music",
+      "start": 67.5,
+      "end": 67.926125
+    },
+    {
+      "text": "there",
+      "start": 68.28125,
+      "end": 68.4375
+    },
+    {
+      "text": "are",
+      "start": 68.494333,
+      "end": 68.664791
+    },
+    {
+      "text": "different",
+      "start": 68.764208,
+      "end": 69.161916
+    },
+    {
+      "text": "types",
+      "start": 69.232958,
+      "end": 69.602291
+    },
+    {
+      "text": "of",
+      "start": 69.659083,
+      "end": 69.801124
+    },
+    {
+      "text": "notes",
+      "start": 69.829541,
+      "end": 70.255666
+    },
+    {
+      "text": "such",
+      "start": 70.255666,
+      "end": 70.468749
+    },
+    {
+      "text": "as",
+      "start": 70.46875,
+      "end": 70.625
+    },
+    {
+      "text": "whole",
+      "start": 70.667625,
+      "end": 70.894916
+    },
+    {
+      "text": "notes",
+      "start": 70.9375,
+      "end": 71.349416
+    },
+    {
+      "text": "half",
+      "start": 71.534083,
+      "end": 71.846583
+    },
+    {
+      "text": "notes",
+      "start": 71.875,
+      "end": 72.286916
+    },
+    {
+      "text": "and",
+      "start": 72.386375,
+      "end": 72.542625
+    },
+    {
+      "text": "quarter",
+      "start": 72.58525,
+      "end": 72.940375
+    },
+    {
+      "text": "notes",
+      "start": 72.96875,
+      "end": 73.465916
+    },
+    {
+      "text": "Normally",
+      "start": 74.517041,
+      "end": 75.142041
+    },
+    {
+      "text": "a",
+      "start": 75.426125,
+      "end": 75.525541
+    },
+    {
+      "text": "whole",
+      "start": 75.539791,
+      "end": 75.781249
+    },
+    {
+      "text": "note",
+      "start": 75.838083,
+      "end": 76.122166
+    },
+    {
+      "text": "lasts",
+      "start": 76.164791,
+      "end": 76.633541
+    },
+    {
+      "text": "four",
+      "start": 76.64775,
+      "end": 76.818208
+    },
+    {
+      "text": "beats",
+      "start": 76.917625,
+      "end": 77.258541
+    },
+    {
+      "text": "a",
+      "start": 77.457375,
+      "end": 77.542583
+    },
+    {
+      "text": "half",
+      "start": 77.571041,
+      "end": 77.869332
+    },
+    {
+      "text": "note",
+      "start": 77.883541,
+      "end": 78.167624
+    },
+    {
+      "text": "lasts",
+      "start": 78.21025,
+      "end": 78.664791
+    },
+    {
+      "text": "two",
+      "start": 78.707375,
+      "end": 78.835208
+    },
+    {
+      "text": "beats",
+      "start": 78.963083,
+      "end": 79.289791
+    },
+    {
+      "text": "and",
+      "start": 79.502833,
+      "end": 79.644874
+    },
+    {
+      "text": "a",
+      "start": 79.644875,
+      "end": 79.715916
+    },
+    {
+      "text": "quarter",
+      "start": 79.801125,
+      "end": 80.127833
+    },
+    {
+      "text": "note",
+      "start": 80.15625,
+      "end": 80.411916
+    },
+    {
+      "text": "lasts",
+      "start": 80.46875,
+      "end": 80.866458
+    },
+    {
+      "text": "one",
+      "start": 80.909083,
+      "end": 81.136374
+    },
+    {
+      "text": "beat",
+      "start": 81.221583,
+      "end": 81.463041
+    },
+    {
+      "text": "These",
+      "start": 82.599458,
+      "end": 82.968791
+    },
+    {
+      "text": "musical",
+      "start": 83.011375,
+      "end": 83.52275
+    },
+    {
+      "text": "notes",
+      "start": 83.565333,
+      "end": 83.963041
+    },
+    {
+      "text": "differ",
+      "start": 84.0625,
+      "end": 84.389208
+    },
+    {
+      "text": "in",
+      "start": 84.446041,
+      "end": 84.602291
+    },
+    {
+      "text": "length",
+      "start": 84.644875,
+      "end": 85.042583
+    },
+    {
+      "text": "so",
+      "start": 85.284083,
+      "end": 85.525541
+    },
+    {
+      "text": "in",
+      "start": 85.610791,
+      "end": 85.767041
+    },
+    {
+      "text": "singing",
+      "start": 85.809666,
+      "end": 86.193207
+    },
+    {
+      "text": "a",
+      "start": 86.235791,
+      "end": 86.320999
+    },
+    {
+      "text": "major",
+      "start": 86.349458,
+      "end": 86.676166
+    },
+    {
+      "text": "scale",
+      "start": 86.732958,
+      "end": 87.059666
+    },
+    {
+      "text": "using",
+      "start": 87.1165,
+      "end": 87.429
+    },
+    {
+      "text": "solfa",
+      "start": 87.485791,
+      "end": 87.997166
+    },
+    {
+      "text": "we",
+      "start": 88.21025,
+      "end": 88.323875
+    },
+    {
+      "text": "choose",
+      "start": 88.394875,
+      "end": 88.693166
+    },
+    {
+      "text": "the",
+      "start": 88.735791,
+      "end": 88.820999
+    },
+    {
+      "text": "type",
+      "start": 88.892041,
+      "end": 89.133499
+    },
+    {
+      "text": "of",
+      "start": 89.161958,
+      "end": 89.275583
+    },
+    {
+      "text": "note",
+      "start": 89.318208,
+      "end": 89.616499
+    }
+  ]
+}
