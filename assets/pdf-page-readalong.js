@@ -67,10 +67,10 @@
     ? `page-${String(pageNumber).padStart(3, '0')}`
     : null;
   const recordedAudio = pageFile
-    ? `content/imani/${pageFile}.mp3?v=tzall3`
+    ? `content/imani/${pageFile}.mp3?v=tzall5`
     : null;
   const recordedCues = pageFile
-    ? `content/imani/${pageFile}.json?v=tzall3`
+    ? `content/imani/${pageFile}.json?v=tzall5`
     : null;
 
   function clearHighlight() {

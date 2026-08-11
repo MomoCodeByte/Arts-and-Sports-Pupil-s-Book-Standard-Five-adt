@@ -15,13 +15,48 @@ import edge_tts
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "content" / "imani"
 PAGES = (3, 4)
-VOICE = "sw-TZ-RehemaNeural"
+# Match the English (Tanzania) narrator used by the rest of the book.
+VOICE = "en-TZ-ImaniNeural"
 RATE = "-12%"
 WORD_PATTERN = re.compile(
     r'<span class="read-word" style="([^"]*top:([\d.]+)%;[^"]*)">(.*?)</span>',
     re.S,
 )
 PAGE_NUMBER = re.compile(r"^(?:\d+|[ivxlcdm]+)$", re.I)
+
+
+def normalized(value: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", value.casefold())
+
+
+def expand_merged_cues(cues: list[dict[str, object]], tokens: list[str]) -> list[dict[str, object]]:
+    """Split a TTS boundary that contains several source tokens."""
+    expanded: list[dict[str, object]] = []
+    token_index = 0
+    for cue in cues:
+        cue_key = normalized(str(cue["text"]))
+        parts: list[str] = []
+        combined = ""
+        while token_index + len(parts) < len(tokens) and len(combined) < len(cue_key):
+            token = tokens[token_index + len(parts)]
+            parts.append(token)
+            combined += normalized(token)
+        if combined != cue_key:
+            raise RuntimeError(f"TTS boundary does not match source: {cue['text']!r}")
+        start = float(cue["start"])
+        end = float(cue["end"])
+        weights = [max(1, len(normalized(part))) for part in parts]
+        total = sum(weights)
+        elapsed = 0
+        for part, weight in zip(parts, weights):
+            part_start = start + (end - start) * elapsed / total
+            elapsed += weight
+            part_end = start + (end - start) * elapsed / total
+            expanded.append({"text": part, "start": round(part_start, 6), "end": round(part_end, 6)})
+        token_index += len(parts)
+    if token_index != len(tokens):
+        raise RuntimeError("TTS narration ended before all source tokens")
+    return expanded
 
 
 def narration_tokens(page: int) -> list[str]:
@@ -53,7 +88,10 @@ def narration_text(tokens: list[str]) -> str:
     result = []
     for index, token in enumerate(tokens):
         if index >= 3 and PAGE_NUMBER.fullmatch(token):
-            result.append(f"{token}.")
+            # A full stop after a Roman numeral such as "v." is pronounced
+            # as an abbreviation by Imani; a semicolon keeps it separate.
+            punctuation = ";" if re.fullmatch(r"[ivxlcdm]+", token, re.I) else "."
+            result.append(f"{token}{punctuation}")
         elif index == 2:
             result.append(f"{token}.")
         else:
@@ -91,6 +129,7 @@ async def synthesize(page: int) -> None:
                 raise RuntimeError("Incomplete narration")
             if [str(cue["text"]).casefold() for cue in cues[:3]] != ["table", "of", "contents"]:
                 raise RuntimeError("Narration heading is not first")
+            cues = expand_merged_cues(cues, tokens)
             temporary.replace(audio_path)
             cues_path.write_text(
                 json.dumps({"audio": audio_path.name, "words": cues}, ensure_ascii=False, indent=2) + "\n",
@@ -101,7 +140,7 @@ async def synthesize(page: int) -> None:
                 if PAGE_NUMBER.fullmatch(str(cue["text"])):
                     number_pauses.append(float(cues[index + 1]["start"]) - float(cue["end"]))
             print(
-                f"page-{page:03d}: clean Rehema audio, words={len(cues)}, "
+                f"page-{page:03d}: clean Imani audio, words={len(cues)}, "
                 f"minimum page-number pause={min(number_pauses):.3f}s"
             )
             return
