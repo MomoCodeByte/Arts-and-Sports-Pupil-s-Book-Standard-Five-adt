@@ -26,12 +26,15 @@
     };
   }
   const allWords = Array.from(document.querySelectorAll('.read-word'));
+  const dotLeaderWords = new WeakSet(
+    allWords.filter((node) => /\.{3,}/.test(node.textContent))
+  );
   const seenWords = new Set();
   const words = allWords.filter((node) => {
     const top = Number.parseFloat((node.style.top || '0').replace('%', ''));
     const value = node.textContent.trim();
     const key = `${node.textContent.trim()}|${node.getAttribute('style')}`;
-    if (top >= 97 || (top >= 90 && /^\d+$/.test(value)) || seenWords.has(key)) return false;
+    if (top >= 97 || (top >= 90 && /^(?:\d+|[ivxlcdm]+)$/i.test(value)) || seenWords.has(key)) return false;
     seenWords.add(key);
     return true;
   });
@@ -64,10 +67,10 @@
     ? `page-${String(pageNumber).padStart(3, '0')}`
     : null;
   const recordedAudio = pageFile
-    ? `content/imani/${pageFile}.mp3?v=tzall2`
+    ? `content/imani/${pageFile}.mp3?v=tzall3`
     : null;
   const recordedCues = pageFile
-    ? `content/imani/${pageFile}.json?v=tzall2`
+    ? `content/imani/${pageFile}.json?v=tzall3`
     : null;
 
   function clearHighlight() {
@@ -185,7 +188,7 @@
     if (words[index] !== active) {
       clearHighlight();
       active = words[index];
-      active?.classList.add('is-speaking');
+      if (active && !dotLeaderWords.has(active)) active.classList.add('is-speaking');
     }
     if (!pageAudio.paused && !pageAudio.ended) animationFrame = requestAnimationFrame(highlightRecordedAudio);
   }
@@ -246,7 +249,7 @@
     if (next === active) return;
     clearHighlight();
     active = next;
-    active?.classList.add('is-speaking');
+    if (active && !dotLeaderWords.has(active)) active.classList.add('is-speaking');
   }
 
   function chooseVoice() {

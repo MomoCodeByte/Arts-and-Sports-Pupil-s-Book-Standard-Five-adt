@@ -234,7 +234,7 @@ def build_page_html(page_number, semantic_items, words):
   <div class="relative z-50" id="nav-container"></div>
   <script src="./assets/offline-preloader.js?v=20260811-15"></script>
   <script src="./assets/scorm.js"></script>
-  <script src="./assets/pdf-page-readalong.js?v=20260811-38"></script>
+  <script src="./assets/pdf-page-readalong.js?v=20260811-40"></script>
   <script src="./assets/base.bundle.local.js"></script>
 </body>
 </html>
