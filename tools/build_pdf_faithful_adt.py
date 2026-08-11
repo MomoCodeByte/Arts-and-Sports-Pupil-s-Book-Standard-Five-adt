@@ -27,7 +27,12 @@ def page_html(number: int, texts: dict[str, object], words: list[dict[str, objec
     prefix = f"pg{number:03d}_"
     transcript = []
     for key, value in texts.items():
-        if key.startswith(prefix) and isinstance(value, str) and value.strip():
+        if (
+            key.startswith(prefix)
+            and not key.endswith("_easy_read")
+            and isinstance(value, str)
+            and value.strip()
+        ):
             transcript.append(
                 f'<span data-id="{html.escape(key, quote=True)}">'
                 f'{html.escape(value)}</span>'
