@@ -13,7 +13,7 @@
     "easyRead": true,
     "glossary": true,
     "eli5": false,
-    "readAloud": false,
+    "readAloud": true,
     "autoplay": false,
     "showTutorial": true,
     "showNavigationControls": true,
