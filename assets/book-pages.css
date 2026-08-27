@@ -1,0 +1,2951 @@
+:root {
+  --book-blue: #09a9e2;
+  --book-deep-blue: #087bb1;
+  --book-magenta: #b71c8c;
+  --book-text: #262327;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #dbeafe;
+}
+
+#content {
+  width: 100%;
+}
+
+.book-page,
+.book-page * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-page {
+  container-type: inline-size;
+  position: relative;
+  width: min(100%, 54.625rem, calc((100dvh - 4.5rem) * 0.7224));
+  aspect-ratio: 545.906 / 755.669;
+  margin: 0 auto;
+  overflow: hidden;
+  color: var(--book-text);
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, .12);
+  font-size: 2.18cqw;
+  line-height: 1.3;
+}
+
+.book-page::before {
+  content: "";
+  position: absolute;
+  inset: 3% 4.2%;
+  pointer-events: none;
+  border: 1.65cqw solid rgba(103, 211, 242, .16);
+  box-shadow:
+    inset 0 0 2.7cqw .9cqw rgba(30, 184, 230, .24),
+    0 0 1.8cqw .65cqw rgba(30, 184, 230, .18);
+}
+
+.page-inner {
+  position: absolute;
+  z-index: 1;
+  inset: 6.1% 12.1% 6.7%;
+}
+
+.page-heading {
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto 4.8cqw;
+  padding: .35cqw 1.45cqw .45cqw;
+  border: .12cqw solid var(--book-blue);
+  border-radius: 2.2cqw;
+  color: var(--book-blue);
+  background: #fff;
+  box-shadow: 0 0 0 .28cqw #fff, 0 0 0 .38cqw var(--book-blue);
+  font-size: 2.55cqw;
+  font-weight: 700;
+  line-height: 1.05;
+  text-align: center;
+}
+
+.frontmatter-page p {
+  margin: 0 0 2.05cqw;
+  text-align: justify;
+}
+
+.page-narration-hooks {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.page-voice-controls {
+  position: fixed;
+  z-index: 70;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+}
+
+.page-voice-controls button {
+  padding: 8px 12px;
+  border: 1px solid #1d4ed8;
+  border-radius: 999px;
+  color: #1e3a8a;
+  background: #fff;
+  box-shadow: 0 2px 8px #0003;
+  font: 600 14px/1.2 "Atkinson Hyperlegible", Arial, sans-serif;
+}
+
+.cover-page .page-inner {
+  inset: 8.9% 8.5% 5%;
+  text-align: center;
+}
+
+.cover-title {
+  margin: 0;
+  color: #c9232b;
+  font-size: 6cqw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.cover-subtitle {
+  margin: 1.2cqw 0 4cqw;
+  font-size: 3.4cqw;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.cover-standard {
+  margin: 0 0 .9cqw;
+  color: var(--book-blue);
+  font-size: 3.85cqw;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.certificate-crop {
+  width: 69%;
+  height: 71.7%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.certificate-crop img {
+  display: block;
+  width: 116.5%;
+  max-width: none;
+  transform: translate(-7%, -6%);
+}
+
+.cover-publisher {
+  margin: 1.8cqw 0 0;
+  font-size: 2.25cqw;
+}
+
+.copyright-page .page-inner {
+  inset: 8.3% 12.1% 8%;
+}
+
+.copyright-page .edition {
+  margin-bottom: 13.7cqw;
+}
+
+.copyright-page .isbn {
+  margin-bottom: 8.1cqw;
+}
+
+.copyright-page address {
+  margin-bottom: 13cqw;
+  font-style: normal;
+}
+
+.copyright-page .contact {
+  margin-bottom: 6.8cqw;
+}
+
+.copyright-page .rights {
+  text-align: justify;
+}
+
+.contents-page .page-inner {
+  inset: 8.7% 12.1% 5.4%;
+}
+
+.contents-page .page-heading {
+  margin-bottom: 4.8cqw;
+}
+
+.contents-list {
+  display: grid;
+  gap: 1.1cqw;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 2.18cqw;
+  line-height: 1.12;
+}
+
+.contents-list a {
+  display: flex;
+  align-items: baseline;
+  gap: .75cqw;
+  color: inherit;
+  text-decoration: none;
+}
+
+.contents-list a:focus-visible {
+  outline: .25cqw solid #0f62fe;
+  outline-offset: .25cqw;
+}
+
+.contents-list .toc-label {
+  white-space: nowrap;
+}
+
+.contents-list .toc-leader {
+  flex: 1;
+  min-width: 1.5cqw;
+  border-bottom: .18cqw dotted #242127;
+  transform: translateY(-.25em);
+}
+
+.contents-list .toc-folio {
+  min-width: 2.4cqw;
+  text-align: right;
+}
+
+.contents-list .chapter {
+  color: var(--book-magenta);
+  font-weight: 700;
+}
+
+.contents-list .section {
+  font-weight: 700;
+}
+
+.contents-list.compact {
+  gap: 1.25cqw;
+  font-size: 2.18cqw;
+}
+
+.acknowledgements-page .page-inner {
+  inset: 9.2% 12.1% 4.8%;
+  font-size: 2.17cqw;
+  line-height: 1.28;
+}
+
+.acknowledgements-page .page-heading {
+  margin-bottom: 5.8cqw;
+}
+
+.credits {
+  display: grid;
+  grid-template-columns: 15.5cqw 1fr;
+  gap: 2.35cqw 0;
+  margin: 2.5cqw 0 2.65cqw;
+}
+
+.credits dt {
+  font-weight: 700;
+}
+
+.credits dd {
+  margin: 0;
+}
+
+.signature {
+  display: block;
+  width: 15.5cqw;
+  height: auto;
+  margin: -.4cqw 0 .8cqw;
+}
+
+.signatory {
+  margin: 0;
+  line-height: 1.2;
+  text-align: left !important;
+}
+
+.introduction-page .page-inner {
+  inset: 9.8% 12.1% 4.6%;
+  font-size: 2.16cqw;
+  line-height: 1.3;
+}
+
+.introduction-page .page-heading {
+  margin-bottom: 2.1cqw;
+}
+
+.intro-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 12cqw;
+  padding: 0 1cqw;
+}
+
+.intro-footer img {
+  width: 12cqw;
+  height: 12cqw;
+}
+
+.intro-footer strong {
+  transform: translateY(1.5cqw);
+  font-size: 2.05cqw;
+}
+
+/* Main lesson pages */
+.content-page .page-inner {
+  inset: 8.55% 12.1% 5.5%;
+  font-size: 2.14cqw;
+  line-height: 1.29;
+}
+
+.content-page p {
+  margin: 0 0 2.05cqw;
+  text-align: justify;
+}
+
+.section-heading {
+  margin: 0 0 .45cqw;
+  color: #0871bd;
+  font-size: 2.18cqw;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.subsection-heading {
+  margin: 0 0 .4cqw;
+  font-size: 2.12cqw;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.subsection-heading.emphasis {
+  font-style: italic;
+}
+
+.chapter-banner {
+  position: relative;
+  width: 100%;
+  height: 12.3cqw;
+  margin: 0 auto 2.3cqw;
+  background:
+    linear-gradient(90deg, transparent 20%, rgba(65, 193, 229, .7) 20% 80%, transparent 80%);
+}
+
+.chapter-banner::before,
+.chapter-banner::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  width: 18.5%;
+  height: 100%;
+  border: .14cqw solid #007fc0;
+  border-radius: 2.2cqw;
+  background: #079bd3;
+}
+
+.chapter-banner::before {
+  left: -2.3%;
+}
+
+.chapter-banner::after {
+  right: -2.3%;
+}
+
+.chapter-banner h1 {
+  position: absolute;
+  z-index: 1;
+  inset: 2.35cqw 0 auto;
+  margin: 0;
+  padding: 1.15cqw;
+  border-radius: .25cqw;
+  color: #fff;
+  background: linear-gradient(#0784b3, #00577a);
+  box-shadow: inset 0 .12cqw .25cqw rgba(255, 255, 255, .65);
+  font-size: 3.9cqw;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.chapter-subtitle {
+  margin: 0 0 .85cqw;
+  color: #10b54b;
+  font-size: 2.8cqw;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center !important;
+}
+
+.intro-card {
+  position: relative;
+  margin: 0 0 3.15cqw;
+  padding-top: 3.7cqw;
+}
+
+.intro-card h2 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: .75cqw 1.3cqw;
+  border-radius: 2cqw 0 0 0;
+  color: #fff;
+  background: #3b50a4;
+  font-size: 2.25cqw;
+  line-height: 1;
+}
+
+.intro-card h2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -2.4cqw;
+  border-top: 1.75cqw solid transparent;
+  border-bottom: 1.75cqw solid transparent;
+  border-left: 2.5cqw solid #3b50a4;
+}
+
+.intro-card p {
+  margin: 0;
+  padding: 3.15cqw 1.45cqw 1.35cqw;
+  border: .15cqw solid #3b50a4;
+  border-radius: 0 2cqw 2cqw;
+  background: #ead2e7;
+  font-style: italic;
+}
+
+.think-box {
+  position: relative;
+  margin: 0 0 2.15cqw;
+  padding-top: 4.6cqw;
+  border: .25cqw solid #ff9418;
+  background: #ccebf9;
+  clip-path: polygon(3.4% 0, 96.6% 0, 100% 20%, 100% 80%, 96.6% 100%, 3.4% 100%, 0 80%, 0 20%);
+}
+
+.think-box header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4.6cqw;
+  padding: 1.15cqw 0 0 14.7cqw;
+  color: #fff;
+  background: #ff9418;
+  font-size: 2.25cqw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.think-box img {
+  position: absolute;
+  z-index: 2;
+  top: -3.5cqw;
+  left: 6.2cqw;
+  width: 5.4cqw;
+  height: auto;
+  background: #fff;
+}
+
+.think-box p {
+  margin: 0;
+  padding: 4.5cqw 3.5cqw 2.1cqw;
+  text-align: left;
+}
+
+.roman-list,
+.exercise-list {
+  margin: -.6cqw 0 0;
+  padding-left: 6.2cqw;
+}
+
+.roman-list li {
+  padding-left: 1.1cqw;
+}
+
+.roman-list {
+  list-style-type: lower-roman;
+}
+
+.activity-box {
+  position: relative;
+  margin: 6.1cqw 0 2.25cqw;
+  padding: 9.7cqw 1.4cqw 3cqw;
+  border: .14cqw solid #ff8420;
+  border-radius: 0 0 1.1cqw 1.1cqw;
+  background: #fee3c6;
+}
+
+.activity-box::before {
+  content: "";
+  position: absolute;
+  top: 5.95cqw;
+  right: -.14cqw;
+  left: 9.8cqw;
+  height: 1.25cqw;
+  border-radius: 0 1cqw 1cqw 0;
+  background: #08a9df;
+}
+
+.activity-box h1,
+.activity-box h2 {
+  position: absolute;
+  z-index: 1;
+  top: 1.75cqw;
+  left: 9.8cqw;
+  width: 43%;
+  height: 5.45cqw;
+  margin: 0;
+  padding: 1.4cqw 1.4cqw;
+  border-radius: 0 2.2cqw 0 0;
+  color: #fff;
+  background: #08a9df;
+  font-size: 2.25cqw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.activity-box > img {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 9.8cqw;
+  height: 7.9cqw;
+  object-fit: cover;
+  border: .2cqw solid #ff8420;
+  background: #fff;
+}
+
+.activity-box p:last-child,
+.activity-box ol:last-child {
+  margin-bottom: 0;
+}
+
+.activity-box ol {
+  margin: 0;
+  padding-left: 4.2cqw;
+}
+
+.exercise-box {
+  margin: 0 0 3.6cqw;
+  overflow: hidden;
+  border-radius: 0 0 2cqw 2cqw;
+  background: #aaa6ce;
+}
+
+.exercise-box h1,
+.exercise-box h2 {
+  position: relative;
+  width: 29%;
+  margin: 0;
+  padding: 1.25cqw .7cqw 1.05cqw;
+  border-radius: 0 2.2cqw 0 0;
+  color: #fff;
+  background: #2db876;
+  font-size: 2.18cqw;
+  line-height: 1;
+}
+
+.exercise-box h1::after,
+.exercise-box h2::after {
+  content: "";
+  position: absolute;
+  right: -244%;
+  bottom: 0;
+  width: 244%;
+  height: 1.3cqw;
+  border-radius: 0 1cqw 1cqw 0;
+  background: #22b573;
+}
+
+.exercise-box ol {
+  margin: 0;
+  padding: 2.05cqw 2.2cqw 2.8cqw 6.4cqw;
+  list-style-type: decimal;
+}
+
+.exercise-box li {
+  padding-left: .9cqw;
+}
+
+.figure-wide {
+  margin: 2.15cqw auto 3.25cqw;
+  text-align: center;
+}
+
+.figure-wide img {
+  display: block;
+  width: 92.7%;
+  height: auto;
+  margin: 0 auto 3.1cqw;
+}
+
+.figure-wide figcaption {
+  font-size: 1.75cqw;
+}
+
+.figure-wide figcaption strong {
+  font-style: normal;
+}
+
+.alpha-list {
+  display: grid;
+  gap: .15cqw;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.alpha-list li {
+  display: grid;
+  grid-template-columns: 6.7cqw 1fr;
+}
+
+.alpha-list .marker {
+  text-align: center;
+}
+
+.alpha-list p {
+  margin: 0;
+}
+
+.key-phrase {
+  color: #7b3fb1;
+}
+
+.principles-list {
+  display: grid;
+  gap: .6cqw;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.principles-list li {
+  display: grid;
+  grid-template-columns: 6.8cqw 1fr;
+}
+
+.principles-list .marker {
+  text-align: center;
+}
+
+.principles-list p {
+  margin: 0;
+}
+
+.activity-box.scene-box {
+  margin-top: 5.6cqw;
+  padding-top: 10.2cqw;
+}
+
+.scene-title {
+  margin: 1.1cqw 0 .25cqw !important;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center !important;
+}
+
+.dialogue {
+  margin: 0;
+  line-height: 1.17;
+}
+
+.dialogue p {
+  margin: 0;
+  text-align: left;
+}
+
+.speaker {
+  font-weight: 700;
+}
+
+.stage-direction {
+  font-style: italic;
+}
+
+.script-page .page-inner {
+  inset: 7.75% 12.1% 5.55%;
+  font-size: 2.18cqw;
+  line-height: 1.25;
+}
+
+.script-panel {
+  margin: 0;
+  padding: 1.35cqw 1.45cqw;
+  border: .12cqw solid #ff9b3a;
+  background: #fee3c6;
+}
+
+.script-panel p {
+  margin: 0;
+  text-align: left;
+}
+
+.script-panel .spaced {
+  margin-top: 2.35cqw;
+}
+
+.script-page .activity-box {
+  margin-top: 1.9cqw;
+}
+
+section[data-section-id="pg010_sec001"] .page-inner {
+  font-size: 2.12cqw;
+  line-height: 1.27;
+}
+
+section[data-section-id="pg010_sec001"] .principles-list {
+  gap: .45cqw;
+}
+
+section[data-section-id="pg010_sec001"] .activity-box.scene-box {
+  margin-top: 9.3cqw;
+}
+
+section[data-section-id="pg011_sec001"] .page-inner {
+  font-size: 2.2cqw;
+  line-height: 1.41;
+}
+
+section[data-section-id="pg011_sec001"] .dialogue {
+  line-height: 1.25;
+}
+
+section[data-section-id="pg012_sec001"] .page-inner {
+  line-height: 1.29;
+}
+
+section[data-section-id="pg012_sec001"] .script-panel {
+  padding-bottom: 6.5cqw;
+}
+
+section[data-section-id="pg012_sec001"] .activity-box {
+  padding-top: 8.7cqw;
+  padding-bottom: .7cqw;
+}
+
+.activity-alpha-list {
+  display: grid;
+  gap: .45cqw;
+  margin: 0;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.activity-alpha-list li {
+  display: grid;
+  grid-template-columns: 4.5cqw 1fr;
+}
+
+.activity-alpha-list p {
+  margin: 0;
+}
+
+/* Mime lesson and second chapter */
+.mime-figure {
+  margin-top: 1.2cqw;
+}
+
+.mime-figure img {
+  margin-bottom: 2.7cqw;
+}
+
+.dense-page .page-inner {
+  font-size: 2.12cqw;
+  line-height: 1.24;
+}
+
+.dense-page p {
+  margin-bottom: 1.55cqw;
+}
+
+.mime-principles {
+  gap: .7cqw;
+}
+
+.mime-principles .key-phrase {
+  font-weight: 400;
+}
+
+section[data-section-id="pg014_sec001"] .page-inner {
+  inset: 8% 12.1% 5.5%;
+  font-size: 2.14cqw;
+  line-height: 1.25;
+}
+
+section[data-section-id="pg014_sec001"] .exercise-box {
+  margin-bottom: 2.2cqw;
+}
+
+section[data-section-id="pg014_sec001"] .exercise-box ol {
+  padding-top: .25cqw;
+  padding-bottom: 4.4cqw;
+}
+
+section[data-section-id="pg014_sec001"] .mime-principles {
+  gap: .45cqw;
+}
+
+section[data-section-id="pg015_sec001"] .page-inner {
+  inset: 8% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.22;
+}
+
+section[data-section-id="pg015_sec001"] .mime-principles {
+  gap: 1.55cqw;
+}
+
+.mime-importance-title {
+  margin-top: 3.1cqw;
+}
+
+.benefits-list {
+  gap: .38cqw;
+}
+
+.benefits-list p {
+  margin-bottom: 0;
+}
+
+section[data-section-id="pg016_sec001"] .page-inner {
+  inset: 8.9% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.2;
+}
+
+section[data-section-id="pg016_sec001"] .exercise-box {
+  margin-bottom: 2.2cqw;
+}
+
+section[data-section-id="pg016_sec001"] .exercise-box ol {
+  padding-top: 1.35cqw;
+  padding-bottom: 5.6cqw;
+}
+
+.challenges-list {
+  gap: .15cqw;
+}
+
+.challenges-list p {
+  margin-bottom: 0;
+}
+
+.challenge-summary {
+  margin-top: 4.5cqw !important;
+  margin-bottom: 1cqw !important;
+}
+
+.compact-activity {
+  margin-top: .65cqw;
+  margin-bottom: 3.5cqw;
+  padding-top: 9.1cqw;
+  padding-bottom: 4.9cqw;
+}
+
+.compact-activity p {
+  margin: 0;
+  text-align: left;
+}
+
+.activity-five {
+  margin-top: 4.1cqw;
+  padding-top: 9.6cqw;
+  padding-bottom: 4.8cqw;
+}
+
+.activity-five .activity-alpha-list {
+  gap: .25cqw;
+}
+
+.vocabulary-page .page-inner {
+  inset: 8.75% 12.1% 5.5%;
+  font-size: 2.16cqw;
+  line-height: 1.28;
+}
+
+.vocabulary-page .exercise-box {
+  margin-bottom: 4.6cqw;
+}
+
+.vocabulary-page .exercise-box ol {
+  padding-bottom: 3.9cqw;
+}
+
+.vocabulary-page .section-heading {
+  margin-bottom: 3.8cqw;
+}
+
+.vocabulary-list {
+  display: grid;
+  grid-template-columns: 22.8cqw 1fr;
+  gap: 2.5cqw 2.15cqw;
+  margin: 0;
+}
+
+.vocabulary-list dt {
+  font-weight: 700;
+}
+
+.vocabulary-list dd {
+  margin: 0;
+  text-align: justify;
+}
+
+section[data-section-id="pg018_sec001"] .page-inner {
+  inset: 9.2% 12.1% 5.5%;
+  font-size: 2.14cqw;
+  line-height: 1.25;
+}
+
+section[data-section-id="pg018_sec001"] .chapter-banner {
+  margin-bottom: 3.65cqw;
+}
+
+section[data-section-id="pg018_sec001"] .chapter-subtitle {
+  margin-bottom: .5cqw;
+}
+
+section[data-section-id="pg018_sec001"] .intro-card {
+  margin-bottom: 2.7cqw;
+}
+
+section[data-section-id="pg018_sec001"] .intro-card h2 {
+  background: #1315ee;
+}
+
+section[data-section-id="pg018_sec001"] .intro-card h2::after {
+  border-left-color: #1315ee;
+}
+
+section[data-section-id="pg018_sec001"] .intro-card p {
+  border-color: #1315ee;
+  padding-bottom: 3.65cqw;
+}
+
+section[data-section-id="pg018_sec001"] .think-box {
+  margin-bottom: 4.45cqw;
+}
+
+section[data-section-id="pg018_sec001"] .think-box p {
+  padding-bottom: 2.1cqw;
+}
+
+section[data-section-id="pg013_sec001"] .page-inner {
+  line-height: 1.35;
+}
+
+/* Musical dynamics, voice balance, and solfa */
+.music-dynamics-page .page-inner,
+.music-content-page .page-inner {
+  inset: 8.05% 12.1% 5.5%;
+  font-size: 2.1cqw;
+  line-height: 1.25;
+}
+
+.music-dynamics-page .page-inner {
+  inset: 8.65% 12.1% 5.5%;
+}
+
+.dynamics-continuation {
+  gap: 2.6cqw;
+}
+
+.dynamics-continuation .key-phrase {
+  font-weight: 400;
+}
+
+.dynamic-symbol {
+  display: inline-block;
+  margin-left: .8cqw;
+  color: #222;
+  font-size: 3cqw;
+  font-style: normal;
+  line-height: .5;
+  transform: scaleX(1.7);
+}
+
+.importance-heading {
+  margin: 3.5cqw 0 .45cqw;
+  color: #4478b9;
+  font-size: 2.2cqw;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.importance-list {
+  gap: 2.8cqw;
+}
+
+.importance-list .key-phrase {
+  font-weight: 400;
+}
+
+.singing-icon {
+  position: absolute;
+  z-index: 3;
+  top: -4.3cqw;
+  left: 0;
+  width: 12.5cqw;
+  height: 12.5cqw;
+}
+
+.singing-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.activity-box > img.singing-icon {
+  top: -4.3cqw;
+  left: 0;
+  width: 12.5cqw;
+  height: 12.5cqw;
+  border: 0;
+  object-fit: contain;
+}
+
+.music-activity {
+  margin-top: 4.7cqw;
+  padding-top: 8.7cqw;
+  padding-bottom: 1.7cqw;
+}
+
+.music-activity::before {
+  left: 12.4cqw;
+}
+
+.music-activity h2 {
+  left: 12.4cqw;
+}
+
+.music-activity p {
+  margin-bottom: 0;
+}
+
+.voice-balance-title {
+  margin-top: 5.8cqw;
+}
+
+.voice-balance-list {
+  gap: .2cqw;
+}
+
+.music-activity.second {
+  margin-top: 13.2cqw;
+  padding-top: 9.5cqw;
+  padding-bottom: .2cqw;
+}
+
+.music-activity .activity-alpha-list {
+  gap: .35cqw;
+}
+
+.solfa-page .page-inner {
+  inset: 8.65% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.25;
+}
+
+.solfa-page .exercise-box {
+  margin-bottom: 3.2cqw;
+}
+
+.solfa-page .exercise-box ol {
+  padding-bottom: 3.2cqw;
+}
+
+.solfa-figure {
+  margin: 3.8cqw auto 3.5cqw;
+}
+
+.solfa-figure img {
+  width: 94.5%;
+  margin-bottom: 2.7cqw;
+}
+
+.musical-notes-title {
+  margin-top: 0;
+}
+
+.music-table-page .page-inner {
+  inset: 7.9% 12.1% 5.5%;
+  font-size: 2.1cqw;
+  line-height: 1.25;
+}
+
+.music-table-page .continuation {
+  margin-bottom: 3.5cqw;
+}
+
+.music-table-wrap {
+  margin: 0 5.4cqw 3.5cqw;
+}
+
+.music-table-wrap figcaption {
+  margin: 0 0 .8cqw -4.4cqw;
+}
+
+.music-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.music-table th,
+.music-table td {
+  height: 6.4cqw;
+  padding: .5cqw 1.1cqw;
+  border: .12cqw solid #222;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.music-table th {
+  height: 4cqw;
+  font-weight: 700;
+}
+
+.note-glyph {
+  font-family: "Times New Roman", serif;
+  font-size: 4cqw;
+  line-height: 1;
+}
+
+.scale-figure {
+  margin: 4.6cqw auto 0;
+  text-align: center;
+}
+
+.scale-figure img {
+  display: block;
+  width: 72%;
+  height: auto;
+  margin: 0 auto 2.2cqw;
+}
+
+.scale-art {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 2.2cqw;
+}
+
+.scale-art img {
+  width: 100%;
+  margin: 0;
+}
+
+.scale-note-label {
+  position: absolute;
+  font-size: 1.75cqw;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.scale-note-label.first {
+  bottom: 1.2cqw;
+  left: 18%;
+}
+
+.scale-note-label.last {
+  top: 14%;
+  right: -10%;
+}
+
+.scale-figure figcaption,
+.diagram-figure figcaption {
+  font-size: 1.85cqw;
+}
+
+.diagram-page .page-inner {
+  inset: 8.4% 12.1% 5.5%;
+  font-size: 2.1cqw;
+  line-height: 1.25;
+}
+
+.diagram-page p {
+  margin-bottom: 2.4cqw;
+}
+
+.diagram-figure {
+  margin: 0 auto 4.4cqw;
+  text-align: center;
+}
+
+.diagram-figure img {
+  display: block;
+  width: 82%;
+  height: auto;
+  margin: 0 auto 2.1cqw;
+}
+
+.diagram-figure.wide img {
+  width: 105%;
+  max-width: none;
+  transform: translateX(-2.5%);
+}
+
+.solfa-activities-page .page-inner {
+  inset: 9.7% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.25;
+}
+
+.solfa-activity {
+  margin: 4.2cqw 0 7.2cqw;
+  padding-top: 9.7cqw;
+  padding-bottom: 4.7cqw;
+}
+
+.solfa-activity::before,
+.solfa-activity h2 {
+  left: 12.4cqw;
+}
+
+.solfa-activity .activity-alpha-list {
+  gap: .55cqw;
+}
+
+.solfa-activity-diagram {
+  position: static !important;
+  display: block;
+  width: 94% !important;
+  height: auto !important;
+  margin: 7cqw auto 0 !important;
+  border: 0 !important;
+  object-fit: contain !important;
+}
+
+.solfa-activity.second {
+  margin-top: 5.4cqw;
+  margin-bottom: 0;
+  padding-bottom: 5.2cqw;
+}
+
+.solfa-activity.second > p {
+  margin-bottom: 2cqw;
+}
+
+.solfa-activity.second .solfa-activity-diagram {
+  width: 84% !important;
+  height: 26.5cqw !important;
+  margin-top: 0 !important;
+  object-fit: cover !important;
+}
+
+.solfa-activity:not(.second) .solfa-activity-diagram {
+  height: 15cqw !important;
+  margin-top: 8.5cqw !important;
+  object-fit: cover !important;
+}
+
+.dynamics-list {
+  gap: 1.25cqw;
+}
+
+.dynamics-list .key-phrase {
+  font-weight: 400;
+}
+
+/* Pages 25–30: solfa activities and drawing chapter */
+.solfa-pattern-page .page-inner {
+  inset: 8.4% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.24;
+}
+
+.solfa-continuation {
+  margin: 0 0 6.9cqw;
+  padding: 5.1cqw 1.5cqw 4.6cqw;
+  border: .14cqw solid #ff8420;
+  border-radius: 0 0 1.1cqw 1.1cqw;
+  background: #fee3c6;
+}
+
+.solfa-continuation > p {
+  margin: 0 0 1.5cqw;
+}
+
+.solfa-continuation img {
+  display: block;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.note-activity {
+  margin-top: 0;
+  padding-top: 9.8cqw;
+  padding-bottom: 4.2cqw;
+}
+
+.note-activity::before,
+.note-activity h1 {
+  left: 12.4cqw;
+}
+
+.note-activity > p {
+  margin: 0 0 3.4cqw;
+  text-align: left;
+}
+
+.note-pattern-list {
+  display: grid;
+  gap: 4.1cqw;
+  margin: 0;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.note-pattern-list li {
+  display: grid;
+  grid-template-columns: 4.1cqw 1fr;
+  align-items: start;
+}
+
+.note-pattern-list img {
+  position: static;
+  width: 100%;
+  height: 6.5cqw;
+  border: 0;
+  object-fit: contain;
+}
+
+.note-pattern-list li:nth-child(2) img {
+  height: 7.1cqw;
+}
+
+.instrument-page .page-inner {
+  inset: 8.55% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.28;
+}
+
+.instrument-page p {
+  margin-bottom: 3.25cqw;
+}
+
+.instrument-page .alpha-list {
+  gap: 1.4cqw;
+}
+
+.instrument-page .alpha-list li {
+  grid-template-columns: 6.7cqw 1fr;
+}
+
+.instrument-page .alpha-list p {
+  text-align: justify;
+}
+
+.activity-exercise-page .page-inner {
+  inset: 9.5% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.25;
+}
+
+.activity-exercise-page .activity-box {
+  margin-top: 3.8cqw;
+  margin-bottom: 6.4cqw;
+  padding-top: 9.5cqw;
+  padding-bottom: 4.5cqw;
+}
+
+.activity-exercise-page .activity-box::before,
+.activity-exercise-page .activity-box h1 {
+  left: 12.4cqw;
+}
+
+.activity-exercise-page .activity-box > p {
+  margin-bottom: .35cqw;
+  text-align: left;
+}
+
+.activity-exercise-page .exercise-box {
+  margin-bottom: 0;
+}
+
+.activity-exercise-page .exercise-box ol {
+  padding-top: 1.5cqw;
+  padding-bottom: 2.7cqw;
+}
+
+.drawing-opener .page-inner {
+  inset: 7.45% 12.1% 5.5%;
+  font-size: 2.05cqw;
+  line-height: 1.25;
+}
+
+.drawing-opener .chapter-banner {
+  margin-bottom: 3.7cqw;
+}
+
+.drawing-opener .chapter-subtitle {
+  margin-bottom: 2.5cqw;
+}
+
+.drawing-opener .intro-card {
+  margin-bottom: 3.35cqw;
+}
+
+.drawing-opener .intro-card h2 {
+  background: #071de8;
+}
+
+.drawing-opener .intro-card h2::after {
+  border-left-color: #071de8;
+}
+
+.drawing-opener .intro-card p {
+  padding-top: 3.15cqw;
+  border-color: #071de8;
+}
+
+.drawing-opener .think-box {
+  margin-bottom: 2.35cqw;
+}
+
+.drawing-opener .think-box img {
+  top: -.1cqw;
+  width: 6.7cqw;
+  height: 6.7cqw;
+  padding: .25cqw;
+  border: .18cqw solid #ff9418;
+  object-fit: contain;
+}
+
+.drawing-opener .think-box p {
+  padding-top: 4.8cqw;
+  padding-bottom: 2.1cqw;
+}
+
+.drawing-opener .section-heading {
+  color: #05a7dc;
+}
+
+.drawing-opener p {
+  margin-bottom: .55cqw;
+}
+
+.drawing-text-page .page-inner {
+  inset: 8.55% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.27;
+}
+
+.drawing-text-page p {
+  margin-bottom: .7cqw;
+}
+
+.drawing-text-page .principles-list {
+  gap: .38cqw;
+  margin-bottom: 2.7cqw;
+}
+
+.drawing-text-page .principles-list li {
+  grid-template-columns: 7.2cqw 1fr;
+}
+
+.drawing-text-page .subsection-heading {
+  margin-top: 2.25cqw;
+}
+
+.drawing-text-page .steps-intro {
+  margin-bottom: 2.2cqw;
+}
+
+.drawing-text-page .roman-list {
+  display: grid;
+  gap: .45cqw;
+  margin-top: 0;
+  padding-left: 8.7cqw;
+}
+
+.drawing-figures-page .page-inner {
+  inset: 8.1% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.24;
+}
+
+.circle-steps-figure {
+  margin: 0 0 4.4cqw;
+  text-align: center;
+}
+
+.circle-step-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.2cqw;
+  align-items: end;
+}
+
+.circle-step-grid img {
+  display: block;
+  width: 100%;
+  height: 14.7cqw;
+  object-fit: contain;
+}
+
+.circle-step-grid > div:nth-child(3) img {
+  clip-path: inset(0 7% 0 0);
+}
+
+.circle-step-grid span {
+  display: block;
+  margin-top: 1.4cqw;
+}
+
+.circle-steps-figure figcaption {
+  margin-top: 1.4cqw;
+  font-style: italic;
+}
+
+.circle-steps-figure figcaption strong {
+  font-style: normal;
+}
+
+.drawing-figures-page p {
+  margin-bottom: 2.5cqw;
+}
+
+.drawing-figures-page .roman-list {
+  display: grid;
+  gap: .2cqw;
+  margin: 0 0 1.8cqw;
+  padding-left: 8.4cqw;
+}
+
+.shape-examples {
+  margin: 0;
+  text-align: center;
+}
+
+.shape-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2cqw;
+  margin: 0 auto 2.4cqw;
+}
+
+.shape-square,
+.shape-rectangle {
+  display: block;
+  height: 12.3cqw;
+  border: .12cqw solid #222;
+}
+
+.shape-square {
+  width: 15.3cqw;
+}
+
+.shape-rectangle {
+  width: 33.4cqw;
+}
+
+.shape-examples figcaption {
+  font-style: italic;
+}
+
+.shape-examples figcaption strong {
+  font-style: normal;
+}
+
+/* Pages 31–36: construction shapes and the human figure */
+.drawing-icon {
+  position: absolute !important;
+  z-index: 3 !important;
+  top: -2.1cqw !important;
+  left: 0 !important;
+  width: 9.8cqw !important;
+  height: 8.4cqw !important;
+  border: .2cqw solid #d7603c !important;
+  object-fit: cover !important;
+}
+
+.compact-activity {
+  margin: 2.3cqw 0 5.5cqw;
+  padding: 8.4cqw 1.4cqw 1.5cqw;
+}
+
+.compact-activity h1,
+.compact-activity h2 {
+  top: 0;
+}
+
+.compact-activity::before {
+  top: 4.25cqw;
+}
+
+.compact-activity p {
+  margin: 0;
+  text-align: left;
+}
+
+.cylinder-intro-page .page-inner {
+  inset: 9.15% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.27;
+}
+
+.cylinder-intro-page .compact-activity + .compact-activity {
+  margin-top: 7.1cqw;
+}
+
+.cylinder-intro-page .subsection-heading {
+  margin-top: 4.8cqw;
+}
+
+.cylinder-intro-page .roman-list {
+  display: grid;
+  gap: 1.25cqw;
+  margin-top: 1.4cqw;
+  padding-left: 8.4cqw;
+}
+
+.construction-page .page-inner,
+.box-shapes-page .page-inner,
+.head-drawing-page .page-inner,
+.torso-drawing-page .page-inner,
+.legs-drawing-page .page-inner {
+  inset: 8.3% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.25;
+}
+
+.construction-figure {
+  margin: 0 0 4.2cqw;
+  text-align: center;
+}
+
+.construction-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--steps, 4), 1fr);
+  gap: 2.1cqw;
+  align-items: end;
+}
+
+.construction-grid img {
+  display: block;
+  width: 100%;
+  height: var(--art-height, 22cqw);
+  object-fit: contain;
+}
+
+.construction-grid span {
+  display: block;
+  margin-top: 1.2cqw;
+}
+
+.construction-figure figcaption {
+  margin-top: 1.4cqw;
+  font-style: italic;
+}
+
+.construction-figure figcaption strong {
+  font-style: normal;
+}
+
+.construction-page .compact-activity {
+  margin-bottom: 4.2cqw;
+}
+
+.construction-page p,
+.box-shapes-page p,
+.head-drawing-page p,
+.torso-drawing-page p,
+.legs-drawing-page p {
+  margin-bottom: 1.8cqw;
+}
+
+.construction-page .roman-list {
+  margin-top: 1.4cqw;
+}
+
+.box-shapes-page .construction-figure {
+  margin-bottom: 5.8cqw;
+}
+
+.box-shapes-page .construction-grid {
+  --steps: 3;
+  --art-height: 15.4cqw;
+}
+
+.box-shapes-page .roman-list {
+  display: grid;
+  gap: 1.9cqw;
+  margin: 0 0 5.7cqw;
+  padding-left: 9cqw;
+}
+
+.box-shapes-page .section-heading {
+  color: #05a7dc;
+}
+
+.head-drawing-page .page-inner {
+  inset-top: 8.5%;
+}
+
+.head-drawing-page .roman-list {
+  display: grid;
+  gap: 1.15cqw;
+  margin: 1.5cqw 0 3cqw;
+  padding-left: 8cqw;
+}
+
+.head-drawing-page .construction-grid {
+  --art-height: 17.8cqw;
+  gap: 1.2cqw;
+}
+
+.head-drawing-page .construction-grid img {
+  clip-path: inset(0 8%);
+}
+
+.head-drawing-page .construction-figure {
+  margin-bottom: 4cqw;
+}
+
+.head-drawing-page .compact-activity {
+  margin-bottom: 2.6cqw;
+}
+
+.torso-drawing-page .page-inner {
+  inset: 8.6% 12.1% 5.5%;
+}
+
+.limb-figure {
+  margin: 0 0 4.4cqw;
+  text-align: center;
+}
+
+.limb-art-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10cqw;
+}
+
+.limb-art-row img {
+  width: 28%;
+  height: 27cqw;
+  object-fit: contain;
+}
+
+.limb-figure figcaption,
+.torso-figure figcaption,
+.legs-figure figcaption {
+  margin-top: 1.5cqw;
+  font-style: italic;
+}
+
+.limb-figure figcaption strong,
+.torso-figure figcaption strong,
+.legs-figure figcaption strong {
+  font-style: normal;
+}
+
+.torso-drawing-page .compact-activity {
+  margin-bottom: 4.8cqw;
+}
+
+.torso-figure {
+  margin: 1cqw 0 0;
+  text-align: center;
+}
+
+.torso-art-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5cqw;
+}
+
+.torso-art-row img {
+  width: 32%;
+  height: 24cqw;
+  object-fit: contain;
+}
+
+.torso-art-row img:first-child {
+  clip-path: inset(0 8% 0 0);
+}
+
+.legs-drawing-page .compact-activity {
+  margin-top: 0;
+  margin-bottom: 2.3cqw;
+}
+
+.legs-figure {
+  margin: 1.4cqw 0 4.2cqw;
+  text-align: center;
+}
+
+.legs-figure img {
+  display: block;
+  width: 66%;
+  height: 49cqw;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.legs-drawing-page .lower-activity {
+  margin-bottom: 3.2cqw;
+}
+
+/* Pages 37–42: posture, animals, line direction and perspective */
+.illustrated-drawing-page .page-inner {
+  inset: 8.1% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.26;
+}
+
+.lesson-figure {
+  margin: 0 0 4.1cqw;
+  text-align: center;
+}
+
+.lesson-figure img {
+  display: block;
+  width: var(--figure-width, 60%);
+  height: var(--figure-height, 30cqw);
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.lesson-figure figcaption {
+  margin-top: 1.3cqw;
+  font-style: italic;
+}
+
+.lesson-figure figcaption strong {
+  font-style: normal;
+}
+
+.posture-page .full-figure {
+  --figure-width: 43%;
+  --figure-height: 45cqw;
+  margin-bottom: 4.5cqw;
+}
+
+.posture-page .compact-activity {
+  margin-bottom: 2.9cqw;
+}
+
+.posture-page p {
+  margin-bottom: 1.3cqw;
+}
+
+.animal-page .pose-figure {
+  --figure-width: 92%;
+  --figure-height: 31cqw;
+  margin-bottom: 3.6cqw;
+}
+
+.animal-page .dog-figure {
+  --figure-width: 78%;
+  --figure-height: 36cqw;
+  margin-top: 2cqw;
+}
+
+.animal-page p {
+  margin-bottom: 1.2cqw;
+}
+
+.line-intro-page .page-inner {
+  inset: 8.8% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.25;
+}
+
+.line-intro-page .compact-activity {
+  margin-bottom: 5.4cqw;
+}
+
+.line-intro-page .compact-activity + .compact-activity {
+  margin-top: 6.8cqw;
+  margin-bottom: 2.2cqw;
+}
+
+.line-intro-page .section-heading {
+  color: #0479b4;
+}
+
+.line-intro-page .geometry-figure {
+  --figure-width: 63%;
+  --figure-height: 29cqw;
+  margin: .5cqw 0 4.2cqw;
+}
+
+.line-intro-page p {
+  margin-bottom: 2.4cqw;
+}
+
+.direction-page .page-inner,
+.wind-page .page-inner,
+.perspective-page .page-inner {
+  inset: 8.15% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.26;
+}
+
+.direction-page .vertical-figure {
+  --figure-width: 43%;
+  --figure-height: 31cqw;
+  margin-bottom: 4.4cqw;
+}
+
+.direction-page .horizontal-figure {
+  --figure-width: 65%;
+  --figure-height: 20cqw;
+  margin: 2cqw 0 4.8cqw;
+}
+
+.direction-page p,
+.wind-page p,
+.perspective-page p {
+  margin-bottom: 1.6cqw;
+}
+
+.wind-page .stump-figure {
+  --figure-width: 57%;
+  --figure-height: 25cqw;
+  margin-bottom: 5.1cqw;
+}
+
+.wind-page .wind-figure {
+  --figure-width: 58%;
+  --figure-height: 31cqw;
+  margin: 2cqw 0 4cqw;
+}
+
+.wind-page .compact-activity {
+  margin-top: 5cqw;
+  margin-bottom: 0;
+}
+
+.wind-page .drawing-icon.group-icon {
+  object-fit: cover !important;
+}
+
+.perspective-page .page-inner {
+  inset-top: 8.3%;
+}
+
+.perspective-page .room-figure {
+  --figure-width: 72%;
+  --figure-height: 23cqw;
+  margin: 3.7cqw 0 4cqw;
+}
+
+.perspective-page .posts-figure {
+  --figure-width: 58%;
+  --figure-height: 25cqw;
+  margin: 0 0 7.2cqw;
+}
+
+.perspective-page .compact-activity {
+  margin-bottom: 0;
+  padding-bottom: 2.5cqw;
+}
+
+/* Pages 43–48: shadows, balance, colour, texture and unity */
+.art-principles-page .page-inner,
+.balance-page .page-inner,
+.texture-page .page-inner,
+.texture-balance-page .page-inner,
+.unity-page .page-inner,
+.drawing-review-page .page-inner {
+  inset: 8.3% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.26;
+}
+
+.art-principles-page .section-heading,
+.balance-page .section-heading,
+.texture-page .section-heading,
+.unity-page .section-heading,
+.drawing-review-page .section-heading {
+  color: #087bb1;
+}
+
+.shadow-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.3cqw;
+}
+
+.shadow-row img {
+  width: 100%;
+  height: 17.5cqw;
+  clip-path: inset(0 6%);
+  object-fit: contain;
+}
+
+.art-principles-page .shadow-figure {
+  margin: 2.8cqw 0 4.3cqw;
+}
+
+.art-principles-page .imbalance-figure {
+  --figure-width: 52%;
+  --figure-height: 29cqw;
+  margin-top: 1.4cqw;
+}
+
+.art-principles-page p,
+.balance-page p,
+.texture-page p,
+.texture-balance-page p,
+.unity-page p {
+  margin-bottom: 1.55cqw;
+}
+
+.balance-page .balanced-figure {
+  --figure-width: 68%;
+  --figure-height: 34cqw;
+  margin: 4.2cqw 0 6.2cqw;
+}
+
+.balance-page .compact-activity {
+  margin-bottom: 5.4cqw;
+  padding-bottom: 2.2cqw;
+}
+
+.balance-page .activity-alpha-list {
+  margin-top: .3cqw;
+}
+
+.texture-page .colour-figure {
+  --figure-width: 78%;
+  --figure-height: 36cqw;
+  margin-bottom: 3.4cqw;
+}
+
+.texture-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 12cqw);
+  justify-content: center;
+  gap: 1.4cqw;
+  margin-top: 1.4cqw;
+}
+
+.texture-grid img {
+  width: 12cqw;
+  height: 12cqw;
+  clip-path: inset(7%);
+  object-fit: cover;
+}
+
+.texture-page .textures-figure {
+  margin-bottom: 0;
+}
+
+.texture-balance-page .page-inner {
+  inset: 8.15% 12.1% 5.5%;
+}
+
+.circle-pair {
+  display: flex;
+  justify-content: center;
+  gap: 2.2cqw;
+}
+
+.circle-pair img {
+  width: 18cqw;
+  height: 18cqw;
+  clip-path: inset(0 8%);
+  object-fit: contain;
+}
+
+.texture-balance-page .texture-effect-figure {
+  margin: 2.3cqw 0 4.7cqw;
+}
+
+.texture-balance-page .texture-effect-figure + p {
+  margin-bottom: 2.3cqw;
+}
+
+.texture-balance-page .compact-activity {
+  margin: 5.2cqw 0 4.7cqw;
+  padding-bottom: 2.2cqw;
+}
+
+.texture-balance-page .compact-activity + .compact-activity {
+  margin-top: 6.8cqw;
+}
+
+.unity-page .unity-image-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5cqw;
+  margin: 2.1cqw 5cqw 6.5cqw;
+}
+
+.unity-page .unity-image-row figure {
+  margin: 0;
+  text-align: center;
+}
+
+.unity-page .unity-image-row img {
+  width: 100%;
+  height: 32cqw;
+  object-fit: contain;
+}
+
+.unity-page .unity-image-row figcaption {
+  margin-top: .7cqw;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.unity-page .unity-image-row strong {
+  font-style: normal;
+}
+
+.unity-page .compact-activity {
+  margin-bottom: 5.1cqw;
+  padding-bottom: 2.1cqw;
+}
+
+.unity-page .compact-activity + .compact-activity {
+  margin-top: 6.7cqw;
+}
+
+.drawing-review-page .exercise-box {
+  margin-bottom: 3.4cqw;
+}
+
+.drawing-review-page .exercise-box ol {
+  padding-top: 4.2cqw;
+  padding-bottom: 4.5cqw;
+}
+
+.drawing-review-page .exercise-box li + li {
+  margin-top: 2.6cqw;
+}
+
+.vocabulary-list {
+  display: grid;
+  grid-template-columns: 13cqw 1fr;
+  gap: 2.4cqw 1.4cqw;
+  margin: 1.8cqw 0 0;
+}
+
+.vocabulary-list dt {
+  font-weight: 700;
+}
+
+.vocabulary-list dd {
+  margin: 0;
+}
+
+/* Pages 49–54: clay modelling */
+.clay-opener .page-inner {
+  inset: 7.2% 12.1% 5.5%;
+  font-size: 2.02cqw;
+  line-height: 1.23;
+}
+
+.clay-opener .chapter-banner {
+  margin-bottom: 3.7cqw;
+}
+
+.clay-opener .chapter-subtitle {
+  margin-bottom: 2.7cqw;
+}
+
+.clay-opener .intro-card,
+.clay-opener .think-box {
+  margin-bottom: 2.3cqw;
+}
+
+.clay-opener .intro-card h2 {
+  background: #071de8;
+}
+
+.clay-opener .intro-card h2::after {
+  border-left-color: #071de8;
+}
+
+.clay-opener .intro-card p {
+  border-color: #071de8;
+}
+
+.clay-opener .think-box img {
+  top: -.1cqw;
+  width: 6.7cqw;
+  height: 6.7cqw;
+  padding: .25cqw;
+  border: .18cqw solid #ff9418;
+  object-fit: contain;
+}
+
+.clay-opener p {
+  margin-bottom: .7cqw;
+}
+
+.clay-page .page-inner {
+  inset: 8.2% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.26;
+}
+
+.clay-page p {
+  margin-bottom: 1.5cqw;
+}
+
+.clay-page .alpha-list,
+.clay-page .clay-steps {
+  display: grid;
+  gap: 1.05cqw;
+  margin: 1.4cqw 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clay-page .alpha-list li,
+.clay-page .clay-steps li {
+  display: grid;
+  grid-template-columns: 7.4cqw 1fr;
+}
+
+.clay-page .marker {
+  text-align: center;
+}
+
+.clay-page .mould-figure {
+  --figure-width: 77%;
+  --figure-height: 31cqw;
+  margin-bottom: 3.5cqw;
+}
+
+.clay-page .newspaper-figure {
+  --figure-width: 68%;
+  --figure-height: 34cqw;
+  margin-bottom: 3.9cqw;
+}
+
+.clay-page .drying-figure {
+  --figure-width: 82%;
+  --figure-height: 39cqw;
+  margin-bottom: 3.6cqw;
+}
+
+.clay-decoration-page .page-inner {
+  inset: 8.25% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.27;
+}
+
+.clay-decoration-page .clay-steps {
+  display: grid;
+  gap: 1.2cqw;
+  margin: 0 0 3.2cqw;
+  padding: 0;
+  list-style: none;
+}
+
+.clay-decoration-page .clay-steps li {
+  display: grid;
+  grid-template-columns: 8cqw 1fr;
+}
+
+.clay-decoration-page p {
+  margin-bottom: 1.8cqw;
+}
+
+.pot-decoration-page .page-inner {
+  inset: 8.5% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.27;
+}
+
+.pot-decoration-page .pot-figure {
+  --figure-width: 43%;
+  --figure-height: 27cqw;
+  margin-bottom: 4.8cqw;
+}
+
+.pot-decoration-page p {
+  margin-bottom: 1.4cqw;
+}
+
+/* Pages 55–60: decorating, firing, glazing and storage */
+.decoration-methods-page .page-inner,
+.firing-page .page-inner,
+.glazing-page .page-inner,
+.storage-page .page-inner {
+  inset: 8.25% 12.1% 5.5%;
+  font-size: 2.08cqw;
+  line-height: 1.26;
+}
+
+.decoration-methods-page p,
+.firing-page p,
+.glazing-page p,
+.storage-page p {
+  margin-bottom: 1.5cqw;
+}
+
+.decoration-methods-page .decorated-pot {
+  --figure-width: 39%;
+  --figure-height: 29cqw;
+  margin-bottom: 4.5cqw;
+}
+
+.decoration-methods-page .bead-pot {
+  --figure-width: 32%;
+  --figure-height: 22cqw;
+  margin: 1cqw 0 4.2cqw;
+}
+
+.decoration-methods-page .painted-pot {
+  --figure-width: 32%;
+  --figure-height: 23cqw;
+  margin-top: 1.4cqw;
+}
+
+.firing-page .page-inner {
+  inset: 9% 12.1% 5.5%;
+  font-size: 2.03cqw;
+  line-height: 1.24;
+}
+
+.firing-page .compact-activity {
+  margin-bottom: 5.2cqw;
+}
+
+.firing-page .compact-activity + .compact-activity {
+  margin-top: 6.8cqw;
+  margin-bottom: 4.6cqw;
+}
+
+.firing-page .clay-steps,
+.glazing-page .clay-steps,
+.storage-page .storage-list {
+  display: grid;
+  gap: .9cqw;
+  margin: 1.2cqw 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.firing-page .clay-steps li,
+.glazing-page .clay-steps li,
+.storage-page .storage-list li {
+  display: grid;
+  grid-template-columns: 7.8cqw 1fr;
+}
+
+.firing-continued .kiln-figure {
+  --figure-width: 62%;
+  --figure-height: 29cqw;
+  margin-bottom: 3.6cqw;
+}
+
+.firing-continued .oil-pot {
+  --figure-width: 37%;
+  --figure-height: 25cqw;
+  margin: 1.4cqw 0 3.6cqw;
+}
+
+.glazing-page .page-inner {
+  inset: 10.8% 12.1% 5.5%;
+  font-size: 2.08cqw;
+}
+
+.glazing-page .compact-activity {
+  margin: 6.1cqw 0 2.6cqw;
+  padding-bottom: 2.2cqw;
+}
+
+.glazing-page .activity-alpha-list {
+  margin-top: .5cqw;
+}
+
+.glazing-page .reasons-list {
+  display: grid;
+  gap: .1cqw;
+  margin: 0 0 2.6cqw;
+  padding: 0;
+  list-style: none;
+}
+
+.glazing-page .reasons-list li {
+  display: grid;
+  grid-template-columns: 7.8cqw 1fr;
+}
+
+.storage-page .round-pad-figure {
+  --figure-width: 62%;
+  --figure-height: 28cqw;
+  margin-bottom: 4.4cqw;
+}
+
+.storage-page .frame-figure {
+  --figure-width: 62%;
+  --figure-height: 25cqw;
+  margin: 3.1cqw 0 4.6cqw;
+}
+
+.storage-page .storage-list {
+  gap: 1.1cqw;
+}
+
+/* Chapter Four close and Chapter Five: paper craft */
+.chapter-close-page .page-inner,
+.vocabulary-page .page-inner,
+.paper-craft-page .page-inner {
+  inset: 7.9% 12.1% 7.4%;
+}
+
+.chapter-close-page { font-size: 2.05cqw; }
+.chapter-close-page .pyramid-figure { width: 47%; margin: 0 auto 2.8cqw; }
+.chapter-close-page h2,
+.paper-craft-page h2,
+.paper-craft-page h3,
+.vocabulary-page h1 {
+  margin: 0;
+  color: #087eb7;
+  font-size: 2.45cqw;
+  line-height: 1.15;
+}
+.chapter-close-page p,
+.paper-craft-page p { margin: .5cqw 0; text-align: justify; }
+.alpha-list,
+.number-list,
+.craft-steps { margin: .45cqw 0 0; padding-left: 4.2cqw; }
+.alpha-list li,
+.number-list li,
+.craft-steps li { padding-left: 1.2cqw; }
+.chapter-close-page ol.alpha-list,
+.chapter-close-page .activity-panel ol.alpha-list {
+  display: block;
+  margin: .45cqw 0 0;
+  padding-left: 5.4cqw;
+  list-style: lower-alpha;
+}
+.chapter-close-page ol.alpha-list li,
+.chapter-close-page .activity-panel ol.alpha-list li {
+  display: list-item;
+  padding-left: 1.2cqw;
+}
+.number-list,
+.craft-steps { display: block; list-style: decimal; }
+.number-list li,
+.craft-steps li { display: list-item; }
+
+.activity-panel,
+.exercise-panel,
+.think-panel,
+.intro-panel {
+  position: relative;
+  margin-top: 3cqw;
+  border-radius: 0 0 1.2cqw 1.2cqw;
+}
+.activity-panel,
+.exercise-panel {
+  padding: 5.2cqw 1.5cqw 1.6cqw;
+  border: .12cqw solid #e69842;
+  background: #fce0c3;
+}
+.activity-panel .panel-title,
+.exercise-panel .panel-title,
+.think-panel .panel-title,
+.intro-panel .panel-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58%;
+  padding: 1cqw 1.4cqw;
+  border-radius: 0 2.2cqw 0 0;
+  color: #fff;
+  font-size: 2.35cqw;
+  font-weight: 700;
+  line-height: 1;
+}
+.activity-panel .panel-title { left: 10.9cqw; background: #27a9e0; }
+.activity-panel::before,
+.exercise-panel::before {
+  content: "";
+  position: absolute;
+  top: 3.95cqw;
+  right: 0;
+  left: 10.9cqw;
+  height: 1.05cqw;
+  border-radius: 0 1cqw 1cqw 0;
+  background: #27a9e0;
+}
+.activity-panel .activity-icon {
+  position: absolute;
+  z-index: 1;
+  top: -1.6cqw;
+  left: 0;
+  width: 11cqw;
+  height: 8.6cqw;
+  object-fit: contain;
+  border: .28cqw solid #e76438;
+  background: #fff;
+}
+.exercise-panel { margin-top: 2.7cqw; border: 0; background: #aaa0d1; }
+.exercise-panel .panel-title { width: 28%; background: #37b96a; }
+.exercise-panel::before { left: 0; background: #37b96a; }
+.chapter-close-page .activity-panel { margin-top: 3.8cqw; }
+.chapter-close-page .activity-panel { padding-top: 7.2cqw; }
+.chapter-close-page .exercise-panel { padding-top: 5.3cqw; }
+
+.vocabulary-page h1 { margin-bottom: .7cqw; }
+.vocabulary-list {
+  display: grid;
+  grid-template-columns: 12.5cqw 1fr;
+  gap: 1.4cqw 1.6cqw;
+  margin: 0;
+  font-size: 2.26cqw;
+}
+.vocabulary-list dt { font-weight: 700; }
+.vocabulary-list dd { margin: 0; }
+
+.chapter-five-page .page-inner { inset: 7.6% 12.1% 6.9%; }
+.chapter-banner {
+  margin: 0 -2.6cqw 3.2cqw;
+  padding: 1.2cqw;
+  color: #fff;
+  background: linear-gradient(#315d91, #213f70);
+  box-shadow: 0 0 0 .5cqw #24a7d7, inset 0 .2cqw #6bc1e4;
+  font-size: 4.1cqw;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+.chapter-topic { margin: 0 0 3cqw; color: #0caf4e; font-size: 3.15cqw; text-align: center; }
+.intro-panel {
+  padding: 5.2cqw 1.8cqw 1.4cqw;
+  border: .24cqw solid #1111df;
+  border-radius: 1.6cqw;
+  background: #e5c3e9;
+  font-size: 2.35cqw;
+  font-style: italic;
+}
+.intro-panel .panel-title { background: #1111df; }
+.think-panel { padding: 5.4cqw 1.5cqw 1.7cqw; border: .35cqw solid #ff8609; background: #c8edf8; }
+.think-panel .panel-title { left: 10.5cqw; background: #ff8609; }
+.think-panel .think-icon {
+  position: absolute;
+  z-index: 1;
+  top: -3.4cqw;
+  left: 6.5cqw;
+  width: 7.2cqw;
+  height: 8.5cqw;
+  object-fit: contain;
+  border: .25cqw solid #e66e36;
+  background: #fff;
+}
+.chapter-five-page { font-size: 2.05cqw; }
+.chapter-five-page .intro-panel { padding-top: 6.4cqw; }
+.chapter-five-page .think-panel .panel-title { left: 13.4cqw; }
+.chapter-five-page h2 { margin-top: 2.2cqw; color: #087eb7; font-weight: 700; }
+.chapter-five-page h3 { margin-top: 3.2cqw; color: #222; font-weight: 700; }
+
+.paper-craft-page { font-size: 2.15cqw; }
+.paper-craft-page .continued-list { margin-top: 0; }
+.paper-craft-page .lesson-figure { margin: 2.2cqw auto; }
+.paper-craft-page .envelope-shapes { width: 70%; }
+.paper-craft-page .bag-shapes { width: 72%; }
+.paper-craft-page .diagram-row { display: flex; align-items: end; justify-content: center; gap: 2cqw; }
+.paper-craft-page .diagram-row img { display: block; max-width: 30%; max-height: 18cqw; object-fit: contain; }
+.paper-craft-page figcaption { margin-top: 1cqw; }
+.paper-craft-page .template-pair { width: 82%; }
+.paper-craft-page .template-pair img { max-width: 47%; max-height: 24cqw; }
+.paper-craft-page .template-numbered { width: 43%; }
+.paper-craft-page .fold-figure { width: 43%; }
+.paper-craft-page .template-numbered img { height: 22cqw; }
+.paper-craft-page .fold-figure { margin: 1cqw auto 2cqw; }
+.paper-craft-page .fold-figure img { width: 62%; height: 19cqw; }
+.paper-craft-page.page-65 .page-inner,
+.paper-craft-page.page-66 .page-inner { inset: 7.4% 12.1% 6.8%; }
+.paper-craft-page.page-65 .craft-steps,
+.paper-craft-page.page-66 .craft-steps { margin-top: 0; }
+
+/* Chapter Five: paper bags, boxes and baskets */
+.paper-making-page .page-inner { inset: 7.8% 12.1% 6.8%; }
+.paper-making-page { font-size: 2.08cqw; line-height: 1.27; }
+.paper-making-page p { margin: 1.4cqw 0; text-align: justify; }
+.paper-making-page h2,
+.paper-making-page h3 { margin: 2.6cqw 0 .6cqw; font-size: 2.4cqw; font-weight: 700; }
+.paper-making-page h2 { color: #087eb7; }
+.paper-making-page.page-67 h2,
+.paper-making-page.page-70 h2 { color: #222; }
+.paper-making-page .craft-steps { margin-top: .6cqw; }
+.paper-making-page .craft-steps ol { margin-top: .5cqw; padding-left: 4.8cqw; list-style: lower-roman; }
+.paper-making-page .activity-panel { margin: 5.5cqw 0 4.3cqw; padding-top: 6.4cqw; }
+.paper-making-page .activity-panel p { margin: 0; }
+.paper-making-page .activity-panel ol.alpha-list {
+  display: block;
+  margin: 0;
+  padding-left: 4.8cqw;
+  list-style: lower-alpha;
+}
+.paper-making-page .activity-panel ol.alpha-list li { display: list-item; padding-left: 1cqw; }
+.paper-rectangle { width: 47%; aspect-ratio: 1.52; margin: 0 auto; background: #b3916e; }
+.paper-making-page .rectangle-figure { margin: 2.4cqw auto 4.6cqw; }
+.paper-making-page .tall-step-figure { width: 52%; margin: 0 auto 4.7cqw; }
+.paper-making-page .tall-step-figure img { width: 73%; height: 36cqw; }
+.paper-making-page .diagram-row { display: flex; align-items: end; justify-content: center; gap: 5.5cqw; }
+.paper-making-page .diagram-row img { width: auto; height: 33cqw; object-fit: contain; }
+.paper-making-page .step-pair { width: 88%; margin: 0 auto 4.2cqw; }
+.paper-making-page .triangle-step { width: 45%; margin: 2.6cqw auto 4.6cqw; }
+.paper-making-page .triangle-step img { width: 76%; height: 35cqw; }
+.paper-making-page .box-pair { width: 78%; margin: 3cqw auto 0; }
+.paper-making-page .box-pair .diagram-row img { max-width: 48%; height: 30cqw; }
+.paper-making-page .open-box { width: 66%; margin: 3.6cqw auto 5.2cqw; }
+.paper-making-page .open-box img { width: 88%; height: 34cqw; }
+.paper-making-page .basket-figure { width: 58%; margin: 2.2cqw auto 5cqw; }
+.paper-making-page .basket-figure img { width: 82%; height: 35cqw; }
+.basket-steps { display: block; margin: 1.2cqw 0 0; padding-left: 5.4cqw; list-style: lower-alpha; }
+.basket-steps li { display: list-item; padding-left: 1.3cqw; margin-bottom: .7cqw; text-align: justify; }
+.basket-steps strong { color: #7c3aae; font-weight: 400; }
+.paper-making-page.page-68 .page-inner,
+.paper-making-page.page-69 .page-inner { top: 6.6%; }
+.paper-making-page.page-72 .page-inner { inset: 7.6% 12.1% 6.6%; }
+.paper-making-page.page-72 { font-size: 2.02cqw; }
+
+/* Chapter Five close and Chapter Six physical exercise */
+.basket-page .page-inner,
+.chapter-review-page .page-inner,
+.exercise-method-page .page-inner { inset: 7.6% 12.1% 6.7%; }
+.basket-page { font-size: 1.97cqw; line-height: 1.28; }
+.basket-page p { margin: .5cqw 0; text-align: justify; }
+.basket-page h2,
+.basket-page h3 { margin: 2.2cqw 0 .6cqw; font-size: 2.35cqw; font-weight: 700; }
+.basket-page h2 { color: #087eb7; }
+.basket-page .activity-panel { margin: 1.4cqw 0 2.6cqw; padding-top: 6.3cqw; }
+.basket-page .activity-panel p { margin: 0; }
+.basket-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 4.2cqw; margin: 2.3cqw 0 3cqw; }
+.basket-pair .lesson-figure { margin: 0; }
+.basket-pair .lesson-figure img { width: 82%; height: 25cqw; }
+.basket-page .craft-steps { display: grid; gap: 1cqw; }
+.basket-page.page-74 { font-size: 1.93cqw; }
+.basket-page.page-74 .activity-panel { margin-bottom: 5.5cqw; }
+.basket-page.page-74 .activity-panel + .activity-panel { margin-top: 0; }
+.benefit-list { display: block; margin: .7cqw 0 0; padding-left: 7cqw; list-style: lower-roman; }
+.benefit-list li { display: list-item; margin-bottom: 1.25cqw; padding-left: 1.2cqw; text-align: justify; }
+.benefit-list strong { color: #7c3aae; font-weight: 400; }
+
+.chapter-review-page .exercise-panel { margin: 0 0 5.8cqw; padding: 7cqw 2.4cqw 4cqw; }
+.chapter-review-page .exercise-panel .number-list { font-size: 2.28cqw; }
+.chapter-review-page h1 { margin: 0 0 1.4cqw; color: #087eb7; font-size: 2.65cqw; font-weight: 700; }
+.chapter-review-page .vocabulary-list { grid-template-columns: 13.5cqw 1fr; }
+
+.chapter-opener-page .page-inner { inset: 8.6% 12.1% 6.8%; }
+.chapter-opener-page { font-size: 2.04cqw; line-height: 1.28; }
+.chapter-opener-page .intro-panel { padding-top: 6.4cqw; }
+.chapter-opener-page .think-panel .panel-title { left: 13.4cqw; }
+.chapter-opener-page h2 { margin: 2.2cqw 0 .35cqw; color: #087eb7; font-size: 2.45cqw; font-weight: 700; }
+.chapter-opener-page p { margin: .35cqw 0; text-align: justify; }
+
+.exercise-method-page { font-size: 2.08cqw; line-height: 1.3; }
+.exercise-method-page h1 { margin: 0 0 .45cqw; color: #3373b7; font-size: 2.45cqw; font-weight: 700; }
+.exercise-method-page h2 { margin: 3.4cqw 0 .45cqw; font-size: 2.35cqw; }
+.exercise-method-page h3 { margin: 3.5cqw 0 .45cqw; font-size: 2.25cqw; font-style: italic; font-weight: 700; }
+.exercise-method-page p { margin: .35cqw 0; text-align: justify; }
+.roman-steps { display: block; margin: .5cqw 0 0; padding-left: 6.5cqw; list-style: lower-roman; }
+.roman-steps li { display: list-item; margin-bottom: .35cqw; padding-left: 1cqw; }
+.exercise-method-page .exercise-figure { width: 68%; margin: 3.4cqw auto 0; }
+.exercise-method-page .exercise-figure img { width: 95%; height: 56cqw; }
+.exercise-method-page .activity-panel { margin: 0 0 2.4cqw; padding-top: 6.5cqw; }
+.exercise-method-page .activity-panel ol.alpha-list { display: block; margin: 0; padding-left: 5.2cqw; list-style: lower-alpha; }
+.exercise-method-page .activity-panel ol.alpha-list li { display: list-item; padding-left: 1cqw; }
+.exercise-method-page .diagram-row { display: flex; justify-content: center; gap: 3cqw; }
+.exercise-method-page .high-knees-figure { width: 88%; margin: 5.5cqw auto 0; }
+.exercise-method-page .high-knees-figure img { width: auto; height: 50cqw; object-fit: contain; }
+.exercise-method-page .exercise-stack { display: grid; gap: 2.2cqw; }
+.exercise-method-page .exercise-stack img { display: block; width: 78%; height: auto; margin: 0 auto; }
+.exercise-method-page .pushup-figure { width: 84%; margin: 4.6cqw auto 0; }
+.exercise-method-page .plank-figure { width: 84%; margin: 5cqw auto 5.4cqw; }
+.exercise-method-page .plank-figure img { width: 96%; height: 23cqw; }
+.exercise-method-page .lower-activity { margin-top: 0; }
+.exercise-method-page .sprint-figure { width: 88%; margin: 5.4cqw auto 5.4cqw; }
+.exercise-method-page .sprint-figure img { width: 98%; height: 43cqw; }
+.exercise-method-page .shuttle-figure { width: 92%; margin: 2.7cqw auto 4.2cqw; }
+.exercise-method-page .shuttle-figure img { width: 98%; height: 28cqw; }
+.exercise-method-page .broad-jump-figure { width: 88%; margin: 0 auto 4.8cqw; }
+.exercise-method-page .broad-jump-figure img { width: 98%; height: 50cqw; }
+.exercise-method-page .rope-figure { width: 82%; margin: 0 auto 4.8cqw; }
+.exercise-method-page .rope-figure img { width: auto; height: 37cqw; object-fit: contain; }
+.exercise-method-page .exercise-panel { margin: 4.4cqw 0; padding-top: 6.6cqw; }
+.exercise-method-page .exercise-panel .panel-title { width: 30%; }
+.exercise-method-page.page-79,
+.exercise-method-page.page-80,
+.exercise-method-page.page-82,
+.exercise-method-page.page-83,
+.exercise-method-page.page-84 { font-size: 1.98cqw; }
+.exercise-method-page.page-82 h2,
+.exercise-method-page.page-83 h2 { margin-top: 2.4cqw; }
+.exercise-method-page.page-82 h3,
+.exercise-method-page.page-83 h3 { margin-top: 2.2cqw; }
+.exercise-method-page.page-84 h1 { margin-top: 3.8cqw; }
+
+/* Tug-of-war and football */
+.game-page .page-inner,
+.football-page .page-inner { inset: 7.7% 12.1% 6.7%; }
+.game-page { font-size: 1.92cqw; line-height: 1.26; }
+.game-page p,
+.football-page p { margin: .45cqw 0; text-align: justify; }
+.game-page h1,
+.game-page h2,
+.game-page h3,
+.football-page h1,
+.football-page h2 { margin: 2.1cqw 0 .45cqw; font-size: 2.35cqw; font-weight: 700; }
+.game-page h1 { color: #3373b7; }
+.game-rules { display: block; margin: .4cqw 0; padding-left: 4.8cqw; list-style: decimal; }
+.game-rules > li { display: list-item; margin-bottom: 2cqw; padding-left: 1cqw; }
+.game-rules ol,
+.strategy-list { display: block; margin: .35cqw 0; padding-left: 5.2cqw; list-style: lower-alpha; }
+.game-rules ol li,
+.strategy-list li { display: list-item; padding-left: 1cqw; }
+.strategy-list li { margin-bottom: .55cqw; text-align: justify; }
+.strategy-list strong { color: #7c3aae; font-weight: 400; }
+.game-page .tug-figure { width: 92%; margin: 0 auto 4cqw; }
+.game-page .tug-figure img { width: 98%; height: 27cqw; }
+.game-page .tug-action { width: 91%; margin: 0 auto 4.6cqw; }
+.game-page .tug-action img { width: 98%; height: 42cqw; }
+.game-page .activity-panel { margin: 0 0 3.2cqw; padding-top: 6.5cqw; }
+.game-page .activity-panel ol.alpha-list { display: block; margin: 0; padding-left: 5.2cqw; list-style: lower-alpha; }
+.game-page .activity-panel ol.alpha-list li { display: list-item; padding-left: 1cqw; }
+.game-page .exercise-panel { margin-top: 1.7cqw; padding-top: 6.2cqw; }
+.game-page.page-87 { font-size: 1.82cqw; }
+.game-page.page-87 .number-list { margin-top: 0; }
+
+.football-page { font-size: 1.98cqw; line-height: 1.28; }
+.football-page h1 { margin-top: 0; }
+.football-page h2 { color: #3373b7; }
+.football-page.page-90 h2 { color: #222; font-style: italic; }
+.equipment-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2.5cqw 3.2cqw; margin: 4cqw 0 3cqw; }
+.equipment-grid > div { display: flex; flex-direction: column; align-items: center; justify-content: end; gap: .8cqw; }
+.equipment-grid img { width: 100%; height: 18cqw; object-fit: contain; }
+.equipment-grid .shoe-pair { display: grid; }
+.equipment-grid .shoe-pair img { height: 9cqw; }
+.football-page .equipment-figure { margin-bottom: 3.2cqw; }
+.football-page .exercise-panel { margin: 2.7cqw 0 3.6cqw; padding-top: 6cqw; }
+.football-page .football-action { width: 88%; margin: 3cqw auto 4cqw; }
+.football-page .football-action img { width: 98%; height: 33cqw; }
+.football-page .activity-panel { margin: 0 0 2.8cqw; padding-top: 6.7cqw; }
+.football-page .activity-panel p { margin: 0; }
+
+/* Football skills, rules and benefits */
+.football-page.page-91,
+.football-page.page-92,
+.football-page.page-93,
+.football-page.page-94,
+.football-page.page-95,
+.football-page.page-96 { font-size: 1.94cqw; line-height: 1.27; }
+.football-page.page-91 h1,
+.football-page.page-92 h1,
+.football-page.page-93 h1,
+.football-page.page-94 h1,
+.football-page.page-95 h1,
+.football-page.page-96 h1 { margin: 2.5cqw 0 .45cqw; color: #222; font-size: 2.3cqw; }
+.football-page .football-kick { width: 82%; margin: 1.5cqw auto 4cqw; }
+.football-page .football-kick img { width: 100%; height: 46cqw; }
+.football-page .receiving-sequence { width: 90%; margin: 1cqw auto 4cqw; }
+.football-page .figure-row { display: flex; align-items: end; justify-content: space-between; gap: 2cqw; }
+.football-page .figure-row img { width: 31%; height: 34cqw; object-fit: contain; }
+.football-page .dribbling-figure { width: 43%; margin: 1.8cqw auto 0; }
+.football-page .dribbling-figure img { width: 100%; height: 25cqw; }
+.football-page .shooting-figure { width: 93%; margin: 11cqw auto 0; }
+.football-page .shooting-figure img { width: 100%; height: 37cqw; }
+.football-page .defending-figure { width: 82%; margin: 4cqw auto 0; }
+.football-page .defending-figure img { width: 100%; height: 43cqw; }
+.football-page .activity-panel ol.alpha-list { display: block; margin: 0; padding-left: 5.2cqw; list-style: lower-alpha; }
+.football-page .activity-panel ol.alpha-list li { display: list-item; padding-left: 1cqw; }
+.football-page.page-93 .activity-panel,
+.football-page.page-94 .activity-panel { margin-top: 0; }
+.football-page.page-93 .roman-steps,
+.football-page.page-94 .roman-steps { margin-top: .2cqw; }
+.football-page.page-95 { font-size: 1.82cqw; }
+.football-page.page-95 .activity-panel { margin: 0 0 2.5cqw; }
+.football-page.page-95 .exercise-panel { margin: 0 0 2.2cqw; }
+.football-page.page-95 .exercise-panel .panel-title { width: 28%; }
+.football-page.page-95 .law-list { margin: .3cqw 0; }
+.football-page.page-95 .law-list li { margin-bottom: .45cqw; }
+.football-page.page-95 .lower-activity { margin-top: 4cqw; }
+.football-page.page-96 { font-size: 1.79cqw; line-height: 1.27; }
+.football-page.page-96 .exercise-panel { margin: 0 0 2.5cqw; padding-top: 6.5cqw; }
+.football-page.page-96 .blue-heading { margin-top: 0; color: #3373b7; }
+.football-page.page-96 h2 { margin-top: 2.7cqw; }
+.football-page.page-96 .strategy-list { margin-top: .4cqw; }
+.football-page.page-96 .strategy-list li { margin-bottom: .5cqw; }
+
+/* Netball positions, equipment and passing */
+.netball-page .page-inner { inset: 7.7% 12.1% 6.7%; }
+.netball-page { font-size: 1.93cqw; line-height: 1.27; }
+.netball-page p { margin: .45cqw 0; text-align: justify; }
+.netball-page h1,
+.netball-page h2,
+.netball-page h3 { margin: 2.5cqw 0 .45cqw; font-size: 2.35cqw; font-weight: 700; }
+.netball-page h1 { color: #3373b7; }
+.netball-page h2,
+.netball-page h3 { color: #222; }
+.netball-page .activity-panel { margin: 2.5cqw 0; padding-top: 6.5cqw; }
+.netball-page .activity-panel p { margin: 0; }
+.netball-page .activity-panel ol.alpha-list { display: block; margin: 0; padding-left: 5.2cqw; list-style: lower-alpha; }
+.netball-page .activity-panel ol.alpha-list li { display: list-item; padding-left: 1cqw; }
+.continuation-benefits { margin: 0 0 2cqw; }
+.continuation-benefits li { margin-bottom: .7cqw; }
+.benefit-continuation { margin-left: 5cqw !important; }
+.netball-page.page-97 { font-size: 1.78cqw; }
+.netball-page.page-97 .exercise-panel { margin: 2cqw 0 1.7cqw; padding-top: 6.4cqw; }
+.netball-page.page-97 .exercise-panel .panel-title { width: 28%; }
+.netball-page.page-97 h1 { margin-top: 0; }
+.netball-court { width: 82%; margin: 3.3cqw auto 2.5cqw; }
+.court-diagram { position: relative; width: 100%; aspect-ratio: 2.12; overflow: hidden; border: .32cqw solid #555; background: #fff; }
+.court-third { position: absolute; top: 0; bottom: 0; width: .26cqw; background: #555; }
+.court-third.left { left: 33.33%; }
+.court-third.right { right: 33.33%; }
+.goal-circle { position: absolute; top: 16%; width: 17%; height: 68%; border: .28cqw solid #555; border-radius: 50%; }
+.goal-circle.left { left: -8.5%; }
+.goal-circle.right { right: -8.5%; }
+.centre-circle { position: absolute; top: 40%; left: 46%; display: grid; width: 8%; aspect-ratio: 1; place-items: center; border: .25cqw solid #555; border-radius: 50%; }
+.court-diagram .pos { position: absolute; font-size: 2.1cqw; }
+.court-diagram .wd { top: 6%; left: 23%; }.court-diagram .gk { top: 47%; left: 6%; }.court-diagram .gd { bottom: 4%; left: 24%; }
+.court-diagram .ga { top: 6%; right: 23%; }.court-diagram .gs { top: 47%; right: 7%; }.court-diagram .wa { bottom: 4%; right: 25%; }
+.position-list { margin: 0; }
+.position-list > div { display: grid; grid-template-columns: 27cqw 1fr; margin-bottom: .45cqw; }
+.position-list dt,
+.position-list dd { margin: 0; }
+.netball-page.page-98 { font-size: 1.78cqw; }
+.netball-page.page-98 h1 { margin-top: 2.8cqw; color: #222; }
+.netball-equipment { margin: 3cqw auto 4.5cqw; }
+.equipment-row { display: grid; grid-template-columns: repeat(3,1fr); align-items: end; gap: 3.3cqw; }
+.equipment-row > div { display: grid; justify-items: center; gap: 1.2cqw; }
+.equipment-row img { width: 100%; height: 20cqw; object-fit: contain; }
+.netball-page.page-98 .exercise-panel { margin-top: 0; padding-top: 6.8cqw; }
+.netball-page.page-98 .exercise-panel .panel-title { width: 28%; }
+.netball-page.page-99 { font-size: 1.9cqw; }
+.netball-page.page-99 h1 { margin-top: 0; }
+.netball-page.page-99 h2 { margin-top: 3.4cqw; }
+.netball-page.page-99 h3,
+.netball-page.page-100 h2 { font-style: italic; }
+.pass-figure { width: 86%; margin: 3.3cqw auto 3.7cqw; }
+.pass-figure img { width: 100%; height: 34cqw; }
+.bounce-figure { width: 86%; margin: 4.7cqw auto 4.2cqw; }
+.bounce-figure img { width: 100%; height: 34cqw; }
+.netball-page.page-100 { font-size: 1.87cqw; }
+.netball-page.page-100 h1 { margin-top: 0; color: #222; }
+.netball-page.page-100 .activity-panel { margin-bottom: 3.7cqw; }
+.netball-page.page-101 { font-size: 1.72cqw; }
+.high-pass-figure { width: 79%; margin: 1.5cqw auto 4.2cqw; }
+.high-pass-figure img { width: 100%; height: 42cqw; }
+.netball-page.page-101 .activity-panel { margin-bottom: 3.7cqw; }
+.netball-page.page-101 h1 { color: #222; }
+.emphasis-list { margin-top: .3cqw; }
+.emphasis-list li { margin-bottom: .55cqw; }
+.emphasis-list strong { color: #7c3aae; font-weight: 400; }
+.netball-page.page-102 { font-size: 1.94cqw; }
+.receiving-pair { width: 96%; margin: 1.2cqw auto 3.8cqw; }
+.receiving-pair .figure-row { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 1cqw; }
+.receiving-pair img { width: 100%; height: 34cqw; object-fit: contain; }
+.netball-page.page-102 h1 { color: #222; }
+
+/* Netball movement, shooting, defending, rules and benefits */
+.netball-page.page-103,
+.netball-page.page-104,
+.netball-page.page-105,
+.netball-page.page-106,
+.netball-page.page-107,
+.netball-page.page-108 { font-size: 1.82cqw; }
+.movement-figure { width: 69%; margin: 1.8cqw auto 4.2cqw; }
+.movement-figure img { width: 100%; height: 41cqw; }
+.netball-page.page-103 .activity-panel { margin-bottom: 3.5cqw; }
+.netball-page.page-103 h1,
+.netball-page.page-104 h1 { color: #222; }
+.netball-page.page-103 .emphasis-list { margin-top: .2cqw; }
+.netball-shot { width: 59%; margin: .7cqw auto 4.5cqw; }
+.netball-shot img { width: 100%; height: 55cqw; }
+.netball-page.page-104 .activity-panel { margin-bottom: 2.4cqw; }
+.netball-defence { width: 68%; margin: 1.3cqw auto 5cqw; }
+.netball-defence img { width: 100%; height: 43cqw; }
+.netball-page.page-105 .activity-panel { margin-bottom: 6cqw; }
+.netball-page.page-105 .exercise-panel { padding-top: 6.8cqw; }
+.netball-page.page-105 .exercise-panel .panel-title { width: 28%; }
+.netball-page.page-106 { font-size: 1.72cqw; }
+.netball-page.page-106 h1 { margin-top: 0; }
+.netball-page.page-106 .rule-list { margin-top: 1.7cqw; }
+.netball-page.page-106 .rule-list li { margin-bottom: 1.35cqw; padding-left: 1cqw; }
+.netball-page.page-106 .exercise-panel { margin: 2.7cqw 0 2.5cqw; padding-top: 6.2cqw; }
+.netball-page.page-106 h2 { color: #3373b7; }
+.netball-page.page-106 .strategy-list { margin-top: .4cqw; }
+.netball-page.page-107 { font-size: 1.75cqw; }
+.strategy-continuation { margin-left: 6cqw !important; }
+.continued-strategy { margin-bottom: 3.5cqw; }
+.netball-page.page-107 .activity-panel { margin-bottom: 4.2cqw; }
+.netball-page.page-107 h1 { margin-left: 4cqw; }
+.netball-benefits { margin-top: 1.5cqw; }
+.netball-benefits li { margin-bottom: 1.1cqw; }
+.netball-page.page-108 { font-size: 1.9cqw; }
+.netball-page.page-108 .netball-benefits { margin-top: 0; }
+.netball-page.page-108 .exercise-panel { margin-top: 4.8cqw; padding-top: 6.6cqw; }
+.netball-page.page-108 .exercise-panel .panel-title { width: 28%; }
+
+/* End-of-book test */
+.test-page .page-inner { inset: 7.5% 12.1% 6.7%; }
+.test-page { font-size: 1.82cqw; line-height: 1.28; }
+.test-header { text-align: center; }
+.test-header h1 { margin: 3cqw 0 2.2cqw; color: #00a847; font-size: 3.25cqw; font-weight: 700; }
+.test-header h2 { margin: 0 0 2.5cqw; font-size: 2.3cqw; font-weight: 700; }
+.question-lead { display: grid; grid-template-columns: 5cqw 1fr; gap: 1.3cqw; margin-bottom: 2.3cqw; }
+.question-lead p { margin: 0; }
+.multiple-choice { display: block; margin: 0; padding-left: 6.2cqw; list-style: lower-roman; }
+.multiple-choice > li { position: relative; margin-bottom: 2.1cqw; padding-left: 1.1cqw; }
+.multiple-choice .prompt { position: relative; padding-right: 12cqw; }
+.multiple-choice ol { margin: .25cqw 0 0; padding-left: 2.8cqw; list-style: upper-alpha; }
+.multiple-choice ol li { padding-left: .4cqw; }
+.answer-bracket { position: absolute; right: 1.5cqw; bottom: -1.9cqw; font-weight: 400; }
+.test-page.page-109 { font-size: 1.74cqw; }
+.test-page.page-109 .multiple-choice > li { margin-bottom: 1.45cqw; }
+.test-page.page-110 .page-inner { top: 6.8%; }
+.continued-test .multiple-choice > li { margin-bottom: 2.2cqw; }
+.continued-test .continued-question { margin-bottom: 2.5cqw; list-style: none; }
+.matching-table { width: 100%; border-collapse: collapse; font-size: 1.9cqw; }
+.matching-table th,
+.matching-table td { padding: 1.7cqw 4cqw; border: .18cqw solid #222; text-align: left; }
+.matching-table th { padding: 1.2cqw; color: #fff; background: #08a6dd; font-weight: 700; text-align: center; }
+.matching-table th:first-child { width: 35%; }
+.fill-section { margin-top: 6cqw; }
+.fill-list,
+.true-false { display: block; margin: 0; padding-left: 12cqw; list-style: lower-roman; }
+.fill-list li { margin-bottom: 2.4cqw; padding-left: 1.3cqw; }
+.blank-line { display: inline-block; min-width: 12cqw; height: 1.2em; border-bottom: .2cqw dotted #333; vertical-align: bottom; }
+.blank-line.short { min-width: 12cqw; }.blank-line.medium { min-width: 20cqw; }.blank-line.wide { min-width: 28cqw; }
+.test-page.page-112 { font-size: 1.78cqw; }
+.test-page.page-112 .question-lead { margin-bottom: 2.7cqw; }
+.true-false li { margin-bottom: .5cqw; padding-left: 1.3cqw; }
+.written-questions { display: block; margin: 5cqw 0 0; padding-left: 5.4cqw; list-style: decimal; }
+.written-questions li { margin-bottom: 1.2cqw; padding-left: 1cqw; }
+
+@media (max-width: 480px) {
+  .page-voice-controls {
+    top: 6px;
+    right: 6px;
+  }
+
+  .page-voice-controls button {
+    padding: 6px 9px;
+    font-size: 12px;
+  }
+}
