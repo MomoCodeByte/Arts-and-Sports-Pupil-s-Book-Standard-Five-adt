@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "20260828-22"
+VERSION = "20260828-26"
 CSS_TAG = f'<link href="./assets/adt-accessibility.css?v={VERSION}" rel="stylesheet">'
 JS_TAG = f'<script src="./assets/adt-accessibility.js?v={VERSION}"></script>'
 

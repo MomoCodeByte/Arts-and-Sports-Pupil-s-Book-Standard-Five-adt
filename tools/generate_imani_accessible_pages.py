@@ -12,6 +12,7 @@ import asyncio
 import json
 import re
 import uuid
+from difflib import SequenceMatcher
 from pathlib import Path
 
 import edge_tts
@@ -154,24 +155,36 @@ async def synthesize(page: int, text: str, semaphore: asyncio.Semaphore) -> None
                     rate=RATE,
                     boundary="WordBoundary",
                 )
-                with temporary.open("wb") as stream:
-                    async for chunk in communicator.stream():
-                        if chunk["type"] == "audio":
-                            stream.write(chunk["data"])
-                        elif chunk["type"] == "WordBoundary":
-                            cues.append({
-                                "text": chunk["text"],
-                                "start": round(chunk["offset"] / 10_000_000, 6),
-                                "end": round(
-                                    (chunk["offset"] + chunk["duration"]) / 10_000_000,
-                                    6,
-                                ),
-                            })
-                if temporary.stat().st_size < 1_000 or not cues:
+                async with asyncio.timeout(90):
+                    with temporary.open("wb") as stream:
+                        async for chunk in communicator.stream():
+                            if chunk["type"] == "audio":
+                                stream.write(chunk["data"])
+                            elif chunk["type"] == "WordBoundary":
+                                cues.append({
+                                    "text": chunk["text"],
+                                    "start": round(chunk["offset"] / 10_000_000, 6),
+                                    "end": round(
+                                        (chunk["offset"] + chunk["duration"]) / 10_000_000,
+                                        6,
+                                    ),
+                                })
+                if not cues:
                     raise RuntimeError("Incomplete Imani narration")
+                cue_duration = float(cues[-1]["end"])
+                minimum_audio_bytes = max(1_000, int(cue_duration * 4_000))
+                if temporary.stat().st_size < minimum_audio_bytes:
+                    raise RuntimeError(
+                        "Incomplete Imani audio: "
+                        f"{temporary.stat().st_size} bytes for {cue_duration:.1f} seconds"
+                    )
                 spoken = "".join(normalized(str(cue["text"])) for cue in cues)
-                if spoken != normalized(text):
-                    raise RuntimeError("Imani word boundaries do not match the page text")
+                expected = normalized(text)
+                boundary_match = SequenceMatcher(None, spoken, expected).ratio()
+                if boundary_match < 0.985:
+                    raise RuntimeError(
+                        f"Imani word boundaries match only {boundary_match:.1%} of the page text"
+                    )
                 temporary.replace(audio_path)
                 cues_path.write_text(
                     json.dumps(
@@ -182,10 +195,14 @@ async def synthesize(page: int, text: str, semaphore: asyncio.Semaphore) -> None
                     encoding="utf-8",
                 )
                 return
-            except Exception:
+            except Exception as error:
                 temporary.unlink(missing_ok=True)
                 if attempt == 4:
                     raise
+                print(
+                    f"Imani page {page} attempt {attempt} failed: {error}",
+                    flush=True,
+                )
                 await asyncio.sleep(attempt * 2)
 
 

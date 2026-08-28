@@ -5,8 +5,8 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parent
 path = root / "assets" / "offline-preloader.js"
-cache_version = "20260828-22"
-page_href_version = "20260828-22"
+cache_version = "20260828-26"
+page_href_version = "20260828-26"
 
 # Every page must request the same versioned preloader. Without this, a browser
 # can reuse a stale inline copy of pages that have already been corrected.

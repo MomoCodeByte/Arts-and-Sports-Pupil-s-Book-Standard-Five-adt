@@ -426,8 +426,8 @@
     }
 
     const pageStem = `page-${String(page).padStart(3, "0")}`;
-    const audioUrl = `./content/imani/${pageStem}.mp3?v=20260828-22`;
-    const cuesUrl = `./content/imani/${pageStem}.json?v=20260828-22`;
+    const audioUrl = `./content/imani/${pageStem}.mp3?v=20260828-26`;
+    const cuesUrl = `./content/imani/${pageStem}.json?v=20260828-26`;
 
     function normalizedWord(value) {
       return String(value || "")
@@ -719,22 +719,50 @@
       return loading;
     }
 
+    function narrationSentences() {
+      if (!pageWords.length) return [];
+      const sentences = [];
+      let start = 0;
+      const blockSelector =
+        ".adt-imani-image-description, [data-narration-ref], p, li, figcaption, h1, h2, h3, h4, h5, h6, th, td";
+
+      for (let index = 0; index < pageWords.length; index += 1) {
+        const word = pageWords[index];
+        const nextWord = pageWords[index + 1] || null;
+        let endsSentence = !nextWord;
+        if (nextWord) {
+          const block = word.closest(blockSelector);
+          const nextBlock = nextWord.closest(blockSelector);
+          endsSentence = block !== nextBlock;
+          if (!endsSentence) {
+            const separator = document.createRange();
+            separator.setStartAfter(word);
+            separator.setEndBefore(nextWord);
+            endsSentence = /[.!?][”"'’)}\]]*\s*$/.test(separator.toString());
+          }
+        }
+        if (endsSentence) {
+          sentences.push({ start, end: index });
+          start = index + 1;
+        }
+      }
+      return sentences;
+    }
+
     function currentBlockBounds() {
       if (!cues.length) return { start: 0, end: 0 };
       const currentCue = cueIndexAt(audio?.currentTime || 0);
-      const currentWord = pageWords[cueWordMap[currentCue]];
-      const block = currentWord?.closest(
-        "[data-narration-ref], p, li, figcaption, h1, h2, h3, h4, h5, h6, th, td",
+      const currentWordIndex = cueWordMap[currentCue];
+      const sentence = narrationSentences().find(
+        (range) => currentWordIndex >= range.start && currentWordIndex <= range.end,
       );
-      if (!block) return { start: Number(cues[currentCue]?.start || 0), end: Number(cues[currentCue]?.end || 0) };
-      const blockWords = Array.from(block.querySelectorAll("[data-imani-page-word]"));
-      const indices = blockWords.map((word) => pageWords.indexOf(word)).filter((index) => index >= 0);
-      const firstWord = Math.min(...indices);
-      const lastWord = Math.max(...indices);
-      const firstCue = cueWordMap.findIndex((wordIndex) => wordIndex >= firstWord);
+      if (!sentence) {
+        return { start: Number(cues[currentCue]?.start || 0), end: Number(cues[currentCue]?.end || 0) };
+      }
+      const firstCue = cueWordMap.findIndex((wordIndex) => wordIndex >= sentence.start);
       let lastCue = cueWordMap.length - 1;
       for (let index = Math.max(0, firstCue); index < cueWordMap.length; index += 1) {
-        if (cueWordMap[index] > lastWord) {
+        if (cueWordMap[index] > sentence.end) {
           lastCue = Math.max(firstCue, index - 1);
           break;
         }
@@ -818,24 +846,23 @@
     async function moveBlock(direction) {
       await prepare();
       if (!audio || !cues.length) return;
-      const bounds = currentBlockBounds();
-      const targetTime = direction < 0
-        ? Math.max(0, bounds.start - 0.2)
-        : Math.min(audio.duration || bounds.end, bounds.end + 0.02);
-      const targetCue = cueIndexAt(targetTime);
-      const targetWordIndex = cueWordMap[targetCue];
-      const targetWord = pageWords[targetWordIndex];
-      const targetBlock = targetWord?.closest(
-        "[data-narration-ref], p, li, figcaption, h1, h2, h3, h4, h5, h6, th, td",
+      const sentences = narrationSentences();
+      const currentCue = cueIndexAt(audio.currentTime || 0);
+      const currentWordIndex = cueWordMap[currentCue];
+      const currentSentence = sentences.findIndex(
+        (range) => currentWordIndex >= range.start && currentWordIndex <= range.end,
       );
-      let start = Number(cues[targetCue]?.start || 0);
-      if (targetBlock) {
-        const first = targetBlock.querySelector("[data-imani-page-word]");
-        const firstIndex = pageWords.indexOf(first);
-        const firstCue = cueWordMap.findIndex((wordIndex) => wordIndex >= firstIndex);
-        if (firstCue >= 0) start = Number(cues[firstCue]?.start || start);
+      const targetSentence = currentSentence + direction;
+      if (currentSentence < 0 || targetSentence < 0 || targetSentence >= sentences.length) {
+        announce(direction < 0
+          ? "There is no previous sentence on this page."
+          : "There is no next sentence on this page.");
+        return;
       }
-      await playFrom(start);
+      const firstWordIndex = sentences[targetSentence].start;
+      const firstCue = cueWordMap.findIndex((wordIndex) => wordIndex >= firstWordIndex);
+      if (firstCue < 0) return;
+      await playFrom(Number(cues[firstCue]?.start || 0));
     }
 
     function makeButton(label, text, handler) {
