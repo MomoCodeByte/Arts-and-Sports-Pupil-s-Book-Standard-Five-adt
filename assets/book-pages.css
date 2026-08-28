@@ -3,12 +3,14 @@
   --book-deep-blue: #087bb1;
   --book-magenta: #b71c8c;
   --book-text: #262327;
+  --book-layout-max-width: 80rem;
 }
 
 html,
 body {
   margin: 0;
   min-height: 100%;
+  overflow-x: hidden;
   background: #dbeafe;
 }
 
@@ -25,7 +27,8 @@ body {
 .book-page {
   container-type: inline-size;
   position: relative;
-  width: min(100%, 54.625rem, calc((100dvh - 4.5rem) * 0.7224));
+  width: min(calc(100% - 2rem), var(--book-layout-max-width));
+  max-width: var(--book-layout-max-width);
   aspect-ratio: 545.906 / 755.669;
   margin: 0 auto;
   overflow: hidden;
@@ -34,17 +37,6 @@ body {
   box-shadow: 0 0 0 1px rgba(15, 23, 42, .12);
   font-size: 2.18cqw;
   line-height: 1.3;
-}
-
-.book-page::before {
-  content: "";
-  position: absolute;
-  inset: 3% 4.2%;
-  pointer-events: none;
-  border: 1.65cqw solid rgba(103, 211, 242, .16);
-  box-shadow:
-    inset 0 0 2.7cqw .9cqw rgba(30, 184, 230, .24),
-    0 0 1.8cqw .65cqw rgba(30, 184, 230, .18);
 }
 
 .page-inner {
@@ -2939,6 +2931,20 @@ section[data-section-id="pg013_sec001"] .page-inner {
 .written-questions li { margin-bottom: 1.2cqw; padding-left: 1cqw; }
 
 @media (max-width: 480px) {
+  .book-page {
+    width: min(calc(100% - 1rem), var(--book-layout-max-width));
+    max-width: var(--book-layout-max-width);
+    font-size: max(2.18cqw, 10px) !important;
+  }
+
+  .book-page .page-inner {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+  }
+
   .page-voice-controls {
     top: 6px;
     right: 6px;
@@ -2947,5 +2953,289 @@ section[data-section-id="pg013_sec001"] .page-inner {
   .page-voice-controls button {
     padding: 6px 9px;
     font-size: 12px;
+  }
+}
+
+/* Short landscape screens use the same fluid 7xl container and scroll vertically. */
+@media (orientation: landscape) and (max-height: 500px) {
+  .book-page {
+    width: min(calc(100% - 1rem), var(--book-layout-max-width));
+    max-width: var(--book-layout-max-width);
+    font-size: max(2.18cqw, 10px) !important;
+  }
+
+  .book-page .page-inner {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+  }
+}
+
+/*
+ * Responsive reader layout
+ * The source proportions remain a visual reference, but the web page is allowed
+ * to grow with its semantic content inside the Tailwind max-w-7xl equivalent.
+ */
+.book-page {
+  width: min(calc(100% - 2rem), var(--book-layout-max-width));
+  max-width: var(--book-layout-max-width);
+  min-height: calc(100dvh - 5rem);
+  aspect-ratio: auto;
+  overflow: visible;
+  font-size: clamp(1rem, 1.5cqw, 1.25rem) !important;
+  line-height: 1.5;
+}
+
+.book-page > .page-inner {
+  position: relative;
+  inset: auto !important;
+  width: 100%;
+  min-height: inherit;
+  padding: clamp(1.5rem, 4cqw, 4rem) clamp(1.25rem, 5cqw, 5rem) clamp(6.5rem, 7cqw, 7rem);
+  overflow: visible !important;
+}
+
+.activity-box,
+.activity-panel,
+.exercise-box,
+.exercise-panel,
+.think-box,
+.think-panel,
+.intro-panel {
+  max-width: 100%;
+  overflow: visible;
+}
+
+.think-box {
+  clip-path: none;
+  border-radius: 0.75rem;
+}
+
+.activity-box > img,
+.activity-panel .activity-icon,
+.think-box img,
+.think-panel .think-icon {
+  object-fit: contain;
+  background: #fff;
+}
+
+.book-page img,
+.book-page svg,
+.book-page video,
+.book-page canvas {
+  max-width: 100%;
+}
+
+.book-page table {
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .book-page {
+    width: calc(100% - 1rem);
+    min-height: calc(100dvh - 6.5rem);
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+
+  .book-page > .page-inner {
+    min-height: inherit;
+    padding: 1.25rem 1rem 7.5rem;
+  }
+
+  .book-page :is(p, li, dt, dd, td, th, figcaption, label) {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .book-page :is(h1, .page-heading, .chapter-topic, .chapter-subtitle) {
+    font-size: 1.65rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .book-page :is(h2, .section-heading) {
+    font-size: 1.3rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .book-page h3 {
+    font-size: 1.125rem !important;
+    line-height: 1.3 !important;
+  }
+
+  .book-page :is(ol, ul) {
+    padding-left: 1.75rem;
+  }
+
+  .book-page figure {
+    width: 100% !important;
+    max-width: 40rem;
+    margin: 1.5rem auto !important;
+  }
+
+  .book-page figure img:not(.activity-icon):not(.drawing-icon):not(.singing-icon):not(.think-icon) {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+  }
+
+  .activity-box,
+  .activity-panel,
+  .exercise-box,
+  .exercise-panel,
+  .think-box,
+  .think-panel,
+  .intro-panel {
+    margin: 1.5rem 0 !important;
+    border-radius: 0 0 0.75rem 0.75rem;
+  }
+
+  .book-page .exercise-box :is(h1, h2) {
+    width: min(100%, 12rem) !important;
+    min-height: 3.5rem;
+    padding: 1rem !important;
+    border-radius: 0 1rem 0 0;
+    font-size: 1.2rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .exercise-box {
+    overflow: hidden;
+  }
+
+  .exercise-box :is(h1, h2)::after {
+    right: calc(-100vw + 12rem);
+    bottom: 0;
+    width: calc(100vw - 12rem);
+    height: 0.75rem;
+  }
+
+  .exercise-box ol {
+    padding: 1.25rem 1rem 1.25rem 2.75rem !important;
+  }
+
+  .vocabulary-list {
+    grid-template-columns: 6.5rem minmax(0, 1fr) !important;
+    gap: 0.75rem !important;
+    font-size: 1rem !important;
+  }
+
+  .vocabulary-list :is(dt, dd) {
+    min-width: 0;
+    text-align: left !important;
+    overflow-wrap: anywhere;
+  }
+
+  .activity-box {
+    padding: 5.5rem 1rem 1rem !important;
+  }
+
+  .activity-box::before {
+    top: 3.6rem !important;
+    right: 0 !important;
+    left: 4.75rem !important;
+    height: 0.75rem !important;
+  }
+
+  .book-page .activity-box :is(h1, h2) {
+    top: 0 !important;
+    left: 4.75rem !important;
+    width: calc(100% - 4.75rem) !important;
+    height: 3.75rem !important;
+    padding: 1rem !important;
+    border-radius: 0 1rem 0 0;
+    font-size: 1.2rem !important;
+  }
+
+  .book-page .activity-box > img,
+  .book-page .activity-box > img.drawing-icon,
+  .book-page .activity-box > img.singing-icon {
+    top: 0 !important;
+    left: 0 !important;
+    width: 4.75rem !important;
+    height: 4.75rem !important;
+    padding: 0.2rem;
+    border-width: 2px !important;
+    object-fit: contain !important;
+  }
+
+  .activity-panel,
+  .exercise-panel,
+  .think-panel,
+  .intro-panel {
+    padding: 5rem 1rem 1rem !important;
+  }
+
+  .book-page :is(.activity-panel, .exercise-panel, .think-panel, .intro-panel) .panel-title {
+    top: 0 !important;
+    left: 0 !important;
+    width: min(100%, 18rem) !important;
+    min-height: 3.75rem;
+    padding: 1rem !important;
+    border-radius: 0 1rem 0 0;
+    font-size: 1.2rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .book-page .activity-panel .panel-title,
+  .book-page .think-panel .panel-title {
+    left: 4.75rem !important;
+    width: calc(100% - 4.75rem) !important;
+  }
+
+  .activity-panel::before,
+  .exercise-panel::before {
+    top: 3.6rem !important;
+    right: 0 !important;
+    left: 0 !important;
+    height: 0.75rem !important;
+  }
+
+  .activity-panel::before {
+    left: 4.75rem !important;
+  }
+
+  .book-page .activity-panel .activity-icon,
+  .book-page .think-panel .think-icon {
+    top: 0 !important;
+    left: 0 !important;
+    width: 4.75rem !important;
+    height: 4.75rem !important;
+    padding: 0.2rem;
+    border-width: 2px !important;
+    object-fit: contain !important;
+  }
+
+  .think-box {
+    padding-top: 4.75rem !important;
+  }
+
+  .think-box header {
+    height: 3.75rem !important;
+    padding: 1rem 1rem 1rem 5rem !important;
+    font-size: 1.2rem !important;
+  }
+
+  .book-page .think-box img {
+    top: 0.25rem !important;
+    left: 0.75rem !important;
+    width: 3.75rem !important;
+    height: 3.25rem !important;
+    padding: 0.15rem;
+    border: 2px solid #e66e36;
+  }
+
+  .think-box p {
+    padding: 1rem !important;
+  }
+
+  .book-page table {
+    display: block;
+    width: 100% !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }

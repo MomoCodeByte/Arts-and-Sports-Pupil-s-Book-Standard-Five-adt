@@ -2,909 +2,1064 @@
   "audio": "page-086.mp3",
   "words": [
     {
-      "text": "80",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.433541
+      "end": 0.490374
     },
     {
-      "text": "Figure 9",
-      "start": 0.447708,
-      "end": 1.257416
+      "text": "description",
+      "start": 0.618166,
+      "end": 1.427832
     },
     {
-      "text": "Teams",
-      "start": 1.626708,
-      "end": 1.981833
+      "text": "Two",
+      "start": 1.76875,
+      "end": 1.896583
     },
     {
-      "text": "ready",
-      "start": 2.024416,
-      "end": 2.308499
+      "text": "teams",
+      "start": 1.996041,
+      "end": 2.365374
+    },
+    {
+      "text": "prepare",
+      "start": 2.436375,
+      "end": 2.805708
     },
     {
       "text": "for",
-      "start": 2.336916,
-      "end": 2.507374
+      "start": 2.834083,
+      "end": 3.004541
     },
     {
       "text": "tug-of-war",
-      "start": 2.592625,
-      "end": 3.146583
-    },
-    {
-      "text": "3",
-      "start": 3.217625,
-      "end": 3.473291
-    },
-    {
-      "text": "Method",
-      "start": 4.588083,
-      "end": 5.113666
-    },
-    {
-      "text": "of",
-      "start": 5.127833,
-      "end": 5.255666
-    },
-    {
-      "text": "determining",
-      "start": 5.326708,
-      "end": 5.937499
-    },
-    {
-      "text": "the",
-      "start": 6.022708,
-      "end": 6.093749
-    },
-    {
-      "text": "winner",
-      "start": 6.122166,
-      "end": 6.505707
-    },
-    {
-      "text": "a",
-      "start": 6.732958,
-      "end": 6.903416
-    },
-    {
-      "text": "The",
-      "start": 7.201708,
-      "end": 7.301124
-    },
-    {
-      "text": "team",
-      "start": 7.386375,
-      "end": 7.58525
-    },
-    {
-      "text": "that",
-      "start": 7.684666,
-      "end": 7.897749
-    },
-    {
-      "text": "can",
-      "start": 7.954541,
-      "end": 8.139207
-    },
-    {
-      "text": "pull",
-      "start": 8.210208,
-      "end": 8.409083
-    },
-    {
-      "text": "the",
-      "start": 8.480125,
-      "end": 8.59375
-    },
-    {
-      "text": "rope",
-      "start": 8.636375,
-      "end": 8.863666
-    },
-    {
-      "text": "and",
-      "start": 8.963083,
-      "end": 9.076708
-    },
-    {
-      "text": "move",
-      "start": 9.147708,
-      "end": 9.389166
-    },
-    {
-      "text": "the",
-      "start": 9.460208,
-      "end": 9.502833
-    },
-    {
-      "text": "opposing",
-      "start": 9.573875,
-      "end": 10.184666
-    },
-    {
-      "text": "team",
-      "start": 10.213083,
-      "end": 10.454541
-    },
-    {
-      "text": "across",
-      "start": 10.454541,
-      "end": 10.894874
-    },
-    {
-      "text": "the",
-      "start": 10.9375,
-      "end": 11.022708
-    },
-    {
-      "text": "centre",
-      "start": 11.051125,
-      "end": 11.448833
-    },
-    {
-      "text": "line",
-      "start": 11.448875,
-      "end": 11.732958
-    },
-    {
-      "text": "is",
-      "start": 11.789791,
-      "end": 11.931832
-    },
-    {
-      "text": "declared",
-      "start": 12.002833,
-      "end": 12.414749
-    },
-    {
-      "text": "the",
-      "start": 12.514208,
-      "end": 12.571041
-    },
-    {
-      "text": "winner",
-      "start": 12.642041,
-      "end": 12.982957
-    },
-    {
-      "text": "b",
-      "start": 14.005666,
-      "end": 14.332374
-    },
-    {
-      "text": "Sometimes",
-      "start": 14.588083,
-      "end": 15.397749
-    },
-    {
-      "text": "the",
-      "start": 15.653416,
-      "end": 15.724457
-    },
-    {
-      "text": "game",
-      "start": 15.823875,
-      "end": 16.051166
-    },
-    {
-      "text": "is",
-      "start": 16.079541,
-      "end": 16.264207
-    },
-    {
-      "text": "played",
-      "start": 16.335208,
-      "end": 16.633499
-    },
-    {
-      "text": "in",
-      "start": 16.704541,
-      "end": 16.818166
-    },
-    {
-      "text": "more",
-      "start": 16.875,
-      "end": 17.059666
-    },
-    {
-      "text": "than",
-      "start": 17.116458,
-      "end": 17.272708
-    },
-    {
-      "text": "one",
-      "start": 17.372166,
-      "end": 17.585249
-    },
-    {
-      "text": "round",
-      "start": 17.65625,
-      "end": 17.982958
-    },
-    {
-      "text": "and",
-      "start": 18.28125,
-      "end": 18.394875
-    },
-    {
-      "text": "the",
-      "start": 18.465916,
-      "end": 18.551124
-    },
-    {
-      "text": "team",
-      "start": 18.636375,
-      "end": 18.83525
-    },
-    {
-      "text": "that",
-      "start": 18.934666,
-      "end": 19.119332
-    },
-    {
-      "text": "wins",
-      "start": 19.190333,
-      "end": 19.488624
-    },
-    {
-      "text": "the",
-      "start": 19.53125,
-      "end": 19.616458
-    },
-    {
-      "text": "most",
-      "start": 19.644875,
-      "end": 20.028416
-    },
-    {
-      "text": "rounds",
-      "start": 20.099416,
-      "end": 20.454541
-    },
-    {
-      "text": "is",
-      "start": 20.497166,
-      "end": 20.639207
-    },
-    {
-      "text": "awarded",
-      "start": 20.639208,
-      "end": 21.079541
-    },
-    {
-      "text": "the",
-      "start": 21.164791,
-      "end": 21.207416
-    },
-    {
-      "text": "overall",
-      "start": 21.306833,
-      "end": 21.818208
-    },
-    {
-      "text": "winner",
-      "start": 21.875,
-      "end": 22.272708
-    },
-    {
-      "text": "Strategies",
-      "start": 23.295458,
-      "end": 24.161916
-    },
-    {
-      "text": "for",
-      "start": 24.176125,
-      "end": 24.375
-    },
-    {
-      "text": "winning",
-      "start": 24.403416,
-      "end": 24.758541
-    },
-    {
-      "text": "the",
-      "start": 24.857958,
-      "end": 24.943166
-    },
-    {
-      "text": "game",
-      "start": 25.042625,
-      "end": 25.355125
-    },
-    {
-      "text": "a",
-      "start": 25.625,
-      "end": 25.809666
-    },
-    {
-      "text": "Teamwork",
-      "start": 26.150583,
-      "end": 26.803999
-    },
-    {
-      "text": "Working",
-      "start": 27.840916,
-      "end": 28.281249
-    },
-    {
-      "text": "together",
-      "start": 28.323875,
-      "end": 28.806833
-    },
-    {
-      "text": "and",
-      "start": 28.863625,
-      "end": 29.048291
-    },
-    {
-      "text": "planning",
-      "start": 29.076708,
-      "end": 29.488624
-    },
-    {
-      "text": "a",
-      "start": 29.488625,
-      "end": 29.559666
-    },
-    {
-      "text": "pull-up",
-      "start": 29.659083,
-      "end": 30.014208
-    },
-    {
-      "text": "strategy",
-      "start": 30.08525,
-      "end": 30.653416
-    },
-    {
-      "text": "instead",
-      "start": 30.738625,
-      "end": 31.207375
-    },
-    {
-      "text": "of",
-      "start": 31.207375,
-      "end": 31.392041
-    },
-    {
-      "text": "each",
-      "start": 31.434666,
-      "end": 31.619332
-    },
-    {
-      "text": "person",
-      "start": 31.690333,
-      "end": 32.088041
-    },
-    {
-      "text": "pulling",
-      "start": 32.130666,
-      "end": 32.471582
-    },
-    {
-      "text": "independently",
-      "start": 32.514208,
-      "end": 33.423291
-    },
-    {
-      "text": "b",
-      "start": 34.502833,
-      "end": 34.801124
-    },
-    {
-      "text": "Organising",
-      "start": 35.113625,
-      "end": 35.880666
-    },
-    {
-      "text": "players",
-      "start": 35.923291,
-      "end": 36.392041
-    },
-    {
-      "text": "in",
-      "start": 36.448875,
-      "end": 36.633541
-    },
-    {
-      "text": "good",
-      "start": 36.704541,
-      "end": 36.917624
-    },
-    {
-      "text": "order",
-      "start": 37.002833,
-      "end": 37.372166
-    },
-    {
-      "text": "Some",
-      "start": 38.465916,
-      "end": 38.849457
-    },
-    {
-      "text": "players",
-      "start": 38.892041,
-      "end": 39.289749
-    },
-    {
-      "text": "are",
-      "start": 39.346583,
-      "end": 39.460208
-    },
-    {
-      "text": "strategically",
-      "start": 39.502833,
-      "end": 40.284083
-    },
-    {
-      "text": "placed",
-      "start": 40.383541,
-      "end": 40.781249
-    },
-    {
-      "text": "at",
-      "start": 40.809666,
-      "end": 40.880707
-    },
-    {
-      "text": "the",
-      "start": 40.965916,
-      "end": 41.051124
-    },
-    {
-      "text": "front",
-      "start": 41.079541,
-      "end": 41.477249
-    },
-    {
-      "text": "middle",
-      "start": 41.690333,
-      "end": 42.116458
-    },
-    {
-      "text": "and",
-      "start": 42.386375,
-      "end": 42.528416
-    },
-    {
-      "text": "back",
-      "start": 42.627833,
-      "end": 42.784083
-    },
-    {
-      "text": "to",
-      "start": 42.883541,
-      "end": 42.968749
-    },
-    {
-      "text": "provide",
-      "start": 43.054,
-      "end": 43.480125
-    },
-    {
-      "text": "maximum",
-      "start": 43.536916,
-      "end": 44.161916
-    },
-    {
-      "text": "support",
-      "start": 44.204541,
-      "end": 44.644874
-    },
-    {
-      "text": "for",
-      "start": 44.715916,
-      "end": 44.829541
-    },
-    {
-      "text": "the",
-      "start": 44.872166,
-      "end": 44.971582
-    },
-    {
-      "text": "team",
-      "start": 45.056833,
-      "end": 45.383541
-    },
-    {
-      "text": "For",
-      "start": 46.434666,
-      "end": 46.690332
-    },
-    {
-      "text": "instance",
-      "start": 46.747166,
-      "end": 47.428999
-    },
-    {
-      "text": "the",
-      "start": 47.684666,
-      "end": 47.784082
-    },
-    {
-      "text": "strongest",
-      "start": 47.840916,
-      "end": 48.437499
-    },
-    {
-      "text": "players",
-      "start": 48.508541,
-      "end": 48.920457
-    },
-    {
-      "text": "may",
-      "start": 48.948875,
-      "end": 49.105125
-    },
-    {
-      "text": "be",
-      "start": 49.176125,
-      "end": 49.247166
-    },
-    {
-      "text": "placed",
-      "start": 49.360791,
-      "end": 49.744332
-    },
-    {
-      "text": "at",
-      "start": 49.801125,
-      "end": 49.886333
-    },
-    {
-      "text": "the",
-      "start": 49.957375,
-      "end": 50.042583
-    },
-    {
-      "text": "front",
-      "start": 50.071041,
-      "end": 50.482957
-    },
-    {
-      "text": "middle",
-      "start": 50.71025,
-      "end": 51.122166
-    },
-    {
-      "text": "and",
-      "start": 51.193166,
-      "end": 51.349416
-    },
-    {
-      "text": "back",
-      "start": 51.434666,
-      "end": 51.775582
-    },
-    {
-      "text": "c",
-      "start": 52.855125,
-      "end": 53.267041
-    },
-    {
-      "text": "Holding",
-      "start": 53.551125,
-      "end": 54.019875
-    },
-    {
-      "text": "the",
-      "start": 54.105125,
-      "end": 54.204541
-    },
-    {
-      "text": "rope",
-      "start": 54.261375,
-      "end": 54.474458
-    },
-    {
-      "text": "strongly",
-      "start": 54.545458,
-      "end": 55.127833
-    },
-    {
-      "text": "and",
-      "start": 55.213083,
-      "end": 55.426166
-    },
-    {
-      "text": "tightly",
-      "start": 55.440333,
-      "end": 55.923291
-    },
-    {
-      "text": "Players",
-      "start": 56.988625,
-      "end": 57.457375
-    },
-    {
-      "text": "should",
-      "start": 57.457375,
-      "end": 57.698833
-    },
-    {
-      "text": "hold",
-      "start": 57.755666,
-      "end": 57.997124
-    },
-    {
-      "text": "the",
-      "start": 58.096583,
-      "end": 58.181791
-    },
-    {
-      "text": "rope",
-      "start": 58.224416,
-      "end": 58.437499
-    },
-    {
-      "text": "strongly",
-      "start": 58.494333,
-      "end": 58.991499
-    },
-    {
-      "text": "and",
-      "start": 59.090916,
-      "end": 59.289791
-    },
-    {
-      "text": "tightly",
-      "start": 59.304,
-      "end": 59.701708
-    },
-    {
-      "text": "and",
-      "start": 59.786916,
-      "end": 59.999999
-    },
-    {
-      "text": "keep",
-      "start": 60.014208,
-      "end": 60.198874
-    },
-    {
-      "text": "their",
-      "start": 60.326708,
-      "end": 60.454541
-    },
-    {
-      "text": "hands",
-      "start": 60.482958,
-      "end": 60.880666
-    },
-    {
-      "text": "close",
-      "start": 60.9375,
-      "end": 61.264208
-    },
-    {
-      "text": "to",
-      "start": 61.321041,
-      "end": 61.406249
-    },
-    {
-      "text": "their",
-      "start": 61.463083,
-      "end": 61.605124
-    },
-    {
-      "text": "bodies",
-      "start": 61.690333,
-      "end": 62.073874
-    },
-    {
-      "text": "for",
-      "start": 62.102291,
-      "end": 62.230124
-    },
-    {
-      "text": "stability",
-      "start": 62.27275,
-      "end": 62.968791
-    },
-    {
-      "text": "d",
-      "start": 64.0875,
-      "end": 64.385791
-    },
-    {
-      "text": "Using",
-      "start": 64.726708,
-      "end": 65.124416
-    },
-    {
-      "text": "one",
-      "start": 65.195458,
-      "end": 65.408541
-    },
-    {
-      "text": "back",
-      "start": 65.507958,
-      "end": 65.721041
-    },
-    {
-      "text": "leg",
-      "start": 65.763625,
-      "end": 66.061916
-    },
-    {
-      "text": "as",
-      "start": 66.132958,
-      "end": 66.317624
-    },
-    {
-      "text": "the",
-      "start": 66.36025,
-      "end": 66.445458
-    },
-    {
-      "text": "main",
-      "start": 66.473875,
-      "end": 66.772166
-    },
-    {
-      "text": "force",
-      "start": 66.829,
-      "end": 67.340375
-    },
-    {
-      "text": "Players",
-      "start": 68.409083,
-      "end": 68.877833
-    },
-    {
-      "text": "should",
-      "start": 68.877833,
-      "end": 69.119291
-    },
-    {
-      "text": "place",
-      "start": 69.21875,
-      "end": 69.559666
-    },
-    {
-      "text": "one",
-      "start": 69.588083,
-      "end": 69.829541
-    },
-    {
-      "text": "foot",
-      "start": 69.857958,
-      "end": 70.156249
-    },
-    {
-      "text": "behind",
-      "start": 70.269875,
-      "end": 70.681791
-    },
-    {
-      "text": "to",
-      "start": 70.71025,
-      "end": 70.809666
-    },
-    {
-      "text": "gain",
-      "start": 70.880666,
-      "end": 71.136332
-    },
-    {
-      "text": "good",
-      "start": 71.221583,
-      "end": 71.392041
-    },
-    {
-      "text": "footing",
-      "start": 71.434666,
-      "end": 71.874999
-    },
-    {
-      "text": "and",
-      "start": 71.917625,
-      "end": 72.045458
-    },
-    {
-      "text": "pulling",
-      "start": 72.1165,
-      "end": 72.514208
-    },
-    {
-      "text": "power",
-      "start": 72.556833,
-      "end": 72.940374
-    },
-    {
-      "text": "as",
-      "start": 73.153416,
-      "end": 73.323874
-    },
-    {
-      "text": "shown",
-      "start": 73.380666,
-      "end": 73.664749
-    },
-    {
-      "text": "in",
-      "start": 73.693166,
-      "end": 73.849416
-    },
-    {
-      "text": "Figure 10",
-      "start": 73.892041,
-      "end": 74.687499
-    },
-    {
-      "text": "e",
-      "start": 75.738625,
-      "end": 75.909083
-    },
-    {
-      "text": "Preventing",
-      "start": 76.207375,
-      "end": 76.860791
-    },
-    {
-      "text": "slipping",
-      "start": 76.974416,
-      "end": 77.528374
-    },
-    {
-      "text": "Wearing",
-      "start": 78.607958,
-      "end": 79.090916
-    },
-    {
-      "text": "shoes",
-      "start": 79.105125,
-      "end": 79.46025
-    },
-    {
-      "text": "that",
-      "start": 79.502833,
-      "end": 79.673291
-    },
-    {
-      "text": "provide",
-      "start": 79.758541,
-      "end": 80.184666
-    },
-    {
-      "text": "good",
-      "start": 80.298291,
-      "end": 80.454541
-    },
-    {
-      "text": "traction",
-      "start": 80.497166,
-      "end": 80.994332
+      "start": 3.089791,
+      "end": 3.700582
     },
     {
       "text": "on",
-      "start": 80.994333,
-      "end": 81.093749
+      "start": 3.743166,
+      "end": 3.899416
+    },
+    {
+      "text": "opposite",
+      "start": 3.95625,
+      "end": 4.439208
+    },
+    {
+      "text": "sides",
+      "start": 4.467625,
+      "end": 4.808541
+    },
+    {
+      "text": "of",
+      "start": 4.865333,
+      "end": 4.978958
+    },
+    {
+      "text": "a",
+      "start": 4.993166,
+      "end": 5.078374
+    },
+    {
+      "text": "centre",
+      "start": 5.121041,
+      "end": 5.518749
+    },
+    {
+      "text": "line",
+      "start": 5.51875,
+      "end": 5.916458
+    },
+    {
+      "text": "Three",
+      "start": 6.931833,
+      "end": 7.201708
+    },
+    {
+      "text": "children",
+      "start": 7.272708,
+      "end": 7.798291
+    },
+    {
+      "text": "on",
+      "start": 7.8125,
+      "end": 7.997166
+    },
+    {
+      "text": "each",
+      "start": 8.053958,
+      "end": 8.238624
+    },
+    {
+      "text": "side",
+      "start": 8.252833,
+      "end": 8.551124
+    },
+    {
+      "text": "grip",
+      "start": 8.636375,
+      "end": 8.849458
     },
     {
       "text": "the",
-      "start": 81.164791,
-      "end": 81.235832
+      "start": 8.991458,
+      "end": 9.090874
     },
     {
-      "text": "ground",
-      "start": 81.321041,
-      "end": 81.633541
+      "text": "rope",
+      "start": 9.133541,
+      "end": 9.403416
     },
     {
-      "text": "helps",
-      "start": 81.661958,
-      "end": 82.045499
+      "text": "stagger",
+      "start": 9.6875,
+      "end": 10.085208
     },
     {
-      "text": "prevent",
-      "start": 82.130708,
-      "end": 82.528416
+      "text": "their",
+      "start": 10.142041,
+      "end": 10.355124
+    },
+    {
+      "text": "feet",
+      "start": 10.383541,
+      "end": 10.710249
+    },
+    {
+      "text": "and",
+      "start": 11.008541,
+      "end": 11.178957
+    },
+    {
+      "text": "lean",
+      "start": 11.178958,
+      "end": 11.434624
+    },
+    {
+      "text": "backwards",
+      "start": 11.519875,
+      "end": 12.059666
+    },
+    {
+      "text": "to",
+      "start": 12.102291,
+      "end": 12.173332
+    },
+    {
+      "text": "brace",
+      "start": 12.272708,
+      "end": 12.542583
+    },
+    {
+      "text": "for",
+      "start": 12.585208,
+      "end": 12.698833
+    },
+    {
+      "text": "the",
+      "start": 12.741458,
+      "end": 12.840874
+    },
+    {
+      "text": "pull",
+      "start": 12.940333,
+      "end": 13.224416
+    },
+    {
+      "text": "Figure 9",
+      "start": 14.332375,
+      "end": 15.227291
+    },
+    {
+      "text": "Teams",
+      "start": 15.596583,
+      "end": 15.965916
+    },
+    {
+      "text": "ready",
+      "start": 16.022708,
+      "end": 16.320999
+    },
+    {
+      "text": "for",
+      "start": 16.349416,
+      "end": 16.534082
+    },
+    {
+      "text": "tug-of-war",
+      "start": 16.619333,
+      "end": 17.187499
+    },
+    {
+      "text": "3",
+      "start": 17.272708,
+      "end": 17.528374
+    },
+    {
+      "text": "Method",
+      "start": 18.636375,
+      "end": 19.133541
+    },
+    {
+      "text": "of",
+      "start": 19.147708,
+      "end": 19.275541
+    },
+    {
+      "text": "determining",
+      "start": 19.346583,
+      "end": 19.943166
+    },
+    {
+      "text": "the",
+      "start": 20.028416,
+      "end": 20.099457
+    },
+    {
+      "text": "winner",
+      "start": 20.127833,
+      "end": 20.497166
+    },
+    {
+      "text": "a",
+      "start": 20.724416,
+      "end": 20.866457
+    },
+    {
+      "text": "The",
+      "start": 21.065333,
+      "end": 21.164749
+    },
+    {
+      "text": "team",
+      "start": 21.25,
+      "end": 21.448875
+    },
+    {
+      "text": "that",
+      "start": 21.548291,
+      "end": 21.761374
+    },
+    {
+      "text": "can",
+      "start": 21.818166,
+      "end": 22.002832
+    },
+    {
+      "text": "pull",
+      "start": 22.073875,
+      "end": 22.27275
+    },
+    {
+      "text": "the",
+      "start": 22.34375,
+      "end": 22.457375
+    },
+    {
+      "text": "rope",
+      "start": 22.5,
+      "end": 22.727291
+    },
+    {
+      "text": "and",
+      "start": 22.826708,
+      "end": 22.926124
+    },
+    {
+      "text": "move",
+      "start": 22.997166,
+      "end": 23.224457
+    },
+    {
+      "text": "the",
+      "start": 23.295458,
+      "end": 23.338083
+    },
+    {
+      "text": "opposing",
+      "start": 23.409083,
+      "end": 24.005666
+    },
+    {
+      "text": "team",
+      "start": 24.034083,
+      "end": 24.275541
+    },
+    {
+      "text": "across",
+      "start": 24.275583,
+      "end": 24.715916
+    },
+    {
+      "text": "the",
+      "start": 24.758541,
+      "end": 24.843749
+    },
+    {
+      "text": "centre",
+      "start": 24.872166,
+      "end": 25.255666
+    },
+    {
+      "text": "line",
+      "start": 25.255666,
+      "end": 25.525541
+    },
+    {
+      "text": "is",
+      "start": 25.568166,
+      "end": 25.724416
+    },
+    {
+      "text": "declared",
+      "start": 25.795458,
+      "end": 26.193166
+    },
+    {
+      "text": "the",
+      "start": 26.292625,
+      "end": 26.349458
+    },
+    {
+      "text": "winner",
+      "start": 26.420458,
+      "end": 26.747166
+    },
+    {
+      "text": "b",
+      "start": 27.784083,
+      "end": 27.997166
+    },
+    {
+      "text": "Sometimes",
+      "start": 28.196041,
+      "end": 28.991499
+    },
+    {
+      "text": "the",
+      "start": 29.247166,
+      "end": 29.318207
+    },
+    {
+      "text": "game",
+      "start": 29.417625,
+      "end": 29.630708
+    },
+    {
+      "text": "is",
+      "start": 29.659083,
+      "end": 29.843749
+    },
+    {
+      "text": "played",
+      "start": 29.914791,
+      "end": 30.213082
+    },
+    {
+      "text": "in",
+      "start": 30.269875,
+      "end": 30.3835
+    },
+    {
+      "text": "more",
+      "start": 30.440333,
+      "end": 30.610791
+    },
+    {
+      "text": "than",
+      "start": 30.667625,
+      "end": 30.823875
+    },
+    {
+      "text": "one",
+      "start": 30.923291,
+      "end": 31.122166
+    },
+    {
+      "text": "round",
+      "start": 31.193166,
+      "end": 31.505666
+    },
+    {
+      "text": "and",
+      "start": 31.804,
+      "end": 31.917625
+    },
+    {
+      "text": "the",
+      "start": 31.988625,
+      "end": 32.073833
+    },
+    {
+      "text": "team",
+      "start": 32.159083,
+      "end": 32.357958
+    },
+    {
+      "text": "that",
+      "start": 32.457375,
+      "end": 32.642041
+    },
+    {
+      "text": "wins",
+      "start": 32.713083,
+      "end": 33.011374
+    },
+    {
+      "text": "the",
+      "start": 33.054,
+      "end": 33.139208
+    },
+    {
+      "text": "most",
+      "start": 33.167625,
+      "end": 33.551166
+    },
+    {
+      "text": "rounds",
+      "start": 33.622166,
+      "end": 33.977291
+    },
+    {
+      "text": "is",
+      "start": 34.019875,
+      "end": 34.161916
+    },
+    {
+      "text": "awarded",
+      "start": 34.161916,
+      "end": 34.602249
+    },
+    {
+      "text": "the",
+      "start": 34.6875,
+      "end": 34.730125
+    },
+    {
+      "text": "overall",
+      "start": 34.829541,
+      "end": 35.340916
+    },
+    {
+      "text": "winner",
+      "start": 35.39775,
+      "end": 35.795458
+    },
+    {
+      "text": "Strategies",
+      "start": 36.818166,
+      "end": 37.684624
+    },
+    {
+      "text": "for",
+      "start": 37.698875,
+      "end": 37.869333
+    },
+    {
+      "text": "winning",
+      "start": 37.89775,
+      "end": 38.238666
+    },
+    {
+      "text": "the",
+      "start": 38.338083,
+      "end": 38.423291
+    },
+    {
+      "text": "game",
+      "start": 38.508541,
+      "end": 38.721624
+    },
+    {
+      "text": "Teamwork",
+      "start": 38.83525,
+      "end": 39.502875
+    },
+    {
+      "text": "Working",
+      "start": 40.539791,
+      "end": 40.980124
+    },
+    {
+      "text": "together",
+      "start": 41.02275,
+      "end": 41.505708
+    },
+    {
+      "text": "and",
+      "start": 41.5625,
+      "end": 41.747166
+    },
+    {
+      "text": "planning",
+      "start": 41.775583,
+      "end": 42.187499
+    },
+    {
+      "text": "a",
+      "start": 42.1875,
+      "end": 42.258541
+    },
+    {
+      "text": "pull-up",
+      "start": 42.357958,
+      "end": 42.713083
+    },
+    {
+      "text": "strategy",
+      "start": 42.784083,
+      "end": 43.352249
+    },
+    {
+      "text": "instead",
+      "start": 43.4375,
+      "end": 43.90625
+    },
+    {
+      "text": "of",
+      "start": 43.90625,
+      "end": 44.090916
+    },
+    {
+      "text": "each",
+      "start": 44.133541,
+      "end": 44.318207
+    },
+    {
+      "text": "person",
+      "start": 44.389208,
+      "end": 44.786916
+    },
+    {
+      "text": "pulling",
+      "start": 44.829541,
+      "end": 45.170457
+    },
+    {
+      "text": "independently",
+      "start": 45.213083,
+      "end": 46.122166
+    },
+    {
+      "text": "b",
+      "start": 47.201708,
+      "end": 47.414791
+    },
+    {
+      "text": "Organising",
+      "start": 47.599416,
+      "end": 48.309624
+    },
+    {
+      "text": "players",
+      "start": 48.352291,
+      "end": 48.778416
+    },
+    {
+      "text": "in",
+      "start": 48.821041,
+      "end": 49.005707
+    },
+    {
+      "text": "good",
+      "start": 49.048291,
+      "end": 49.247166
+    },
+    {
+      "text": "order",
+      "start": 49.332375,
+      "end": 49.730083
+    },
+    {
+      "text": "Some",
+      "start": 50.823875,
+      "end": 51.207416
+    },
+    {
+      "text": "players",
+      "start": 51.25,
+      "end": 51.647708
+    },
+    {
+      "text": "are",
+      "start": 51.704541,
+      "end": 51.818166
+    },
+    {
+      "text": "strategically",
+      "start": 51.860791,
+      "end": 52.642041
+    },
+    {
+      "text": "placed",
+      "start": 52.7415,
+      "end": 53.139208
+    },
+    {
+      "text": "at",
+      "start": 53.167625,
+      "end": 53.238666
+    },
+    {
+      "text": "the",
+      "start": 53.323875,
+      "end": 53.409083
+    },
+    {
+      "text": "front",
+      "start": 53.4375,
+      "end": 53.835208
+    },
+    {
+      "text": "middle",
+      "start": 54.048291,
+      "end": 54.474416
+    },
+    {
+      "text": "and",
+      "start": 54.744333,
+      "end": 54.886374
+    },
+    {
+      "text": "back",
+      "start": 54.985791,
+      "end": 55.142041
+    },
+    {
+      "text": "to",
+      "start": 55.2415,
+      "end": 55.326708
+    },
+    {
+      "text": "provide",
+      "start": 55.411916,
+      "end": 55.838041
+    },
+    {
+      "text": "maximum",
+      "start": 55.894875,
+      "end": 56.519875
+    },
+    {
+      "text": "support",
+      "start": 56.5625,
+      "end": 57.002833
+    },
+    {
+      "text": "for",
+      "start": 57.073875,
+      "end": 57.1875
+    },
+    {
+      "text": "the",
+      "start": 57.230125,
+      "end": 57.329541
+    },
+    {
+      "text": "team",
+      "start": 57.414791,
+      "end": 57.741499
+    },
+    {
+      "text": "For",
+      "start": 58.792625,
+      "end": 59.048291
+    },
+    {
+      "text": "instance",
+      "start": 59.105125,
+      "end": 59.786958
+    },
+    {
+      "text": "the",
+      "start": 60.042625,
+      "end": 60.142041
+    },
+    {
+      "text": "strongest",
+      "start": 60.198875,
+      "end": 60.795458
+    },
+    {
+      "text": "players",
+      "start": 60.8665,
+      "end": 61.278416
+    },
+    {
+      "text": "may",
+      "start": 61.306833,
+      "end": 61.463083
+    },
+    {
+      "text": "be",
+      "start": 61.534083,
+      "end": 61.605124
+    },
+    {
+      "text": "placed",
+      "start": 61.71875,
+      "end": 62.102291
+    },
+    {
+      "text": "at",
+      "start": 62.159083,
+      "end": 62.244291
+    },
+    {
+      "text": "the",
+      "start": 62.315333,
+      "end": 62.400541
+    },
+    {
+      "text": "front",
+      "start": 62.429,
+      "end": 62.840916
+    },
+    {
+      "text": "middle",
+      "start": 63.068166,
+      "end": 63.480082
+    },
+    {
+      "text": "and",
+      "start": 63.551125,
+      "end": 63.707375
+    },
+    {
+      "text": "back",
+      "start": 63.792625,
+      "end": 64.133541
+    },
+    {
+      "text": "c",
+      "start": 65.213083,
+      "end": 65.539791
+    },
+    {
+      "text": "Holding",
+      "start": 65.71025,
+      "end": 66.122166
+    },
+    {
+      "text": "the",
+      "start": 66.207375,
+      "end": 66.306791
+    },
+    {
+      "text": "rope",
+      "start": 66.363625,
+      "end": 66.576708
+    },
+    {
+      "text": "strongly",
+      "start": 66.64775,
+      "end": 67.230125
+    },
+    {
+      "text": "and",
+      "start": 67.315333,
+      "end": 67.528416
+    },
+    {
+      "text": "tightly",
+      "start": 67.542625,
+      "end": 67.997166
+    },
+    {
+      "text": "Players",
+      "start": 69.076708,
+      "end": 69.545458
+    },
+    {
+      "text": "should",
+      "start": 69.545458,
+      "end": 69.786916
+    },
+    {
+      "text": "hold",
+      "start": 69.84375,
+      "end": 70.085208
+    },
+    {
+      "text": "the",
+      "start": 70.184666,
+      "end": 70.269874
+    },
+    {
+      "text": "rope",
+      "start": 70.3125,
+      "end": 70.525583
+    },
+    {
+      "text": "strongly",
+      "start": 70.582375,
+      "end": 71.079541
+    },
+    {
+      "text": "and",
+      "start": 71.179,
+      "end": 71.377875
+    },
+    {
+      "text": "tightly",
+      "start": 71.392041,
+      "end": 71.789749
+    },
+    {
+      "text": "and",
+      "start": 71.875,
+      "end": 72.088083
+    },
+    {
+      "text": "keep",
+      "start": 72.102291,
+      "end": 72.286957
+    },
+    {
+      "text": "their",
+      "start": 72.414791,
+      "end": 72.542624
+    },
+    {
+      "text": "hands",
+      "start": 72.571041,
+      "end": 72.968749
+    },
+    {
+      "text": "close",
+      "start": 73.025583,
+      "end": 73.352291
+    },
+    {
+      "text": "to",
+      "start": 73.409083,
+      "end": 73.494291
+    },
+    {
+      "text": "their",
+      "start": 73.551125,
+      "end": 73.693166
+    },
+    {
+      "text": "bodies",
+      "start": 73.778416,
+      "end": 74.161957
+    },
+    {
+      "text": "for",
+      "start": 74.190333,
+      "end": 74.318166
+    },
+    {
+      "text": "stability",
+      "start": 74.360791,
+      "end": 75.056832
+    },
+    {
+      "text": "d",
+      "start": 76.179,
+      "end": 76.377875
+    },
+    {
+      "text": "Using",
+      "start": 76.590916,
+      "end": 76.960249
+    },
+    {
+      "text": "one",
+      "start": 77.03125,
+      "end": 77.230125
+    },
+    {
+      "text": "back",
+      "start": 77.315333,
+      "end": 77.514208
+    },
+    {
+      "text": "leg",
+      "start": 77.556833,
+      "end": 77.840916
+    },
+    {
+      "text": "as",
+      "start": 77.869333,
+      "end": 78.039791
+    },
+    {
+      "text": "the",
+      "start": 78.082375,
+      "end": 78.167583
+    },
+    {
+      "text": "main",
+      "start": 78.196041,
+      "end": 78.465916
+    },
+    {
+      "text": "force",
+      "start": 78.52275,
+      "end": 79.034125
+    },
+    {
+      "text": "Players",
+      "start": 80.08525,
+      "end": 80.554
+    },
+    {
+      "text": "should",
+      "start": 80.554,
+      "end": 80.795458
+    },
+    {
+      "text": "place",
+      "start": 80.894875,
+      "end": 81.235791
+    },
+    {
+      "text": "one",
+      "start": 81.264208,
+      "end": 81.505666
+    },
+    {
+      "text": "foot",
+      "start": 81.534083,
+      "end": 81.832374
+    },
+    {
+      "text": "behind",
+      "start": 81.946041,
+      "end": 82.357957
+    },
+    {
+      "text": "to",
+      "start": 82.386375,
+      "end": 82.485791
+    },
+    {
+      "text": "gain",
+      "start": 82.556833,
+      "end": 82.812499
+    },
+    {
+      "text": "good",
+      "start": 82.89775,
+      "end": 83.068208
+    },
+    {
+      "text": "footing",
+      "start": 83.110791,
+      "end": 83.551124
+    },
+    {
+      "text": "and",
+      "start": 83.59375,
+      "end": 83.721583
+    },
+    {
+      "text": "pulling",
+      "start": 83.792625,
+      "end": 84.190333
+    },
+    {
+      "text": "power",
+      "start": 84.232958,
+      "end": 84.616499
+    },
+    {
+      "text": "as",
+      "start": 84.829541,
+      "end": 84.999999
+    },
+    {
+      "text": "shown",
+      "start": 85.056833,
+      "end": 85.340916
+    },
+    {
+      "text": "in",
+      "start": 85.369333,
+      "end": 85.525583
+    },
+    {
+      "text": "Figure 10",
+      "start": 85.568208,
+      "end": 86.363666
+    },
+    {
+      "text": "e",
+      "start": 87.414791,
+      "end": 87.556832
+    },
+    {
+      "text": "Preventing",
+      "start": 87.826708,
+      "end": 88.451708
     },
     {
       "text": "slipping",
-      "start": 82.627833,
-      "end": 83.139208
+      "start": 88.565333,
+      "end": 89.119291
+    },
+    {
+      "text": "Wearing",
+      "start": 90.198875,
+      "end": 90.681833
+    },
+    {
+      "text": "shoes",
+      "start": 90.696041,
+      "end": 91.051166
+    },
+    {
+      "text": "that",
+      "start": 91.09375,
+      "end": 91.264208
+    },
+    {
+      "text": "provide",
+      "start": 91.349458,
+      "end": 91.775583
+    },
+    {
+      "text": "good",
+      "start": 91.889208,
+      "end": 92.045458
+    },
+    {
+      "text": "traction",
+      "start": 92.088083,
+      "end": 92.585249
+    },
+    {
+      "text": "on",
+      "start": 92.58525,
+      "end": 92.684666
+    },
+    {
+      "text": "the",
+      "start": 92.755708,
+      "end": 92.826749
+    },
+    {
+      "text": "ground",
+      "start": 92.911958,
+      "end": 93.224458
+    },
+    {
+      "text": "helps",
+      "start": 93.252833,
+      "end": 93.636374
+    },
+    {
+      "text": "prevent",
+      "start": 93.721583,
+      "end": 94.119291
+    },
+    {
+      "text": "slipping",
+      "start": 94.21875,
+      "end": 94.730125
     }
   ]
 }

@@ -2,679 +2,824 @@
   "audio": "page-058.mp3",
   "words": [
     {
-      "text": "52",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.774416
+      "end": 0.476166
     },
     {
-      "text": "Figure 10",
-      "start": 0.788625,
-      "end": 1.612499
-    },
-    {
-      "text": "Arrangement",
-      "start": 1.868166,
-      "end": 2.535791
-    },
-    {
-      "text": "of",
-      "start": 2.535791,
-      "end": 2.720457
-    },
-    {
-      "text": "pots",
-      "start": 2.763083,
-      "end": 3.118208
-    },
-    {
-      "text": "wood",
-      "start": 3.33125,
-      "end": 3.572708
-    },
-    {
-      "text": "and",
-      "start": 3.828416,
-      "end": 3.984666
-    },
-    {
-      "text": "leaves",
-      "start": 3.998875,
-      "end": 4.368166
-    },
-    {
-      "text": "in",
-      "start": 4.368166,
-      "end": 4.481791
-    },
-    {
-      "text": "an",
-      "start": 4.481833,
-      "end": 4.623874
-    },
-    {
-      "text": "open",
-      "start": 4.680666,
-      "end": 5.035791
-    },
-    {
-      "text": "oven",
-      "start": 5.092625,
-      "end": 5.504541
-    },
-    {
-      "text": "e",
-      "start": 5.703416,
-      "end": 5.873874
-    },
-    {
-      "text": "Add",
-      "start": 6.157958,
-      "end": 6.328416
-    },
-    {
-      "text": "firewood",
-      "start": 6.399416,
-      "end": 6.910791
-    },
-    {
-      "text": "and",
-      "start": 6.981833,
-      "end": 7.109666
-    },
-    {
-      "text": "dry",
-      "start": 7.194875,
-      "end": 7.422166
-    },
-    {
-      "text": "leaves",
-      "start": 7.464791,
-      "end": 7.819916
-    },
-    {
-      "text": "until",
-      "start": 7.876708,
-      "end": 8.217624
-    },
-    {
-      "text": "the",
-      "start": 8.288625,
-      "end": 8.359666
-    },
-    {
-      "text": "pots",
-      "start": 8.459083,
-      "end": 8.771583
-    },
-    {
-      "text": "are",
-      "start": 8.856833,
-      "end": 8.984666
-    },
-    {
-      "text": "fully",
-      "start": 8.998875,
-      "end": 9.339791
-    },
-    {
-      "text": "fired",
-      "start": 9.368166,
-      "end": 9.780082
-    },
-    {
-      "text": "f",
-      "start": 10.035791,
-      "end": 10.305666
-    },
-    {
-      "text": "Allow",
-      "start": 10.504541,
-      "end": 10.788624
-    },
-    {
-      "text": "the",
-      "start": 10.859666,
-      "end": 10.973291
-    },
-    {
-      "text": "fire",
-      "start": 11.001708,
-      "end": 11.328416
-    },
-    {
-      "text": "to",
-      "start": 11.413625,
-      "end": 11.513041
-    },
-    {
-      "text": "extinguish",
-      "start": 11.584083,
-      "end": 12.308499
-    },
-    {
-      "text": "and",
-      "start": 12.322708,
-      "end": 12.464749
-    },
-    {
-      "text": "let",
-      "start": 12.493166,
-      "end": 12.663624
-    },
-    {
-      "text": "the",
-      "start": 12.791458,
-      "end": 12.862499
-    },
-    {
-      "text": "pots",
-      "start": 12.961916,
-      "end": 13.274416
-    },
-    {
-      "text": "cool",
-      "start": 13.345458,
-      "end": 13.530124
-    },
-    {
-      "text": "down",
-      "start": 13.615333,
-      "end": 13.885208
-    },
-    {
-      "text": "completely",
-      "start": 13.95625,
-      "end": 14.609666
-    },
-    {
-      "text": "g",
-      "start": 14.879541,
-      "end": 15.120999
-    },
-    {
-      "text": "Carefully",
-      "start": 15.348291,
-      "end": 15.788624
-    },
-    {
-      "text": "remove",
-      "start": 15.802833,
-      "end": 16.200541
-    },
-    {
-      "text": "the",
-      "start": 16.271583,
-      "end": 16.356791
-    },
-    {
-      "text": "pots",
-      "start": 16.45625,
-      "end": 16.726125
-    },
-    {
-      "text": "from",
-      "start": 16.76875,
-      "end": 16.953416
-    },
-    {
-      "text": "the",
-      "start": 17.038625,
-      "end": 17.123833
-    },
-    {
-      "text": "firing",
-      "start": 17.152291,
-      "end": 17.649457
-    },
-    {
-      "text": "area",
-      "start": 17.692041,
-      "end": 18.018749
-    },
-    {
-      "text": "and",
-      "start": 18.089791,
-      "end": 18.302874
-    },
-    {
-      "text": "clean",
-      "start": 18.33125,
-      "end": 18.601125
-    },
-    {
-      "text": "them",
-      "start": 18.714791,
-      "end": 18.913666
-    },
-    {
-      "text": "of",
-      "start": 18.970458,
-      "end": 19.140916
-    },
-    {
-      "text": "ashes",
-      "start": 19.197708,
-      "end": 19.609624
-    },
-    {
-      "text": "with",
-      "start": 19.652291,
-      "end": 19.780124
-    },
-    {
-      "text": "a",
-      "start": 19.780125,
-      "end": 19.879541
-    },
-    {
-      "text": "cotton",
-      "start": 19.950583,
-      "end": 20.376708
-    },
-    {
-      "text": "cloth",
-      "start": 20.390916,
-      "end": 20.746041
-    },
-    {
-      "text": "and",
-      "start": 21.058541,
-      "end": 21.299999
-    },
-    {
-      "text": "h",
-      "start": 21.640916,
-      "end": 21.853999
-    },
-    {
-      "text": "Decorate",
-      "start": 22.109666,
-      "end": 22.578416
-    },
-    {
-      "text": "the",
-      "start": 22.70625,
-      "end": 22.777291
-    },
-    {
-      "text": "pots",
-      "start": 22.876708,
-      "end": 23.189208
-    },
-    {
-      "text": "by",
-      "start": 23.274416,
-      "end": 23.373832
-    },
-    {
-      "text": "drawing",
-      "start": 23.459083,
-      "end": 23.814208
-    },
-    {
-      "text": "various",
-      "start": 23.856833,
-      "end": 24.311374
-    },
-    {
-      "text": "motifs",
-      "start": 24.339791,
-      "end": 24.893749
-    },
-    {
-      "text": "as",
-      "start": 24.950583,
-      "end": 25.106833
-    },
-    {
-      "text": "shown",
-      "start": 25.163625,
-      "end": 25.447708
-    },
-    {
-      "text": "in",
-      "start": 25.476125,
-      "end": 25.618166
-    },
-    {
-      "text": "Figure 11",
-      "start": 25.646583,
-      "end": 26.669333
-    },
-    {
-      "text": "Afterwards",
-      "start": 27.713083,
-      "end": 28.536958
-    },
-    {
-      "text": "paint",
-      "start": 28.849416,
-      "end": 29.105082
-    },
-    {
-      "text": "them",
-      "start": 29.21875,
-      "end": 29.446041
-    },
-    {
-      "text": "using",
-      "start": 29.488625,
-      "end": 29.829541
-    },
-    {
-      "text": "small",
-      "start": 29.943166,
-      "end": 30.255666
-    },
-    {
-      "text": "flat",
-      "start": 30.284083,
-      "end": 30.681791
-    },
-    {
-      "text": "oil",
-      "start": 30.78125,
-      "end": 31.008541
-    },
-    {
-      "text": "painting",
-      "start": 31.107958,
-      "end": 31.505666
-    },
-    {
-      "text": "brushes",
-      "start": 31.590916,
-      "end": 32.116499
-    },
-    {
-      "text": "This",
-      "start": 33.267041,
-      "end": 33.593749
-    },
-    {
-      "text": "marks",
-      "start": 33.622166,
-      "end": 33.991499
-    },
-    {
-      "text": "the",
-      "start": 34.048291,
-      "end": 34.133499
-    },
-    {
-      "text": "second",
-      "start": 34.204541,
-      "end": 34.616457
-    },
-    {
-      "text": "stage",
-      "start": 34.715916,
-      "end": 35.071041
-    },
-    {
-      "text": "of",
-      "start": 35.071041,
-      "end": 35.241499
-    },
-    {
-      "text": "pot",
-      "start": 35.284083,
-      "end": 35.497166
-    },
-    {
-      "text": "decoration",
-      "start": 35.610791,
-      "end": 36.363624
-    },
-    {
-      "text": "Figure 11",
-      "start": 37.429,
-      "end": 38.565333
-    },
-    {
-      "text": "A",
-      "start": 38.778416,
-      "end": 38.849457
-    },
-    {
-      "text": "clay",
-      "start": 38.934666,
-      "end": 39.119332
-    },
-    {
-      "text": "pot",
-      "start": 39.21875,
-      "end": 39.446041
-    },
-    {
-      "text": "decorated",
-      "start": 39.573875,
-      "end": 40.198875
-    },
-    {
-      "text": "with",
-      "start": 40.2415,
-      "end": 40.383541
-    },
-    {
-      "text": "oil",
-      "start": 40.454541,
-      "end": 40.681832
-    },
-    {
-      "text": "colour",
-      "start": 40.767041,
-      "end": 41.036916
-    },
-    {
-      "text": "Glazing",
-      "start": 41.107958,
-      "end": 41.590916
-    },
-    {
-      "text": "clay",
-      "start": 41.619333,
-      "end": 41.832416
-    },
-    {
-      "text": "objects",
-      "start": 41.903416,
-      "end": 42.428999
+      "text": "description",
+      "start": 0.603958,
+      "end": 1.385208
     },
     {
       "text": "Clay",
-      "start": 42.5,
-      "end": 42.698875
+      "start": 1.640916,
+      "end": 1.839791
     },
     {
-      "text": "objects",
-      "start": 42.769875,
-      "end": 43.309666
+      "text": "pots",
+      "start": 1.939208,
+      "end": 2.280124
     },
     {
-      "text": "are",
-      "start": 43.380666,
-      "end": 43.508499
+      "text": "stacked",
+      "start": 2.294333,
+      "end": 2.606833
     },
     {
-      "text": "glazed",
-      "start": 43.579541,
-      "end": 44.048291
+      "text": "between",
+      "start": 2.734666,
+      "end": 3.089791
     },
     {
-      "text": "using",
-      "start": 44.076708,
-      "end": 44.417624
-    },
-    {
-      "text": "glaze",
-      "start": 44.46025,
-      "end": 44.786958
-    },
-    {
-      "text": "minerals",
-      "start": 44.829541,
-      "end": 45.553957
-    },
-    {
-      "text": "Glaze",
-      "start": 46.633541,
-      "end": 47.116499
-    },
-    {
-      "text": "is",
-      "start": 47.159083,
-      "end": 47.301124
-    },
-    {
-      "text": "a",
-      "start": 47.301125,
-      "end": 47.386333
-    },
-    {
-      "text": "mineral",
-      "start": 47.414791,
-      "end": 47.855124
-    },
-    {
-      "text": "that",
-      "start": 47.926125,
-      "end": 48.125
-    },
-    {
-      "text": "resembles",
-      "start": 48.238625,
-      "end": 48.835208
-    },
-    {
-      "text": "powder",
-      "start": 48.90625,
-      "end": 49.261375
-    },
-    {
-      "text": "and",
-      "start": 49.318166,
-      "end": 49.502832
-    },
-    {
-      "text": "is",
-      "start": 49.517041,
-      "end": 49.673291
-    },
-    {
-      "text": "mixed",
-      "start": 49.701708,
-      "end": 50.113624
-    },
-    {
-      "text": "with",
-      "start": 50.142041,
-      "end": 50.284082
-    },
-    {
-      "text": "water",
-      "start": 50.3125,
-      "end": 50.625
-    },
-    {
-      "text": "before",
-      "start": 50.696041,
-      "end": 50.994332
-    },
-    {
-      "text": "being",
-      "start": 51.09375,
-      "end": 51.292625
-    },
-    {
-      "text": "applied",
-      "start": 51.349416,
-      "end": 51.775541
-    },
-    {
-      "text": "to",
-      "start": 51.804,
-      "end": 51.903416
-    },
-    {
-      "text": "the",
-      "start": 51.96025,
-      "end": 52.017083
-    },
-    {
-      "text": "object",
-      "start": 52.1165,
-      "end": 52.670458
-    },
-    {
-      "text": "There",
-      "start": 53.764208,
-      "end": 54.090916
-    },
-    {
-      "text": "are",
-      "start": 54.161916,
-      "end": 54.360791
-    },
-    {
-      "text": "three",
-      "start": 54.446041,
-      "end": 54.673332
-    },
-    {
-      "text": "methods",
-      "start": 54.715916,
-      "end": 55.227291
+      "text": "layers",
+      "start": 3.118166,
+      "end": 3.501707
     },
     {
       "text": "of",
-      "start": 55.298291,
-      "end": 55.440332
+      "start": 3.515916,
+      "end": 3.686374
     },
     {
-      "text": "applying",
-      "start": 55.440333,
-      "end": 56.008499
-    },
-    {
-      "text": "glaze",
-      "start": 56.079541,
-      "end": 56.505666
-    },
-    {
-      "text": "brushing",
-      "start": 56.832375,
-      "end": 57.400541
-    },
-    {
-      "text": "dipping",
-      "start": 57.684666,
-      "end": 58.167624
+      "text": "wood",
+      "start": 3.686375,
+      "end": 3.856833
     },
     {
       "text": "and",
-      "start": 58.338083,
-      "end": 58.494333
+      "start": 3.913625,
+      "end": 4.069875
     },
     {
-      "text": "pouring",
-      "start": 58.579541,
-      "end": 59.105124
+      "text": "dry",
+      "start": 4.140916,
+      "end": 4.325582
     },
     {
-      "text": "On",
-      "start": 60.15625,
-      "end": 60.326708
+      "text": "leaves",
+      "start": 4.368166,
+      "end": 4.737499
+    },
+    {
+      "text": "in",
+      "start": 4.751708,
+      "end": 4.851124
+    },
+    {
+      "text": "an",
+      "start": 4.851125,
+      "end": 5.007375
+    },
+    {
+      "text": "open",
+      "start": 5.064208,
+      "end": 5.433541
+    },
+    {
+      "text": "oven",
+      "start": 5.490333,
+      "end": 5.802833
+    },
+    {
+      "text": "for",
+      "start": 5.845458,
+      "end": 5.987499
+    },
+    {
+      "text": "firing",
+      "start": 6.015916,
+      "end": 6.584082
+    },
+    {
+      "text": "Figure 10",
+      "start": 7.599416,
+      "end": 8.494332
+    },
+    {
+      "text": "Arrangement",
+      "start": 8.75,
+      "end": 9.460208
+    },
+    {
+      "text": "of",
+      "start": 9.460208,
+      "end": 9.630666
+    },
+    {
+      "text": "pots",
+      "start": 9.6875,
+      "end": 10.056833
+    },
+    {
+      "text": "wood",
+      "start": 10.269875,
+      "end": 10.525541
+    },
+    {
+      "text": "and",
+      "start": 10.823875,
+      "end": 10.980125
+    },
+    {
+      "text": "leaves",
+      "start": 10.994333,
+      "end": 11.363624
+    },
+    {
+      "text": "in",
+      "start": 11.363625,
+      "end": 11.47725
+    },
+    {
+      "text": "an",
+      "start": 11.477291,
+      "end": 11.619332
+    },
+    {
+      "text": "open",
+      "start": 11.690333,
+      "end": 12.059666
+    },
+    {
+      "text": "oven",
+      "start": 12.116458,
+      "end": 12.528374
+    },
+    {
+      "text": "e",
+      "start": 12.741458,
+      "end": 12.911916
+    },
+    {
+      "text": "Add",
+      "start": 13.196041,
+      "end": 13.366499
+    },
+    {
+      "text": "firewood",
+      "start": 13.4375,
+      "end": 13.977291
+    },
+    {
+      "text": "and",
+      "start": 14.048291,
+      "end": 14.176124
+    },
+    {
+      "text": "dry",
+      "start": 14.261375,
+      "end": 14.46025
+    },
+    {
+      "text": "leaves",
+      "start": 14.502833,
+      "end": 14.857958
+    },
+    {
+      "text": "until",
+      "start": 14.914791,
+      "end": 15.255707
     },
     {
       "text": "the",
-      "start": 60.39775,
-      "end": 60.440375
+      "start": 15.326708,
+      "end": 15.397749
+    },
+    {
+      "text": "pots",
+      "start": 15.497166,
+      "end": 15.809666
+    },
+    {
+      "text": "are",
+      "start": 15.894875,
+      "end": 16.0085
+    },
+    {
+      "text": "fully",
+      "start": 16.008541,
+      "end": 16.349457
+    },
+    {
+      "text": "fired",
+      "start": 16.377833,
+      "end": 16.789749
+    },
+    {
+      "text": "f",
+      "start": 17.045458,
+      "end": 17.301124
+    },
+    {
+      "text": "Allow",
+      "start": 17.485791,
+      "end": 17.784082
+    },
+    {
+      "text": "the",
+      "start": 17.855125,
+      "end": 17.954541
+    },
+    {
+      "text": "fire",
+      "start": 17.96875,
+      "end": 18.28125
+    },
+    {
+      "text": "to",
+      "start": 18.366458,
+      "end": 18.465874
+    },
+    {
+      "text": "extinguish",
+      "start": 18.536916,
+      "end": 19.261332
+    },
+    {
+      "text": "and",
+      "start": 19.289791,
+      "end": 19.431832
+    },
+    {
+      "text": "let",
+      "start": 19.460208,
+      "end": 19.644874
+    },
+    {
+      "text": "the",
+      "start": 19.772708,
+      "end": 19.843749
+    },
+    {
+      "text": "pots",
+      "start": 19.943166,
+      "end": 20.255666
+    },
+    {
+      "text": "cool",
+      "start": 20.326708,
+      "end": 20.511374
+    },
+    {
+      "text": "down",
+      "start": 20.596583,
+      "end": 20.866458
+    },
+    {
+      "text": "completely",
+      "start": 20.951708,
+      "end": 21.605124
+    },
+    {
+      "text": "g",
+      "start": 21.875,
+      "end": 22.116458
+    },
+    {
+      "text": "Carefully",
+      "start": 22.34375,
+      "end": 22.798291
+    },
+    {
+      "text": "remove",
+      "start": 22.8125,
+      "end": 23.210208
+    },
+    {
+      "text": "the",
+      "start": 23.28125,
+      "end": 23.366458
+    },
+    {
+      "text": "pots",
+      "start": 23.465916,
+      "end": 23.735791
+    },
+    {
+      "text": "from",
+      "start": 23.778416,
+      "end": 23.948874
+    },
+    {
+      "text": "the",
+      "start": 24.034083,
+      "end": 24.119291
+    },
+    {
+      "text": "firing",
+      "start": 24.147708,
+      "end": 24.644874
+    },
+    {
+      "text": "area",
+      "start": 24.6875,
+      "end": 25.028416
+    },
+    {
+      "text": "and",
+      "start": 25.099416,
+      "end": 25.312499
+    },
+    {
+      "text": "clean",
+      "start": 25.340916,
+      "end": 25.610791
+    },
+    {
+      "text": "them",
+      "start": 25.724416,
+      "end": 25.923291
+    },
+    {
+      "text": "of",
+      "start": 25.980125,
+      "end": 26.150583
+    },
+    {
+      "text": "ashes",
+      "start": 26.207375,
+      "end": 26.619291
+    },
+    {
+      "text": "with",
+      "start": 26.661916,
+      "end": 26.789749
+    },
+    {
+      "text": "a",
+      "start": 26.789791,
+      "end": 26.889207
+    },
+    {
+      "text": "cotton",
+      "start": 26.96025,
+      "end": 27.372166
+    },
+    {
+      "text": "cloth",
+      "start": 27.386375,
+      "end": 27.755708
+    },
+    {
+      "text": "and",
+      "start": 28.054,
+      "end": 28.309666
+    },
+    {
+      "text": "h",
+      "start": 28.650583,
+      "end": 28.863666
+    },
+    {
+      "text": "Decorate",
+      "start": 29.119333,
+      "end": 29.573874
+    },
+    {
+      "text": "the",
+      "start": 29.701708,
+      "end": 29.772749
+    },
+    {
+      "text": "pots",
+      "start": 29.872166,
+      "end": 30.184666
+    },
+    {
+      "text": "by",
+      "start": 30.269875,
+      "end": 30.369291
+    },
+    {
+      "text": "drawing",
+      "start": 30.454541,
+      "end": 30.795457
+    },
+    {
+      "text": "various",
+      "start": 30.852291,
+      "end": 31.306832
+    },
+    {
+      "text": "motifs",
+      "start": 31.33525,
+      "end": 31.875041
+    },
+    {
+      "text": "as",
+      "start": 31.931833,
+      "end": 32.088083
+    },
+    {
+      "text": "shown",
+      "start": 32.159083,
+      "end": 32.443166
+    },
+    {
+      "text": "in",
+      "start": 32.457375,
+      "end": 32.599416
+    },
+    {
+      "text": "Figure 11",
+      "start": 32.627833,
+      "end": 33.607957
+    },
+    {
+      "text": "Afterwards",
+      "start": 34.644875,
+      "end": 35.46875
+    },
+    {
+      "text": "paint",
+      "start": 35.78125,
+      "end": 36.036916
+    },
+    {
+      "text": "them",
+      "start": 36.150583,
+      "end": 36.377874
+    },
+    {
+      "text": "using",
+      "start": 36.420458,
+      "end": 36.761374
+    },
+    {
+      "text": "small",
+      "start": 36.875,
+      "end": 37.1875
+    },
+    {
+      "text": "flat",
+      "start": 37.215916,
+      "end": 37.613624
+    },
+    {
+      "text": "oil",
+      "start": 37.713083,
+      "end": 37.940374
+    },
+    {
+      "text": "painting",
+      "start": 38.039791,
+      "end": 38.437499
+    },
+    {
+      "text": "brushes",
+      "start": 38.52275,
+      "end": 39.048333
+    },
+    {
+      "text": "This",
+      "start": 40.198875,
+      "end": 40.525583
+    },
+    {
+      "text": "marks",
+      "start": 40.554,
+      "end": 40.923333
+    },
+    {
+      "text": "the",
+      "start": 40.980125,
+      "end": 41.065333
+    },
+    {
+      "text": "second",
+      "start": 41.136375,
+      "end": 41.548291
+    },
+    {
+      "text": "stage",
+      "start": 41.64775,
+      "end": 42.002833
+    },
+    {
+      "text": "of",
+      "start": 42.002833,
+      "end": 42.173291
+    },
+    {
+      "text": "pot",
+      "start": 42.215916,
+      "end": 42.428999
+    },
+    {
+      "text": "decoration",
+      "start": 42.542625,
+      "end": 43.295458
+    },
+    {
+      "text": "Image",
+      "start": 44.360791,
+      "end": 44.730124
+    },
+    {
+      "text": "description",
+      "start": 44.872166,
+      "end": 45.681832
+    },
+    {
+      "text": "A",
+      "start": 45.909083,
+      "end": 45.994291
+    },
+    {
+      "text": "clay",
+      "start": 46.079541,
+      "end": 46.264207
+    },
+    {
+      "text": "pot",
+      "start": 46.363625,
+      "end": 46.605083
+    },
+    {
+      "text": "decorated",
+      "start": 46.71875,
+      "end": 47.34375
+    },
+    {
+      "text": "with",
+      "start": 47.386375,
+      "end": 47.528416
+    },
+    {
+      "text": "oil",
+      "start": 47.599416,
+      "end": 47.826707
+    },
+    {
+      "text": "colour",
+      "start": 47.911916,
+      "end": 48.238624
+    },
+    {
+      "text": "and",
+      "start": 48.295458,
+      "end": 48.437499
+    },
+    {
+      "text": "diamond-shaped",
+      "start": 48.508541,
+      "end": 49.161957
+    },
+    {
+      "text": "patterns",
+      "start": 49.346583,
+      "end": 49.985791
+    },
+    {
+      "text": "Figure 11",
+      "start": 51.051125,
+      "end": 52.187499
+    },
+    {
+      "text": "A",
+      "start": 52.400583,
+      "end": 52.471624
+    },
+    {
+      "text": "clay",
+      "start": 52.556833,
+      "end": 52.741499
+    },
+    {
+      "text": "pot",
+      "start": 52.840916,
+      "end": 53.068207
+    },
+    {
+      "text": "decorated",
+      "start": 53.196041,
+      "end": 53.821041
+    },
+    {
+      "text": "with",
+      "start": 53.863625,
+      "end": 54.005666
+    },
+    {
+      "text": "oil",
+      "start": 54.076708,
+      "end": 54.303999
+    },
+    {
+      "text": "colour",
+      "start": 54.389208,
+      "end": 54.659083
+    },
+    {
+      "text": "Glazing",
+      "start": 54.730125,
+      "end": 55.213083
+    },
+    {
+      "text": "clay",
+      "start": 55.2415,
+      "end": 55.454583
+    },
+    {
+      "text": "objects",
+      "start": 55.525583,
+      "end": 56.051166
+    },
+    {
+      "text": "Clay",
+      "start": 56.122166,
+      "end": 56.321041
+    },
+    {
+      "text": "objects",
+      "start": 56.392041,
+      "end": 56.931832
+    },
+    {
+      "text": "are",
+      "start": 57.002833,
+      "end": 57.130666
+    },
+    {
+      "text": "glazed",
+      "start": 57.201708,
+      "end": 57.670458
+    },
+    {
+      "text": "using",
+      "start": 57.698875,
+      "end": 58.039791
+    },
+    {
+      "text": "glaze",
+      "start": 58.082375,
+      "end": 58.409083
+    },
+    {
+      "text": "minerals",
+      "start": 58.451708,
+      "end": 59.176124
+    },
+    {
+      "text": "Glaze",
+      "start": 60.255666,
+      "end": 60.738624
+    },
+    {
+      "text": "is",
+      "start": 60.78125,
+      "end": 60.923291
+    },
+    {
+      "text": "a",
+      "start": 60.923291,
+      "end": 61.008499
+    },
+    {
+      "text": "mineral",
+      "start": 61.036916,
+      "end": 61.477249
+    },
+    {
+      "text": "that",
+      "start": 61.548291,
+      "end": 61.747166
+    },
+    {
+      "text": "resembles",
+      "start": 61.860791,
+      "end": 62.457374
+    },
+    {
+      "text": "powder",
+      "start": 62.528416,
+      "end": 62.883541
+    },
+    {
+      "text": "and",
+      "start": 62.940333,
+      "end": 63.124999
+    },
+    {
+      "text": "is",
+      "start": 63.139208,
+      "end": 63.295458
+    },
+    {
+      "text": "mixed",
+      "start": 63.323875,
+      "end": 63.735791
+    },
+    {
+      "text": "with",
+      "start": 63.764208,
+      "end": 63.906249
+    },
+    {
+      "text": "water",
+      "start": 63.934666,
+      "end": 64.247166
+    },
+    {
+      "text": "before",
+      "start": 64.318166,
+      "end": 64.616457
+    },
+    {
+      "text": "being",
+      "start": 64.715916,
+      "end": 64.914791
+    },
+    {
+      "text": "applied",
+      "start": 64.971583,
+      "end": 65.397708
+    },
+    {
+      "text": "to",
+      "start": 65.426125,
+      "end": 65.525541
+    },
+    {
+      "text": "the",
+      "start": 65.582375,
+      "end": 65.639208
+    },
+    {
+      "text": "object",
+      "start": 65.738625,
+      "end": 66.292583
+    },
+    {
+      "text": "There",
+      "start": 67.386375,
+      "end": 67.713083
+    },
+    {
+      "text": "are",
+      "start": 67.784083,
+      "end": 67.982958
+    },
+    {
+      "text": "three",
+      "start": 68.068166,
+      "end": 68.295457
+    },
+    {
+      "text": "methods",
+      "start": 68.338083,
+      "end": 68.849458
+    },
+    {
+      "text": "of",
+      "start": 68.920458,
+      "end": 69.062499
+    },
+    {
+      "text": "applying",
+      "start": 69.0625,
+      "end": 69.630666
+    },
+    {
+      "text": "glaze",
+      "start": 69.701708,
+      "end": 70.127833
+    },
+    {
+      "text": "brushing",
+      "start": 70.454541,
+      "end": 71.022707
+    },
+    {
+      "text": "dipping",
+      "start": 71.306833,
+      "end": 71.789791
+    },
+    {
+      "text": "and",
+      "start": 71.96025,
+      "end": 72.1165
+    },
+    {
+      "text": "pouring",
+      "start": 72.201708,
+      "end": 72.727291
+    },
+    {
+      "text": "On",
+      "start": 73.778416,
+      "end": 73.948874
+    },
+    {
+      "text": "the",
+      "start": 74.019875,
+      "end": 74.0625
     },
     {
       "text": "other",
-      "start": 60.554,
-      "end": 60.937541
+      "start": 74.176125,
+      "end": 74.559666
     }
   ]
 }

@@ -13,48 +13,178 @@
     },
     {
       "text": "Sports",
-      "start": 0.817041,
-      "end": 1.228957
+      "start": 0.802833,
+      "end": 1.214749
     },
     {
       "text": "Pupil’s",
-      "start": 1.3,
-      "end": 1.811375
+      "start": 1.285791,
+      "end": 1.811374
     },
     {
       "text": "Book",
       "start": 1.910791,
-      "end": 2.038624
+      "end": 2.052832
     },
     {
       "text": "Standard",
-      "start": 2.127833,
-      "end": 2.482958
+      "start": 2.138083,
+      "end": 2.578416
     },
     {
       "text": "Five",
-      "start": 2.539791,
-      "end": 2.767082
+      "start": 2.621041,
+      "end": 2.890916
     },
     {
-      "text": "Tanzania",
-      "start": 2.866458,
-      "end": 3.406249
+      "text": "Image",
+      "start": 2.947708,
+      "end": 3.245999
     },
     {
-      "text": "Institute",
-      "start": 3.477291,
-      "end": 4.059666
+      "text": "description",
+      "start": 3.373875,
+      "end": 4.1125
+    },
+    {
+      "text": "Certificate",
+      "start": 4.325583,
+      "end": 5.049999
     },
     {
       "text": "of",
-      "start": 4.102291,
-      "end": 4.230124
+      "start": 5.092625,
+      "end": 5.20625
+    },
+    {
+      "text": "Approval",
+      "start": 5.20625,
+      "end": 5.760208
+    },
+    {
+      "text": "from",
+      "start": 5.788625,
+      "end": 6.001708
+    },
+    {
+      "text": "the",
+      "start": 6.086916,
+      "end": 6.157957
+    },
+    {
+      "text": "United",
+      "start": 6.228958,
+      "end": 6.683499
+    },
+    {
+      "text": "Republic",
+      "start": 6.740333,
+      "end": 7.308499
+    },
+    {
+      "text": "of",
+      "start": 7.308541,
+      "end": 7.407957
+    },
+    {
+      "text": "Tanzania",
+      "start": 7.507375,
+      "end": 8.132375
+    },
+    {
+      "text": "Ministry",
+      "start": 8.302833,
+      "end": 8.828416
+    },
+    {
+      "text": "of",
+      "start": 8.899416,
+      "end": 9.041457
     },
     {
       "text": "Education",
-      "start": 4.272708,
-      "end": 5.011333
+      "start": 9.098291,
+      "end": 9.822707
+    },
+    {
+      "text": "Science",
+      "start": 10.035791,
+      "end": 10.618166
+    },
+    {
+      "text": "and",
+      "start": 10.703416,
+      "end": 10.859666
+    },
+    {
+      "text": "Technology",
+      "start": 10.873875,
+      "end": 11.655125
+    },
+    {
+      "text": "for",
+      "start": 11.853958,
+      "end": 12.024416
+    },
+    {
+      "text": "the",
+      "start": 12.095458,
+      "end": 12.152291
+    },
+    {
+      "text": "Arts",
+      "start": 12.251708,
+      "end": 12.564208
+    },
+    {
+      "text": "and",
+      "start": 12.635208,
+      "end": 12.777249
+    },
+    {
+      "text": "Sports",
+      "start": 12.876708,
+      "end": 13.274416
+    },
+    {
+      "text": "Pupil’s",
+      "start": 13.345458,
+      "end": 13.828416
+    },
+    {
+      "text": "Book",
+      "start": 13.927833,
+      "end": 14.069874
+    },
+    {
+      "text": "Standard",
+      "start": 14.140916,
+      "end": 14.552832
+    },
+    {
+      "text": "Five",
+      "start": 14.609666,
+      "end": 15.064207
+    },
+    {
+      "text": "Tanzania",
+      "start": 16.079541,
+      "end": 16.704541
+    },
+    {
+      "text": "Institute",
+      "start": 16.775583,
+      "end": 17.400583
+    },
+    {
+      "text": "of",
+      "start": 17.485791,
+      "end": 17.656249
+    },
+    {
+      "text": "Education",
+      "start": 17.713083,
+      "end": 18.480124
     }
   ]
 }

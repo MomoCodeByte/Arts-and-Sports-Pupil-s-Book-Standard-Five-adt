@@ -2,434 +2,759 @@
   "audio": "page-089.mp3",
   "words": [
     {
-      "text": "83",
-      "start": 0.106833,
-      "end": 0.7459989
-    },
-    {
       "text": "Equipment",
-      "start": 0.817041,
-      "end": 1.484666
+      "start": 0.106833,
+      "end": 0.788666
     },
     {
       "text": "To",
-      "start": 1.541458,
-      "end": 1.640874
+      "start": 0.873875,
+      "end": 0.973291
     },
     {
       "text": "play",
-      "start": 1.726125,
-      "end": 1.925
+      "start": 1.058541,
+      "end": 1.257416
     },
     {
       "text": "football",
-      "start": 1.939208,
-      "end": 2.493166
+      "start": 1.271583,
+      "end": 1.839749
     },
     {
       "text": "correctly",
-      "start": 2.564208,
-      "end": 3.118166
+      "start": 1.925,
+      "end": 2.493166
     },
     {
       "text": "the",
-      "start": 3.388083,
-      "end": 3.473291
+      "start": 2.734666,
+      "end": 2.819874
     },
     {
       "text": "following",
-      "start": 3.4875,
-      "end": 4.013083
+      "start": 2.834083,
+      "end": 3.359666
     },
     {
       "text": "equipment",
-      "start": 4.055666,
-      "end": 4.709082
+      "start": 3.402291,
+      "end": 4.055707
     },
     {
       "text": "are",
-      "start": 4.765916,
-      "end": 4.851124
+      "start": 4.098291,
+      "end": 4.183499
     },
     {
       "text": "necessary",
-      "start": 4.879541,
-      "end": 5.518749
+      "start": 4.211916,
+      "end": 4.865332
     },
     {
-      "text": "Football",
-      "start": 5.760208,
-      "end": 6.271583
+      "text": "Image",
+      "start": 5.177833,
+      "end": 5.476124
     },
     {
-      "text": "Football",
-      "start": 6.3,
-      "end": 6.839791
+      "text": "description",
+      "start": 5.618166,
+      "end": 6.370999
     },
     {
-      "text": "shoes",
-      "start": 6.868166,
-      "end": 7.194874
+      "text": "A",
+      "start": 6.555666,
+      "end": 6.640874
     },
     {
-      "text": "Shin",
-      "start": 7.265916,
-      "end": 7.493207
-    },
-    {
-      "text": "guards",
-      "start": 7.564208,
-      "end": 7.961916
-    },
-    {
-      "text": "Socks",
-      "start": 7.961916,
-      "end": 8.288624
-    },
-    {
-      "text": "Goalkeeper",
-      "start": 8.373875,
-      "end": 8.913666
-    },
-    {
-      "text": "gloves",
-      "start": 8.998875,
-      "end": 9.396583
-    },
-    {
-      "text": "Jersey",
-      "start": 9.467625,
-      "end": 9.780125
-    },
-    {
-      "text": "Figure 1",
-      "start": 9.808541,
-      "end": 10.561375
-    },
-    {
-      "text": "Football",
-      "start": 10.788625,
-      "end": 11.342583
-    },
-    {
-      "text": "equipment",
-      "start": 11.399416,
-      "end": 12.038624
-    },
-    {
-      "text": "Exercise",
-      "start": 12.095458,
-      "end": 12.692041
-    },
-    {
-      "text": "1",
-      "start": 12.720458,
-      "end": 12.933541
-    },
-    {
-      "text": "1",
-      "start": 13.032958,
-      "end": 13.331249
-    },
-    {
-      "text": "Explain",
-      "start": 14.389208,
-      "end": 14.985791
-    },
-    {
-      "text": "the",
-      "start": 15.056833,
-      "end": 15.142041
-    },
-    {
-      "text": "use",
-      "start": 15.213083,
-      "end": 15.468749
-    },
-    {
-      "text": "of",
-      "start": 15.46875,
-      "end": 15.553958
-    },
-    {
-      "text": "the",
-      "start": 15.610791,
-      "end": 15.695999
-    },
-    {
-      "text": "football",
-      "start": 15.710208,
-      "end": 16.249999
-    },
-    {
-      "text": "equipment",
-      "start": 16.292625,
-      "end": 16.946041
-    },
-    {
-      "text": "shown",
-      "start": 16.988625,
-      "end": 17.2585
-    },
-    {
-      "text": "in",
-      "start": 17.315333,
-      "end": 17.428958
-    },
-    {
-      "text": "Figure 1",
-      "start": 17.471583,
-      "end": 18.196
-    },
-    {
-      "text": "Basic",
-      "start": 19.261375,
-      "end": 19.730125
-    },
-    {
-      "text": "skills",
-      "start": 19.772708,
-      "end": 20.383499
-    },
-    {
-      "text": "in",
-      "start": 20.426125,
-      "end": 20.568166
-    },
-    {
-      "text": "football",
-      "start": 20.596583,
-      "end": 21.107958
-    },
-    {
-      "text": "To",
-      "start": 21.193166,
-      "end": 21.264207
-    },
-    {
-      "text": "be",
-      "start": 21.349416,
-      "end": 21.406249
-    },
-    {
-      "text": "able",
-      "start": 21.463083,
-      "end": 21.761374
-    },
-    {
-      "text": "to",
-      "start": 21.846583,
-      "end": 21.945999
-    },
-    {
-      "text": "play",
-      "start": 22.03125,
-      "end": 22.244333
-    },
-    {
-      "text": "football",
-      "start": 22.258541,
-      "end": 22.826707
-    },
-    {
-      "text": "well",
-      "start": 22.869333,
-      "end": 23.110791
-    },
-    {
-      "text": "a",
-      "start": 23.338083,
-      "end": 23.394916
-    },
-    {
-      "text": "player",
-      "start": 23.494333,
-      "end": 23.806833
-    },
-    {
-      "text": "must",
-      "start": 23.835208,
-      "end": 24.133499
-    },
-    {
-      "text": "have",
-      "start": 24.176125,
-      "end": 24.360791
-    },
-    {
-      "text": "the",
-      "start": 24.446041,
-      "end": 24.531249
-    },
-    {
-      "text": "basic",
-      "start": 24.616458,
-      "end": 24.928958
-    },
-    {
-      "text": "skills",
-      "start": 24.985791,
-      "end": 25.511374
-    },
-    {
-      "text": "used",
-      "start": 25.553958,
-      "end": 25.880666
-    },
-    {
-      "text": "in",
-      "start": 25.894875,
-      "end": 25.965916
-    },
-    {
-      "text": "the",
-      "start": 26.036916,
-      "end": 26.107957
-    },
-    {
-      "text": "game",
-      "start": 26.193166,
-      "end": 26.519874
-    },
-    {
-      "text": "These",
-      "start": 27.556833,
-      "end": 27.840916
-    },
-    {
-      "text": "skills",
-      "start": 27.855125,
-      "end": 28.4375
-    },
-    {
-      "text": "are",
-      "start": 28.52275,
-      "end": 28.664791
-    },
-    {
-      "text": "essential",
-      "start": 28.664791,
-      "end": 29.232957
-    },
-    {
-      "text": "for",
-      "start": 29.247166,
-      "end": 29.431832
-    },
-    {
-      "text": "any",
-      "start": 29.488625,
-      "end": 29.730083
-    },
-    {
-      "text": "player",
-      "start": 29.815333,
-      "end": 30.156249
-    },
-    {
-      "text": "who",
-      "start": 30.170458,
-      "end": 30.440333
-    },
-    {
-      "text": "wants",
-      "start": 30.440333,
-      "end": 30.752833
-    },
-    {
-      "text": "to",
-      "start": 30.795458,
-      "end": 30.880666
-    },
-    {
-      "text": "succeed",
-      "start": 30.951708,
-      "end": 31.406249
-    },
-    {
-      "text": "in",
-      "start": 31.477291,
-      "end": 31.590916
-    },
-    {
-      "text": "football",
-      "start": 31.619333,
-      "end": 32.230124
-    },
-    {
-      "text": "Among",
-      "start": 33.28125,
-      "end": 33.707375
-    },
-    {
-      "text": "the",
-      "start": 33.806833,
-      "end": 33.892041
-    },
-    {
-      "text": "basic",
-      "start": 33.9915,
-      "end": 34.318208
-    },
-    {
-      "text": "skills",
-      "start": 34.360791,
-      "end": 34.928957
-    },
-    {
-      "text": "in",
-      "start": 34.985791,
-      "end": 35.127832
-    },
-    {
-      "text": "football",
-      "start": 35.15625,
-      "end": 35.710208
-    },
-    {
-      "text": "are",
-      "start": 35.767041,
-      "end": 35.937499
-    },
-    {
-      "text": "passing",
-      "start": 36.008541,
-      "end": 36.448874
-    },
-    {
-      "text": "receiving",
-      "start": 36.704541,
-      "end": 37.187499
-    },
-    {
-      "text": "the",
-      "start": 37.286916,
-      "end": 37.357957
-    },
-    {
-      "text": "ball",
-      "start": 37.457375,
-      "end": 37.713041
-    },
-    {
-      "text": "dribbling",
-      "start": 37.954541,
-      "end": 38.522707
-    },
-    {
-      "text": "shooting",
-      "start": 38.735791,
-      "end": 39.332374
+      "text": "black",
+      "start": 6.740333,
+      "end": 7.010208
     },
     {
       "text": "and",
-      "start": 39.53125,
-      "end": 39.659083
+      "start": 7.095458,
+      "end": 7.209083
+    },
+    {
+      "text": "white",
+      "start": 7.280125,
+      "end": 7.507416
+    },
+    {
+      "text": "football",
+      "start": 7.578416,
+      "end": 8.146582
+    },
+    {
+      "text": "Football",
+      "start": 9.204541,
+      "end": 9.815332
+    },
+    {
+      "text": "Image",
+      "start": 9.872166,
+      "end": 10.241499
+    },
+    {
+      "text": "description",
+      "start": 10.383541,
+      "end": 11.150582
+    },
+    {
+      "text": "A",
+      "start": 11.363625,
+      "end": 11.463041
+    },
+    {
+      "text": "football",
+      "start": 11.477291,
+      "end": 12.002874
+    },
+    {
+      "text": "shoe",
+      "start": 12.03125,
+      "end": 12.244333
+    },
+    {
+      "text": "with",
+      "start": 12.315333,
+      "end": 12.428958
+    },
+    {
+      "text": "studs",
+      "start": 12.514208,
+      "end": 13.039791
+    },
+    {
+      "text": "Image",
+      "start": 14.133541,
+      "end": 14.517082
+    },
+    {
+      "text": "description",
+      "start": 14.659083,
+      "end": 15.426124
+    },
+    {
+      "text": "The",
+      "start": 15.696041,
+      "end": 15.767082
+    },
+    {
+      "text": "bottom",
+      "start": 15.866458,
+      "end": 16.278374
+    },
+    {
+      "text": "of",
+      "start": 16.335208,
+      "end": 16.463041
+    },
+    {
+      "text": "a",
+      "start": 16.463083,
+      "end": 16.548291
+    },
+    {
+      "text": "football",
+      "start": 16.576708,
+      "end": 17.130666
+    },
+    {
+      "text": "shoe",
+      "start": 17.159083,
+      "end": 17.386374
+    },
+    {
+      "text": "with",
+      "start": 17.457375,
+      "end": 17.585208
+    },
+    {
+      "text": "studs",
+      "start": 17.684666,
+      "end": 18.068207
+    },
+    {
+      "text": "for",
+      "start": 18.110791,
+      "end": 18.252832
+    },
+    {
+      "text": "grip",
+      "start": 18.338083,
+      "end": 18.650583
+    },
+    {
+      "text": "Football",
+      "start": 19.730125,
+      "end": 20.3125
+    },
+    {
+      "text": "shoes",
+      "start": 20.340916,
+      "end": 20.738624
+    },
+    {
+      "text": "Image",
+      "start": 20.809666,
+      "end": 21.164791
+    },
+    {
+      "text": "description",
+      "start": 21.292625,
+      "end": 22.102291
+    },
+    {
+      "text": "A",
+      "start": 22.34375,
+      "end": 22.428958
+    },
+    {
+      "text": "pair",
+      "start": 22.528416,
+      "end": 22.741499
+    },
+    {
+      "text": "of",
+      "start": 22.798291,
+      "end": 22.997166
+    },
+    {
+      "text": "blue",
+      "start": 23.068166,
+      "end": 23.267041
+    },
+    {
+      "text": "shin",
+      "start": 23.28125,
+      "end": 23.551125
+    },
+    {
+      "text": "guards",
+      "start": 23.622166,
+      "end": 23.991499
+    },
+    {
+      "text": "worn",
+      "start": 24.019875,
+      "end": 24.275541
+    },
+    {
+      "text": "inside",
+      "start": 24.318166,
+      "end": 24.715874
+    },
+    {
+      "text": "the",
+      "start": 24.772708,
+      "end": 24.872124
+    },
+    {
+      "text": "socks",
+      "start": 24.943166,
+      "end": 25.269874
+    },
+    {
+      "text": "to",
+      "start": 25.326708,
+      "end": 25.397749
+    },
+    {
+      "text": "protect",
+      "start": 25.482958,
+      "end": 25.866499
+    },
+    {
+      "text": "the",
+      "start": 25.965916,
+      "end": 26.051124
+    },
+    {
+      "text": "lower",
+      "start": 26.065333,
+      "end": 26.320999
+    },
+    {
+      "text": "legs",
+      "start": 26.321041,
+      "end": 26.803999
+    },
+    {
+      "text": "Shin",
+      "start": 27.869333,
+      "end": 28.196041
+    },
+    {
+      "text": "guards",
+      "start": 28.295458,
+      "end": 28.650583
+    },
+    {
+      "text": "Image",
+      "start": 28.707375,
+      "end": 29.0625
+    },
+    {
+      "text": "description",
+      "start": 29.190333,
+      "end": 29.985791
+    },
+    {
+      "text": "A",
+      "start": 30.198875,
+      "end": 30.269916
+    },
+    {
+      "text": "pair",
+      "start": 30.369333,
+      "end": 30.582416
+    },
+    {
+      "text": "of",
+      "start": 30.639208,
+      "end": 30.809666
+    },
+    {
+      "text": "long",
+      "start": 30.823875,
+      "end": 31.136375
+    },
+    {
+      "text": "blue",
+      "start": 31.221583,
+      "end": 31.406249
+    },
+    {
+      "text": "football",
+      "start": 31.434666,
+      "end": 31.988624
+    },
+    {
+      "text": "socks",
+      "start": 32.073875,
+      "end": 32.542625
+    },
+    {
+      "text": "Socks",
+      "start": 33.607958,
+      "end": 34.076708
+    },
+    {
+      "text": "Image",
+      "start": 34.14775,
+      "end": 34.502875
+    },
+    {
+      "text": "description",
+      "start": 34.644875,
+      "end": 35.426125
+    },
+    {
+      "text": "A",
+      "start": 35.639208,
+      "end": 35.724416
+    },
+    {
+      "text": "pair",
+      "start": 35.823875,
+      "end": 36.051166
+    },
+    {
+      "text": "of",
+      "start": 36.122166,
+      "end": 36.321041
+    },
+    {
+      "text": "goalkeeper",
+      "start": 36.377833,
+      "end": 36.945999
+    },
+    {
+      "text": "gloves",
+      "start": 37.017041,
+      "end": 37.570999
+    },
+    {
+      "text": "Goalkeeper",
+      "start": 38.636375,
+      "end": 39.346583
+    },
+    {
+      "text": "gloves",
+      "start": 39.431833,
+      "end": 39.843749
+    },
+    {
+      "text": "Image",
+      "start": 39.900583,
+      "end": 40.269916
+    },
+    {
+      "text": "description",
+      "start": 40.39775,
+      "end": 41.193208
+    },
+    {
+      "text": "A",
+      "start": 41.392041,
+      "end": 41.491457
+    },
+    {
+      "text": "football",
+      "start": 41.519875,
+      "end": 42.059666
+    },
+    {
+      "text": "jersey",
+      "start": 42.130666,
+      "end": 42.499999
+    },
+    {
+      "text": "and",
+      "start": 42.571041,
+      "end": 42.727291
+    },
+    {
+      "text": "shorts",
+      "start": 42.784083,
+      "end": 43.323874
+    },
+    {
+      "text": "Jersey",
+      "start": 44.375,
+      "end": 44.786916
+    },
+    {
+      "text": "Figure 1",
+      "start": 44.801125,
+      "end": 45.596583
+    },
+    {
+      "text": "Football",
+      "start": 45.823875,
+      "end": 46.377833
+    },
+    {
+      "text": "equipment",
+      "start": 46.434666,
+      "end": 47.102291
+    },
+    {
+      "text": "Exercise",
+      "start": 47.159083,
+      "end": 47.769874
+    },
+    {
+      "text": "1",
+      "start": 47.798291,
+      "end": 47.982957
+    },
+    {
+      "text": "1",
+      "start": 48.082375,
+      "end": 48.380666
+    },
+    {
+      "text": "Explain",
+      "start": 49.446041,
+      "end": 50.042624
+    },
+    {
+      "text": "the",
+      "start": 50.113625,
+      "end": 50.198833
+    },
+    {
+      "text": "use",
+      "start": 50.269875,
+      "end": 50.525541
+    },
+    {
+      "text": "of",
+      "start": 50.525583,
+      "end": 50.610791
+    },
+    {
+      "text": "the",
+      "start": 50.667625,
+      "end": 50.752833
+    },
+    {
+      "text": "football",
+      "start": 50.767041,
+      "end": 51.306832
+    },
+    {
+      "text": "equipment",
+      "start": 51.349416,
+      "end": 52.002832
+    },
+    {
+      "text": "shown",
+      "start": 52.045458,
+      "end": 52.315333
+    },
+    {
+      "text": "in",
+      "start": 52.372166,
+      "end": 52.485791
+    },
+    {
+      "text": "Figure 1",
+      "start": 52.528416,
+      "end": 53.252833
+    },
+    {
+      "text": "Basic",
+      "start": 54.318166,
+      "end": 54.786916
+    },
+    {
+      "text": "skills",
+      "start": 54.829541,
+      "end": 55.440332
+    },
+    {
+      "text": "in",
+      "start": 55.482958,
+      "end": 55.624999
+    },
+    {
+      "text": "football",
+      "start": 55.653416,
+      "end": 56.164791
+    },
+    {
+      "text": "To",
+      "start": 56.25,
+      "end": 56.321041
+    },
+    {
+      "text": "be",
+      "start": 56.40625,
+      "end": 56.463083
+    },
+    {
+      "text": "able",
+      "start": 56.519875,
+      "end": 56.818166
+    },
+    {
+      "text": "to",
+      "start": 56.903416,
+      "end": 57.002832
+    },
+    {
+      "text": "play",
+      "start": 57.088083,
+      "end": 57.301166
+    },
+    {
+      "text": "football",
+      "start": 57.315333,
+      "end": 57.883499
+    },
+    {
+      "text": "well",
+      "start": 57.926125,
+      "end": 58.167583
+    },
+    {
+      "text": "a",
+      "start": 58.394875,
+      "end": 58.451708
+    },
+    {
+      "text": "player",
+      "start": 58.551125,
+      "end": 58.863625
+    },
+    {
+      "text": "must",
+      "start": 58.892041,
+      "end": 59.190332
+    },
+    {
+      "text": "have",
+      "start": 59.232958,
+      "end": 59.417624
+    },
+    {
+      "text": "the",
+      "start": 59.502833,
+      "end": 59.588041
+    },
+    {
+      "text": "basic",
+      "start": 59.673291,
+      "end": 59.985791
+    },
+    {
+      "text": "skills",
+      "start": 60.042625,
+      "end": 60.568208
+    },
+    {
+      "text": "used",
+      "start": 60.610791,
+      "end": 60.937499
+    },
+    {
+      "text": "in",
+      "start": 60.951708,
+      "end": 61.022749
+    },
+    {
+      "text": "the",
+      "start": 61.09375,
+      "end": 61.164791
+    },
+    {
+      "text": "game",
+      "start": 61.25,
+      "end": 61.576708
+    },
+    {
+      "text": "These",
+      "start": 62.613625,
+      "end": 62.897708
+    },
+    {
+      "text": "skills",
+      "start": 62.911916,
+      "end": 63.494291
+    },
+    {
+      "text": "are",
+      "start": 63.579541,
+      "end": 63.721582
+    },
+    {
+      "text": "essential",
+      "start": 63.721583,
+      "end": 64.289749
+    },
+    {
+      "text": "for",
+      "start": 64.304,
+      "end": 64.488666
+    },
+    {
+      "text": "any",
+      "start": 64.545458,
+      "end": 64.786916
+    },
+    {
+      "text": "player",
+      "start": 64.872166,
+      "end": 65.213082
+    },
+    {
+      "text": "who",
+      "start": 65.227291,
+      "end": 65.497166
+    },
+    {
+      "text": "wants",
+      "start": 65.497166,
+      "end": 65.809666
+    },
+    {
+      "text": "to",
+      "start": 65.852291,
+      "end": 65.937499
+    },
+    {
+      "text": "succeed",
+      "start": 66.008541,
+      "end": 66.463082
+    },
+    {
+      "text": "in",
+      "start": 66.534083,
+      "end": 66.647708
+    },
+    {
+      "text": "football",
+      "start": 66.676125,
+      "end": 67.286916
+    },
+    {
+      "text": "Among",
+      "start": 68.338083,
+      "end": 68.764208
+    },
+    {
+      "text": "the",
+      "start": 68.863625,
+      "end": 68.948833
+    },
+    {
+      "text": "basic",
+      "start": 69.048291,
+      "end": 69.374999
+    },
+    {
+      "text": "skills",
+      "start": 69.417625,
+      "end": 69.985791
+    },
+    {
+      "text": "in",
+      "start": 70.042625,
+      "end": 70.184666
+    },
+    {
+      "text": "football",
+      "start": 70.213083,
+      "end": 70.767041
+    },
+    {
+      "text": "are",
+      "start": 70.823875,
+      "end": 70.994333
+    },
+    {
+      "text": "passing",
+      "start": 71.065333,
+      "end": 71.505666
+    },
+    {
+      "text": "receiving",
+      "start": 71.761375,
+      "end": 72.244333
+    },
+    {
+      "text": "the",
+      "start": 72.34375,
+      "end": 72.414791
+    },
+    {
+      "text": "ball",
+      "start": 72.514208,
+      "end": 72.769874
+    },
+    {
+      "text": "dribbling",
+      "start": 73.011375,
+      "end": 73.579541
+    },
+    {
+      "text": "shooting",
+      "start": 73.792625,
+      "end": 74.389208
+    },
+    {
+      "text": "and",
+      "start": 74.588083,
+      "end": 74.715916
     },
     {
       "text": "defending",
-      "start": 39.744333,
-      "end": 40.369333
+      "start": 74.801125,
+      "end": 75.426125
     }
   ]
 }

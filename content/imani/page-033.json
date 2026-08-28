@@ -2,669 +2,1089 @@
   "audio": "page-033.mp3",
   "words": [
     {
-      "text": "27",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.845458
+      "end": 0.490374
+    },
+    {
+      "text": "description",
+      "start": 0.632375,
+      "end": 1.427833
+    },
+    {
+      "text": "Step",
+      "start": 1.683541,
+      "end": 2.038666
     },
     {
       "text": "1",
-      "start": 0.930666,
-      "end": 1.157957
+      "start": 2.08125,
+      "end": 2.294333
     },
     {
-      "text": "2",
-      "start": 1.186375,
-      "end": 1.314208
+      "text": "of",
+      "start": 2.308541,
+      "end": 2.464791
     },
     {
-      "text": "3",
-      "start": 1.399416,
-      "end": 1.612499
-    },
-    {
-      "text": "Figure 4",
-      "start": 1.640916,
-      "end": 2.365333
-    },
-    {
-      "text": "Steps",
-      "start": 2.635208,
-      "end": 2.990333
-    },
-    {
-      "text": "to",
-      "start": 3.061375,
-      "end": 3.146583
-    },
-    {
-      "text": "draw",
-      "start": 3.231833,
-      "end": 3.444916
+      "text": "drawing",
+      "start": 2.535791,
+      "end": 2.919332
     },
     {
       "text": "a",
-      "start": 3.501708,
-      "end": 3.601124
+      "start": 2.947708,
+      "end": 3.047124
     },
     {
       "text": "cube",
-      "start": 3.700583,
-      "end": 3.998874
-    },
-    {
-      "text": "iii",
-      "start": 4.226125,
-      "end": 4.481791
-    },
-    {
-      "text": "For",
-      "start": 4.723291,
-      "end": 4.879541
-    },
-    {
-      "text": "the",
-      "start": 4.950583,
-      "end": 5.035791
-    },
-    {
-      "text": "rectangular",
-      "start": 5.064208,
-      "end": 5.746041
-    },
-    {
-      "text": "cuboid",
-      "start": 5.817041,
-      "end": 6.285791
-    },
-    {
-      "text": "draw",
-      "start": 6.626708,
-      "end": 6.839791
+      "start": 3.146583,
+      "end": 3.459083
     },
     {
       "text": "two",
-      "start": 6.953416,
-      "end": 7.123874
+      "start": 3.743166,
+      "end": 3.899416
     },
     {
-      "text": "overlapping",
-      "start": 7.209083,
-      "end": 7.848291
+      "text": "same-size",
+      "start": 3.970458,
+      "end": 4.552833
     },
     {
-      "text": "rectangular",
-      "start": 7.890916,
-      "end": 8.530124
+      "text": "squares",
+      "start": 4.58125,
+      "end": 5.121041
     },
     {
-      "text": "shapes",
-      "start": 8.558541,
-      "end": 8.942041
-    },
-    {
-      "text": "of",
-      "start": 8.942041,
-      "end": 9.027249
-    },
-    {
-      "text": "the",
-      "start": 9.084083,
-      "end": 9.183499
-    },
-    {
-      "text": "same",
-      "start": 9.26875,
-      "end": 9.510208
-    },
-    {
-      "text": "size",
-      "start": 9.623875,
-      "end": 9.979
-    },
-    {
-      "text": "except",
-      "start": 10.263083,
-      "end": 10.632416
-    },
-    {
-      "text": "that",
-      "start": 10.703416,
-      "end": 10.888082
-    },
-    {
-      "text": "one",
-      "start": 10.944875,
-      "end": 11.157958
-    },
-    {
-      "text": "is",
-      "start": 11.172166,
-      "end": 11.342624
-    },
-    {
-      "text": "slightly",
-      "start": 11.356833,
-      "end": 11.797166
-    },
-    {
-      "text": "higher",
-      "start": 11.853958,
-      "end": 12.209083
-    },
-    {
-      "text": "than",
-      "start": 12.265916,
-      "end": 12.407957
-    },
-    {
-      "text": "the",
-      "start": 12.493166,
-      "end": 12.535791
-    },
-    {
-      "text": "other",
-      "start": 12.649416,
-      "end": 12.933499
-    },
-    {
-      "text": "as",
-      "start": 12.990333,
-      "end": 13.189208
-    },
-    {
-      "text": "demonstrated",
-      "start": 13.260208,
-      "end": 13.998833
-    },
-    {
-      "text": "in",
-      "start": 14.055666,
-      "end": 14.155082
-    },
-    {
-      "text": "step",
-      "start": 14.254541,
-      "end": 14.552832
+      "text": "overlap",
+      "start": 5.20625,
+      "end": 5.760208
     },
     {
       "text": "1",
-      "start": 14.595458,
-      "end": 14.808541
+      "start": 6.875,
+      "end": 7.159083
     },
     {
-      "text": "in",
-      "start": 14.836916,
-      "end": 14.978957
+      "text": "Image",
+      "start": 7.230125,
+      "end": 7.556833
     },
     {
-      "text": "Figure 5",
-      "start": 15.021583,
-      "end": 15.7886659
+      "text": "description",
+      "start": 7.684666,
+      "end": 8.480124
     },
     {
-      "text": "and",
-      "start": 16.115333,
-      "end": 16.385208
+      "text": "Step",
+      "start": 8.735791,
+      "end": 8.991457
     },
     {
-      "text": "iv",
-      "start": 16.6125,
-      "end": 16.868166
-    },
-    {
-      "text": "Connect",
-      "start": 17.109666,
-      "end": 17.436374
-    },
-    {
-      "text": "the",
-      "start": 17.535791,
-      "end": 17.635207
-    },
-    {
-      "text": "shapes",
-      "start": 17.649416,
-      "end": 18.075541
-    },
-    {
-      "text": "by",
-      "start": 18.160791,
-      "end": 18.274416
-    },
-    {
-      "text": "drawing",
-      "start": 18.359666,
-      "end": 18.714791
-    },
-    {
-      "text": "four",
-      "start": 18.743166,
-      "end": 18.970457
-    },
-    {
-      "text": "lines",
-      "start": 18.998875,
-      "end": 19.396583
-    },
-    {
-      "text": "connecting",
-      "start": 19.453416,
-      "end": 19.993207
-    },
-    {
-      "text": "the",
-      "start": 20.078416,
-      "end": 20.163624
-    },
-    {
-      "text": "four",
-      "start": 20.192041,
-      "end": 20.405124
-    },
-    {
-      "text": "corners",
-      "start": 20.476125,
-      "end": 20.845458
+      "text": "2",
+      "start": 9.105125,
+      "end": 9.232958
     },
     {
       "text": "of",
-      "start": 20.859666,
-      "end": 21.044332
+      "start": 9.318166,
+      "end": 9.488624
     },
     {
-      "text": "one",
-      "start": 21.044333,
-      "end": 21.243208
+      "text": "drawing",
+      "start": 9.573875,
+      "end": 9.971583
     },
     {
-      "text": "shape",
-      "start": 21.271583,
-      "end": 21.569874
+      "text": "a",
+      "start": 10.0,
+      "end": 10.085208
+    },
+    {
+      "text": "cube",
+      "start": 10.170458,
+      "end": 10.482958
+    },
+    {
+      "text": "connect",
+      "start": 10.767041,
+      "end": 11.093749
+    },
+    {
+      "text": "the",
+      "start": 11.164791,
+      "end": 11.235832
+    },
+    {
+      "text": "corners",
+      "start": 11.321041,
+      "end": 11.690374
     },
     {
       "text": "with",
-      "start": 21.626708,
-      "end": 21.669333
+      "start": 11.747166,
+      "end": 11.874999
     },
     {
-      "text": "the",
-      "start": 21.726125,
-      "end": 21.811333
-    },
-    {
-      "text": "four",
-      "start": 21.825583,
-      "end": 22.052874
-    },
-    {
-      "text": "corners",
-      "start": 22.123875,
-      "end": 22.521583
-    },
-    {
-      "text": "of",
-      "start": 22.535791,
-      "end": 22.606832
-    },
-    {
-      "text": "the",
-      "start": 22.663625,
-      "end": 22.692041
-    },
-    {
-      "text": "other",
-      "start": 22.805666,
-      "end": 23.061332
-    },
-    {
-      "text": "shape",
-      "start": 23.089791,
-      "end": 23.359666
-    },
-    {
-      "text": "as",
-      "start": 23.459083,
-      "end": 23.615333
-    },
-    {
-      "text": "demonstrated",
-      "start": 23.686375,
-      "end": 24.439208
-    },
-    {
-      "text": "in",
-      "start": 24.510208,
-      "end": 24.623833
-    },
-    {
-      "text": "step",
-      "start": 24.723291,
-      "end": 24.964749
-    },
-    {
-      "text": "2",
-      "start": 25.092625,
-      "end": 25.2915
-    },
-    {
-      "text": "and",
-      "start": 25.376708,
-      "end": 25.575583
-    },
-    {
-      "text": "3",
-      "start": 25.603958,
-      "end": 25.831249
-    },
-    {
-      "text": "1",
-      "start": 26.946041,
-      "end": 27.201707
-    },
-    {
-      "text": "2",
-      "start": 27.301125,
-      "end": 27.428958
-    },
-    {
-      "text": "3",
-      "start": 27.5,
-      "end": 27.727291
-    },
-    {
-      "text": "Figure 5",
-      "start": 27.7415,
-      "end": 28.622124
-    },
-    {
-      "text": "Steps",
-      "start": 28.90625,
-      "end": 29.275583
-    },
-    {
-      "text": "to",
-      "start": 29.332375,
-      "end": 29.431791
-    },
-    {
-      "text": "draw",
-      "start": 29.517041,
-      "end": 29.730124
-    },
-    {
-      "text": "a",
-      "start": 29.786916,
-      "end": 29.872124
-    },
-    {
-      "text": "rectangular",
-      "start": 29.914791,
-      "end": 30.525582
-    },
-    {
-      "text": "cuboid",
-      "start": 30.596583,
-      "end": 31.036916
-    },
-    {
-      "text": "Using",
-      "start": 31.09375,
-      "end": 31.420458
-    },
-    {
-      "text": "shapes",
-      "start": 31.448875,
-      "end": 31.875
-    },
-    {
-      "text": "in",
-      "start": 31.946041,
-      "end": 32.073874
-    },
-    {
-      "text": "drawing",
-      "start": 32.144875,
-      "end": 32.5
-    },
-    {
-      "text": "various",
-      "start": 32.556833,
-      "end": 32.997166
-    },
-    {
-      "text": "objects",
-      "start": 33.054,
-      "end": 33.579583
-    },
-    {
-      "text": "In",
-      "start": 33.650583,
-      "end": 33.764208
-    },
-    {
-      "text": "drawing",
-      "start": 33.849416,
-      "end": 34.318166
-    },
-    {
-      "text": "shapes",
-      "start": 34.517041,
-      "end": 34.928957
-    },
-    {
-      "text": "can",
-      "start": 35.014208,
-      "end": 35.156249
-    },
-    {
-      "text": "be",
-      "start": 35.255666,
-      "end": 35.298291
-    },
-    {
-      "text": "used",
-      "start": 35.383541,
-      "end": 35.639207
-    },
-    {
-      "text": "to",
-      "start": 35.681833,
-      "end": 35.781249
-    },
-    {
-      "text": "draw",
-      "start": 35.8665,
-      "end": 36.051166
-    },
-    {
-      "text": "different",
-      "start": 36.136375,
-      "end": 36.5625
-    },
-    {
-      "text": "images",
-      "start": 36.633541,
-      "end": 37.173332
-    },
-    {
-      "text": "For",
-      "start": 38.309666,
-      "end": 38.522749
-    },
-    {
-      "text": "example",
-      "start": 38.565333,
-      "end": 39.190333
-    },
-    {
-      "text": "human",
-      "start": 39.204541,
-      "end": 39.630666
-    },
-    {
-      "text": "beings",
-      "start": 39.715916,
-      "end": 40.042624
-    },
-    {
-      "text": "and",
-      "start": 40.042625,
-      "end": 40.184666
-    },
-    {
-      "text": "animals",
-      "start": 40.255666,
-      "end": 40.994291
-    },
-    {
-      "text": "Drawing",
-      "start": 42.059666,
-      "end": 42.514207
-    },
-    {
-      "text": "a",
-      "start": 42.556833,
-      "end": 42.627874
-    },
-    {
-      "text": "human",
-      "start": 42.670458,
-      "end": 43.068166
-    },
-    {
-      "text": "being",
-      "start": 43.153416,
-      "end": 43.380707
-    },
-    {
-      "text": "Drawing",
-      "start": 43.423291,
-      "end": 43.820999
-    },
-    {
-      "text": "a",
-      "start": 43.863625,
-      "end": 43.948833
-    },
-    {
-      "text": "human",
-      "start": 43.977291,
-      "end": 44.403416
-    },
-    {
-      "text": "being's",
-      "start": 44.474416,
-      "end": 44.772707
-    },
-    {
-      "text": "portrait",
-      "start": 44.84375,
-      "end": 45.298291
+      "text": "lines",
+      "start": 11.889208,
+      "end": 12.372166
     },
     {
       "text": "using",
-      "start": 45.340916,
-      "end": 45.639207
+      "start": 12.613625,
+      "end": 12.96875
     },
     {
-      "text": "shapes",
-      "start": 45.667625,
-      "end": 46.079541
+      "text": "dashed",
+      "start": 13.053958,
+      "end": 13.352249
     },
     {
-      "text": "is",
-      "start": 46.09375,
-      "end": 46.25
+      "text": "guide",
+      "start": 13.480125,
+      "end": 13.693208
     },
     {
-      "text": "important",
-      "start": 46.264208,
-      "end": 46.917624
+      "text": "lines",
+      "start": 13.707375,
+      "end": 14.28975
     },
     {
-      "text": "to",
-      "start": 46.974416,
-      "end": 47.059624
+      "text": "2",
+      "start": 15.355125,
+      "end": 15.582416
     },
     {
-      "text": "first",
-      "start": 47.073875,
-      "end": 47.471583
+      "text": "Image",
+      "start": 15.667625,
+      "end": 16.008541
     },
     {
-      "text": "understand",
-      "start": 47.542625,
-      "end": 48.082416
+      "text": "description",
+      "start": 16.136375,
+      "end": 16.931833
     },
     {
-      "text": "the",
-      "start": 48.167625,
-      "end": 48.238666
+      "text": "Step",
+      "start": 17.173291,
+      "end": 17.457374
     },
     {
-      "text": "proportions",
-      "start": 48.323875,
-      "end": 49.005708
+      "text": "3",
+      "start": 17.571041,
+      "end": 17.798332
     },
     {
       "text": "of",
-      "start": 49.034083,
-      "end": 49.119291
+      "start": 17.869333,
+      "end": 18.039791
+    },
+    {
+      "text": "drawing",
+      "start": 18.125,
+      "end": 18.522708
+    },
+    {
+      "text": "a",
+      "start": 18.565333,
+      "end": 18.650541
+    },
+    {
+      "text": "cube",
+      "start": 18.735791,
+      "end": 19.062499
     },
     {
       "text": "the",
-      "start": 49.176125,
-      "end": 49.261333
+      "start": 19.303958,
+      "end": 19.403374
     },
     {
-      "text": "body",
-      "start": 49.346583,
-      "end": 49.602249
+      "text": "finished",
+      "start": 19.431833,
+      "end": 19.914791
     },
     {
-      "text": "parts",
-      "start": 49.715916,
-      "end": 50.085249
+      "text": "cube",
+      "start": 20.0,
+      "end": 20.269875
     },
     {
-      "text": "which",
-      "start": 50.298291,
-      "end": 50.553957
+      "text": "shape",
+      "start": 20.3125,
+      "end": 20.667625
     },
     {
-      "text": "are",
-      "start": 50.625,
-      "end": 50.724416
+      "text": "3",
+      "start": 21.747166,
+      "end": 22.031249
+    },
+    {
+      "text": "Figure 4",
+      "start": 22.045458,
+      "end": 22.798291
+    },
+    {
+      "text": "Steps",
+      "start": 23.053958,
+      "end": 23.451666
+    },
+    {
+      "text": "to",
+      "start": 23.508541,
+      "end": 23.593749
+    },
+    {
+      "text": "draw",
+      "start": 23.678958,
+      "end": 23.906249
+    },
+    {
+      "text": "a",
+      "start": 23.948875,
+      "end": 24.034083
+    },
+    {
+      "text": "cube",
+      "start": 24.119333,
+      "end": 24.346624
+    },
+    {
+      "text": "iii",
+      "start": 24.446041,
+      "end": 24.701707
+    },
+    {
+      "text": "For",
+      "start": 25.795458,
+      "end": 25.965916
     },
     {
       "text": "the",
-      "start": 50.78125,
-      "end": 50.880666
+      "start": 26.036916,
+      "end": 26.150541
     },
     {
-      "text": "head",
-      "start": 50.923291,
-      "end": 51.249999
+      "text": "rectangular",
+      "start": 26.179,
+      "end": 26.832416
     },
     {
-      "text": "arms",
-      "start": 51.548291,
-      "end": 51.960207
+      "text": "cuboid",
+      "start": 26.917625,
+      "end": 27.386375
     },
     {
-      "text": "chest",
-      "start": 52.244333,
-      "end": 52.556833
+      "text": "draw",
+      "start": 27.727291,
+      "end": 27.954582
+    },
+    {
+      "text": "two",
+      "start": 28.054,
+      "end": 28.252875
+    },
+    {
+      "text": "overlapping",
+      "start": 28.338083,
+      "end": 29.005708
+    },
+    {
+      "text": "rectangular",
+      "start": 29.0625,
+      "end": 29.6875
+    },
+    {
+      "text": "shapes",
+      "start": 29.715916,
+      "end": 30.085249
+    },
+    {
+      "text": "of",
+      "start": 30.099416,
+      "end": 30.170457
+    },
+    {
+      "text": "the",
+      "start": 30.227291,
+      "end": 30.326707
+    },
+    {
+      "text": "same",
+      "start": 30.411916,
+      "end": 30.639207
+    },
+    {
+      "text": "size",
+      "start": 30.738625,
+      "end": 31.107958
+    },
+    {
+      "text": "except",
+      "start": 31.392041,
+      "end": 31.789749
+    },
+    {
+      "text": "that",
+      "start": 31.875,
+      "end": 32.059666
+    },
+    {
+      "text": "one",
+      "start": 32.1165,
+      "end": 32.329583
+    },
+    {
+      "text": "is",
+      "start": 32.357958,
+      "end": 32.528416
+    },
+    {
+      "text": "slightly",
+      "start": 32.542625,
+      "end": 32.96875
+    },
+    {
+      "text": "higher",
+      "start": 33.025583,
+      "end": 33.366499
+    },
+    {
+      "text": "than",
+      "start": 33.409083,
+      "end": 33.565333
+    },
+    {
+      "text": "the",
+      "start": 33.650583,
+      "end": 33.693208
+    },
+    {
+      "text": "other",
+      "start": 33.806833,
+      "end": 34.105124
+    },
+    {
+      "text": "as",
+      "start": 34.161916,
+      "end": 34.360791
+    },
+    {
+      "text": "demonstrated",
+      "start": 34.431833,
+      "end": 35.170458
+    },
+    {
+      "text": "in",
+      "start": 35.227291,
+      "end": 35.326707
+    },
+    {
+      "text": "step",
+      "start": 35.426125,
+      "end": 35.724416
+    },
+    {
+      "text": "1",
+      "start": 35.767041,
+      "end": 35.980124
+    },
+    {
+      "text": "in",
+      "start": 36.008541,
+      "end": 36.150582
+    },
+    {
+      "text": "Figure 5",
+      "start": 36.179,
+      "end": 36.988666
     },
     {
       "text": "and",
-      "start": 52.940333,
-      "end": 53.096583
+      "start": 37.244333,
+      "end": 37.400583
+    },
+    {
+      "text": "iv",
+      "start": 37.457375,
+      "end": 37.755666
+    },
+    {
+      "text": "Connect",
+      "start": 38.821041,
+      "end": 39.190374
+    },
+    {
+      "text": "the",
+      "start": 39.318166,
+      "end": 39.417582
+    },
+    {
+      "text": "shapes",
+      "start": 39.431833,
+      "end": 39.872166
+    },
+    {
+      "text": "by",
+      "start": 39.985791,
+      "end": 40.113624
+    },
+    {
+      "text": "drawing",
+      "start": 40.198875,
+      "end": 40.539791
+    },
+    {
+      "text": "four",
+      "start": 40.568166,
+      "end": 40.767041
+    },
+    {
+      "text": "lines",
+      "start": 40.809666,
+      "end": 41.164791
+    },
+    {
+      "text": "connecting",
+      "start": 41.221583,
+      "end": 41.761374
+    },
+    {
+      "text": "the",
+      "start": 41.846583,
+      "end": 41.931791
+    },
+    {
+      "text": "four",
+      "start": 41.96025,
+      "end": 42.159125
+    },
+    {
+      "text": "corners",
+      "start": 42.230125,
+      "end": 42.613666
+    },
+    {
+      "text": "of",
+      "start": 42.627833,
+      "end": 42.798291
+    },
+    {
+      "text": "one",
+      "start": 42.798291,
+      "end": 42.982957
+    },
+    {
+      "text": "shape",
+      "start": 43.011375,
+      "end": 43.295458
+    },
+    {
+      "text": "with",
+      "start": 43.352291,
+      "end": 43.409124
+    },
+    {
+      "text": "the",
+      "start": 43.465916,
+      "end": 43.551124
+    },
+    {
+      "text": "four",
+      "start": 43.579541,
+      "end": 43.806832
+    },
+    {
+      "text": "corners",
+      "start": 43.877833,
+      "end": 44.261374
+    },
+    {
+      "text": "of",
+      "start": 44.275583,
+      "end": 44.346624
+    },
+    {
+      "text": "the",
+      "start": 44.417625,
+      "end": 44.46025
+    },
+    {
+      "text": "other",
+      "start": 44.559666,
+      "end": 44.815332
+    },
+    {
+      "text": "shape",
+      "start": 44.84375,
+      "end": 45.099416
+    },
+    {
+      "text": "as",
+      "start": 45.198875,
+      "end": 45.355125
+    },
+    {
+      "text": "demonstrated",
+      "start": 45.426125,
+      "end": 46.178958
+    },
+    {
+      "text": "in",
+      "start": 46.235791,
+      "end": 46.349416
+    },
+    {
+      "text": "step",
+      "start": 46.448875,
+      "end": 46.704541
+    },
+    {
+      "text": "2",
+      "start": 46.832375,
+      "end": 47.002833
+    },
+    {
+      "text": "and",
+      "start": 47.088083,
+      "end": 47.286958
+    },
+    {
+      "text": "3",
+      "start": 47.301125,
+      "end": 47.528416
+    },
+    {
+      "text": "Image",
+      "start": 48.650583,
+      "end": 49.034124
+    },
+    {
+      "text": "description",
+      "start": 49.176125,
+      "end": 49.985791
+    },
+    {
+      "text": "Step",
+      "start": 50.2415,
+      "end": 50.596625
+    },
+    {
+      "text": "1",
+      "start": 50.639208,
+      "end": 50.852291
+    },
+    {
+      "text": "of",
+      "start": 50.880666,
+      "end": 51.036916
+    },
+    {
+      "text": "drawing",
+      "start": 51.107958,
+      "end": 51.477291
+    },
+    {
+      "text": "a",
+      "start": 51.519875,
+      "end": 51.605083
+    },
+    {
+      "text": "rectangular",
+      "start": 51.633541,
+      "end": 52.244332
+    },
+    {
+      "text": "cuboid",
+      "start": 52.329541,
+      "end": 52.798291
+    },
+    {
+      "text": "two",
+      "start": 53.167625,
+      "end": 53.309666
+    },
+    {
+      "text": "same-size",
+      "start": 53.380666,
+      "end": 53.977249
+    },
+    {
+      "text": "rectangles",
+      "start": 54.034083,
+      "end": 54.772708
+    },
+    {
+      "text": "overlap",
+      "start": 54.84375,
+      "end": 55.411916
+    },
+    {
+      "text": "1",
+      "start": 56.477291,
+      "end": 56.803999
+    },
+    {
+      "text": "Image",
+      "start": 56.875,
+      "end": 57.201708
+    },
+    {
+      "text": "description",
+      "start": 57.34375,
+      "end": 58.139208
+    },
+    {
+      "text": "Step",
+      "start": 58.394875,
+      "end": 58.650541
+    },
+    {
+      "text": "2",
+      "start": 58.75,
+      "end": 58.877833
+    },
+    {
+      "text": "of",
+      "start": 58.963083,
+      "end": 59.133541
+    },
+    {
+      "text": "drawing",
+      "start": 59.21875,
+      "end": 59.573875
+    },
+    {
+      "text": "a",
+      "start": 59.630666,
+      "end": 59.715874
+    },
+    {
+      "text": "rectangular",
+      "start": 59.758541,
+      "end": 60.355124
+    },
+    {
+      "text": "cuboid",
+      "start": 60.440333,
+      "end": 60.937499
+    },
+    {
+      "text": "connect",
+      "start": 61.25,
+      "end": 61.5625
+    },
+    {
+      "text": "the",
+      "start": 61.661916,
+      "end": 61.732957
+    },
+    {
+      "text": "corners",
+      "start": 61.818166,
+      "end": 62.201707
+    },
+    {
+      "text": "with",
+      "start": 62.258541,
+      "end": 62.400582
+    },
+    {
+      "text": "lines",
+      "start": 62.414791,
+      "end": 62.826707
+    },
+    {
+      "text": "and",
+      "start": 62.89775,
+      "end": 62.997166
+    },
+    {
+      "text": "dashed",
+      "start": 63.096583,
+      "end": 63.409083
+    },
+    {
+      "text": "guide",
+      "start": 63.536916,
+      "end": 63.749999
+    },
+    {
+      "text": "lines",
+      "start": 63.764208,
+      "end": 64.318166
+    },
+    {
+      "text": "2",
+      "start": 65.383541,
+      "end": 65.624999
+    },
+    {
+      "text": "Image",
+      "start": 65.71025,
+      "end": 66.065375
+    },
+    {
+      "text": "description",
+      "start": 66.207375,
+      "end": 67.017041
+    },
+    {
+      "text": "Step",
+      "start": 67.27275,
+      "end": 67.556833
+    },
+    {
+      "text": "3",
+      "start": 67.670458,
+      "end": 67.883541
+    },
+    {
+      "text": "of",
+      "start": 67.954541,
+      "end": 68.110791
+    },
+    {
+      "text": "drawing",
+      "start": 68.196041,
+      "end": 68.565374
+    },
+    {
+      "text": "a",
+      "start": 68.607958,
+      "end": 68.693166
+    },
+    {
+      "text": "rectangular",
+      "start": 68.721583,
+      "end": 69.346583
+    },
+    {
+      "text": "cuboid",
+      "start": 69.431833,
+      "end": 69.914791
+    },
+    {
+      "text": "the",
+      "start": 70.227291,
+      "end": 70.326707
+    },
+    {
+      "text": "finished",
+      "start": 70.355125,
+      "end": 70.852291
+    },
+    {
+      "text": "box",
+      "start": 70.965916,
+      "end": 71.278416
+    },
+    {
+      "text": "shape",
+      "start": 71.349416,
+      "end": 71.619291
+    },
+    {
+      "text": "3",
+      "start": 72.698875,
+      "end": 72.997166
+    },
+    {
+      "text": "Figure 5",
+      "start": 73.011375,
+      "end": 73.849416
+    },
+    {
+      "text": "Steps",
+      "start": 74.133541,
+      "end": 74.531249
+    },
+    {
+      "text": "to",
+      "start": 74.588083,
+      "end": 74.687499
+    },
+    {
+      "text": "draw",
+      "start": 74.77275,
+      "end": 74.985833
+    },
+    {
+      "text": "a",
+      "start": 75.042625,
+      "end": 75.142041
+    },
+    {
+      "text": "rectangular",
+      "start": 75.184666,
+      "end": 75.838082
+    },
+    {
+      "text": "cuboid",
+      "start": 75.923291,
+      "end": 76.335207
+    },
+    {
+      "text": "Using",
+      "start": 76.392041,
+      "end": 76.718749
+    },
+    {
+      "text": "shapes",
+      "start": 76.747166,
+      "end": 77.159082
+    },
+    {
+      "text": "in",
+      "start": 77.230125,
+      "end": 77.357958
+    },
+    {
+      "text": "drawing",
+      "start": 77.429,
+      "end": 77.784125
+    },
+    {
+      "text": "various",
+      "start": 77.840916,
+      "end": 78.267041
+    },
+    {
+      "text": "objects",
+      "start": 78.323875,
+      "end": 78.863666
+    },
+    {
+      "text": "In",
+      "start": 78.934666,
+      "end": 79.062499
+    },
+    {
+      "text": "drawing",
+      "start": 79.14775,
+      "end": 79.6165
+    },
+    {
+      "text": "shapes",
+      "start": 79.801125,
+      "end": 80.198833
+    },
+    {
+      "text": "can",
+      "start": 80.284083,
+      "end": 80.426124
+    },
+    {
+      "text": "be",
+      "start": 80.525583,
+      "end": 80.568208
+    },
+    {
+      "text": "used",
+      "start": 80.653416,
+      "end": 80.909082
+    },
+    {
+      "text": "to",
+      "start": 80.9375,
+      "end": 81.036916
+    },
+    {
+      "text": "draw",
+      "start": 81.122166,
+      "end": 81.306832
+    },
+    {
+      "text": "different",
+      "start": 81.392041,
+      "end": 81.803957
+    },
+    {
+      "text": "images",
+      "start": 81.875,
+      "end": 82.414791
+    },
+    {
+      "text": "For",
+      "start": 83.565333,
+      "end": 83.778416
+    },
+    {
+      "text": "example",
+      "start": 83.821041,
+      "end": 84.446041
+    },
+    {
+      "text": "human",
+      "start": 84.46025,
+      "end": 84.886375
+    },
+    {
+      "text": "beings",
+      "start": 84.971583,
+      "end": 85.298291
+    },
+    {
+      "text": "and",
+      "start": 85.298291,
+      "end": 85.440332
+    },
+    {
+      "text": "animals",
+      "start": 85.511375,
+      "end": 86.25
+    },
+    {
+      "text": "Drawing",
+      "start": 87.315333,
+      "end": 87.769874
+    },
+    {
+      "text": "a",
+      "start": 87.8125,
+      "end": 87.883541
+    },
+    {
+      "text": "human",
+      "start": 87.926125,
+      "end": 88.323833
+    },
+    {
+      "text": "being",
+      "start": 88.409083,
+      "end": 88.636374
+    },
+    {
+      "text": "Drawing",
+      "start": 88.679,
+      "end": 89.076708
+    },
+    {
+      "text": "a",
+      "start": 89.119333,
+      "end": 89.204541
+    },
+    {
+      "text": "human",
+      "start": 89.232958,
+      "end": 89.659083
+    },
+    {
+      "text": "being's",
+      "start": 89.730125,
+      "end": 90.028416
+    },
+    {
+      "text": "portrait",
+      "start": 90.099458,
+      "end": 90.553999
+    },
+    {
+      "text": "using",
+      "start": 90.596583,
+      "end": 90.894874
+    },
+    {
+      "text": "shapes",
+      "start": 90.923291,
+      "end": 91.335207
+    },
+    {
+      "text": "is",
+      "start": 91.349458,
+      "end": 91.505708
+    },
+    {
+      "text": "important",
+      "start": 91.519875,
+      "end": 92.173291
+    },
+    {
+      "text": "to",
+      "start": 92.230125,
+      "end": 92.315333
+    },
+    {
+      "text": "first",
+      "start": 92.329541,
+      "end": 92.727249
+    },
+    {
+      "text": "understand",
+      "start": 92.798291,
+      "end": 93.338082
+    },
+    {
+      "text": "the",
+      "start": 93.423291,
+      "end": 93.494332
+    },
+    {
+      "text": "proportions",
+      "start": 93.579541,
+      "end": 94.261374
+    },
+    {
+      "text": "of",
+      "start": 94.289791,
+      "end": 94.374999
+    },
+    {
+      "text": "the",
+      "start": 94.431833,
+      "end": 94.517041
+    },
+    {
+      "text": "body",
+      "start": 94.602291,
+      "end": 94.857957
+    },
+    {
+      "text": "parts",
+      "start": 94.971583,
+      "end": 95.340916
+    },
+    {
+      "text": "which",
+      "start": 95.554,
+      "end": 95.809666
+    },
+    {
+      "text": "are",
+      "start": 95.880708,
+      "end": 95.980124
+    },
+    {
+      "text": "the",
+      "start": 96.036958,
+      "end": 96.136374
+    },
+    {
+      "text": "head",
+      "start": 96.179,
+      "end": 96.505708
+    },
+    {
+      "text": "arms",
+      "start": 96.804,
+      "end": 97.215916
+    },
+    {
+      "text": "chest",
+      "start": 97.5,
+      "end": 97.8125
+    },
+    {
+      "text": "and",
+      "start": 98.196041,
+      "end": 98.352291
     },
     {
       "text": "legs",
-      "start": 53.139208,
-      "end": 53.636374
+      "start": 98.394875,
+      "end": 98.892041
     }
   ]
 }

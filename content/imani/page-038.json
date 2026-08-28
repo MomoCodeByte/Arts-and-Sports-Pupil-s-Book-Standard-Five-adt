@@ -2,434 +2,739 @@
   "audio": "page-038.mp3",
   "words": [
     {
-      "text": "32",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.660791
+      "end": 0.490374
     },
     {
-      "text": "Figure 11",
-      "start": 0.675,
-      "end": 1.655124
+      "text": "description",
+      "start": 0.618166,
+      "end": 1.385207
     },
     {
-      "text": "Use",
-      "start": 1.910791,
-      "end": 2.152249
-    },
-    {
-      "text": "of",
-      "start": 2.180666,
-      "end": 2.308499
-    },
-    {
-      "text": "shapes",
-      "start": 2.351125,
-      "end": 2.720458
-    },
-    {
-      "text": "in",
-      "start": 2.763083,
-      "end": 2.876708
-    },
-    {
-      "text": "drawing",
-      "start": 2.961916,
-      "end": 3.288624
-    },
-    {
-      "text": "a",
-      "start": 3.33125,
-      "end": 3.416458
+      "text": "Three",
+      "start": 1.669333,
+      "end": 1.882416
     },
     {
       "text": "human",
-      "start": 3.444875,
-      "end": 3.842583
+      "start": 1.925,
+      "end": 2.336916
     },
     {
-      "text": "being",
-      "start": 3.927833,
-      "end": 4.112499
+      "text": "figures",
+      "start": 2.379541,
+      "end": 2.876707
     },
     {
-      "text": "appearing",
-      "start": 4.155125,
-      "end": 4.680708
+      "text": "built",
+      "start": 2.976125,
+      "end": 3.274416
     },
     {
-      "text": "in",
-      "start": 4.709083,
-      "end": 4.836916
+      "text": "from",
+      "start": 3.317041,
+      "end": 3.530124
+    },
+    {
+      "text": "circles",
+      "start": 3.601125,
+      "end": 4.226125
+    },
+    {
+      "text": "cylinders",
+      "start": 4.467625,
+      "end": 5.177833
+    },
+    {
+      "text": "boxes",
+      "start": 5.433541,
+      "end": 5.959124
+    },
+    {
+      "text": "and",
+      "start": 6.157958,
+      "end": 6.342624
+    },
+    {
+      "text": "guide",
+      "start": 6.413625,
+      "end": 6.640916
+    },
+    {
+      "text": "lines",
+      "start": 6.669333,
+      "end": 7.067041
+    },
+    {
+      "text": "show",
+      "start": 7.095458,
+      "end": 7.308541
     },
     {
       "text": "different",
-      "start": 4.907958,
-      "end": 5.334083
+      "start": 7.407958,
+      "end": 7.834083
     },
     {
       "text": "postures",
-      "start": 5.405125,
-      "end": 5.83125
+      "start": 7.905125,
+      "end": 8.4165
     },
     {
-      "text": "Drawing",
-      "start": 5.930666,
-      "end": 6.271582
+      "text": "dancing",
+      "start": 8.686375,
+      "end": 9.126708
     },
     {
-      "text": "animals",
-      "start": 6.328416,
-      "end": 6.868207
-    },
-    {
-      "text": "Many",
-      "start": 6.896583,
-      "end": 7.180666
-    },
-    {
-      "text": "animal",
-      "start": 7.251708,
-      "end": 7.649416
-    },
-    {
-      "text": "drawings",
-      "start": 7.763083,
-      "end": 8.231833
-    },
-    {
-      "text": "are",
-      "start": 8.274416,
-      "end": 8.359624
-    },
-    {
-      "text": "guided",
-      "start": 8.416458,
-      "end": 8.728958
-    },
-    {
-      "text": "by",
-      "start": 8.814208,
-      "end": 8.927833
-    },
-    {
-      "text": "circle",
-      "start": 8.95625,
-      "end": 9.410791
-    },
-    {
-      "text": "and",
-      "start": 9.425,
-      "end": 9.58125
-    },
-    {
-      "text": "cylinder",
-      "start": 9.609666,
-      "end": 10.064207
-    },
-    {
-      "text": "shapes",
-      "start": 10.092625,
-      "end": 10.660791
-    },
-    {
-      "text": "What",
-      "start": 11.71875,
-      "end": 12.002833
-    },
-    {
-      "text": "differs",
-      "start": 12.144875,
-      "end": 12.556791
-    },
-    {
-      "text": "is",
-      "start": 12.556833,
-      "end": 12.670458
-    },
-    {
-      "text": "the",
-      "start": 12.727291,
-      "end": 12.812499
-    },
-    {
-      "text": "dimensions",
-      "start": 12.883541,
-      "end": 13.536957
-    },
-    {
-      "text": "between",
-      "start": 13.607958,
-      "end": 13.920458
+      "text": "with",
+      "start": 9.197708,
+      "end": 9.353958
     },
     {
       "text": "one",
-      "start": 14.005666,
-      "end": 14.232957
+      "start": 9.382375,
+      "end": 9.65225
     },
     {
-      "text": "type",
-      "start": 14.247166,
-      "end": 14.474457
+      "text": "arm",
+      "start": 9.723291,
+      "end": 9.936374
     },
     {
-      "text": "of",
-      "start": 14.517041,
-      "end": 14.659082
+      "text": "raised",
+      "start": 9.993166,
+      "end": 10.376707
     },
     {
-      "text": "animal",
-      "start": 14.715916,
-      "end": 15.184666
+      "text": "sitting",
+      "start": 10.646583,
+      "end": 11.101124
     },
     {
-      "text": "and",
-      "start": 15.213083,
-      "end": 15.369333
-    },
-    {
-      "text": "another",
-      "start": 15.369333,
-      "end": 15.894916
-    },
-    {
-      "text": "Small",
-      "start": 16.960208,
-      "end": 17.428958
-    },
-    {
-      "text": "animals",
-      "start": 17.5,
-      "end": 18.139208
-    },
-    {
-      "text": "such",
-      "start": 18.139208,
-      "end": 18.409083
-    },
-    {
-      "text": "as",
-      "start": 18.409083,
-      "end": 18.579541
-    },
-    {
-      "text": "dogs",
-      "start": 18.664791,
-      "end": 18.991457
-    },
-    {
-      "text": "use",
-      "start": 18.991458,
-      "end": 19.232916
-    },
-    {
-      "text": "small",
-      "start": 19.232958,
-      "end": 19.488624
-    },
-    {
-      "text": "dimensions",
-      "start": 19.573875,
-      "end": 20.198875
-    },
-    {
-      "text": "of",
-      "start": 20.213083,
-      "end": 20.284124
+      "text": "on",
+      "start": 11.14375,
+      "end": 11.243166
     },
     {
       "text": "the",
-      "start": 20.340916,
-      "end": 20.426124
+      "start": 11.3,
+      "end": 11.371041
     },
     {
-      "text": "circle",
-      "start": 20.46875,
-      "end": 20.923291
-    },
-    {
-      "text": "and",
-      "start": 20.965916,
-      "end": 21.122166
-    },
-    {
-      "text": "cylinder",
-      "start": 21.150583,
-      "end": 21.619333
-    },
-    {
-      "text": "shapes",
-      "start": 21.647708,
-      "end": 22.187499
-    },
-    {
-      "text": "Large",
-      "start": 23.252833,
-      "end": 23.636374
-    },
-    {
-      "text": "animals",
-      "start": 23.721583,
-      "end": 24.332374
-    },
-    {
-      "text": "such",
-      "start": 24.332375,
-      "end": 24.588041
-    },
-    {
-      "text": "as",
-      "start": 24.588083,
-      "end": 24.758541
-    },
-    {
-      "text": "cows",
-      "start": 24.815333,
-      "end": 25.156249
-    },
-    {
-      "text": "use",
-      "start": 25.184666,
-      "end": 25.454541
-    },
-    {
-      "text": "large",
-      "start": 25.46875,
-      "end": 25.767041
-    },
-    {
-      "text": "dimensions",
-      "start": 25.880666,
-      "end": 26.519874
-    },
-    {
-      "text": "of",
-      "start": 26.519875,
-      "end": 26.590916
-    },
-    {
-      "text": "the",
-      "start": 26.64775,
-      "end": 26.732958
-    },
-    {
-      "text": "circle",
-      "start": 26.789791,
-      "end": 27.230124
+      "text": "ground",
+      "start": 11.470458,
+      "end": 11.811374
     },
     {
       "text": "and",
-      "start": 27.27275,
-      "end": 27.414791
+      "start": 12.08125,
+      "end": 12.2375
     },
     {
-      "text": "cylinder",
-      "start": 27.443166,
-      "end": 27.926124
+      "text": "standing",
+      "start": 12.308541,
+      "end": 12.748874
     },
     {
-      "text": "shapes",
-      "start": 27.954541,
-      "end": 28.494332
+      "text": "with",
+      "start": 12.819875,
+      "end": 12.990333
     },
     {
-      "text": "Figure 12",
-      "start": 29.559666,
-      "end": 30.3977069
+      "text": "one",
+      "start": 13.01875,
+      "end": 13.260208
     },
     {
-      "text": "shows",
-      "start": 30.411916,
-      "end": 30.710207
+      "text": "hand",
+      "start": 13.288625,
+      "end": 13.629541
     },
     {
-      "text": "an",
-      "start": 30.71025,
-      "end": 30.852291
+      "text": "extended",
+      "start": 13.700583,
+      "end": 14.396624
     },
     {
-      "text": "example",
-      "start": 30.852291,
-      "end": 31.448874
-    },
-    {
-      "text": "of",
-      "start": 31.448875,
-      "end": 31.605125
-    },
-    {
-      "text": "a",
-      "start": 31.605125,
-      "end": 31.676166
-    },
-    {
-      "text": "dog",
-      "start": 31.761375,
-      "end": 31.988666
-    },
-    {
-      "text": "image",
-      "start": 32.059666,
-      "end": 32.414791
-    },
-    {
-      "text": "after",
-      "start": 32.485791,
-      "end": 32.784082
-    },
-    {
-      "text": "combining",
-      "start": 32.855125,
-      "end": 33.409083
-    },
-    {
-      "text": "these",
-      "start": 33.480125,
-      "end": 33.721583
-    },
-    {
-      "text": "shapes",
-      "start": 33.778416,
-      "end": 34.275582
-    },
-    {
-      "text": "Figure 12",
-      "start": 35.326708,
-      "end": 36.278416
+      "text": "Figure 11",
+      "start": 15.454541,
+      "end": 16.5625
     },
     {
       "text": "Use",
-      "start": 36.534083,
-      "end": 36.818166
+      "start": 16.818166,
+      "end": 17.073832
     },
     {
       "text": "of",
-      "start": 36.832375,
-      "end": 36.960208
+      "start": 17.088083,
+      "end": 17.201708
     },
     {
       "text": "shapes",
-      "start": 37.002833,
-      "end": 37.400541
+      "start": 17.244333,
+      "end": 17.642041
     },
     {
       "text": "in",
-      "start": 37.429,
-      "end": 37.556833
+      "start": 17.698875,
+      "end": 17.826708
     },
     {
       "text": "drawing",
-      "start": 37.627833,
-      "end": 38.011374
+      "start": 17.897708,
+      "end": 18.238624
     },
     {
       "text": "a",
-      "start": 38.054,
-      "end": 38.125041
+      "start": 18.28125,
+      "end": 18.366458
+    },
+    {
+      "text": "human",
+      "start": 18.394875,
+      "end": 18.778416
+    },
+    {
+      "text": "being",
+      "start": 18.863625,
+      "end": 19.0625
+    },
+    {
+      "text": "appearing",
+      "start": 19.105125,
+      "end": 19.659083
+    },
+    {
+      "text": "in",
+      "start": 19.6875,
+      "end": 19.801125
+    },
+    {
+      "text": "different",
+      "start": 19.886375,
+      "end": 20.298291
+    },
+    {
+      "text": "postures",
+      "start": 20.369333,
+      "end": 20.781249
+    },
+    {
+      "text": "Drawing",
+      "start": 20.880666,
+      "end": 21.249999
+    },
+    {
+      "text": "animals",
+      "start": 21.306833,
+      "end": 21.860791
+    },
+    {
+      "text": "Many",
+      "start": 21.889208,
+      "end": 22.159083
+    },
+    {
+      "text": "animal",
+      "start": 22.230125,
+      "end": 22.627833
+    },
+    {
+      "text": "drawings",
+      "start": 22.741458,
+      "end": 23.224416
+    },
+    {
+      "text": "are",
+      "start": 23.267041,
+      "end": 23.352249
+    },
+    {
+      "text": "guided",
+      "start": 23.409083,
+      "end": 23.721583
+    },
+    {
+      "text": "by",
+      "start": 23.806833,
+      "end": 23.920458
+    },
+    {
+      "text": "circle",
+      "start": 23.948875,
+      "end": 24.403416
+    },
+    {
+      "text": "and",
+      "start": 24.417625,
+      "end": 24.573875
+    },
+    {
+      "text": "cylinder",
+      "start": 24.602291,
+      "end": 25.056832
+    },
+    {
+      "text": "shapes",
+      "start": 25.085208,
+      "end": 25.653374
+    },
+    {
+      "text": "What",
+      "start": 26.71875,
+      "end": 27.002833
+    },
+    {
+      "text": "differs",
+      "start": 27.144875,
+      "end": 27.556791
+    },
+    {
+      "text": "is",
+      "start": 27.556833,
+      "end": 27.670458
+    },
+    {
+      "text": "the",
+      "start": 27.727291,
+      "end": 27.812499
+    },
+    {
+      "text": "dimensions",
+      "start": 27.883541,
+      "end": 28.536957
+    },
+    {
+      "text": "between",
+      "start": 28.607958,
+      "end": 28.920458
+    },
+    {
+      "text": "one",
+      "start": 29.005666,
+      "end": 29.232957
+    },
+    {
+      "text": "type",
+      "start": 29.247166,
+      "end": 29.474457
+    },
+    {
+      "text": "of",
+      "start": 29.517041,
+      "end": 29.659082
+    },
+    {
+      "text": "animal",
+      "start": 29.715916,
+      "end": 30.184666
+    },
+    {
+      "text": "and",
+      "start": 30.213083,
+      "end": 30.369333
+    },
+    {
+      "text": "another",
+      "start": 30.369333,
+      "end": 30.894916
+    },
+    {
+      "text": "Small",
+      "start": 31.96025,
+      "end": 32.429
+    },
+    {
+      "text": "animals",
+      "start": 32.5,
+      "end": 33.139208
+    },
+    {
+      "text": "such",
+      "start": 33.139208,
+      "end": 33.409083
+    },
+    {
+      "text": "as",
+      "start": 33.409083,
+      "end": 33.579541
+    },
+    {
+      "text": "dogs",
+      "start": 33.664791,
+      "end": 33.991499
+    },
+    {
+      "text": "use",
+      "start": 33.9915,
+      "end": 34.232958
+    },
+    {
+      "text": "small",
+      "start": 34.232958,
+      "end": 34.488624
+    },
+    {
+      "text": "dimensions",
+      "start": 34.573875,
+      "end": 35.198875
+    },
+    {
+      "text": "of",
+      "start": 35.213083,
+      "end": 35.284124
+    },
+    {
+      "text": "the",
+      "start": 35.340916,
+      "end": 35.426124
+    },
+    {
+      "text": "circle",
+      "start": 35.46875,
+      "end": 35.923291
+    },
+    {
+      "text": "and",
+      "start": 35.965916,
+      "end": 36.122166
+    },
+    {
+      "text": "cylinder",
+      "start": 36.150583,
+      "end": 36.619333
+    },
+    {
+      "text": "shapes",
+      "start": 36.64775,
+      "end": 37.187541
+    },
+    {
+      "text": "Large",
+      "start": 38.252833,
+      "end": 38.636374
+    },
+    {
+      "text": "animals",
+      "start": 38.721583,
+      "end": 39.332374
+    },
+    {
+      "text": "such",
+      "start": 39.332375,
+      "end": 39.588041
+    },
+    {
+      "text": "as",
+      "start": 39.588083,
+      "end": 39.758541
+    },
+    {
+      "text": "cows",
+      "start": 39.815333,
+      "end": 40.156249
+    },
+    {
+      "text": "use",
+      "start": 40.184666,
+      "end": 40.454541
+    },
+    {
+      "text": "large",
+      "start": 40.46875,
+      "end": 40.767041
+    },
+    {
+      "text": "dimensions",
+      "start": 40.880666,
+      "end": 41.519874
+    },
+    {
+      "text": "of",
+      "start": 41.519875,
+      "end": 41.590916
+    },
+    {
+      "text": "the",
+      "start": 41.64775,
+      "end": 41.732958
+    },
+    {
+      "text": "circle",
+      "start": 41.789791,
+      "end": 42.230124
+    },
+    {
+      "text": "and",
+      "start": 42.27275,
+      "end": 42.414791
+    },
+    {
+      "text": "cylinder",
+      "start": 42.443166,
+      "end": 42.926124
+    },
+    {
+      "text": "shapes",
+      "start": 42.954541,
+      "end": 43.494332
+    },
+    {
+      "text": "Figure 12",
+      "start": 44.559666,
+      "end": 45.397707
+    },
+    {
+      "text": "shows",
+      "start": 45.411916,
+      "end": 45.710207
+    },
+    {
+      "text": "an",
+      "start": 45.71025,
+      "end": 45.852291
+    },
+    {
+      "text": "example",
+      "start": 45.852291,
+      "end": 46.448874
+    },
+    {
+      "text": "of",
+      "start": 46.448875,
+      "end": 46.605125
+    },
+    {
+      "text": "a",
+      "start": 46.605125,
+      "end": 46.676166
     },
     {
       "text": "dog",
-      "start": 38.224416,
-      "end": 38.565332
+      "start": 46.761375,
+      "end": 46.988666
+    },
+    {
+      "text": "image",
+      "start": 47.059666,
+      "end": 47.414791
+    },
+    {
+      "text": "after",
+      "start": 47.485791,
+      "end": 47.784082
+    },
+    {
+      "text": "combining",
+      "start": 47.855125,
+      "end": 48.409083
+    },
+    {
+      "text": "these",
+      "start": 48.480125,
+      "end": 48.721583
+    },
+    {
+      "text": "shapes",
+      "start": 48.778416,
+      "end": 49.275582
+    },
+    {
+      "text": "Image",
+      "start": 50.326708,
+      "end": 50.696041
+    },
+    {
+      "text": "description",
+      "start": 50.838083,
+      "end": 51.661958
+    },
+    {
+      "text": "Six",
+      "start": 51.917625,
+      "end": 52.34375
+    },
+    {
+      "text": "dog",
+      "start": 52.443166,
+      "end": 52.642041
+    },
+    {
+      "text": "sketches",
+      "start": 52.727291,
+      "end": 53.224457
+    },
+    {
+      "text": "show",
+      "start": 53.267041,
+      "end": 53.451707
+    },
+    {
+      "text": "how",
+      "start": 53.494333,
+      "end": 53.721624
+    },
+    {
+      "text": "circles",
+      "start": 53.764208,
+      "end": 54.318166
+    },
+    {
+      "text": "and",
+      "start": 54.389208,
+      "end": 54.531249
+    },
+    {
+      "text": "oval",
+      "start": 54.588083,
+      "end": 54.886374
+    },
+    {
+      "text": "cylinder",
+      "start": 54.957375,
+      "end": 55.411916
+    },
+    {
+      "text": "shapes",
+      "start": 55.426125,
+      "end": 55.823833
+    },
+    {
+      "text": "form",
+      "start": 55.8665,
+      "end": 56.093791
+    },
+    {
+      "text": "the",
+      "start": 56.179,
+      "end": 56.235833
+    },
+    {
+      "text": "head",
+      "start": 56.292625,
+      "end": 56.605125
+    },
+    {
+      "text": "chest",
+      "start": 56.860791,
+      "end": 57.187499
+    },
+    {
+      "text": "hips",
+      "start": 57.542625,
+      "end": 57.883541
+    },
+    {
+      "text": "body",
+      "start": 58.153416,
+      "end": 58.480124
+    },
+    {
+      "text": "and",
+      "start": 58.764208,
+      "end": 58.906249
+    },
+    {
+      "text": "leg",
+      "start": 58.948875,
+      "end": 59.176166
+    },
+    {
+      "text": "joints",
+      "start": 59.304,
+      "end": 59.758541
+    },
+    {
+      "text": "before",
+      "start": 59.84375,
+      "end": 60.15625
+    },
+    {
+      "text": "the",
+      "start": 60.213083,
+      "end": 60.312499
+    },
+    {
+      "text": "shapes",
+      "start": 60.326708,
+      "end": 60.738624
+    },
+    {
+      "text": "are",
+      "start": 60.809666,
+      "end": 60.923291
+    },
+    {
+      "text": "joined",
+      "start": 60.994333,
+      "end": 61.321041
+    },
+    {
+      "text": "into",
+      "start": 61.377833,
+      "end": 61.676124
+    },
+    {
+      "text": "a",
+      "start": 61.71875,
+      "end": 61.803958
+    },
+    {
+      "text": "complete",
+      "start": 61.889208,
+      "end": 62.400583
+    },
+    {
+      "text": "running",
+      "start": 62.485791,
+      "end": 62.855124
+    },
+    {
+      "text": "dog",
+      "start": 62.940333,
+      "end": 63.267041
+    },
+    {
+      "text": "Figure 12",
+      "start": 64.275583,
+      "end": 65.227249
+    },
+    {
+      "text": "Use",
+      "start": 65.482958,
+      "end": 65.767041
+    },
+    {
+      "text": "of",
+      "start": 65.78125,
+      "end": 65.909083
+    },
+    {
+      "text": "shapes",
+      "start": 65.951708,
+      "end": 66.349416
+    },
+    {
+      "text": "in",
+      "start": 66.377833,
+      "end": 66.505666
+    },
+    {
+      "text": "drawing",
+      "start": 66.576708,
+      "end": 66.960249
+    },
+    {
+      "text": "a",
+      "start": 67.002833,
+      "end": 67.073874
+    },
+    {
+      "text": "dog",
+      "start": 67.173291,
+      "end": 67.514207
     }
   ]
 }

@@ -2,829 +2,879 @@
   "audio": "page-061.mp3",
   "words": [
     {
-      "text": "55",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.802832
+      "end": 0.476166
     },
     {
-      "text": "Figure 14",
-      "start": 0.802833,
-      "end": 1.754541
+      "text": "description",
+      "start": 0.618166,
+      "end": 1.399416
     },
     {
-      "text": "Pots",
-      "start": 2.052833,
-      "end": 2.351124
-    },
-    {
-      "text": "arranged",
-      "start": 2.407958,
-      "end": 2.990333
-    },
-    {
-      "text": "in",
-      "start": 3.004541,
-      "end": 3.132374
-    },
-    {
-      "text": "a",
-      "start": 3.132375,
-      "end": 3.203416
-    },
-    {
-      "text": "pyramid",
-      "start": 3.288625,
-      "end": 3.743166
-    },
-    {
-      "text": "format",
-      "start": 3.8,
-      "end": 4.254541
-    },
-    {
-      "text": "Cleanliness",
-      "start": 4.311375,
-      "end": 4.979
-    },
-    {
-      "text": "of",
-      "start": 5.007375,
-      "end": 5.092583
-    },
-    {
-      "text": "the",
-      "start": 5.163625,
-      "end": 5.234666
-    },
-    {
-      "text": "working",
-      "start": 5.277291,
-      "end": 5.703416
-    },
-    {
-      "text": "area",
-      "start": 5.746041,
-      "end": 6.030124
-    },
-    {
-      "text": "The",
-      "start": 6.072708,
-      "end": 6.129541
-    },
-    {
-      "text": "area",
-      "start": 6.243166,
-      "end": 6.569874
-    },
-    {
-      "text": "where",
-      "start": 6.6125,
-      "end": 6.853958
-    },
-    {
-      "text": "work",
-      "start": 6.896583,
-      "end": 7.194874
-    },
-    {
-      "text": "is",
-      "start": 7.223291,
-      "end": 7.365332
-    },
-    {
-      "text": "done",
-      "start": 7.450583,
-      "end": 7.677874
-    },
-    {
-      "text": "can",
-      "start": 7.734666,
-      "end": 7.890916
-    },
-    {
-      "text": "be",
-      "start": 7.990333,
-      "end": 8.032958
-    },
-    {
-      "text": "dirtied",
-      "start": 8.132375,
-      "end": 8.501708
-    },
-    {
-      "text": "or",
-      "start": 8.586916,
-      "end": 8.686332
-    },
-    {
-      "text": "destroyed",
-      "start": 8.757375,
-      "end": 9.33975
-    },
-    {
-      "text": "Therefore",
-      "start": 10.411916,
-      "end": 11.093749
-    },
-    {
-      "text": "it",
-      "start": 11.363625,
-      "end": 11.548291
-    },
-    {
-      "text": "must",
-      "start": 11.590916,
-      "end": 11.889207
-    },
-    {
-      "text": "be",
-      "start": 11.988625,
-      "end": 12.045458
-    },
-    {
-      "text": "cleaned",
-      "start": 12.144875,
-      "end": 12.471583
-    },
-    {
-      "text": "and",
-      "start": 12.542625,
-      "end": 12.713083
-    },
-    {
-      "text": "reorganised",
-      "start": 12.755666,
-      "end": 13.508499
-    },
-    {
-      "text": "properly",
-      "start": 13.59375,
-      "end": 14.090916
-    },
-    {
-      "text": "In",
-      "start": 15.170458,
-      "end": 15.426124
-    },
-    {
-      "text": "clay",
-      "start": 15.454541,
-      "end": 15.681832
-    },
-    {
-      "text": "modelling",
-      "start": 15.710208,
-      "end": 16.207374
-    },
-    {
-      "text": "and",
-      "start": 16.235791,
-      "end": 16.349416
-    },
-    {
-      "text": "firing",
-      "start": 16.377833,
-      "end": 16.846583
-    },
-    {
-      "text": "tasks",
-      "start": 16.875,
-      "end": 17.400583
-    },
-    {
-      "text": "the",
-      "start": 17.670458,
-      "end": 17.755666
-    },
-    {
-      "text": "following",
-      "start": 17.769875,
-      "end": 18.309666
-    },
-    {
-      "text": "activities",
-      "start": 18.352291,
-      "end": 19.090916
-    },
-    {
-      "text": "should",
-      "start": 19.105125,
-      "end": 19.289791
-    },
-    {
-      "text": "be",
-      "start": 19.403416,
-      "end": 19.474457
-    },
-    {
-      "text": "done",
-      "start": 19.588083,
-      "end": 19.900583
-    },
-    {
-      "text": "a",
-      "start": 20.15625,
-      "end": 20.3125
-    },
-    {
-      "text": "Putting",
-      "start": 20.625,
-      "end": 21.022708
-    },
-    {
-      "text": "out",
-      "start": 21.079541,
-      "end": 21.278416
-    },
-    {
-      "text": "the",
-      "start": 21.392041,
-      "end": 21.477249
-    },
-    {
-      "text": "fire",
-      "start": 21.505666,
-      "end": 21.860791
-    },
-    {
-      "text": "in",
-      "start": 21.931833,
-      "end": 22.017041
-    },
-    {
-      "text": "the",
-      "start": 22.102291,
-      "end": 22.187499
-    },
-    {
-      "text": "kiln",
-      "start": 22.286916,
-      "end": 22.670457
-    },
-    {
-      "text": "b",
-      "start": 22.982958,
-      "end": 23.110791
-    },
-    {
-      "text": "Collecting",
-      "start": 23.352291,
-      "end": 23.906249
-    },
-    {
-      "text": "ashes",
-      "start": 23.963083,
-      "end": 24.403416
-    },
-    {
-      "text": "and",
-      "start": 24.431833,
-      "end": 24.573874
-    },
-    {
-      "text": "burying",
-      "start": 24.659083,
-      "end": 24.985791
-    },
-    {
-      "text": "them",
-      "start": 25.085208,
-      "end": 25.397708
-    },
-    {
-      "text": "c",
-      "start": 25.625,
-      "end": 25.951708
-    },
-    {
-      "text": "Cleaning",
-      "start": 26.235791,
-      "end": 26.647707
-    },
-    {
-      "text": "leftovers",
-      "start": 26.690333,
-      "end": 27.372166
-    },
-    {
-      "text": "and",
-      "start": 27.400583,
-      "end": 27.542624
-    },
-    {
-      "text": "burying",
-      "start": 27.613625,
-      "end": 27.940333
-    },
-    {
-      "text": "them",
-      "start": 28.039791,
-      "end": 28.366499
-    },
-    {
-      "text": "and",
-      "start": 28.664791,
-      "end": 28.920457
-    },
-    {
-      "text": "d",
-      "start": 29.261375,
-      "end": 29.446041
-    },
-    {
-      "text": "Filling",
-      "start": 29.715916,
-      "end": 30.156249
-    },
-    {
-      "text": "up",
-      "start": 30.198875,
-      "end": 30.355125
-    },
-    {
-      "text": "and",
-      "start": 30.426125,
-      "end": 30.525541
-    },
-    {
-      "text": "levelling",
-      "start": 30.568166,
-      "end": 31.008499
-    },
-    {
-      "text": "the",
-      "start": 31.09375,
-      "end": 31.164791
-    },
-    {
-      "text": "holes",
-      "start": 31.207375,
-      "end": 31.6335
-    },
-    {
-      "text": "from",
-      "start": 31.676125,
-      "end": 31.889208
-    },
-    {
-      "text": "which",
-      "start": 31.96025,
-      "end": 32.215916
-    },
-    {
-      "text": "clay",
-      "start": 32.27275,
-      "end": 32.485833
-    },
-    {
-      "text": "soil",
-      "start": 32.542625,
-      "end": 32.840916
-    },
-    {
-      "text": "was",
-      "start": 32.869333,
-      "end": 33.096624
-    },
-    {
-      "text": "obtained",
-      "start": 33.110791,
-      "end": 33.607957
-    },
-    {
-      "text": "and",
-      "start": 33.679,
-      "end": 33.83525
-    },
-    {
-      "text": "where",
-      "start": 33.877833,
-      "end": 34.090916
-    },
-    {
-      "text": "the",
-      "start": 34.133541,
-      "end": 34.247166
-    },
-    {
-      "text": "kiln",
-      "start": 34.346583,
-      "end": 34.630666
-    },
-    {
-      "text": "was",
-      "start": 34.701708,
-      "end": 34.943166
-    },
-    {
-      "text": "set",
-      "start": 34.943166,
-      "end": 35.198832
-    },
-    {
-      "text": "Activity",
-      "start": 36.377833,
-      "end": 37.116458
-    },
-    {
-      "text": "4",
-      "start": 37.144875,
-      "end": 37.372166
-    },
-    {
-      "text": "Visit",
-      "start": 37.400583,
-      "end": 37.855124
-    },
-    {
-      "text": "any",
-      "start": 37.911916,
-      "end": 38.153374
-    },
-    {
-      "text": "area",
-      "start": 38.224416,
-      "end": 38.551124
-    },
-    {
-      "text": "in",
-      "start": 38.622166,
-      "end": 38.749999
-    },
-    {
-      "text": "your",
-      "start": 38.806833,
-      "end": 38.892041
-    },
-    {
-      "text": "community",
-      "start": 38.948875,
-      "end": 39.502833
-    },
-    {
-      "text": "where",
-      "start": 39.545458,
-      "end": 39.758541
-    },
-    {
-      "text": "the",
-      "start": 39.815333,
-      "end": 39.872166
-    },
-    {
-      "text": "activity",
-      "start": 39.957375,
-      "end": 40.610791
-    },
-    {
-      "text": "of",
-      "start": 40.681833,
-      "end": 40.823874
-    },
-    {
-      "text": "modelling",
-      "start": 40.838083,
-      "end": 41.377874
-    },
-    {
-      "text": "takes",
-      "start": 41.40625,
-      "end": 41.747166
-    },
-    {
-      "text": "place",
-      "start": 41.832375,
-      "end": 42.244291
-    },
-    {
-      "text": "and",
-      "start": 42.471583,
-      "end": 42.599416
-    },
-    {
-      "text": "then",
-      "start": 42.713083,
-      "end": 42.911958
-    },
-    {
-      "text": "do",
-      "start": 42.997166,
-      "end": 43.068207
-    },
-    {
-      "text": "the",
-      "start": 43.139208,
-      "end": 43.224416
-    },
-    {
-      "text": "following",
-      "start": 43.238625,
-      "end": 43.892041
-    },
-    {
-      "text": "a",
-      "start": 44.14775,
-      "end": 44.304
-    },
-    {
-      "text": "Observe",
-      "start": 44.545458,
-      "end": 45.042624
-    },
-    {
-      "text": "how",
-      "start": 45.08525,
-      "end": 45.284125
-    },
-    {
-      "text": "these",
-      "start": 45.369333,
-      "end": 45.639208
-    },
-    {
-      "text": "objects",
-      "start": 45.696041,
-      "end": 46.221624
-    },
-    {
-      "text": "are",
-      "start": 46.292625,
-      "end": 46.420458
-    },
-    {
-      "text": "made",
-      "start": 46.463083,
-      "end": 46.775583
-    },
-    {
-      "text": "b",
-      "start": 47.869333,
-      "end": 48.181833
-    },
-    {
-      "text": "Write",
-      "start": 48.494333,
-      "end": 48.735791
-    },
-    {
-      "text": "about",
-      "start": 48.75,
-      "end": 49.019875
-    },
-    {
-      "text": "the",
-      "start": 49.133541,
-      "end": 49.176166
-    },
-    {
-      "text": "objects",
-      "start": 49.289791,
-      "end": 49.829582
-    },
-    {
-      "text": "you",
-      "start": 49.84375,
-      "end": 49.900583
-    },
-    {
-      "text": "saw",
-      "start": 49.985791,
-      "end": 50.213082
-    },
-    {
-      "text": "and",
-      "start": 50.298291,
-      "end": 50.440332
-    },
-    {
-      "text": "how",
-      "start": 50.46875,
-      "end": 50.710208
-    },
-    {
-      "text": "they",
-      "start": 50.78125,
-      "end": 50.9375
-    },
-    {
-      "text": "are",
-      "start": 51.008541,
-      "end": 51.207416
-    },
-    {
-      "text": "made",
-      "start": 51.235791,
-      "end": 51.576707
-    },
-    {
-      "text": "c",
-      "start": 52.670458,
-      "end": 53.039791
-    },
-    {
-      "text": "Present",
-      "start": 53.323875,
-      "end": 53.821041
-    },
-    {
-      "text": "your",
-      "start": 53.849416,
-      "end": 53.977249
-    },
-    {
-      "text": "work",
-      "start": 53.9915,
-      "end": 54.190375
-    },
-    {
-      "text": "to",
-      "start": 54.261375,
-      "end": 54.332416
-    },
-    {
-      "text": "the",
-      "start": 54.403416,
-      "end": 54.488624
-    },
-    {
-      "text": "class",
-      "start": 54.573875,
-      "end": 54.943208
-    },
-    {
-      "text": "under",
-      "start": 55.0,
-      "end": 55.213083
-    },
-    {
-      "text": "the",
-      "start": 55.284083,
-      "end": 55.383499
-    },
-    {
-      "text": "guidance",
-      "start": 55.46875,
-      "end": 55.9375
-    },
-    {
-      "text": "of",
-      "start": 55.951708,
-      "end": 56.036916
-    },
-    {
-      "text": "the",
-      "start": 56.09375,
-      "end": 56.178958
-    },
-    {
-      "text": "teacher",
-      "start": 56.264208,
-      "end": 56.690333
-    },
-    {
-      "text": "Exercise",
-      "start": 57.7415,
-      "end": 58.437541
-    },
-    {
-      "text": "1",
-      "start": 58.451708,
-      "end": 58.764208
-    },
-    {
-      "text": "Explain",
-      "start": 59.872166,
-      "end": 60.454541
-    },
-    {
-      "text": "the",
-      "start": 60.525583,
-      "end": 60.596624
-    },
-    {
-      "text": "proper",
-      "start": 60.681833,
-      "end": 61.022749
-    },
-    {
-      "text": "ways",
-      "start": 61.051125,
-      "end": 61.349416
-    },
-    {
-      "text": "of",
-      "start": 61.377833,
-      "end": 61.491458
-    },
-    {
-      "text": "storing",
-      "start": 61.548291,
-      "end": 62.017041
+      "text": "Clay",
+      "start": 1.640916,
+      "end": 1.839791
     },
     {
       "text": "pots",
-      "start": 62.073875,
-      "end": 62.386375
+      "start": 1.939208,
+      "end": 2.237499
     },
     {
-      "text": "made",
-      "start": 62.414791,
-      "end": 62.627874
-    },
-    {
-      "text": "from",
-      "start": 62.670458,
-      "end": 62.926124
-    },
-    {
-      "text": "clay",
-      "start": 62.982958,
-      "end": 63.224416
+      "text": "arranged",
+      "start": 2.294333,
+      "end": 2.848291
     },
     {
       "text": "in",
-      "start": 63.309666,
-      "end": 63.380707
+      "start": 2.890916,
+      "end": 3.004541
     },
     {
-      "text": "the",
-      "start": 63.451708,
-      "end": 63.522749
-    },
-    {
-      "text": "community",
-      "start": 63.59375,
-      "end": 64.21875
-    },
-    {
-      "text": "2",
-      "start": 65.340916,
-      "end": 65.624999
-    },
-    {
-      "text": "Describe",
-      "start": 65.9375,
-      "end": 66.477291
-    },
-    {
-      "text": "how",
-      "start": 66.519875,
-      "end": 66.732958
+      "text": "layers",
+      "start": 3.061375,
+      "end": 3.459083
     },
     {
       "text": "to",
-      "start": 66.832375,
-      "end": 66.917583
+      "start": 3.501708,
+      "end": 3.586916
     },
     {
-      "text": "use",
-      "start": 67.03125,
-      "end": 67.301125
-    },
-    {
-      "text": "glaze",
-      "start": 67.372166,
-      "end": 67.727291
-    },
-    {
-      "text": "in",
-      "start": 67.727291,
-      "end": 67.883541
-    },
-    {
-      "text": "adding",
-      "start": 67.954541,
-      "end": 68.295457
+      "text": "form",
+      "start": 3.601125,
+      "end": 3.899416
     },
     {
       "text": "a",
-      "start": 68.323875,
-      "end": 68.423291
+      "start": 3.927833,
+      "end": 4.013041
     },
     {
-      "text": "shiny",
-      "start": 68.4375,
-      "end": 68.778416
+      "text": "pyramid",
+      "start": 4.1125,
+      "end": 4.694875
     },
     {
-      "text": "finish",
-      "start": 68.806833,
-      "end": 69.247166
+      "text": "Figure 14",
+      "start": 5.752833,
+      "end": 6.818166
     },
     {
-      "text": "to",
-      "start": 69.304,
-      "end": 69.389208
+      "text": "Pots",
+      "start": 7.144875,
+      "end": 7.443166
+    },
+    {
+      "text": "arranged",
+      "start": 7.5,
+      "end": 8.053958
+    },
+    {
+      "text": "in",
+      "start": 8.053958,
+      "end": 8.181791
+    },
+    {
+      "text": "a",
+      "start": 8.181833,
+      "end": 8.267041
+    },
+    {
+      "text": "pyramid",
+      "start": 8.352291,
+      "end": 8.806832
+    },
+    {
+      "text": "format",
+      "start": 8.863625,
+      "end": 9.303958
+    },
+    {
+      "text": "Cleanliness",
+      "start": 9.360791,
+      "end": 10.014207
+    },
+    {
+      "text": "of",
+      "start": 10.042625,
+      "end": 10.127833
+    },
+    {
+      "text": "the",
+      "start": 10.198875,
+      "end": 10.269916
+    },
+    {
+      "text": "working",
+      "start": 10.3125,
+      "end": 10.724416
+    },
+    {
+      "text": "area",
+      "start": 10.767041,
+      "end": 11.051124
+    },
+    {
+      "text": "The",
+      "start": 11.107958,
+      "end": 11.150583
+    },
+    {
+      "text": "area",
+      "start": 11.264208,
+      "end": 11.590916
+    },
+    {
+      "text": "where",
+      "start": 11.633541,
+      "end": 11.889207
+    },
+    {
+      "text": "work",
+      "start": 11.931833,
+      "end": 12.230124
+    },
+    {
+      "text": "is",
+      "start": 12.258541,
+      "end": 12.400582
+    },
+    {
+      "text": "done",
+      "start": 12.485791,
+      "end": 12.727249
+    },
+    {
+      "text": "can",
+      "start": 12.784083,
+      "end": 12.940333
+    },
+    {
+      "text": "be",
+      "start": 13.039791,
+      "end": 13.082416
+    },
+    {
+      "text": "dirtied",
+      "start": 13.181833,
+      "end": 13.536958
+    },
+    {
+      "text": "or",
+      "start": 13.622166,
+      "end": 13.721582
+    },
+    {
+      "text": "destroyed",
+      "start": 13.792625,
+      "end": 14.375
+    },
+    {
+      "text": "Therefore",
+      "start": 15.440333,
+      "end": 16.122166
+    },
+    {
+      "text": "it",
+      "start": 16.392041,
+      "end": 16.576707
+    },
+    {
+      "text": "must",
+      "start": 16.619333,
+      "end": 16.917624
+    },
+    {
+      "text": "be",
+      "start": 17.017041,
+      "end": 17.073874
+    },
+    {
+      "text": "cleaned",
+      "start": 17.173291,
+      "end": 17.499999
+    },
+    {
+      "text": "and",
+      "start": 17.571041,
+      "end": 17.741499
+    },
+    {
+      "text": "reorganised",
+      "start": 17.784083,
+      "end": 18.536916
+    },
+    {
+      "text": "properly",
+      "start": 18.622166,
+      "end": 19.119332
+    },
+    {
+      "text": "In",
+      "start": 20.198875,
+      "end": 20.46875
     },
     {
       "text": "clay",
-      "start": 69.46025,
-      "end": 69.687541
+      "start": 20.497166,
+      "end": 20.710249
+    },
+    {
+      "text": "modelling",
+      "start": 20.738625,
+      "end": 21.221583
+    },
+    {
+      "text": "and",
+      "start": 21.25,
+      "end": 21.363625
+    },
+    {
+      "text": "firing",
+      "start": 21.392041,
+      "end": 21.860791
+    },
+    {
+      "text": "tasks",
+      "start": 21.889208,
+      "end": 22.400583
+    },
+    {
+      "text": "the",
+      "start": 22.670458,
+      "end": 22.755666
+    },
+    {
+      "text": "following",
+      "start": 22.769875,
+      "end": 23.309666
+    },
+    {
+      "text": "activities",
+      "start": 23.352291,
+      "end": 24.076707
+    },
+    {
+      "text": "should",
+      "start": 24.090916,
+      "end": 24.275582
+    },
+    {
+      "text": "be",
+      "start": 24.389208,
+      "end": 24.460249
+    },
+    {
+      "text": "done",
+      "start": 24.573875,
+      "end": 24.886375
+    },
+    {
+      "text": "a",
+      "start": 25.15625,
+      "end": 25.298291
+    },
+    {
+      "text": "Putting",
+      "start": 25.497166,
+      "end": 25.880707
+    },
+    {
+      "text": "out",
+      "start": 25.9375,
+      "end": 26.122166
+    },
+    {
+      "text": "the",
+      "start": 26.221583,
+      "end": 26.306791
+    },
+    {
+      "text": "fire",
+      "start": 26.33525,
+      "end": 26.690375
+    },
+    {
+      "text": "in",
+      "start": 26.761375,
+      "end": 26.846583
+    },
+    {
+      "text": "the",
+      "start": 26.917625,
+      "end": 26.988666
+    },
+    {
+      "text": "kiln",
+      "start": 27.088083,
+      "end": 27.485791
+    },
+    {
+      "text": "b",
+      "start": 27.8125,
+      "end": 27.897708
+    },
+    {
+      "text": "Collecting",
+      "start": 28.082375,
+      "end": 28.636333
+    },
+    {
+      "text": "ashes",
+      "start": 28.693166,
+      "end": 29.133499
+    },
+    {
+      "text": "and",
+      "start": 29.14775,
+      "end": 29.289791
+    },
+    {
+      "text": "burying",
+      "start": 29.375,
+      "end": 29.701708
+    },
+    {
+      "text": "them",
+      "start": 29.801125,
+      "end": 30.085208
+    },
+    {
+      "text": "c",
+      "start": 30.298291,
+      "end": 30.525582
+    },
+    {
+      "text": "Cleaning",
+      "start": 30.738625,
+      "end": 31.136333
+    },
+    {
+      "text": "leftovers",
+      "start": 31.179,
+      "end": 31.846625
+    },
+    {
+      "text": "and",
+      "start": 31.860791,
+      "end": 32.002832
+    },
+    {
+      "text": "burying",
+      "start": 32.073875,
+      "end": 32.400583
+    },
+    {
+      "text": "them",
+      "start": 32.5,
+      "end": 32.826708
+    },
+    {
+      "text": "and",
+      "start": 33.096583,
+      "end": 33.267041
+    },
+    {
+      "text": "d",
+      "start": 33.3665,
+      "end": 33.465916
+    },
+    {
+      "text": "Filling",
+      "start": 33.622166,
+      "end": 34.034082
+    },
+    {
+      "text": "up",
+      "start": 34.076708,
+      "end": 34.218749
+    },
+    {
+      "text": "and",
+      "start": 34.289791,
+      "end": 34.389207
+    },
+    {
+      "text": "levelling",
+      "start": 34.431833,
+      "end": 34.872166
+    },
+    {
+      "text": "the",
+      "start": 34.957375,
+      "end": 35.028416
+    },
+    {
+      "text": "holes",
+      "start": 35.056833,
+      "end": 35.482958
+    },
+    {
+      "text": "from",
+      "start": 35.525583,
+      "end": 35.724458
+    },
+    {
+      "text": "which",
+      "start": 35.795458,
+      "end": 36.051124
+    },
+    {
+      "text": "clay",
+      "start": 36.107958,
+      "end": 36.321041
+    },
+    {
+      "text": "soil",
+      "start": 36.377833,
+      "end": 36.676124
+    },
+    {
+      "text": "was",
+      "start": 36.704541,
+      "end": 36.931832
+    },
+    {
+      "text": "obtained",
+      "start": 36.931833,
+      "end": 37.414791
+    },
+    {
+      "text": "and",
+      "start": 37.471583,
+      "end": 37.627833
+    },
+    {
+      "text": "where",
+      "start": 37.670458,
+      "end": 37.869333
+    },
+    {
+      "text": "the",
+      "start": 37.911916,
+      "end": 38.025541
+    },
+    {
+      "text": "kiln",
+      "start": 38.125,
+      "end": 38.394875
+    },
+    {
+      "text": "was",
+      "start": 38.465916,
+      "end": 38.707374
+    },
+    {
+      "text": "set",
+      "start": 38.707375,
+      "end": 38.963041
+    },
+    {
+      "text": "Activity",
+      "start": 40.127833,
+      "end": 40.838041
+    },
+    {
+      "text": "4",
+      "start": 40.8665,
+      "end": 41.093791
+    },
+    {
+      "text": "Visit",
+      "start": 41.122166,
+      "end": 41.548291
+    },
+    {
+      "text": "any",
+      "start": 41.605125,
+      "end": 41.846583
+    },
+    {
+      "text": "area",
+      "start": 41.917625,
+      "end": 42.244333
+    },
+    {
+      "text": "in",
+      "start": 42.315333,
+      "end": 42.443166
+    },
+    {
+      "text": "your",
+      "start": 42.5,
+      "end": 42.585208
+    },
+    {
+      "text": "community",
+      "start": 42.642041,
+      "end": 43.224416
+    },
+    {
+      "text": "where",
+      "start": 43.267041,
+      "end": 43.465916
+    },
+    {
+      "text": "the",
+      "start": 43.52275,
+      "end": 43.579583
+    },
+    {
+      "text": "activity",
+      "start": 43.664791,
+      "end": 44.318207
+    },
+    {
+      "text": "of",
+      "start": 44.389208,
+      "end": 44.531249
+    },
+    {
+      "text": "modelling",
+      "start": 44.545458,
+      "end": 45.085249
+    },
+    {
+      "text": "takes",
+      "start": 45.113625,
+      "end": 45.454541
+    },
+    {
+      "text": "place",
+      "start": 45.539791,
+      "end": 45.951707
+    },
+    {
+      "text": "and",
+      "start": 46.164791,
+      "end": 46.292624
+    },
+    {
+      "text": "then",
+      "start": 46.40625,
+      "end": 46.605125
+    },
+    {
+      "text": "do",
+      "start": 46.690333,
+      "end": 46.761374
+    },
+    {
+      "text": "the",
+      "start": 46.832375,
+      "end": 46.917583
+    },
+    {
+      "text": "following",
+      "start": 46.931833,
+      "end": 47.585249
+    },
+    {
+      "text": "a",
+      "start": 47.798291,
+      "end": 47.897707
+    },
+    {
+      "text": "Observe",
+      "start": 48.068166,
+      "end": 48.551124
+    },
+    {
+      "text": "how",
+      "start": 48.59375,
+      "end": 48.792625
+    },
+    {
+      "text": "these",
+      "start": 48.877833,
+      "end": 49.147708
     },
     {
       "text": "objects",
+      "start": 49.204541,
+      "end": 49.730124
+    },
+    {
+      "text": "are",
+      "start": 49.801125,
+      "end": 49.928958
+    },
+    {
+      "text": "made",
+      "start": 49.971583,
+      "end": 50.284083
+    },
+    {
+      "text": "b",
+      "start": 51.377833,
+      "end": 51.590916
+    },
+    {
+      "text": "Write",
+      "start": 51.818166,
+      "end": 52.045457
+    },
+    {
+      "text": "about",
+      "start": 52.059666,
+      "end": 52.315332
+    },
+    {
+      "text": "the",
+      "start": 52.414791,
+      "end": 52.457416
+    },
+    {
+      "text": "objects",
+      "start": 52.571041,
+      "end": 53.110832
+    },
+    {
+      "text": "you",
+      "start": 53.125,
+      "end": 53.181833
+    },
+    {
+      "text": "saw",
+      "start": 53.267041,
+      "end": 53.480124
+    },
+    {
+      "text": "and",
+      "start": 53.551125,
+      "end": 53.693166
+    },
+    {
+      "text": "how",
+      "start": 53.721583,
+      "end": 53.948874
+    },
+    {
+      "text": "they",
+      "start": 54.019875,
+      "end": 54.176125
+    },
+    {
+      "text": "are",
+      "start": 54.232958,
+      "end": 54.417624
+    },
+    {
+      "text": "made",
+      "start": 54.446041,
+      "end": 54.772749
+    },
+    {
+      "text": "c",
+      "start": 55.8665,
+      "end": 56.122166
+    },
+    {
+      "text": "Present",
+      "start": 56.306833,
+      "end": 56.803999
+    },
+    {
+      "text": "your",
+      "start": 56.818166,
+      "end": 56.945999
+    },
+    {
+      "text": "work",
+      "start": 56.974416,
+      "end": 57.159082
+    },
+    {
+      "text": "to",
+      "start": 57.230125,
+      "end": 57.301166
+    },
+    {
+      "text": "the",
+      "start": 57.372166,
+      "end": 57.457374
+    },
+    {
+      "text": "class",
+      "start": 57.542625,
+      "end": 57.89775
+    },
+    {
+      "text": "under",
+      "start": 57.954541,
+      "end": 58.167624
+    },
+    {
+      "text": "the",
+      "start": 58.238625,
+      "end": 58.323833
+    },
+    {
+      "text": "guidance",
+      "start": 58.409083,
+      "end": 58.877833
+    },
+    {
+      "text": "of",
+      "start": 58.877833,
+      "end": 58.963041
+    },
+    {
+      "text": "the",
+      "start": 59.019875,
+      "end": 59.105083
+    },
+    {
+      "text": "teacher",
+      "start": 59.190333,
+      "end": 59.616458
+    },
+    {
+      "text": "Exercise",
+      "start": 60.681833,
+      "end": 61.377874
+    },
+    {
+      "text": "1",
+      "start": 61.392041,
+      "end": 61.704541
+    },
+    {
+      "text": "Explain",
+      "start": 62.8125,
+      "end": 63.394875
+    },
+    {
+      "text": "the",
+      "start": 63.465916,
+      "end": 63.536957
+    },
+    {
+      "text": "proper",
+      "start": 63.622166,
+      "end": 63.963082
+    },
+    {
+      "text": "ways",
+      "start": 63.9915,
+      "end": 64.289791
+    },
+    {
+      "text": "of",
+      "start": 64.318166,
+      "end": 64.431791
+    },
+    {
+      "text": "storing",
+      "start": 64.488625,
+      "end": 64.957375
+    },
+    {
+      "text": "pots",
+      "start": 65.014208,
+      "end": 65.326708
+    },
+    {
+      "text": "made",
+      "start": 65.355125,
+      "end": 65.568208
+    },
+    {
+      "text": "from",
+      "start": 65.610791,
+      "end": 65.866457
+    },
+    {
+      "text": "clay",
+      "start": 65.923291,
+      "end": 66.164749
+    },
+    {
+      "text": "in",
+      "start": 66.25,
+      "end": 66.321041
+    },
+    {
+      "text": "the",
+      "start": 66.392041,
+      "end": 66.463082
+    },
+    {
+      "text": "community",
+      "start": 66.534083,
+      "end": 67.159083
+    },
+    {
+      "text": "2",
+      "start": 68.28125,
+      "end": 68.565333
+    },
+    {
+      "text": "Describe",
+      "start": 68.877833,
+      "end": 69.417624
+    },
+    {
+      "text": "how",
+      "start": 69.46025,
+      "end": 69.673333
+    },
+    {
+      "text": "to",
       "start": 69.77275,
-      "end": 70.497166
+      "end": 69.857958
+    },
+    {
+      "text": "use",
+      "start": 69.971583,
+      "end": 70.241458
+    },
+    {
+      "text": "glaze",
+      "start": 70.3125,
+      "end": 70.667625
+    },
+    {
+      "text": "in",
+      "start": 70.667625,
+      "end": 70.823875
+    },
+    {
+      "text": "adding",
+      "start": 70.894875,
+      "end": 71.235791
+    },
+    {
+      "text": "a",
+      "start": 71.264208,
+      "end": 71.363624
+    },
+    {
+      "text": "shiny",
+      "start": 71.377833,
+      "end": 71.718749
+    },
+    {
+      "text": "finish",
+      "start": 71.747166,
+      "end": 72.187499
+    },
+    {
+      "text": "to",
+      "start": 72.244333,
+      "end": 72.329541
+    },
+    {
+      "text": "clay",
+      "start": 72.400583,
+      "end": 72.627874
+    },
+    {
+      "text": "objects",
+      "start": 72.713083,
+      "end": 73.437499
     }
   ]
 }

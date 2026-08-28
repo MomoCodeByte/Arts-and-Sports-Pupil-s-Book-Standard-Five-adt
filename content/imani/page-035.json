@@ -2,619 +2,934 @@
   "audio": "page-035.mp3",
   "words": [
     {
-      "text": "29",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.731833
+      "end": 0.490374
     },
     {
-      "text": "Figure 7",
-      "start": 0.774416,
-      "end": 1.655124
+      "text": "description",
+      "start": 0.603958,
+      "end": 1.399416
     },
     {
-      "text": "The",
-      "start": 1.939208,
-      "end": 2.038624
+      "text": "A",
+      "start": 1.569875,
+      "end": 1.669291
     },
     {
-      "text": "use",
-      "start": 2.109666,
-      "end": 2.365332
+      "text": "simple",
+      "start": 1.726125,
+      "end": 2.138041
     },
     {
-      "text": "of",
-      "start": 2.407958,
-      "end": 2.521583
-    },
-    {
-      "text": "cylinder",
-      "start": 2.578416,
-      "end": 3.018749
-    },
-    {
-      "text": "shapes",
-      "start": 3.032958,
-      "end": 3.430666
-    },
-    {
-      "text": "in",
-      "start": 3.501708,
-      "end": 3.615333
-    },
-    {
-      "text": "drawing",
-      "start": 3.686375,
-      "end": 3.998875
-    },
-    {
-      "text": "the",
-      "start": 4.084083,
-      "end": 4.155124
-    },
-    {
-      "text": "human",
-      "start": 4.183541,
-      "end": 4.652291
-    },
-    {
-      "text": "being's",
-      "start": 4.7375,
-      "end": 5.05
-    },
-    {
-      "text": "hands",
-      "start": 5.092625,
-      "end": 5.476166
-    },
-    {
-      "text": "Activity",
-      "start": 5.547166,
-      "end": 6.115332
-    },
-    {
-      "text": "5",
-      "start": 6.14375,
-      "end": 6.399416
-    },
-    {
-      "text": "Draw",
-      "start": 6.513083,
-      "end": 6.711958
-    },
-    {
-      "text": "human",
-      "start": 6.740333,
-      "end": 7.152249
-    },
-    {
-      "text": "being's",
-      "start": 7.223291,
-      "end": 7.535791
-    },
-    {
-      "text": "hands",
-      "start": 7.564208,
-      "end": 7.961916
-    },
-    {
-      "text": "by",
-      "start": 8.047166,
-      "end": 8.146582
-    },
-    {
-      "text": "using",
-      "start": 8.217625,
-      "end": 8.544333
-    },
-    {
-      "text": "cylinder",
-      "start": 8.572708,
-      "end": 9.055666
-    },
-    {
-      "text": "shapes",
-      "start": 9.069875,
-      "end": 9.467583
+      "text": "arm",
+      "start": 2.194875,
+      "end": 2.436333
     },
     {
       "text": "and",
-      "start": 9.524416,
-      "end": 9.666457
+      "start": 2.464791,
+      "end": 2.606832
+    },
+    {
+      "text": "hand",
+      "start": 2.621041,
+      "end": 2.919332
+    },
+    {
+      "text": "drawing",
+      "start": 3.01875,
+      "end": 3.388083
+    },
+    {
+      "text": "made",
+      "start": 3.444875,
+      "end": 3.686333
+    },
+    {
+      "text": "with",
+      "start": 3.728958,
+      "end": 3.856791
     },
     {
       "text": "circles",
-      "start": 9.694875,
-      "end": 10.390916
-    },
-    {
-      "text": "Drawing",
-      "start": 11.463083,
-      "end": 11.903416
-    },
-    {
-      "text": "a",
-      "start": 11.946041,
-      "end": 12.017082
-    },
-    {
-      "text": "human",
-      "start": 12.059666,
-      "end": 12.471582
-    },
-    {
-      "text": "being's",
-      "start": 12.556833,
-      "end": 12.883541
-    },
-    {
-      "text": "chest",
-      "start": 12.940333,
-      "end": 13.224416
-    },
-    {
-      "text": "There",
-      "start": 13.295458,
-      "end": 13.423291
-    },
-    {
-      "text": "are",
-      "start": 13.480125,
-      "end": 13.650583
-    },
-    {
-      "text": "some",
-      "start": 13.721583,
-      "end": 13.934666
-    },
-    {
-      "text": "steps",
-      "start": 14.034083,
-      "end": 14.360791
-    },
-    {
-      "text": "considered",
-      "start": 14.431833,
-      "end": 14.971624
-    },
-    {
-      "text": "in",
-      "start": 15.042625,
-      "end": 15.170458
-    },
-    {
-      "text": "drawing",
-      "start": 15.227291,
-      "end": 15.596624
-    },
-    {
-      "text": "a",
-      "start": 15.639208,
-      "end": 15.710249
-    },
-    {
-      "text": "human",
-      "start": 15.752833,
-      "end": 16.164749
-    },
-    {
-      "text": "being's",
-      "start": 16.25,
-      "end": 16.576708
-    },
-    {
-      "text": "chest",
-      "start": 16.633541,
-      "end": 17.031249
-    },
-    {
-      "text": "Firstly",
-      "start": 18.153416,
-      "end": 18.792624
-    },
-    {
-      "text": "draw",
-      "start": 19.105125,
-      "end": 19.375
-    },
-    {
-      "text": "a",
-      "start": 19.431833,
-      "end": 19.517041
-    },
-    {
-      "text": "map",
-      "start": 19.545458,
-      "end": 19.829541
-    },
-    {
-      "text": "of",
-      "start": 19.872166,
-      "end": 19.957374
-    },
-    {
-      "text": "the",
-      "start": 20.014208,
-      "end": 20.099416
-    },
-    {
-      "text": "chest",
-      "start": 20.15625,
-      "end": 20.511375
-    },
-    {
-      "text": "by",
-      "start": 20.625,
-      "end": 20.724416
-    },
-    {
-      "text": "drawing",
-      "start": 20.809666,
-      "end": 21.193207
-    },
-    {
-      "text": "a",
-      "start": 21.235791,
-      "end": 21.320999
-    },
-    {
-      "text": "cube",
-      "start": 21.40625,
-      "end": 21.789791
-    },
-    {
-      "text": "Then",
-      "start": 22.8125,
-      "end": 23.139208
-    },
-    {
-      "text": "draw",
-      "start": 23.238625,
-      "end": 23.451708
-    },
-    {
-      "text": "cylinder",
-      "start": 23.480125,
-      "end": 23.963083
-    },
-    {
-      "text": "shapes",
-      "start": 23.977291,
-      "end": 24.360832
-    },
-    {
-      "text": "to",
-      "start": 24.446041,
-      "end": 24.517082
-    },
-    {
-      "text": "the",
-      "start": 24.588083,
-      "end": 24.687499
-    },
-    {
-      "text": "left",
-      "start": 24.715916,
-      "end": 25.042624
+      "start": 3.899416,
+      "end": 4.439207
     },
     {
       "text": "and",
-      "start": 25.099416,
-      "end": 25.241457
+      "start": 4.510208,
+      "end": 4.652249
     },
     {
-      "text": "right",
-      "start": 25.284083,
-      "end": 25.525541
-    },
-    {
-      "text": "of",
-      "start": 25.582375,
-      "end": 25.681791
-    },
-    {
-      "text": "the",
-      "start": 25.738625,
-      "end": 25.809666
-    },
-    {
-      "text": "cube",
-      "start": 25.909083,
-      "end": 26.122166
-    },
-    {
-      "text": "to",
-      "start": 26.207375,
-      "end": 26.292583
-    },
-    {
-      "text": "create",
-      "start": 26.363625,
-      "end": 26.676125
-    },
-    {
-      "text": "the",
-      "start": 26.761375,
-      "end": 26.860791
+      "text": "cylinder-like",
+      "start": 4.666458,
+      "end": 5.376666
     },
     {
       "text": "shapes",
-      "start": 26.875,
-      "end": 27.258541
+      "start": 5.447708,
+      "end": 5.944874
     },
     {
-      "text": "of",
-      "start": 27.27275,
-      "end": 27.357958
+      "text": "Image",
+      "start": 7.002833,
+      "end": 7.386374
     },
     {
-      "text": "the",
-      "start": 27.429,
-      "end": 27.457416
+      "text": "description",
+      "start": 7.514208,
+      "end": 8.281249
     },
     {
-      "text": "arms",
-      "start": 27.571041,
-      "end": 27.911957
+      "text": "Another",
+      "start": 8.508541,
+      "end": 8.892082
     },
     {
-      "text": "on",
-      "start": 27.982958,
-      "end": 28.068166
+      "text": "simple",
+      "start": 8.977291,
+      "end": 9.346624
     },
     {
-      "text": "the",
-      "start": 28.139208,
-      "end": 28.210249
-    },
-    {
-      "text": "shoulders",
-      "start": 28.224416,
-      "end": 28.849416
-    },
-    {
-      "text": "After",
-      "start": 29.943166,
-      "end": 30.326707
-    },
-    {
-      "text": "that",
-      "start": 30.39775,
-      "end": 30.582416
-    },
-    {
-      "text": "connect",
-      "start": 30.894875,
-      "end": 31.221583
-    },
-    {
-      "text": "the",
-      "start": 31.349416,
-      "end": 31.420457
-    },
-    {
-      "text": "corners",
-      "start": 31.505666,
-      "end": 31.874999
-    },
-    {
-      "text": "of",
-      "start": 31.875,
-      "end": 31.960208
-    },
-    {
-      "text": "the",
-      "start": 32.017041,
-      "end": 32.088082
-    },
-    {
-      "text": "cube",
-      "start": 32.1875,
-      "end": 32.471583
+      "text": "arm",
+      "start": 9.403416,
+      "end": 9.644874
     },
     {
       "text": "and",
-      "start": 32.5,
-      "end": 32.613625
+      "start": 9.673291,
+      "end": 9.815332
     },
     {
-      "text": "the",
-      "start": 32.670458,
-      "end": 32.755666
+      "text": "hand",
+      "start": 9.829541,
+      "end": 10.127832
     },
     {
-      "text": "cylinders",
-      "start": 32.840916,
-      "end": 33.409082
+      "text": "drawing",
+      "start": 10.213083,
+      "end": 10.582416
     },
     {
-      "text": "using",
-      "start": 33.4375,
-      "end": 33.764208
+      "text": "made",
+      "start": 10.639208,
+      "end": 10.866499
     },
     {
-      "text": "a",
-      "start": 33.806833,
-      "end": 33.877874
+      "text": "with",
+      "start": 10.909083,
+      "end": 11.051124
     },
     {
-      "text": "pencil",
-      "start": 33.963083,
-      "end": 34.318208
+      "text": "circles",
+      "start": 11.09375,
+      "end": 11.676125
     },
     {
-      "text": "to",
-      "start": 34.403416,
-      "end": 34.502832
+      "text": "and",
+      "start": 11.747166,
+      "end": 11.889207
     },
     {
-      "text": "complete",
-      "start": 34.573875,
-      "end": 35.0
+      "text": "cylinder-like",
+      "start": 11.903416,
+      "end": 12.613624
     },
     {
-      "text": "the",
-      "start": 35.127833,
-      "end": 35.213041
+      "text": "shapes",
+      "start": 12.684666,
+      "end": 13.181832
     },
     {
-      "text": "chest",
-      "start": 35.269875,
-      "end": 35.639208
+      "text": "Figure 7",
+      "start": 14.232958,
+      "end": 15.184666
     },
     {
-      "text": "shape",
-      "start": 35.71025,
-      "end": 36.008541
-    },
-    {
-      "text": "Figure 8",
-      "start": 37.088083,
-      "end": 37.8267069
-    },
-    {
-      "text": "shows",
-      "start": 37.89775,
-      "end": 38.21025
-    },
-    {
-      "text": "how",
-      "start": 38.238625,
-      "end": 38.4375
-    },
-    {
-      "text": "to",
-      "start": 38.536916,
-      "end": 38.622124
+      "text": "The",
+      "start": 15.46875,
+      "end": 15.568166
     },
     {
       "text": "use",
-      "start": 38.721583,
-      "end": 38.948874
+      "start": 15.639208,
+      "end": 15.894874
     },
     {
-      "text": "a",
-      "start": 38.948875,
-      "end": 39.034083
-    },
-    {
-      "text": "cube",
-      "start": 39.119333,
-      "end": 39.389208
-    },
-    {
-      "text": "and",
-      "start": 39.446041,
-      "end": 39.588082
-    },
-    {
-      "text": "a",
-      "start": 39.588083,
-      "end": 39.673291
+      "text": "of",
+      "start": 15.894875,
+      "end": 16.0085
     },
     {
       "text": "cylinder",
-      "start": 39.744333,
-      "end": 40.170458
+      "start": 16.051125,
+      "end": 16.519875
+    },
+    {
+      "text": "shapes",
+      "start": 16.534083,
+      "end": 16.931791
     },
     {
       "text": "in",
-      "start": 40.227291,
-      "end": 40.369332
+      "start": 16.988625,
+      "end": 17.116458
     },
     {
       "text": "drawing",
-      "start": 40.440333,
-      "end": 40.781249
+      "start": 17.201708,
+      "end": 17.499999
+    },
+    {
+      "text": "the",
+      "start": 17.585208,
+      "end": 17.656249
+    },
+    {
+      "text": "human",
+      "start": 17.670458,
+      "end": 18.110791
+    },
+    {
+      "text": "being's",
+      "start": 18.196041,
+      "end": 18.508541
+    },
+    {
+      "text": "hands",
+      "start": 18.536916,
+      "end": 18.920457
+    },
+    {
+      "text": "Activity",
+      "start": 18.977291,
+      "end": 19.545457
+    },
+    {
+      "text": "5",
+      "start": 19.559666,
+      "end": 19.843749
+    },
+    {
+      "text": "Draw",
+      "start": 19.957375,
+      "end": 20.15625
+    },
+    {
+      "text": "human",
+      "start": 20.198875,
+      "end": 20.610791
+    },
+    {
+      "text": "being's",
+      "start": 20.696041,
+      "end": 21.008541
+    },
+    {
+      "text": "hands",
+      "start": 21.036916,
+      "end": 21.420457
+    },
+    {
+      "text": "by",
+      "start": 21.505666,
+      "end": 21.605082
+    },
+    {
+      "text": "using",
+      "start": 21.676125,
+      "end": 22.002833
+    },
+    {
+      "text": "cylinder",
+      "start": 22.03125,
+      "end": 22.5
+    },
+    {
+      "text": "shapes",
+      "start": 22.514208,
+      "end": 22.911916
+    },
+    {
+      "text": "and",
+      "start": 22.96875,
+      "end": 23.110791
+    },
+    {
+      "text": "circles",
+      "start": 23.139208,
+      "end": 23.835249
+    },
+    {
+      "text": "Drawing",
+      "start": 24.900583,
+      "end": 25.340916
+    },
+    {
+      "text": "a",
+      "start": 25.383541,
+      "end": 25.454582
+    },
+    {
+      "text": "human",
+      "start": 25.497166,
+      "end": 25.909082
+    },
+    {
+      "text": "being's",
+      "start": 25.994333,
+      "end": 26.321041
+    },
+    {
+      "text": "chest",
+      "start": 26.377833,
+      "end": 26.661916
+    },
+    {
+      "text": "There",
+      "start": 26.732958,
+      "end": 26.860791
+    },
+    {
+      "text": "are",
+      "start": 26.917625,
+      "end": 27.088083
+    },
+    {
+      "text": "some",
+      "start": 27.159083,
+      "end": 27.372166
+    },
+    {
+      "text": "steps",
+      "start": 27.471583,
+      "end": 27.798291
+    },
+    {
+      "text": "considered",
+      "start": 27.869333,
+      "end": 28.409124
+    },
+    {
+      "text": "in",
+      "start": 28.480125,
+      "end": 28.607958
+    },
+    {
+      "text": "drawing",
+      "start": 28.664791,
+      "end": 29.034124
+    },
+    {
+      "text": "a",
+      "start": 29.076708,
+      "end": 29.147749
+    },
+    {
+      "text": "human",
+      "start": 29.190333,
+      "end": 29.602249
+    },
+    {
+      "text": "being's",
+      "start": 29.6875,
+      "end": 30.014208
+    },
+    {
+      "text": "chest",
+      "start": 30.071041,
+      "end": 30.468749
+    },
+    {
+      "text": "Firstly",
+      "start": 31.590916,
+      "end": 32.230124
+    },
+    {
+      "text": "draw",
+      "start": 32.542625,
+      "end": 32.8125
+    },
+    {
+      "text": "a",
+      "start": 32.869333,
+      "end": 32.954541
+    },
+    {
+      "text": "map",
+      "start": 32.982958,
+      "end": 33.267041
+    },
+    {
+      "text": "of",
+      "start": 33.309666,
+      "end": 33.394874
+    },
+    {
+      "text": "the",
+      "start": 33.451708,
+      "end": 33.536916
+    },
+    {
+      "text": "chest",
+      "start": 33.59375,
+      "end": 33.948875
+    },
+    {
+      "text": "by",
+      "start": 34.0625,
+      "end": 34.161916
+    },
+    {
+      "text": "drawing",
+      "start": 34.247166,
+      "end": 34.630707
+    },
+    {
+      "text": "a",
+      "start": 34.673291,
+      "end": 34.758499
+    },
+    {
+      "text": "cube",
+      "start": 34.84375,
+      "end": 35.227291
+    },
+    {
+      "text": "Then",
+      "start": 36.25,
+      "end": 36.576708
+    },
+    {
+      "text": "draw",
+      "start": 36.676125,
+      "end": 36.889208
+    },
+    {
+      "text": "cylinder",
+      "start": 36.917625,
+      "end": 37.400583
+    },
+    {
+      "text": "shapes",
+      "start": 37.414791,
+      "end": 37.798332
+    },
+    {
+      "text": "to",
+      "start": 37.883541,
+      "end": 37.954582
+    },
+    {
+      "text": "the",
+      "start": 38.025583,
+      "end": 38.124999
+    },
+    {
+      "text": "left",
+      "start": 38.153416,
+      "end": 38.480124
+    },
+    {
+      "text": "and",
+      "start": 38.536916,
+      "end": 38.678957
+    },
+    {
+      "text": "right",
+      "start": 38.721583,
+      "end": 38.963041
+    },
+    {
+      "text": "of",
+      "start": 39.019875,
+      "end": 39.119291
+    },
+    {
+      "text": "the",
+      "start": 39.176125,
+      "end": 39.247166
+    },
+    {
+      "text": "cube",
+      "start": 39.346583,
+      "end": 39.559666
+    },
+    {
+      "text": "to",
+      "start": 39.644875,
+      "end": 39.730083
+    },
+    {
+      "text": "create",
+      "start": 39.801125,
+      "end": 40.113625
+    },
+    {
+      "text": "the",
+      "start": 40.198875,
+      "end": 40.298291
+    },
+    {
+      "text": "shapes",
+      "start": 40.3125,
+      "end": 40.696041
+    },
+    {
+      "text": "of",
+      "start": 40.71025,
+      "end": 40.795458
     },
     {
       "text": "the",
       "start": 40.8665,
-      "end": 40.937541
+      "end": 40.894916
     },
     {
-      "text": "human",
-      "start": 40.965916,
-      "end": 41.406249
+      "text": "arms",
+      "start": 41.008541,
+      "end": 41.349457
     },
     {
-      "text": "being's",
-      "start": 41.477291,
-      "end": 41.775582
-    },
-    {
-      "text": "chest",
-      "start": 41.832375,
-      "end": 42.244291
-    },
-    {
-      "text": "Figure 8",
-      "start": 43.380666,
-      "end": 44.119333
-    },
-    {
-      "text": "The",
-      "start": 44.446041,
-      "end": 44.545457
-    },
-    {
-      "text": "use",
-      "start": 44.630666,
-      "end": 44.900541
-    },
-    {
-      "text": "of",
-      "start": 44.914791,
-      "end": 45.071041
-    },
-    {
-      "text": "cube",
-      "start": 45.127833,
-      "end": 45.397708
-    },
-    {
-      "text": "and",
-      "start": 45.411916,
-      "end": 45.582374
-    },
-    {
-      "text": "cylinder",
-      "start": 45.625,
-      "end": 46.065333
-    },
-    {
-      "text": "shapes",
-      "start": 46.079541,
-      "end": 46.477249
-    },
-    {
-      "text": "in",
-      "start": 46.534083,
-      "end": 46.661916
-    },
-    {
-      "text": "drawing",
-      "start": 46.747166,
-      "end": 47.059666
+      "text": "on",
+      "start": 41.420458,
+      "end": 41.505666
     },
     {
       "text": "the",
-      "start": 47.144875,
-      "end": 47.230083
+      "start": 41.576708,
+      "end": 41.647749
     },
     {
-      "text": "human",
-      "start": 47.258541,
-      "end": 47.713082
+      "text": "shoulders",
+      "start": 41.661916,
+      "end": 42.286916
     },
     {
-      "text": "being's",
-      "start": 47.798291,
-      "end": 48.110791
+      "text": "After",
+      "start": 43.380666,
+      "end": 43.764207
+    },
+    {
+      "text": "that",
+      "start": 43.83525,
+      "end": 44.019916
+    },
+    {
+      "text": "connect",
+      "start": 44.332375,
+      "end": 44.659083
+    },
+    {
+      "text": "the",
+      "start": 44.786916,
+      "end": 44.857957
+    },
+    {
+      "text": "corners",
+      "start": 44.943166,
+      "end": 45.312499
+    },
+    {
+      "text": "of",
+      "start": 45.3125,
+      "end": 45.397708
+    },
+    {
+      "text": "the",
+      "start": 45.454541,
+      "end": 45.525582
+    },
+    {
+      "text": "cube",
+      "start": 45.625,
+      "end": 45.909083
+    },
+    {
+      "text": "and",
+      "start": 45.9375,
+      "end": 46.051125
+    },
+    {
+      "text": "the",
+      "start": 46.107958,
+      "end": 46.193166
+    },
+    {
+      "text": "cylinders",
+      "start": 46.278416,
+      "end": 46.846582
+    },
+    {
+      "text": "using",
+      "start": 46.875,
+      "end": 47.201708
+    },
+    {
+      "text": "a",
+      "start": 47.244333,
+      "end": 47.315374
+    },
+    {
+      "text": "pencil",
+      "start": 47.400583,
+      "end": 47.755708
+    },
+    {
+      "text": "to",
+      "start": 47.840916,
+      "end": 47.940332
+    },
+    {
+      "text": "complete",
+      "start": 48.011375,
+      "end": 48.4375
+    },
+    {
+      "text": "the",
+      "start": 48.565333,
+      "end": 48.650541
     },
     {
       "text": "chest",
-      "start": 48.167625,
-      "end": 48.59375
+      "start": 48.707375,
+      "end": 49.076708
+    },
+    {
+      "text": "shape",
+      "start": 49.14775,
+      "end": 49.446041
+    },
+    {
+      "text": "Figure 8",
+      "start": 50.525583,
+      "end": 51.264207
+    },
+    {
+      "text": "shows",
+      "start": 51.33525,
+      "end": 51.64775
+    },
+    {
+      "text": "how",
+      "start": 51.676125,
+      "end": 51.875
+    },
+    {
+      "text": "to",
+      "start": 51.974416,
+      "end": 52.059624
+    },
+    {
+      "text": "use",
+      "start": 52.159083,
+      "end": 52.386374
+    },
+    {
+      "text": "a",
+      "start": 52.386375,
+      "end": 52.471583
+    },
+    {
+      "text": "cube",
+      "start": 52.556833,
+      "end": 52.826708
+    },
+    {
+      "text": "and",
+      "start": 52.883541,
+      "end": 53.025582
+    },
+    {
+      "text": "a",
+      "start": 53.025583,
+      "end": 53.110791
+    },
+    {
+      "text": "cylinder",
+      "start": 53.181833,
+      "end": 53.607958
+    },
+    {
+      "text": "in",
+      "start": 53.664791,
+      "end": 53.806832
+    },
+    {
+      "text": "drawing",
+      "start": 53.877833,
+      "end": 54.218749
+    },
+    {
+      "text": "the",
+      "start": 54.304,
+      "end": 54.375041
+    },
+    {
+      "text": "human",
+      "start": 54.403416,
+      "end": 54.843749
+    },
+    {
+      "text": "being's",
+      "start": 54.914791,
+      "end": 55.213082
+    },
+    {
+      "text": "chest",
+      "start": 55.269875,
+      "end": 55.681791
+    },
+    {
+      "text": "Image",
+      "start": 56.818166,
+      "end": 57.173291
+    },
+    {
+      "text": "description",
+      "start": 57.301125,
+      "end": 58.096583
+    },
+    {
+      "text": "A",
+      "start": 58.323875,
+      "end": 58.423291
+    },
+    {
+      "text": "rough",
+      "start": 58.480125,
+      "end": 58.707416
+    },
+    {
+      "text": "sketch",
+      "start": 58.764208,
+      "end": 59.105124
+    },
+    {
+      "text": "of",
+      "start": 59.133541,
+      "end": 59.261374
+    },
+    {
+      "text": "a",
+      "start": 59.261375,
+      "end": 59.332416
+    },
+    {
+      "text": "person's",
+      "start": 59.417625,
+      "end": 59.929
+    },
+    {
+      "text": "chest",
+      "start": 59.971583,
+      "end": 60.312499
+    },
+    {
+      "text": "and",
+      "start": 60.39775,
+      "end": 60.539791
+    },
+    {
+      "text": "shoulder",
+      "start": 60.568166,
+      "end": 60.951707
+    },
+    {
+      "text": "made",
+      "start": 60.965916,
+      "end": 61.207374
+    },
+    {
+      "text": "from",
+      "start": 61.264208,
+      "end": 61.519874
+    },
+    {
+      "text": "simple",
+      "start": 61.576708,
+      "end": 61.960249
+    },
+    {
+      "text": "shapes",
+      "start": 62.002833,
+      "end": 62.514208
+    },
+    {
+      "text": "Image",
+      "start": 63.579541,
+      "end": 63.948874
+    },
+    {
+      "text": "description",
+      "start": 64.076708,
+      "end": 64.872166
+    },
+    {
+      "text": "A",
+      "start": 65.056833,
+      "end": 65.156249
+    },
+    {
+      "text": "front",
+      "start": 65.184666,
+      "end": 65.582374
+    },
+    {
+      "text": "view",
+      "start": 65.582375,
+      "end": 65.809666
+    },
+    {
+      "text": "of",
+      "start": 65.880666,
+      "end": 66.051124
+    },
+    {
+      "text": "a",
+      "start": 66.051125,
+      "end": 66.122166
+    },
+    {
+      "text": "body",
+      "start": 66.207375,
+      "end": 66.463041
+    },
+    {
+      "text": "sketch",
+      "start": 66.548291,
+      "end": 66.860791
+    },
+    {
+      "text": "showing",
+      "start": 66.946041,
+      "end": 67.286957
+    },
+    {
+      "text": "the",
+      "start": 67.372166,
+      "end": 67.443207
+    },
+    {
+      "text": "chest",
+      "start": 67.5,
+      "end": 67.855125
+    },
+    {
+      "text": "and",
+      "start": 67.940333,
+      "end": 68.096583
+    },
+    {
+      "text": "arms",
+      "start": 68.167625,
+      "end": 68.494333
+    },
+    {
+      "text": "with",
+      "start": 68.536916,
+      "end": 68.650541
+    },
+    {
+      "text": "simple",
+      "start": 68.679,
+      "end": 69.133541
+    },
+    {
+      "text": "shapes",
+      "start": 69.176125,
+      "end": 69.559666
+    },
+    {
+      "text": "and",
+      "start": 69.644875,
+      "end": 69.772708
+    },
+    {
+      "text": "a",
+      "start": 69.77275,
+      "end": 69.857958
+    },
+    {
+      "text": "centre",
+      "start": 69.900583,
+      "end": 70.298291
+    },
+    {
+      "text": "line",
+      "start": 70.298291,
+      "end": 70.695999
+    },
+    {
+      "text": "Figure 8",
+      "start": 71.71875,
+      "end": 72.457416
+    },
+    {
+      "text": "The",
+      "start": 72.784083,
+      "end": 72.883499
+    },
+    {
+      "text": "use",
+      "start": 72.96875,
+      "end": 73.238625
+    },
+    {
+      "text": "of",
+      "start": 73.252833,
+      "end": 73.409083
+    },
+    {
+      "text": "cube",
+      "start": 73.465916,
+      "end": 73.735791
+    },
+    {
+      "text": "and",
+      "start": 73.75,
+      "end": 73.920458
+    },
+    {
+      "text": "cylinder",
+      "start": 73.963083,
+      "end": 74.403416
+    },
+    {
+      "text": "shapes",
+      "start": 74.417625,
+      "end": 74.815333
+    },
+    {
+      "text": "in",
+      "start": 74.872166,
+      "end": 74.999999
+    },
+    {
+      "text": "drawing",
+      "start": 75.08525,
+      "end": 75.39775
+    },
+    {
+      "text": "the",
+      "start": 75.482958,
+      "end": 75.568166
+    },
+    {
+      "text": "human",
+      "start": 75.596583,
+      "end": 76.051124
+    },
+    {
+      "text": "being's",
+      "start": 76.136375,
+      "end": 76.448875
+    },
+    {
+      "text": "chest",
+      "start": 76.505666,
+      "end": 76.931791
     }
   ]
 }

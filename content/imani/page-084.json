@@ -2,484 +2,594 @@
   "audio": "page-084.mp3",
   "words": [
     {
-      "text": "78",
+      "text": "Image",
       "start": 0.106833,
-      "end": 1.015916
+      "end": 0.490374
     },
     {
-      "text": "Figure 8",
-      "start": 1.072708,
-      "end": 1.726166
+      "text": "description",
+      "start": 0.632375,
+      "end": 1.427833
     },
     {
-      "text": "Doing",
-      "start": 2.152291,
-      "end": 2.393749
+      "text": "A",
+      "start": 1.640916,
+      "end": 1.726124
     },
     {
-      "text": "the",
-      "start": 2.493166,
-      "end": 2.592582
+      "text": "child",
+      "start": 1.782958,
+      "end": 2.081249
     },
     {
-      "text": "rope",
+      "text": "jumps",
+      "start": 2.166458,
+      "end": 2.606791
+    },
+    {
+      "text": "while",
       "start": 2.621041,
-      "end": 2.834124
+      "end": 2.848332
     },
     {
       "text": "skipping",
-      "start": 2.933541,
-      "end": 3.388082
-    },
-    {
-      "text": "exercise",
-      "start": 3.430666,
-      "end": 4.013041
-    },
-    {
-      "text": "Activity",
-      "start": 4.069875,
-      "end": 4.666458
-    },
-    {
-      "text": "8",
-      "start": 4.808541,
-      "end": 4.964791
+      "start": 2.919333,
+      "end": 3.402291
     },
     {
       "text": "a",
-      "start": 5.248875,
-      "end": 5.419333
+      "start": 3.444875,
+      "end": 3.544291
     },
     {
-      "text": "Do",
-      "start": 5.731833,
-      "end": 5.831249
+      "text": "rope",
+      "start": 3.572708,
+      "end": 3.799999
+    },
+    {
+      "text": "overhead",
+      "start": 3.885208,
+      "end": 4.439166
+    },
+    {
+      "text": "Image",
+      "start": 5.511375,
+      "end": 5.8665
+    },
+    {
+      "text": "description",
+      "start": 5.994333,
+      "end": 6.761374
+    },
+    {
+      "text": "A",
+      "start": 6.960208,
+      "end": 7.045416
+    },
+    {
+      "text": "child",
+      "start": 7.102291,
+      "end": 7.414791
+    },
+    {
+      "text": "skips",
+      "start": 7.485791,
+      "end": 7.897707
+    },
+    {
+      "text": "rope",
+      "start": 7.954541,
+      "end": 8.181832
+    },
+    {
+      "text": "as",
+      "start": 8.252833,
+      "end": 8.409083
     },
     {
       "text": "the",
-      "start": 5.902291,
-      "end": 6.015916
+      "start": 8.465916,
+      "end": 8.551124
     },
     {
       "text": "rope",
-      "start": 6.058541,
-      "end": 6.257416
+      "start": 8.579541,
+      "end": 8.806832
+    },
+    {
+      "text": "swings",
+      "start": 8.934666,
+      "end": 9.332374
+    },
+    {
+      "text": "under",
+      "start": 9.403416,
+      "end": 9.644874
+    },
+    {
+      "text": "the",
+      "start": 9.673291,
+      "end": 9.801124
+    },
+    {
+      "text": "feet",
+      "start": 9.829541,
+      "end": 10.170457
+    },
+    {
+      "text": "Figure 8",
+      "start": 11.335208,
+      "end": 12.059666
+    },
+    {
+      "text": "Doing",
+      "start": 12.485791,
+      "end": 12.727249
+    },
+    {
+      "text": "the",
+      "start": 12.8125,
+      "end": 12.911916
+    },
+    {
+      "text": "rope",
+      "start": 12.940333,
+      "end": 13.153416
     },
     {
       "text": "skipping",
-      "start": 6.356833,
-      "end": 6.811374
+      "start": 13.238625,
+      "end": 13.693166
     },
     {
       "text": "exercise",
-      "start": 6.853958,
-      "end": 7.478958
+      "start": 13.735791,
+      "end": 14.374999
     },
     {
-      "text": "with",
-      "start": 7.535791,
-      "end": 7.663624
-    },
-    {
-      "text": "one",
-      "start": 7.70625,
-      "end": 7.961916
-    },
-    {
-      "text": "leg",
-      "start": 8.01875,
-      "end": 8.302833
-    },
-    {
-      "text": "then",
-      "start": 8.629541,
-      "end": 8.828416
-    },
-    {
-      "text": "with",
-      "start": 8.913625,
-      "end": 9.1125
-    },
-    {
-      "text": "both",
-      "start": 9.183541,
-      "end": 9.439207
-    },
-    {
-      "text": "legs",
-      "start": 9.467625,
-      "end": 9.865333
-    },
-    {
-      "text": "individually",
-      "start": 9.922166,
-      "end": 10.674999
-    },
-    {
-      "text": "b",
-      "start": 11.747166,
-      "end": 12.073874
-    },
-    {
-      "text": "In",
-      "start": 12.329541,
-      "end": 12.528416
-    },
-    {
-      "text": "pairs",
-      "start": 12.599416,
-      "end": 13.039749
-    },
-    {
-      "text": "compete",
-      "start": 13.28125,
-      "end": 13.792625
-    },
-    {
-      "text": "by",
-      "start": 13.90625,
-      "end": 14.019875
-    },
-    {
-      "text": "doing",
-      "start": 14.119333,
-      "end": 14.389208
-    },
-    {
-      "text": "rope",
+      "text": "Activity",
       "start": 14.431833,
-      "end": 14.630708
+      "end": 15.042624
     },
     {
-      "text": "skipping",
-      "start": 14.730125,
-      "end": 15.198875
-    },
-    {
-      "text": "for",
-      "start": 15.227291,
+      "text": "8",
+      "start": 15.170458,
       "end": 15.397749
     },
     {
       "text": "a",
-      "start": 15.454541,
-      "end": 15.553957
+      "start": 15.482958,
+      "end": 15.639208
     },
     {
-      "text": "long",
-      "start": 15.568166,
-      "end": 15.880666
-    },
-    {
-      "text": "time",
-      "start": 15.923291,
-      "end": 16.178957
-    },
-    {
-      "text": "as",
-      "start": 16.235791,
-      "end": 16.420457
-    },
-    {
-      "text": "possible",
-      "start": 16.491458,
-      "end": 17.073833
-    },
-    {
-      "text": "Exercise",
-      "start": 18.153416,
-      "end": 18.877832
-    },
-    {
-      "text": "1",
-      "start": 18.90625,
-      "end": 19.147708
-    },
-    {
-      "text": "1",
-      "start": 19.247166,
-      "end": 19.531249
-    },
-    {
-      "text": "Name",
-      "start": 20.610791,
-      "end": 20.937499
-    },
-    {
-      "text": "two",
-      "start": 21.036916,
-      "end": 21.193166
-    },
-    {
-      "text": "exercises",
-      "start": 21.278416,
-      "end": 22.017041
-    },
-    {
-      "text": "that",
-      "start": 22.059666,
-      "end": 22.272749
-    },
-    {
-      "text": "help",
-      "start": 22.315333,
-      "end": 22.585208
-    },
-    {
-      "text": "improve",
-      "start": 22.670458,
-      "end": 23.110791
-    },
-    {
-      "text": "strength",
-      "start": 23.196041,
-      "end": 23.593749
-    },
-    {
-      "text": "for",
-      "start": 23.622166,
-      "end": 23.764207
-    },
-    {
-      "text": "netball",
-      "start": 23.806833,
-      "end": 24.303999
-    },
-    {
-      "text": "and",
-      "start": 24.360791,
-      "end": 24.502832
-    },
-    {
-      "text": "football",
-      "start": 24.545458,
-      "end": 25.042624
-    },
-    {
-      "text": "players",
-      "start": 25.127833,
-      "end": 25.624999
-    },
-    {
-      "text": "2",
-      "start": 26.704541,
-      "end": 26.960207
-    },
-    {
-      "text": "Why",
-      "start": 27.258541,
-      "end": 27.457416
-    },
-    {
-      "text": "is",
-      "start": 27.542625,
-      "end": 27.65625
-    },
-    {
-      "text": "speed",
-      "start": 27.755666,
-      "end": 28.039749
-    },
-    {
-      "text": "important",
-      "start": 28.096583,
-      "end": 28.735791
-    },
-    {
-      "text": "for",
-      "start": 28.75,
-      "end": 28.892041
-    },
-    {
-      "text": "netball",
-      "start": 28.934666,
-      "end": 29.474457
-    },
-    {
-      "text": "and",
-      "start": 29.53125,
-      "end": 29.6875
-    },
-    {
-      "text": "football",
-      "start": 29.730125,
-      "end": 30.269916
-    },
-    {
-      "text": "players",
-      "start": 30.355125,
-      "end": 30.894916
-    },
-    {
-      "text": "3",
-      "start": 31.974416,
-      "end": 32.301124
-    },
-    {
-      "text": "Explain",
-      "start": 32.485791,
-      "end": 33.053957
-    },
-    {
-      "text": "how",
-      "start": 33.082375,
-      "end": 33.323833
-    },
-    {
-      "text": "shuttle",
-      "start": 33.352291,
-      "end": 33.764207
-    },
-    {
-      "text": "runs",
-      "start": 33.83525,
-      "end": 34.218791
-    },
-    {
-      "text": "help",
-      "start": 34.247166,
-      "end": 34.531249
-    },
-    {
-      "text": "a",
-      "start": 34.6165,
-      "end": 34.659125
-    },
-    {
-      "text": "player",
-      "start": 34.744333,
-      "end": 35.099458
-    },
-    {
-      "text": "on",
-      "start": 35.15625,
-      "end": 35.269875
+      "text": "Do",
+      "start": 16.704541,
+      "end": 16.903416
     },
     {
       "text": "the",
-      "start": 35.340916,
-      "end": 35.411957
+      "start": 16.974416,
+      "end": 17.088041
     },
     {
-      "text": "field",
-      "start": 35.454541,
-      "end": 35.923291
+      "text": "rope",
+      "start": 17.130666,
+      "end": 17.343749
     },
     {
-      "text": "Traditional",
-      "start": 37.017041,
-      "end": 37.741457
+      "text": "skipping",
+      "start": 17.414791,
+      "end": 17.911957
     },
     {
-      "text": "games",
-      "start": 37.826708,
-      "end": 38.153416
-    },
-    {
-      "text": "Traditional",
-      "start": 38.224416,
-      "end": 38.906249
-    },
-    {
-      "text": "games",
-      "start": 38.977291,
-      "end": 39.360832
-    },
-    {
-      "text": "are",
-      "start": 39.431833,
-      "end": 39.602291
-    },
-    {
-      "text": "important",
-      "start": 39.602291,
-      "end": 40.213082
-    },
-    {
-      "text": "in",
-      "start": 40.213083,
-      "end": 40.340916
-    },
-    {
-      "text": "society",
-      "start": 40.355125,
-      "end": 40.894916
-    },
-    {
-      "text": "because",
-      "start": 40.980125,
-      "end": 41.377833
-    },
-    {
-      "text": "of",
-      "start": 41.392041,
-      "end": 41.477249
-    },
-    {
-      "text": "their",
-      "start": 41.548291,
-      "end": 41.718749
-    },
-    {
-      "text": "social",
-      "start": 41.761375,
-      "end": 42.1875
-    },
-    {
-      "text": "and",
-      "start": 42.1875,
-      "end": 42.386375
-    },
-    {
-      "text": "cultural",
-      "start": 42.400583,
-      "end": 42.926166
-    },
-    {
-      "text": "significance",
-      "start": 42.982958,
-      "end": 44.019874
-    },
-    {
-      "text": "These",
-      "start": 45.071041,
-      "end": 45.426166
-    },
-    {
-      "text": "games",
-      "start": 45.511375,
-      "end": 45.8665
-    },
-    {
-      "text": "provide",
-      "start": 45.951708,
-      "end": 46.349416
-    },
-    {
-      "text": "people",
-      "start": 46.448875,
-      "end": 46.732958
+      "text": "exercise",
+      "start": 17.940333,
+      "end": 18.551124
     },
     {
       "text": "with",
-      "start": 46.747166,
-      "end": 46.917624
+      "start": 18.579541,
+      "end": 18.721582
+    },
+    {
+      "text": "one",
+      "start": 18.764208,
+      "end": 19.034083
+    },
+    {
+      "text": "leg",
+      "start": 19.076708,
+      "end": 19.360791
+    },
+    {
+      "text": "then",
+      "start": 19.659083,
+      "end": 19.872166
+    },
+    {
+      "text": "with",
+      "start": 19.943166,
+      "end": 20.127832
+    },
+    {
+      "text": "both",
+      "start": 20.198875,
+      "end": 20.440333
+    },
+    {
+      "text": "legs",
+      "start": 20.46875,
+      "end": 20.852291
+    },
+    {
+      "text": "individually",
+      "start": 20.909083,
+      "end": 21.647708
+    },
+    {
+      "text": "b",
+      "start": 22.713083,
+      "end": 22.954541
+    },
+    {
+      "text": "In",
+      "start": 23.125,
+      "end": 23.323875
+    },
+    {
+      "text": "pairs",
+      "start": 23.394875,
+      "end": 23.806791
+    },
+    {
+      "text": "compete",
+      "start": 24.048291,
+      "end": 24.517041
+    },
+    {
+      "text": "by",
+      "start": 24.630666,
+      "end": 24.744291
+    },
+    {
+      "text": "doing",
+      "start": 24.84375,
+      "end": 25.099416
+    },
+    {
+      "text": "rope",
+      "start": 25.142041,
+      "end": 25.340916
+    },
+    {
+      "text": "skipping",
+      "start": 25.440333,
+      "end": 25.894874
+    },
+    {
+      "text": "for",
+      "start": 25.923291,
+      "end": 26.093749
+    },
+    {
+      "text": "a",
+      "start": 26.150583,
+      "end": 26.235791
+    },
+    {
+      "text": "long",
+      "start": 26.25,
+      "end": 26.548291
+    },
+    {
+      "text": "time",
+      "start": 26.576708,
+      "end": 26.832374
+    },
+    {
+      "text": "as",
+      "start": 26.875,
+      "end": 27.059666
+    },
+    {
+      "text": "possible",
+      "start": 27.130666,
+      "end": 27.713041
+    },
+    {
+      "text": "Exercise",
+      "start": 28.792625,
+      "end": 29.517041
+    },
+    {
+      "text": "1",
+      "start": 29.545458,
+      "end": 29.786916
+    },
+    {
+      "text": "1",
+      "start": 29.886375,
+      "end": 30.170458
+    },
+    {
+      "text": "Name",
+      "start": 31.25,
+      "end": 31.576708
+    },
+    {
+      "text": "two",
+      "start": 31.676125,
+      "end": 31.832375
+    },
+    {
+      "text": "exercises",
+      "start": 31.917625,
+      "end": 32.65625
+    },
+    {
+      "text": "that",
+      "start": 32.698875,
+      "end": 32.911958
+    },
+    {
+      "text": "help",
+      "start": 32.954541,
+      "end": 33.224416
+    },
+    {
+      "text": "improve",
+      "start": 33.309666,
+      "end": 33.749999
+    },
+    {
+      "text": "strength",
+      "start": 33.83525,
+      "end": 34.232958
+    },
+    {
+      "text": "for",
+      "start": 34.261375,
+      "end": 34.403416
+    },
+    {
+      "text": "netball",
+      "start": 34.446041,
+      "end": 34.943207
+    },
+    {
+      "text": "and",
+      "start": 35.0,
+      "end": 35.142041
+    },
+    {
+      "text": "football",
+      "start": 35.184666,
+      "end": 35.681832
+    },
+    {
+      "text": "players",
+      "start": 35.767041,
+      "end": 36.264207
+    },
+    {
+      "text": "2",
+      "start": 37.34375,
+      "end": 37.599416
+    },
+    {
+      "text": "Why",
+      "start": 37.89775,
+      "end": 38.096625
+    },
+    {
+      "text": "is",
+      "start": 38.181833,
+      "end": 38.295458
+    },
+    {
+      "text": "speed",
+      "start": 38.394875,
+      "end": 38.678958
+    },
+    {
+      "text": "important",
+      "start": 38.735791,
+      "end": 39.374999
+    },
+    {
+      "text": "for",
+      "start": 39.389208,
+      "end": 39.531249
+    },
+    {
+      "text": "netball",
+      "start": 39.573875,
+      "end": 40.113666
+    },
+    {
+      "text": "and",
+      "start": 40.170458,
+      "end": 40.326708
+    },
+    {
+      "text": "football",
+      "start": 40.369333,
+      "end": 40.909124
+    },
+    {
+      "text": "players",
+      "start": 40.994333,
+      "end": 41.534124
+    },
+    {
+      "text": "3",
+      "start": 42.613625,
+      "end": 42.940333
+    },
+    {
+      "text": "Explain",
+      "start": 43.125,
+      "end": 43.693166
+    },
+    {
+      "text": "how",
+      "start": 43.721583,
+      "end": 43.963041
+    },
+    {
+      "text": "shuttle",
+      "start": 43.9915,
+      "end": 44.403416
+    },
+    {
+      "text": "runs",
+      "start": 44.474416,
+      "end": 44.857957
+    },
+    {
+      "text": "help",
+      "start": 44.886375,
+      "end": 45.170458
+    },
+    {
+      "text": "a",
+      "start": 45.255666,
+      "end": 45.298291
+    },
+    {
+      "text": "player",
+      "start": 45.383541,
+      "end": 45.738666
+    },
+    {
+      "text": "on",
+      "start": 45.795458,
+      "end": 45.909083
+    },
+    {
+      "text": "the",
+      "start": 45.980125,
+      "end": 46.051166
+    },
+    {
+      "text": "field",
+      "start": 46.09375,
+      "end": 46.5625
+    },
+    {
+      "text": "Traditional",
+      "start": 47.65625,
+      "end": 48.380666
+    },
+    {
+      "text": "games",
+      "start": 48.465916,
+      "end": 48.792624
+    },
+    {
+      "text": "Traditional",
+      "start": 48.863625,
+      "end": 49.545458
+    },
+    {
+      "text": "games",
+      "start": 49.6165,
+      "end": 50.000041
+    },
+    {
+      "text": "are",
+      "start": 50.071041,
+      "end": 50.241499
+    },
+    {
+      "text": "important",
+      "start": 50.2415,
+      "end": 50.852291
+    },
+    {
+      "text": "in",
+      "start": 50.852291,
+      "end": 50.980124
+    },
+    {
+      "text": "society",
+      "start": 50.994333,
+      "end": 51.534124
+    },
+    {
+      "text": "because",
+      "start": 51.619333,
+      "end": 52.017041
+    },
+    {
+      "text": "of",
+      "start": 52.03125,
+      "end": 52.116458
+    },
+    {
+      "text": "their",
+      "start": 52.1875,
+      "end": 52.357958
+    },
+    {
+      "text": "social",
+      "start": 52.400583,
+      "end": 52.826708
+    },
+    {
+      "text": "and",
+      "start": 52.826708,
+      "end": 53.025583
+    },
+    {
+      "text": "cultural",
+      "start": 53.039791,
+      "end": 53.565374
+    },
+    {
+      "text": "significance",
+      "start": 53.622166,
+      "end": 54.659082
+    },
+    {
+      "text": "These",
+      "start": 55.71025,
+      "end": 56.065375
+    },
+    {
+      "text": "games",
+      "start": 56.150583,
+      "end": 56.505708
+    },
+    {
+      "text": "provide",
+      "start": 56.590916,
+      "end": 56.988624
+    },
+    {
+      "text": "people",
+      "start": 57.088083,
+      "end": 57.372166
+    },
+    {
+      "text": "with",
+      "start": 57.386375,
+      "end": 57.556833
     },
     {
       "text": "opportunities",
-      "start": 46.974416,
-      "end": 47.812499
+      "start": 57.613625,
+      "end": 58.451708
     },
     {
       "text": "to",
-      "start": 47.855125,
-      "end": 47.926166
+      "start": 58.494333,
+      "end": 58.565374
     },
     {
       "text": "participate",
-      "start": 47.997166,
-      "end": 48.735791
+      "start": 58.636375,
+      "end": 59.375
     }
   ]
 }

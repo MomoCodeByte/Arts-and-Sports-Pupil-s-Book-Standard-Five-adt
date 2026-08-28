@@ -2,479 +2,604 @@
   "audio": "page-102.mp3",
   "words": [
     {
-      "text": "96",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.930707
+      "end": 0.461958
     },
     {
-      "text": "Figure 13",
-      "start": 0.944875,
-      "end": 1.839791
+      "text": "description",
+      "start": 0.589791,
+      "end": 1.371041
     },
     {
-      "text": "Receiving",
-      "start": 2.123875,
-      "end": 2.606833
-    },
-    {
-      "text": "the",
-      "start": 2.692041,
-      "end": 2.763082
-    },
-    {
-      "text": "ball",
-      "start": 2.848291,
-      "end": 3.061374
-    },
-    {
-      "text": "with",
-      "start": 3.089791,
-      "end": 3.288666
-    },
-    {
-      "text": "both",
-      "start": 3.373875,
-      "end": 3.601166
-    },
-    {
-      "text": "hands",
-      "start": 3.629541,
-      "end": 4.084082
-    },
-    {
-      "text": "or",
-      "start": 4.155125,
-      "end": 4.311375
-    },
-    {
-      "text": "one",
-      "start": 4.353958,
-      "end": 4.552833
-    },
-    {
-      "text": "hand",
-      "start": 4.58125,
-      "end": 4.879541
-    },
-    {
-      "text": "Activity",
-      "start": 4.936375,
-      "end": 5.561375
-    },
-    {
-      "text": "11",
-      "start": 5.660791,
-      "end": 6.186374
-    },
-    {
-      "text": "a",
-      "start": 6.413625,
-      "end": 6.569875
-    },
-    {
-      "text": "Practise",
-      "start": 6.925,
-      "end": 7.407958
-    },
-    {
-      "text": "catching",
-      "start": 7.464791,
-      "end": 7.819916
-    },
-    {
-      "text": "the",
-      "start": 7.905125,
-      "end": 7.976166
-    },
-    {
-      "text": "ball",
-      "start": 8.075583,
-      "end": 8.274458
-    },
-    {
-      "text": "with",
-      "start": 8.302833,
-      "end": 8.515916
-    },
-    {
-      "text": "one",
-      "start": 8.558541,
-      "end": 8.785832
-    },
-    {
-      "text": "hand",
-      "start": 8.814208,
-      "end": 9.169333
-    },
-    {
-      "text": "and",
-      "start": 9.226125,
-      "end": 9.453416
-    },
-    {
-      "text": "two",
-      "start": 9.467625,
-      "end": 9.595458
-    },
-    {
-      "text": "hands",
-      "start": 9.638083,
-      "end": 10.177874
-    },
-    {
-      "text": "b",
-      "start": 11.221583,
-      "end": 11.491458
-    },
-    {
-      "text": "Organise",
-      "start": 11.775583,
-      "end": 12.343749
-    },
-    {
-      "text": "a",
-      "start": 12.34375,
-      "end": 12.414791
-    },
-    {
-      "text": "match",
-      "start": 12.443166,
-      "end": 12.769874
-    },
-    {
-      "text": "and",
-      "start": 12.798291,
-      "end": 12.968749
-    },
-    {
-      "text": "play",
-      "start": 13.011375,
-      "end": 13.21025
-    },
-    {
-      "text": "by",
-      "start": 13.295458,
-      "end": 13.380666
-    },
-    {
-      "text": "considering",
-      "start": 13.451708,
-      "end": 14.105124
-    },
-    {
-      "text": "receiving",
-      "start": 14.147708,
-      "end": 14.630666
-    },
-    {
-      "text": "the",
-      "start": 14.715916,
-      "end": 14.786957
-    },
-    {
-      "text": "ball",
-      "start": 14.886375,
-      "end": 15.099458
-    },
-    {
-      "text": "with",
-      "start": 15.127833,
-      "end": 15.326708
-    },
-    {
-      "text": "one",
-      "start": 15.369333,
-      "end": 15.624999
-    },
-    {
-      "text": "hand",
-      "start": 15.653416,
-      "end": 15.994332
-    },
-    {
-      "text": "and",
-      "start": 16.079541,
-      "end": 16.292624
-    },
-    {
-      "text": "two",
-      "start": 16.306833,
-      "end": 16.448874
-    },
-    {
-      "text": "hands",
-      "start": 16.491458,
-      "end": 17.031249
-    },
-    {
-      "text": "b",
-      "start": 18.082375,
-      "end": 18.338041
-    },
-    {
-      "text": "Movements",
-      "start": 18.579541,
-      "end": 19.232957
-    },
-    {
-      "text": "Movement",
-      "start": 19.261375,
-      "end": 19.772708
-    },
-    {
-      "text": "is",
-      "start": 19.772708,
-      "end": 19.900541
-    },
-    {
-      "text": "an",
-      "start": 19.900583,
-      "end": 20.042624
-    },
-    {
-      "text": "important",
-      "start": 20.085208,
-      "end": 20.653374
-    },
-    {
-      "text": "skill",
-      "start": 20.710208,
-      "end": 21.022708
-    },
-    {
-      "text": "in",
-      "start": 21.079541,
-      "end": 21.193166
-    },
-    {
-      "text": "netball",
-      "start": 21.264208,
-      "end": 21.803999
-    },
-    {
-      "text": "where",
-      "start": 22.03125,
-      "end": 22.272708
-    },
-    {
-      "text": "players",
-      "start": 22.372166,
-      "end": 22.784082
-    },
-    {
-      "text": "must",
-      "start": 22.826708,
-      "end": 23.139208
-    },
-    {
-      "text": "use",
-      "start": 23.196041,
-      "end": 23.451707
-    },
-    {
-      "text": "their",
-      "start": 23.494333,
-      "end": 23.650583
-    },
-    {
-      "text": "feet",
-      "start": 23.678958,
-      "end": 23.963041
-    },
-    {
-      "text": "carefully",
-      "start": 24.076708,
-      "end": 24.502833
-    },
-    {
-      "text": "to",
-      "start": 24.588083,
-      "end": 24.673291
-    },
-    {
-      "text": "maintain",
-      "start": 24.701708,
-      "end": 25.156249
-    },
-    {
-      "text": "direction",
-      "start": 25.241458,
-      "end": 25.781249
-    },
-    {
-      "text": "and",
-      "start": 25.809666,
-      "end": 25.937499
-    },
-    {
-      "text": "balance",
-      "start": 26.02275,
-      "end": 26.676166
-    },
-    {
-      "text": "In",
-      "start": 27.713083,
-      "end": 27.911958
-    },
-    {
-      "text": "netball",
-      "start": 27.982958,
-      "end": 28.565333
-    },
-    {
-      "text": "a",
-      "start": 28.764208,
-      "end": 28.849416
+      "text": "A",
+      "start": 1.584083,
+      "end": 1.669291
     },
     {
       "text": "player",
-      "start": 28.948875,
-      "end": 29.247166
+      "start": 1.76875,
+      "end": 2.08125
     },
     {
-      "text": "cannot",
-      "start": 29.332375,
-      "end": 29.701708
-    },
-    {
-      "text": "run",
-      "start": 29.815333,
-      "end": 29.985791
-    },
-    {
-      "text": "with",
-      "start": 30.071041,
-      "end": 30.099457
+      "text": "catches",
+      "start": 2.166458,
+      "end": 2.564166
     },
     {
       "text": "the",
-      "start": 30.170458,
-      "end": 30.255666
+      "start": 2.621041,
+      "end": 2.720457
     },
     {
-      "text": "ball",
-      "start": 30.355125,
-      "end": 30.639208
+      "text": "netball",
+      "start": 2.748875,
+      "end": 3.26025
     },
     {
-      "text": "but",
-      "start": 30.923291,
-      "end": 31.008499
+      "text": "with",
+      "start": 3.302833,
+      "end": 3.487499
     },
     {
-      "text": "they",
-      "start": 31.079541,
-      "end": 31.150582
+      "text": "both",
+      "start": 3.572708,
+      "end": 3.814166
     },
     {
-      "text": "can",
-      "start": 31.221583,
-      "end": 31.420458
+      "text": "hands",
+      "start": 3.842625,
+      "end": 4.282958
     },
     {
-      "text": "take",
-      "start": 31.463083,
-      "end": 31.704541
+      "text": "while",
+      "start": 4.311375,
+      "end": 4.496041
+    },
+    {
+      "text": "stepping",
+      "start": 4.58125,
+      "end": 4.993166
+    },
+    {
+      "text": "forward",
+      "start": 5.035791,
+      "end": 5.518749
+    },
+    {
+      "text": "Image",
+      "start": 6.590916,
+      "end": 6.960249
+    },
+    {
+      "text": "description",
+      "start": 7.088083,
+      "end": 7.869333
+    },
+    {
+      "text": "A",
+      "start": 8.082375,
+      "end": 8.167583
+    },
+    {
+      "text": "player",
+      "start": 8.267041,
+      "end": 8.593749
+    },
+    {
+      "text": "receives",
+      "start": 8.622166,
+      "end": 9.105124
+    },
+    {
+      "text": "the",
+      "start": 9.161916,
+      "end": 9.261332
+    },
+    {
+      "text": "netball",
+      "start": 9.289791,
+      "end": 9.801166
+    },
+    {
+      "text": "with",
+      "start": 9.84375,
+      "end": 10.014208
     },
     {
       "text": "one",
-      "start": 31.747166,
-      "end": 31.946041
+      "start": 10.042625,
+      "end": 10.298291
+    },
+    {
+      "text": "hand",
+      "start": 10.340916,
+      "end": 10.653416
+    },
+    {
+      "text": "while",
+      "start": 10.724416,
+      "end": 10.951707
+    },
+    {
+      "text": "moving",
+      "start": 10.994333,
+      "end": 11.363666
+    },
+    {
+      "text": "forward",
+      "start": 11.40625,
+      "end": 11.917625
+    },
+    {
+      "text": "Figure 13",
+      "start": 12.96875,
+      "end": 14.005708
+    },
+    {
+      "text": "Receiving",
+      "start": 14.275583,
+      "end": 14.786958
+    },
+    {
+      "text": "the",
+      "start": 14.872166,
+      "end": 14.943207
+    },
+    {
+      "text": "ball",
+      "start": 15.042625,
+      "end": 15.269916
+    },
+    {
+      "text": "with",
+      "start": 15.298291,
+      "end": 15.497166
+    },
+    {
+      "text": "both",
+      "start": 15.582375,
+      "end": 15.838041
+    },
+    {
+      "text": "hands",
+      "start": 15.852291,
+      "end": 16.292624
     },
     {
       "text": "or",
-      "start": 32.017041,
-      "end": 32.144874
+      "start": 16.349416,
+      "end": 16.505666
     },
     {
-      "text": "two",
-      "start": 32.230125,
-      "end": 32.400583
+      "text": "one",
+      "start": 16.548291,
+      "end": 16.761374
     },
     {
-      "text": "running",
-      "start": 32.457375,
-      "end": 32.826708
+      "text": "hand",
+      "start": 16.789791,
+      "end": 17.088082
     },
     {
-      "text": "steps",
-      "start": 32.940333,
-      "end": 33.295458
+      "text": "Activity",
+      "start": 17.116458,
+      "end": 17.741458
     },
     {
-      "text": "to",
-      "start": 33.352291,
-      "end": 33.423332
+      "text": "11",
+      "start": 17.826708,
+      "end": 18.295458
     },
     {
-      "text": "change",
-      "start": 33.494333,
-      "end": 33.821041
+      "text": "a",
+      "start": 18.352291,
+      "end": 18.480124
     },
     {
-      "text": "direction",
-      "start": 33.920458,
-      "end": 34.488624
+      "text": "Practise",
+      "start": 18.721583,
+      "end": 19.204541
+    },
+    {
+      "text": "catching",
+      "start": 19.261375,
+      "end": 19.588083
+    },
+    {
+      "text": "the",
+      "start": 19.673291,
+      "end": 19.744332
+    },
+    {
+      "text": "ball",
+      "start": 19.84375,
+      "end": 20.042625
+    },
+    {
+      "text": "with",
+      "start": 20.071041,
+      "end": 20.269916
+    },
+    {
+      "text": "one",
+      "start": 20.3125,
+      "end": 20.539791
+    },
+    {
+      "text": "hand",
+      "start": 20.568166,
+      "end": 20.894874
     },
     {
       "text": "and",
-      "start": 34.488625,
-      "end": 34.659083
+      "start": 20.951708,
+      "end": 21.178999
     },
     {
-      "text": "prepare",
-      "start": 34.6875,
-      "end": 35.056833
+      "text": "two",
+      "start": 21.193166,
+      "end": 21.320999
+    },
+    {
+      "text": "hands",
+      "start": 21.363625,
+      "end": 21.903416
+    },
+    {
+      "text": "b",
+      "start": 22.954541,
+      "end": 23.139207
+    },
+    {
+      "text": "Organise",
+      "start": 23.295458,
+      "end": 23.849416
+    },
+    {
+      "text": "a",
+      "start": 23.849416,
+      "end": 23.920457
+    },
+    {
+      "text": "match",
+      "start": 23.948875,
+      "end": 24.261375
+    },
+    {
+      "text": "and",
+      "start": 24.275583,
+      "end": 24.446041
+    },
+    {
+      "text": "play",
+      "start": 24.488625,
+      "end": 24.6875
+    },
+    {
+      "text": "by",
+      "start": 24.772708,
+      "end": 24.857916
+    },
+    {
+      "text": "considering",
+      "start": 24.928958,
+      "end": 25.568166
+    },
+    {
+      "text": "receiving",
+      "start": 25.610791,
+      "end": 26.079541
+    },
+    {
+      "text": "the",
+      "start": 26.164791,
+      "end": 26.235832
+    },
+    {
+      "text": "ball",
+      "start": 26.33525,
+      "end": 26.534125
+    },
+    {
+      "text": "with",
+      "start": 26.5625,
+      "end": 26.761375
+    },
+    {
+      "text": "one",
+      "start": 26.804,
+      "end": 27.045458
+    },
+    {
+      "text": "hand",
+      "start": 27.073875,
+      "end": 27.386375
+    },
+    {
+      "text": "and",
+      "start": 27.457375,
+      "end": 27.670458
+    },
+    {
+      "text": "two",
+      "start": 27.684666,
+      "end": 27.812499
+    },
+    {
+      "text": "hands",
+      "start": 27.855125,
+      "end": 28.394916
+    },
+    {
+      "text": "b",
+      "start": 29.446041,
+      "end": 29.701707
+    },
+    {
+      "text": "Movements",
+      "start": 29.943166,
+      "end": 30.596582
+    },
+    {
+      "text": "Movement",
+      "start": 30.625,
+      "end": 31.136375
+    },
+    {
+      "text": "is",
+      "start": 31.136375,
+      "end": 31.264208
+    },
+    {
+      "text": "an",
+      "start": 31.264208,
+      "end": 31.406249
+    },
+    {
+      "text": "important",
+      "start": 31.448875,
+      "end": 32.017041
+    },
+    {
+      "text": "skill",
+      "start": 32.073875,
+      "end": 32.386375
+    },
+    {
+      "text": "in",
+      "start": 32.443166,
+      "end": 32.556791
+    },
+    {
+      "text": "netball",
+      "start": 32.627833,
+      "end": 33.167624
+    },
+    {
+      "text": "where",
+      "start": 33.394875,
+      "end": 33.636333
+    },
+    {
+      "text": "players",
+      "start": 33.735791,
+      "end": 34.147707
+    },
+    {
+      "text": "must",
+      "start": 34.190333,
+      "end": 34.502833
+    },
+    {
+      "text": "use",
+      "start": 34.559666,
+      "end": 34.815332
+    },
+    {
+      "text": "their",
+      "start": 34.857958,
+      "end": 35.014208
+    },
+    {
+      "text": "feet",
+      "start": 35.042625,
+      "end": 35.326708
+    },
+    {
+      "text": "carefully",
+      "start": 35.440333,
+      "end": 35.866458
     },
     {
       "text": "to",
-      "start": 35.142041,
-      "end": 35.241457
+      "start": 35.951708,
+      "end": 36.036916
     },
     {
-      "text": "pass",
-      "start": 35.340916,
-      "end": 35.624999
+      "text": "maintain",
+      "start": 36.065333,
+      "end": 36.519874
+    },
+    {
+      "text": "direction",
+      "start": 36.605125,
+      "end": 37.144916
+    },
+    {
+      "text": "and",
+      "start": 37.173291,
+      "end": 37.301124
+    },
+    {
+      "text": "balance",
+      "start": 37.386375,
+      "end": 38.039791
+    },
+    {
+      "text": "In",
+      "start": 39.076708,
+      "end": 39.275583
+    },
+    {
+      "text": "netball",
+      "start": 39.346583,
+      "end": 39.928958
+    },
+    {
+      "text": "a",
+      "start": 40.127833,
+      "end": 40.213041
+    },
+    {
+      "text": "player",
+      "start": 40.3125,
+      "end": 40.610791
+    },
+    {
+      "text": "cannot",
+      "start": 40.696041,
+      "end": 41.065374
+    },
+    {
+      "text": "run",
+      "start": 41.179,
+      "end": 41.349458
+    },
+    {
+      "text": "with",
+      "start": 41.434666,
+      "end": 41.463082
+    },
+    {
+      "text": "the",
+      "start": 41.534083,
+      "end": 41.619291
+    },
+    {
+      "text": "ball",
+      "start": 41.71875,
+      "end": 42.002833
+    },
+    {
+      "text": "but",
+      "start": 42.286916,
+      "end": 42.372124
+    },
+    {
+      "text": "they",
+      "start": 42.443166,
+      "end": 42.514207
+    },
+    {
+      "text": "can",
+      "start": 42.58525,
+      "end": 42.784125
+    },
+    {
+      "text": "take",
+      "start": 42.826708,
+      "end": 43.068166
+    },
+    {
+      "text": "one",
+      "start": 43.110791,
+      "end": 43.309666
     },
     {
       "text": "or",
-      "start": 35.696041,
-      "end": 35.809666
+      "start": 43.380666,
+      "end": 43.508499
     },
     {
-      "text": "shoot",
-      "start": 35.838083,
-      "end": 36.221624
+      "text": "two",
+      "start": 43.59375,
+      "end": 43.764208
     },
     {
-      "text": "Figure 14",
-      "start": 37.372166,
-      "end": 38.323875
+      "text": "running",
+      "start": 43.821041,
+      "end": 44.190374
     },
     {
-      "text": "shows",
-      "start": 38.352291,
-      "end": 38.693207
-    },
-    {
-      "text": "how",
-      "start": 38.707375,
-      "end": 38.90625
+      "text": "steps",
+      "start": 44.304,
+      "end": 44.659125
     },
     {
       "text": "to",
-      "start": 39.005666,
-      "end": 39.090874
+      "start": 44.715916,
+      "end": 44.786957
     },
     {
       "text": "change",
-      "start": 39.161916,
-      "end": 39.545457
+      "start": 44.857958,
+      "end": 45.184666
+    },
+    {
+      "text": "direction",
+      "start": 45.284083,
+      "end": 45.852249
+    },
+    {
+      "text": "and",
+      "start": 45.852291,
+      "end": 46.022749
+    },
+    {
+      "text": "prepare",
+      "start": 46.051125,
+      "end": 46.420458
+    },
+    {
+      "text": "to",
+      "start": 46.505666,
+      "end": 46.605082
+    },
+    {
+      "text": "pass",
+      "start": 46.704541,
+      "end": 46.988624
+    },
+    {
+      "text": "or",
+      "start": 47.059666,
+      "end": 47.173291
+    },
+    {
+      "text": "shoot",
+      "start": 47.201708,
+      "end": 47.585249
+    },
+    {
+      "text": "Figure 14",
+      "start": 48.735791,
+      "end": 49.6875
+    },
+    {
+      "text": "shows",
+      "start": 49.715916,
+      "end": 50.056832
+    },
+    {
+      "text": "how",
+      "start": 50.071041,
+      "end": 50.269916
+    },
+    {
+      "text": "to",
+      "start": 50.369333,
+      "end": 50.454541
+    },
+    {
+      "text": "change",
+      "start": 50.525583,
+      "end": 50.909124
     },
     {
       "text": "movements",
-      "start": 39.573875,
-      "end": 40.340916
+      "start": 50.9375,
+      "end": 51.704541
     }
   ]
 }

@@ -2,674 +2,834 @@
   "audio": "page-060.mp3",
   "words": [
     {
-      "text": "54",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.760249
+      "end": 0.476166
     },
     {
-      "text": "Figure 12",
-      "start": 0.774416,
-      "end": 1.655083
+      "text": "description",
+      "start": 0.603958,
+      "end": 1.399416
     },
     {
       "text": "A",
-      "start": 1.910791,
-      "end": 1.995999
+      "start": 1.626708,
+      "end": 1.697749
     },
     {
       "text": "clay",
-      "start": 2.08125,
-      "end": 2.294333
+      "start": 1.782958,
+      "end": 1.981833
     },
     {
       "text": "pot",
-      "start": 2.39375,
-      "end": 2.592625
+      "start": 2.08125,
+      "end": 2.280125
     },
     {
-      "text": "set",
-      "start": 2.649416,
-      "end": 2.905082
+      "text": "sits",
+      "start": 2.336916,
+      "end": 2.663624
     },
     {
       "text": "on",
-      "start": 2.976125,
-      "end": 3.118166
+      "start": 2.720458,
+      "end": 2.848291
     },
     {
       "text": "a",
-      "start": 3.118166,
-      "end": 3.203374
+      "start": 2.848291,
+      "end": 2.933499
     },
     {
       "text": "round",
-      "start": 3.246041,
-      "end": 3.501707
+      "start": 2.976125,
+      "end": 3.203416
     },
     {
       "text": "pad",
-      "start": 3.601125,
-      "end": 3.8
-    },
-    {
-      "text": "2",
-      "start": 3.871041,
-      "end": 4.084124
-    },
-    {
-      "text": "Place",
-      "start": 5.15625,
-      "end": 5.539791
-    },
-    {
-      "text": "the",
-      "start": 5.596583,
-      "end": 5.624999
-    },
-    {
-      "text": "items",
-      "start": 5.738625,
-      "end": 6.377833
-    },
-    {
-      "text": "in",
-      "start": 6.377833,
-      "end": 6.519874
-    },
-    {
-      "text": "boxes",
-      "start": 6.605125,
-      "end": 7.045458
-    },
-    {
-      "text": "or",
-      "start": 7.102291,
-      "end": 7.244332
-    },
-    {
-      "text": "bamboo",
-      "start": 7.329541,
-      "end": 7.656249
-    },
-    {
-      "text": "baskets",
-      "start": 7.741458,
-      "end": 8.281249
-    },
-    {
-      "text": "lined",
-      "start": 8.338083,
-      "end": 8.650583
-    },
-    {
-      "text": "with",
-      "start": 8.707375,
-      "end": 8.821
-    },
-    {
-      "text": "soft",
-      "start": 8.877833,
-      "end": 9.204541
-    },
-    {
-      "text": "materials",
-      "start": 9.247166,
-      "end": 9.900582
-    },
-    {
-      "text": "like",
-      "start": 9.943166,
-      "end": 10.142041
-    },
-    {
-      "text": "dry",
-      "start": 10.269875,
-      "end": 10.497166
-    },
-    {
-      "text": "leaves",
-      "start": 10.539791,
-      "end": 10.866499
+      "start": 3.302833,
+      "end": 3.487499
     },
     {
       "text": "to",
-      "start": 10.909083,
-      "end": 10.980124
+      "start": 3.515916,
+      "end": 3.601124
     },
     {
-      "text": "prevent",
-      "start": 11.065333,
-      "end": 11.519874
+      "text": "keep",
+      "start": 3.686375,
+      "end": 3.871041
     },
     {
-      "text": "breakage",
-      "start": 11.619333,
-      "end": 12.073874
+      "text": "it",
+      "start": 3.95625,
+      "end": 4.055666
     },
     {
-      "text": "3",
-      "start": 13.238625,
-      "end": 13.59375
-    },
-    {
-      "text": "Secure",
-      "start": 13.821041,
-      "end": 14.332416
-    },
-    {
-      "text": "them",
-      "start": 14.403416,
-      "end": 14.602291
-    },
-    {
-      "text": "within",
-      "start": 14.644875,
-      "end": 14.971583
-    },
-    {
-      "text": "a",
-      "start": 14.971583,
-      "end": 15.099416
-    },
-    {
-      "text": "wooden",
-      "start": 15.127833,
-      "end": 15.525541
-    },
-    {
-      "text": "frame",
-      "start": 15.553958,
-      "end": 15.994291
-    },
-    {
-      "text": "ensuring",
-      "start": 16.221583,
-      "end": 16.832374
-    },
-    {
-      "text": "they",
-      "start": 16.917625,
-      "end": 17.017041
-    },
-    {
-      "text": "are",
-      "start": 17.059666,
-      "end": 17.201707
-    },
-    {
-      "text": "separated",
-      "start": 17.244333,
-      "end": 17.940374
-    },
-    {
-      "text": "by",
-      "start": 18.011375,
-      "end": 18.125
-    },
-    {
-      "text": "soft",
-      "start": 18.153416,
-      "end": 18.508541
-    },
-    {
-      "text": "materials",
-      "start": 18.565333,
-      "end": 19.289749
-    },
-    {
-      "text": "to",
-      "start": 19.332375,
-      "end": 19.403416
-    },
-    {
-      "text": "avoid",
-      "start": 19.474416,
-      "end": 19.857957
-    },
-    {
-      "text": "knocking",
-      "start": 19.914791,
-      "end": 20.340916
-    },
-    {
-      "text": "against",
-      "start": 20.369333,
-      "end": 20.880708
-    },
-    {
-      "text": "each",
-      "start": 20.965916,
-      "end": 21.150582
-    },
-    {
-      "text": "other",
-      "start": 21.207375,
-      "end": 21.463041
+      "text": "steady",
+      "start": 4.140916,
+      "end": 4.481832
     },
     {
       "text": "and",
-      "start": 21.519875,
-      "end": 21.704541
+      "start": 4.524416,
+      "end": 4.680666
     },
     {
-      "text": "breaking",
-      "start": 21.761375,
-      "end": 22.258541
+      "text": "safe",
+      "start": 4.723291,
+      "end": 5.220457
     },
     {
-      "text": "as",
-      "start": 22.485791,
-      "end": 22.670457
-    },
-    {
-      "text": "shown",
-      "start": 22.727291,
-      "end": 23.011374
-    },
-    {
-      "text": "in",
-      "start": 23.053958,
-      "end": 23.195999
-    },
-    {
-      "text": "Figure 13",
-      "start": 23.238625,
-      "end": 24.1903739
-    },
-    {
-      "text": "Figure 13",
-      "start": 25.227291,
-      "end": 26.278416
+      "text": "Figure 12",
+      "start": 6.25,
+      "end": 7.173291
     },
     {
       "text": "A",
-      "start": 26.477291,
-      "end": 26.590916
-    },
-    {
-      "text": "wooden",
-      "start": 26.633541,
-      "end": 27.017082
-    },
-    {
-      "text": "frame",
-      "start": 27.045458,
-      "end": 27.372166
-    },
-    {
-      "text": "for",
-      "start": 27.386375,
-      "end": 27.571041
-    },
-    {
-      "text": "a",
-      "start": 27.627833,
-      "end": 27.727249
+      "start": 7.414791,
+      "end": 7.485832
     },
     {
       "text": "clay",
-      "start": 27.8125,
-      "end": 28.025583
+      "start": 7.571041,
+      "end": 7.784124
     },
     {
       "text": "pot",
-      "start": 28.125,
-      "end": 28.352291
+      "start": 7.883541,
+      "end": 8.082416
     },
     {
-      "text": "for",
-      "start": 28.423291,
-      "end": 28.536916
+      "text": "set",
+      "start": 8.139208,
+      "end": 8.423291
     },
     {
-      "text": "holding",
-      "start": 28.551125,
-      "end": 28.991458
-    },
-    {
-      "text": "and",
-      "start": 29.048291,
-      "end": 29.218749
-    },
-    {
-      "text": "transportation",
-      "start": 29.232958,
-      "end": 30.028416
-    },
-    {
-      "text": "4",
-      "start": 30.08525,
-      "end": 30.340916
-    },
-    {
-      "text": "Arrange",
-      "start": 31.40625,
-      "end": 31.889208
-    },
-    {
-      "text": "clay",
-      "start": 31.96025,
-      "end": 32.173333
-    },
-    {
-      "text": "pots",
-      "start": 32.27275,
-      "end": 32.571041
-    },
-    {
-      "text": "in",
-      "start": 32.627833,
-      "end": 32.769874
+      "text": "on",
+      "start": 8.494333,
+      "end": 8.636374
     },
     {
       "text": "a",
-      "start": 32.769875,
-      "end": 32.855083
+      "start": 8.636375,
+      "end": 8.721583
     },
     {
-      "text": "pyramid",
-      "start": 32.940333,
-      "end": 33.394874
+      "text": "round",
+      "start": 8.764208,
+      "end": 9.005666
     },
     {
-      "text": "format",
-      "start": 33.451708,
-      "end": 33.920458
+      "text": "pad",
+      "start": 9.105125,
+      "end": 9.318208
     },
     {
-      "text": "as",
-      "start": 34.204541,
-      "end": 34.389207
+      "text": "2",
+      "start": 9.389208,
+      "end": 9.616499
     },
     {
-      "text": "shown",
-      "start": 34.446041,
-      "end": 34.744332
+      "text": "Place",
+      "start": 10.653416,
+      "end": 11.036957
+    },
+    {
+      "text": "the",
+      "start": 11.09375,
+      "end": 11.122166
+    },
+    {
+      "text": "items",
+      "start": 11.235791,
+      "end": 11.874999
     },
     {
       "text": "in",
-      "start": 34.815333,
-      "end": 34.957374
+      "start": 11.875,
+      "end": 12.017041
     },
     {
-      "text": "Figure 14",
-      "start": 35.0,
-      "end": 35.9659159
+      "text": "boxes",
+      "start": 12.102291,
+      "end": 12.542624
     },
     {
-      "text": "In",
-      "start": 36.988625,
-      "end": 37.159083
+      "text": "or",
+      "start": 12.599416,
+      "end": 12.741457
     },
     {
-      "text": "this",
-      "start": 37.258541,
-      "end": 37.471582
+      "text": "bamboo",
+      "start": 12.826708,
+      "end": 13.153416
     },
     {
-      "text": "arrangement",
-      "start": 37.471583,
-      "end": 38.195999
+      "text": "baskets",
+      "start": 13.238625,
+      "end": 13.778416
     },
     {
-      "text": "large",
-      "start": 38.394875,
-      "end": 38.707375
+      "text": "lined",
+      "start": 13.835208,
+      "end": 14.147708
     },
     {
-      "text": "and",
-      "start": 38.735791,
-      "end": 38.892041
+      "text": "with",
+      "start": 14.204541,
+      "end": 14.318166
     },
     {
-      "text": "heavy",
-      "start": 38.90625,
-      "end": 39.21875
+      "text": "soft",
+      "start": 14.375,
+      "end": 14.701708
     },
     {
-      "text": "pots",
-      "start": 39.318166,
-      "end": 39.588041
+      "text": "materials",
+      "start": 14.744333,
+      "end": 15.397749
     },
     {
-      "text": "are",
-      "start": 39.659083,
-      "end": 39.772708
+      "text": "like",
+      "start": 15.440333,
+      "end": 15.639208
     },
     {
-      "text": "placed",
-      "start": 39.857958,
-      "end": 40.213083
+      "text": "dry",
+      "start": 15.767041,
+      "end": 15.994332
     },
     {
-      "text": "at",
-      "start": 40.227291,
-      "end": 40.284124
-    },
-    {
-      "text": "the",
-      "start": 40.355125,
-      "end": 40.426166
-    },
-    {
-      "text": "bottom",
-      "start": 40.511375,
-      "end": 40.8665
-    },
-    {
-      "text": "while",
-      "start": 40.951708,
-      "end": 41.164791
-    },
-    {
-      "text": "small",
-      "start": 41.278416,
-      "end": 41.576707
-    },
-    {
-      "text": "and",
-      "start": 41.619333,
-      "end": 41.775583
-    },
-    {
-      "text": "light",
-      "start": 41.789791,
-      "end": 42.073874
-    },
-    {
-      "text": "ones",
-      "start": 42.130666,
-      "end": 42.428957
-    },
-    {
-      "text": "are",
-      "start": 42.5,
-      "end": 42.627833
-    },
-    {
-      "text": "placed",
-      "start": 42.713083,
-      "end": 43.039791
-    },
-    {
-      "text": "at",
-      "start": 43.110791,
-      "end": 43.167624
-    },
-    {
-      "text": "the",
-      "start": 43.224416,
-      "end": 43.323832
-    },
-    {
-      "text": "top",
-      "start": 43.409083,
-      "end": 43.721583
-    },
-    {
-      "text": "The",
-      "start": 44.77275,
-      "end": 44.957416
-    },
-    {
-      "text": "bottom",
-      "start": 45.042625,
-      "end": 45.46875
-    },
-    {
-      "text": "lines",
-      "start": 45.511375,
-      "end": 45.9375
-    },
-    {
-      "text": "hold",
-      "start": 45.965916,
-      "end": 46.249999
-    },
-    {
-      "text": "more",
-      "start": 46.33525,
-      "end": 46.519916
-    },
-    {
-      "text": "pots",
-      "start": 46.619333,
-      "end": 46.946041
-    },
-    {
-      "text": "than",
-      "start": 46.974416,
-      "end": 47.102249
-    },
-    {
-      "text": "the",
-      "start": 47.173291,
-      "end": 47.244332
-    },
-    {
-      "text": "top",
-      "start": 47.329541,
-      "end": 47.570999
-    },
-    {
-      "text": "lines",
-      "start": 47.613625,
-      "end": 48.181791
-    },
-    {
-      "text": "This",
-      "start": 49.21875,
-      "end": 49.545458
-    },
-    {
-      "text": "arrangement",
-      "start": 49.573875,
-      "end": 50.284083
-    },
-    {
-      "text": "is",
-      "start": 50.284083,
-      "end": 50.426124
-    },
-    {
-      "text": "designed",
-      "start": 50.497166,
-      "end": 50.909082
+      "text": "leaves",
+      "start": 16.036916,
+      "end": 16.363624
     },
     {
       "text": "to",
-      "start": 50.9375,
-      "end": 51.022708
+      "start": 16.40625,
+      "end": 16.477291
     },
     {
-      "text": "protect",
-      "start": 51.107958,
-      "end": 51.534083
+      "text": "prevent",
+      "start": 16.5625,
+      "end": 17.017041
+    },
+    {
+      "text": "breakage",
+      "start": 17.116458,
+      "end": 17.570999
+    },
+    {
+      "text": "3",
+      "start": 18.735791,
+      "end": 19.090916
+    },
+    {
+      "text": "Secure",
+      "start": 19.318166,
+      "end": 19.829541
+    },
+    {
+      "text": "them",
+      "start": 19.900583,
+      "end": 20.099458
+    },
+    {
+      "text": "within",
+      "start": 20.142041,
+      "end": 20.468749
+    },
+    {
+      "text": "a",
+      "start": 20.46875,
+      "end": 20.596583
+    },
+    {
+      "text": "wooden",
+      "start": 20.625,
+      "end": 21.022708
+    },
+    {
+      "text": "frame",
+      "start": 21.051125,
+      "end": 21.491458
+    },
+    {
+      "text": "ensuring",
+      "start": 21.71875,
+      "end": 22.329541
+    },
+    {
+      "text": "they",
+      "start": 22.414791,
+      "end": 22.514207
+    },
+    {
+      "text": "are",
+      "start": 22.556833,
+      "end": 22.698874
+    },
+    {
+      "text": "separated",
+      "start": 22.741458,
+      "end": 23.437499
+    },
+    {
+      "text": "by",
+      "start": 23.508541,
+      "end": 23.622166
+    },
+    {
+      "text": "soft",
+      "start": 23.650583,
+      "end": 24.005708
+    },
+    {
+      "text": "materials",
+      "start": 24.0625,
+      "end": 24.786916
+    },
+    {
+      "text": "to",
+      "start": 24.829541,
+      "end": 24.900582
+    },
+    {
+      "text": "avoid",
+      "start": 24.971583,
+      "end": 25.355124
+    },
+    {
+      "text": "knocking",
+      "start": 25.411916,
+      "end": 25.838041
+    },
+    {
+      "text": "against",
+      "start": 25.866458,
+      "end": 26.377833
+    },
+    {
+      "text": "each",
+      "start": 26.463083,
+      "end": 26.647749
+    },
+    {
+      "text": "other",
+      "start": 26.704541,
+      "end": 26.960207
+    },
+    {
+      "text": "and",
+      "start": 27.017041,
+      "end": 27.201707
+    },
+    {
+      "text": "breaking",
+      "start": 27.258541,
+      "end": 27.755707
+    },
+    {
+      "text": "as",
+      "start": 27.982958,
+      "end": 28.167624
+    },
+    {
+      "text": "shown",
+      "start": 28.224416,
+      "end": 28.508499
+    },
+    {
+      "text": "in",
+      "start": 28.551125,
+      "end": 28.693166
+    },
+    {
+      "text": "Figure 13",
+      "start": 28.735791,
+      "end": 29.687541
+    },
+    {
+      "text": "Image",
+      "start": 30.724416,
+      "end": 31.093749
+    },
+    {
+      "text": "description",
+      "start": 31.221583,
+      "end": 32.002833
+    },
+    {
+      "text": "Clay",
+      "start": 32.258541,
+      "end": 32.457416
+    },
+    {
+      "text": "pots",
+      "start": 32.556833,
+      "end": 32.855124
+    },
+    {
+      "text": "packed",
+      "start": 32.940333,
+      "end": 33.210208
+    },
+    {
+      "text": "in",
+      "start": 33.28125,
+      "end": 33.394875
+    },
+    {
+      "text": "a",
+      "start": 33.394875,
+      "end": 33.494291
+    },
+    {
+      "text": "wooden",
+      "start": 33.52275,
+      "end": 33.892083
+    },
+    {
+      "text": "frame",
+      "start": 33.934666,
+      "end": 34.176124
+    },
+    {
+      "text": "with",
+      "start": 34.261375,
+      "end": 34.417625
+    },
+    {
+      "text": "soft",
+      "start": 34.474416,
+      "end": 34.815332
+    },
+    {
+      "text": "padding",
+      "start": 34.914791,
+      "end": 35.255707
+    },
+    {
+      "text": "between",
+      "start": 35.340916,
+      "end": 35.667624
+    },
+    {
+      "text": "them",
+      "start": 35.738625,
+      "end": 35.951708
+    },
+    {
+      "text": "for",
+      "start": 35.980125,
+      "end": 36.164791
+    },
+    {
+      "text": "safe",
+      "start": 36.235791,
+      "end": 36.505666
+    },
+    {
+      "text": "carrying",
+      "start": 36.576708,
+      "end": 37.031249
+    },
+    {
+      "text": "Figure 13",
+      "start": 38.054,
+      "end": 39.105125
+    },
+    {
+      "text": "A",
+      "start": 39.304,
+      "end": 39.417625
+    },
+    {
+      "text": "wooden",
+      "start": 39.46025,
+      "end": 39.843791
+    },
+    {
+      "text": "frame",
+      "start": 39.872166,
+      "end": 40.198874
+    },
+    {
+      "text": "for",
+      "start": 40.213083,
+      "end": 40.397749
+    },
+    {
+      "text": "a",
+      "start": 40.454541,
+      "end": 40.553957
     },
     {
       "text": "clay",
-      "start": 51.64775,
-      "end": 51.846625
+      "start": 40.639208,
+      "end": 40.852291
     },
     {
-      "text": "pots",
-      "start": 51.946041,
-      "end": 52.215916
+      "text": "pot",
+      "start": 40.951708,
+      "end": 41.178999
     },
     {
-      "text": "from",
-      "start": 52.258541,
-      "end": 52.457416
+      "text": "for",
+      "start": 41.25,
+      "end": 41.363625
     },
     {
-      "text": "sliding",
-      "start": 52.528416,
-      "end": 52.954541
+      "text": "holding",
+      "start": 41.377833,
+      "end": 41.818166
     },
     {
       "text": "and",
-      "start": 52.982958,
-      "end": 53.082374
+      "start": 41.875,
+      "end": 42.045458
     },
     {
-      "text": "falling",
-      "start": 53.139208,
-      "end": 53.678999
+      "text": "transportation",
+      "start": 42.059666,
+      "end": 42.855124
     },
     {
-      "text": "Moreover",
-      "start": 54.715916,
-      "end": 55.369332
+      "text": "4",
+      "start": 42.911916,
+      "end": 43.167582
     },
     {
-      "text": "the",
-      "start": 55.625,
-      "end": 55.724416
+      "text": "Arrange",
+      "start": 44.232958,
+      "end": 44.715916
     },
     {
-      "text": "small",
-      "start": 55.823875,
-      "end": 56.079541
+      "text": "clay",
+      "start": 44.786916,
+      "end": 44.999999
     },
     {
       "text": "pots",
-      "start": 56.179,
-      "end": 56.4915
+      "start": 45.099416,
+      "end": 45.397707
     },
     {
-      "text": "will",
-      "start": 56.519875,
-      "end": 56.619291
+      "text": "in",
+      "start": 45.454541,
+      "end": 45.596582
     },
     {
-      "text": "not",
-      "start": 56.661916,
-      "end": 56.945999
+      "text": "a",
+      "start": 45.596583,
+      "end": 45.681791
     },
     {
-      "text": "break",
-      "start": 57.059666,
-      "end": 57.301124
+      "text": "pyramid",
+      "start": 45.767041,
+      "end": 46.221582
     },
     {
-      "text": "due",
-      "start": 57.414791,
-      "end": 57.528416
+      "text": "format",
+      "start": 46.278416,
+      "end": 46.747166
+    },
+    {
+      "text": "as",
+      "start": 47.03125,
+      "end": 47.215916
+    },
+    {
+      "text": "shown",
+      "start": 47.27275,
+      "end": 47.571041
+    },
+    {
+      "text": "in",
+      "start": 47.642041,
+      "end": 47.784082
+    },
+    {
+      "text": "Figure 14",
+      "start": 47.826708,
+      "end": 48.792625
+    },
+    {
+      "text": "In",
+      "start": 49.815333,
+      "end": 49.985791
+    },
+    {
+      "text": "this",
+      "start": 50.08525,
+      "end": 50.298291
+    },
+    {
+      "text": "arrangement",
+      "start": 50.298291,
+      "end": 51.022707
+    },
+    {
+      "text": "large",
+      "start": 51.221583,
+      "end": 51.534083
+    },
+    {
+      "text": "and",
+      "start": 51.5625,
+      "end": 51.71875
+    },
+    {
+      "text": "heavy",
+      "start": 51.732958,
+      "end": 52.045458
+    },
+    {
+      "text": "pots",
+      "start": 52.144875,
+      "end": 52.41475
+    },
+    {
+      "text": "are",
+      "start": 52.485791,
+      "end": 52.599416
+    },
+    {
+      "text": "placed",
+      "start": 52.684666,
+      "end": 53.039791
+    },
+    {
+      "text": "at",
+      "start": 53.054,
+      "end": 53.110833
+    },
+    {
+      "text": "the",
+      "start": 53.181833,
+      "end": 53.252874
+    },
+    {
+      "text": "bottom",
+      "start": 53.338083,
+      "end": 53.693208
+    },
+    {
+      "text": "while",
+      "start": 53.778416,
+      "end": 53.991499
+    },
+    {
+      "text": "small",
+      "start": 54.105125,
+      "end": 54.403416
+    },
+    {
+      "text": "and",
+      "start": 54.446041,
+      "end": 54.602291
+    },
+    {
+      "text": "light",
+      "start": 54.6165,
+      "end": 54.900583
+    },
+    {
+      "text": "ones",
+      "start": 54.957375,
+      "end": 55.255666
+    },
+    {
+      "text": "are",
+      "start": 55.326708,
+      "end": 55.454541
+    },
+    {
+      "text": "placed",
+      "start": 55.539791,
+      "end": 55.866499
+    },
+    {
+      "text": "at",
+      "start": 55.9375,
+      "end": 55.994333
+    },
+    {
+      "text": "the",
+      "start": 56.051125,
+      "end": 56.150541
+    },
+    {
+      "text": "top",
+      "start": 56.235791,
+      "end": 56.548291
+    },
+    {
+      "text": "The",
+      "start": 57.599416,
+      "end": 57.784082
+    },
+    {
+      "text": "bottom",
+      "start": 57.869333,
+      "end": 58.295458
+    },
+    {
+      "text": "lines",
+      "start": 58.338083,
+      "end": 58.764208
+    },
+    {
+      "text": "hold",
+      "start": 58.792625,
+      "end": 59.076708
+    },
+    {
+      "text": "more",
+      "start": 59.161916,
+      "end": 59.346582
+    },
+    {
+      "text": "pots",
+      "start": 59.446041,
+      "end": 59.772749
+    },
+    {
+      "text": "than",
+      "start": 59.801125,
+      "end": 59.928958
+    },
+    {
+      "text": "the",
+      "start": 60.0,
+      "end": 60.071041
+    },
+    {
+      "text": "top",
+      "start": 60.15625,
+      "end": 60.397708
+    },
+    {
+      "text": "lines",
+      "start": 60.440333,
+      "end": 61.008499
+    },
+    {
+      "text": "This",
+      "start": 62.045458,
+      "end": 62.372166
+    },
+    {
+      "text": "arrangement",
+      "start": 62.400583,
+      "end": 63.110791
+    },
+    {
+      "text": "is",
+      "start": 63.110791,
+      "end": 63.252832
+    },
+    {
+      "text": "designed",
+      "start": 63.323875,
+      "end": 63.735791
     },
     {
       "text": "to",
-      "start": 57.613625,
-      "end": 57.72725
+      "start": 63.764208,
+      "end": 63.849416
+    },
+    {
+      "text": "protect",
+      "start": 63.934666,
+      "end": 64.360791
+    },
+    {
+      "text": "clay",
+      "start": 64.474416,
+      "end": 64.673291
+    },
+    {
+      "text": "pots",
+      "start": 64.77275,
+      "end": 65.042625
+    },
+    {
+      "text": "from",
+      "start": 65.08525,
+      "end": 65.284125
+    },
+    {
+      "text": "sliding",
+      "start": 65.355125,
+      "end": 65.78125
+    },
+    {
+      "text": "and",
+      "start": 65.809666,
+      "end": 65.909082
+    },
+    {
+      "text": "falling",
+      "start": 65.965916,
+      "end": 66.505707
+    },
+    {
+      "text": "Moreover",
+      "start": 67.542625,
+      "end": 68.196041
+    },
+    {
+      "text": "the",
+      "start": 68.451708,
+      "end": 68.551124
+    },
+    {
+      "text": "small",
+      "start": 68.650583,
+      "end": 68.906249
+    },
+    {
+      "text": "pots",
+      "start": 69.005666,
+      "end": 69.318166
+    },
+    {
+      "text": "will",
+      "start": 69.346583,
+      "end": 69.445999
+    },
+    {
+      "text": "not",
+      "start": 69.488625,
+      "end": 69.772708
+    },
+    {
+      "text": "break",
+      "start": 69.886375,
+      "end": 70.127833
+    },
+    {
+      "text": "due",
+      "start": 70.2415,
+      "end": 70.355125
+    },
+    {
+      "text": "to",
+      "start": 70.440333,
+      "end": 70.553958
     },
     {
       "text": "their",
-      "start": 57.798291,
-      "end": 57.968749
+      "start": 70.625,
+      "end": 70.795458
     },
     {
       "text": "weight",
-      "start": 58.039791,
-      "end": 58.323874
+      "start": 70.8665,
+      "end": 71.150583
     }
   ]
 }

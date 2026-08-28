@@ -2,614 +2,924 @@
   "audio": "page-045.mp3",
   "words": [
     {
-      "text": "39",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.7176239
+      "end": 0.518749
     },
     {
-      "text": "Figure 23",
-      "start": 0.746041,
-      "end": 1.797124
+      "text": "description",
+      "start": 0.646583,
+      "end": 1.470458
     },
     {
-      "text": "An",
-      "start": 2.038625,
-      "end": 2.194875
+      "text": "A",
+      "start": 1.726125,
+      "end": 1.83975
     },
     {
-      "text": "example",
-      "start": 2.194875,
-      "end": 2.77725
+      "text": "painted",
+      "start": 1.953416,
+      "end": 2.365332
     },
     {
-      "text": "of",
-      "start": 2.777291,
-      "end": 2.919332
+      "text": "village",
+      "start": 2.407958,
+      "end": 2.791499
     },
     {
-      "text": "a",
-      "start": 2.919333,
-      "end": 2.990374
-    },
-    {
-      "text": "painting",
-      "start": 3.075583,
-      "end": 3.459124
+      "text": "scene",
+      "start": 2.8625,
+      "end": 3.132375
     },
     {
       "text": "with",
-      "start": 3.530125,
-      "end": 3.657958
-    },
-    {
-      "text": "an",
-      "start": 3.657958,
-      "end": 3.814208
-    },
-    {
-      "text": "accurate",
-      "start": 3.856833,
-      "end": 4.396624
-    },
-    {
-      "text": "use",
-      "start": 4.425,
-      "end": 4.638083
-    },
-    {
-      "text": "of",
-      "start": 4.652291,
-      "end": 4.808541
-    },
-    {
-      "text": "colour",
-      "start": 4.865333,
-      "end": 5.135208
-    },
-    {
-      "text": "Texture",
-      "start": 5.20625,
-      "end": 5.632375
-    },
-    {
-      "text": "We",
-      "start": 5.632375,
-      "end": 5.746
-    },
-    {
-      "text": "are",
-      "start": 5.802833,
-      "end": 5.959083
-    },
-    {
-      "text": "surrounded",
-      "start": 5.973291,
-      "end": 6.527249
-    },
-    {
-      "text": "by",
-      "start": 6.6125,
-      "end": 6.726125
-    },
-    {
-      "text": "texture",
-      "start": 6.811375,
-      "end": 7.379541
-    },
-    {
-      "text": "Texture",
-      "start": 8.4375,
-      "end": 8.963083
-    },
-    {
-      "text": "is",
-      "start": 9.005666,
-      "end": 9.204541
-    },
-    {
-      "text": "found",
-      "start": 9.232958,
-      "end": 9.545458
-    },
-    {
-      "text": "in",
-      "start": 9.588083,
-      "end": 9.744333
-    },
-    {
-      "text": "everything",
-      "start": 9.786916,
-      "end": 10.440332
-    },
-    {
-      "text": "It",
-      "start": 11.491458,
-      "end": 11.704541
-    },
-    {
-      "text": "appears",
-      "start": 11.775583,
-      "end": 12.301166
-    },
-    {
-      "text": "on",
-      "start": 12.34375,
-      "end": 12.443166
-    },
-    {
-      "text": "the",
-      "start": 12.514208,
-      "end": 12.585249
-    },
-    {
-      "text": "surfaces",
-      "start": 12.627833,
-      "end": 13.181791
-    },
-    {
-      "text": "of",
-      "start": 13.210208,
-      "end": 13.309624
-    },
-    {
-      "text": "various",
-      "start": 13.309666,
-      "end": 13.792624
-    },
-    {
-      "text": "objects",
-      "start": 13.849416,
-      "end": 14.445999
-    },
-    {
-      "text": "such",
-      "start": 14.701708,
-      "end": 14.985791
-    },
-    {
-      "text": "as",
-      "start": 15.0,
-      "end": 15.170458
-    },
-    {
-      "text": "tree",
-      "start": 15.241458,
-      "end": 15.383499
-    },
-    {
-      "text": "bark",
-      "start": 15.497166,
-      "end": 15.809666
-    },
-    {
-      "text": "stones",
-      "start": 16.065333,
-      "end": 16.633499
-    },
-    {
-      "text": "soil",
-      "start": 16.903416,
-      "end": 17.301124
-    },
-    {
-      "text": "animal",
-      "start": 17.571041,
-      "end": 18.039791
-    },
-    {
-      "text": "bodies",
-      "start": 18.125,
-      "end": 18.607958
-    },
-    {
-      "text": "and",
-      "start": 18.877833,
-      "end": 19.034083
-    },
-    {
-      "text": "more",
-      "start": 19.105125,
-      "end": 19.375
-    },
-    {
-      "text": "Texture",
-      "start": 20.426125,
-      "end": 20.980083
-    },
-    {
-      "text": "is",
-      "start": 21.036916,
-      "end": 21.193166
-    },
-    {
-      "text": "an",
-      "start": 21.193166,
-      "end": 21.349416
-    },
-    {
-      "text": "important",
-      "start": 21.377833,
-      "end": 21.988624
-    },
-    {
-      "text": "aspect",
-      "start": 22.045458,
-      "end": 22.528416
-    },
-    {
-      "text": "of",
-      "start": 22.571041,
-      "end": 22.684666
-    },
-    {
-      "text": "drawing",
-      "start": 22.769875,
-      "end": 23.096583
-    },
-    {
-      "text": "that",
-      "start": 23.181833,
-      "end": 23.409124
-    },
-    {
-      "text": "helps",
-      "start": 23.451708,
-      "end": 23.821041
-    },
-    {
-      "text": "to",
-      "start": 23.892041,
-      "end": 23.963082
-    },
-    {
-      "text": "bring",
-      "start": 24.0625,
-      "end": 24.318166
-    },
-    {
-      "text": "emotion",
-      "start": 24.360791,
-      "end": 24.971582
-    },
-    {
-      "text": "realism",
-      "start": 25.184666,
-      "end": 25.880707
-    },
-    {
-      "text": "and",
-      "start": 26.09375,
-      "end": 26.264208
-    },
-    {
-      "text": "appeal",
-      "start": 26.278416,
-      "end": 26.661957
-    },
-    {
-      "text": "to",
-      "start": 26.747166,
-      "end": 26.846582
-    },
-    {
-      "text": "the",
-      "start": 26.903416,
-      "end": 26.960249
-    },
-    {
-      "text": "artwork",
-      "start": 27.059666,
-      "end": 27.698874
-    },
-    {
-      "text": "Texture",
-      "start": 28.721583,
-      "end": 29.218749
-    },
-    {
-      "text": "helps",
-      "start": 29.247166,
-      "end": 29.687499
-    },
-    {
-      "text": "in",
-      "start": 29.730125,
-      "end": 29.857958
-    },
-    {
-      "text": "enhancing",
-      "start": 29.857958,
-      "end": 30.553999
-    },
-    {
-      "text": "realism",
-      "start": 30.596583,
-      "end": 31.264208
-    },
-    {
-      "text": "adding",
-      "start": 31.534083,
-      "end": 31.860791
-    },
-    {
-      "text": "visual",
-      "start": 31.903416,
-      "end": 32.301124
-    },
-    {
-      "text": "interest",
-      "start": 32.357958,
-      "end": 32.869333
-    },
-    {
-      "text": "providing",
-      "start": 33.224416,
-      "end": 33.806791
-    },
-    {
-      "text": "different",
-      "start": 33.877833,
-      "end": 34.332374
-    },
-    {
-      "text": "interpretations",
-      "start": 34.403416,
-      "end": 35.369332
-    },
-    {
-      "text": "for",
-      "start": 35.39775,
-      "end": 35.511375
-    },
-    {
-      "text": "viewers",
-      "start": 35.539791,
-      "end": 36.107957
-    },
-    {
-      "text": "and",
-      "start": 36.321041,
-      "end": 36.477291
-    },
-    {
-      "text": "helping",
-      "start": 36.4915,
-      "end": 36.974458
-    },
-    {
-      "text": "the",
-      "start": 37.045458,
-      "end": 37.088083
-    },
-    {
-      "text": "artist",
-      "start": 37.201708,
-      "end": 37.599416
-    },
-    {
-      "text": "convey",
-      "start": 37.713083,
-      "end": 38.082416
-    },
-    {
-      "text": "their",
-      "start": 38.153416,
-      "end": 38.323874
-    },
-    {
-      "text": "message",
-      "start": 38.352291,
-      "end": 38.806832
-    },
-    {
-      "text": "through",
-      "start": 38.90625,
-      "end": 39.119333
-    },
-    {
-      "text": "drawing",
-      "start": 39.21875,
-      "end": 39.744333
-    },
-    {
-      "text": "There",
-      "start": 40.795458,
-      "end": 41.107958
-    },
-    {
-      "text": "are",
-      "start": 41.164791,
-      "end": 41.321041
+      "start": 3.189208,
+      "end": 3.402291
     },
     {
       "text": "two",
-      "start": 41.40625,
-      "end": 41.519875
+      "start": 3.4875,
+      "end": 3.615333
     },
     {
-      "text": "types",
-      "start": 41.605125,
-      "end": 41.946041
+      "text": "houses",
+      "start": 3.657958,
+      "end": 4.197749
     },
     {
-      "text": "of",
-      "start": 41.974416,
-      "end": 42.102249
+      "text": "green",
+      "start": 4.453416,
+      "end": 4.780124
     },
     {
-      "text": "textures",
-      "start": 42.1875,
-      "end": 42.8125
-    },
-    {
-      "text": "the",
-      "start": 43.096583,
-      "end": 43.181791
-    },
-    {
-      "text": "textures",
-      "start": 43.267041,
-      "end": 43.778416
-    },
-    {
-      "text": "felt",
-      "start": 43.821041,
-      "end": 44.161957
-    },
-    {
-      "text": "by",
-      "start": 44.261375,
-      "end": 44.360791
-    },
-    {
-      "text": "touching",
-      "start": 44.446041,
-      "end": 44.914791
+      "text": "grass",
+      "start": 4.808541,
+      "end": 5.192082
     },
     {
       "text": "and",
-      "start": 45.08525,
-      "end": 45.198875
+      "start": 5.263083,
+      "end": 5.461916
     },
     {
-      "text": "the",
-      "start": 45.269875,
-      "end": 45.340916
+      "text": "trees",
+      "start": 5.461916,
+      "end": 5.873832
     },
     {
-      "text": "textures",
-      "start": 45.426125,
-      "end": 45.923291
+      "text": "and",
+      "start": 6.14375,
+      "end": 6.3
     },
     {
-      "text": "perceived",
-      "start": 46.008541,
-      "end": 46.392082
+      "text": "a",
+      "start": 6.328416,
+      "end": 6.413624
     },
     {
-      "text": "by",
-      "start": 46.548291,
-      "end": 46.647707
+      "text": "dark",
+      "start": 6.513083,
+      "end": 6.782958
     },
     {
-      "text": "looking",
-      "start": 46.690333,
-      "end": 47.244291
+      "text": "blue",
+      "start": 6.910791,
+      "end": 7.081249
+    },
+    {
+      "text": "sky",
+      "start": 7.166458,
+      "end": 7.493166
+    },
+    {
+      "text": "Figure 23",
+      "start": 8.565333,
+      "end": 9.715916
     },
     {
       "text": "An",
-      "start": 48.267041,
-      "end": 48.508499
+      "start": 9.957375,
+      "end": 10.113625
     },
     {
-      "text": "artist",
-      "start": 48.565333,
-      "end": 48.948874
+      "text": "example",
+      "start": 10.113625,
+      "end": 10.724416
     },
     {
-      "text": "can",
-      "start": 49.048291,
-      "end": 49.204541
+      "text": "of",
+      "start": 10.724416,
+      "end": 10.880666
     },
     {
-      "text": "represent",
-      "start": 49.261375,
-      "end": 49.900583
+      "text": "a",
+      "start": 10.880666,
+      "end": 10.951707
     },
     {
-      "text": "texture",
-      "start": 49.957375,
-      "end": 50.411916
+      "text": "painting",
+      "start": 11.036916,
+      "end": 11.420457
     },
     {
-      "text": "in",
-      "start": 50.46875,
-      "end": 50.582375
+      "text": "with",
+      "start": 11.491458,
+      "end": 11.619291
     },
     {
       "text": "an",
-      "start": 50.582375,
-      "end": 50.738625
+      "start": 11.619333,
+      "end": 11.775583
     },
     {
-      "text": "image",
-      "start": 50.809666,
-      "end": 51.264207
+      "text": "accurate",
+      "start": 11.818166,
+      "end": 12.343749
     },
     {
-      "text": "Figure 24",
-      "start": 52.429,
-      "end": 53.4801239
-    },
-    {
-      "text": "shows",
-      "start": 53.494333,
-      "end": 53.849458
-    },
-    {
-      "text": "different",
-      "start": 53.920458,
-      "end": 54.332374
-    },
-    {
-      "text": "appearances",
-      "start": 54.389208,
-      "end": 55.142041
+      "text": "use",
+      "start": 12.372166,
+      "end": 12.585207
     },
     {
       "text": "of",
-      "start": 55.170458,
-      "end": 55.284083
+      "start": 12.585208,
+      "end": 12.741458
     },
     {
-      "text": "textures",
-      "start": 55.369333,
-      "end": 55.909124
+      "text": "colour",
+      "start": 12.784083,
+      "end": 13.053958
     },
     {
-      "text": "in",
-      "start": 55.923291,
-      "end": 55.994332
+      "text": "Texture",
+      "start": 13.139208,
+      "end": 13.579541
     },
     {
-      "text": "the",
-      "start": 56.051125,
-      "end": 56.079541
+      "text": "We",
+      "start": 13.579541,
+      "end": 13.693166
     },
     {
-      "text": "image",
-      "start": 56.221583,
-      "end": 56.661916
+      "text": "are",
+      "start": 13.75,
+      "end": 13.90625
     },
     {
-      "text": "Figure 24",
-      "start": 57.826708,
-      "end": 58.97725
+      "text": "surrounded",
+      "start": 13.920458,
+      "end": 14.460249
     },
     {
-      "text": "Different",
-      "start": 59.289791,
-      "end": 59.715916
-    },
-    {
-      "text": "appearances",
-      "start": 59.77275,
-      "end": 60.539791
-    },
-    {
-      "text": "of",
-      "start": 60.554,
-      "end": 60.639208
-    },
-    {
-      "text": "the",
-      "start": 60.696041,
-      "end": 60.781249
+      "text": "by",
+      "start": 14.545458,
+      "end": 14.659083
     },
     {
       "text": "texture",
-      "start": 60.8665,
-      "end": 61.420458
+      "start": 14.744333,
+      "end": 15.340916
+    },
+    {
+      "text": "Texture",
+      "start": 16.40625,
+      "end": 16.931833
+    },
+    {
+      "text": "is",
+      "start": 16.974416,
+      "end": 17.173291
+    },
+    {
+      "text": "found",
+      "start": 17.201708,
+      "end": 17.514208
+    },
+    {
+      "text": "in",
+      "start": 17.556833,
+      "end": 17.713083
+    },
+    {
+      "text": "everything",
+      "start": 17.755666,
+      "end": 18.409082
+    },
+    {
+      "text": "It",
+      "start": 19.460208,
+      "end": 19.673291
+    },
+    {
+      "text": "appears",
+      "start": 19.744333,
+      "end": 20.269916
+    },
+    {
+      "text": "on",
+      "start": 20.3125,
+      "end": 20.411916
+    },
+    {
+      "text": "the",
+      "start": 20.482958,
+      "end": 20.553999
+    },
+    {
+      "text": "surfaces",
+      "start": 20.596583,
+      "end": 21.150541
+    },
+    {
+      "text": "of",
+      "start": 21.178958,
+      "end": 21.278374
+    },
+    {
+      "text": "various",
+      "start": 21.278416,
+      "end": 21.761374
+    },
+    {
+      "text": "objects",
+      "start": 21.818166,
+      "end": 22.414749
+    },
+    {
+      "text": "such",
+      "start": 22.670458,
+      "end": 22.954541
+    },
+    {
+      "text": "as",
+      "start": 22.96875,
+      "end": 23.139208
+    },
+    {
+      "text": "tree",
+      "start": 23.210208,
+      "end": 23.352249
+    },
+    {
+      "text": "bark",
+      "start": 23.465916,
+      "end": 23.778416
+    },
+    {
+      "text": "stones",
+      "start": 24.034083,
+      "end": 24.602249
+    },
+    {
+      "text": "soil",
+      "start": 24.872166,
+      "end": 25.269874
+    },
+    {
+      "text": "animal",
+      "start": 25.539791,
+      "end": 26.008541
+    },
+    {
+      "text": "bodies",
+      "start": 26.09375,
+      "end": 26.576708
+    },
+    {
+      "text": "and",
+      "start": 26.846583,
+      "end": 27.002833
+    },
+    {
+      "text": "more",
+      "start": 27.073875,
+      "end": 27.34375
+    },
+    {
+      "text": "Texture",
+      "start": 28.394875,
+      "end": 28.948833
+    },
+    {
+      "text": "is",
+      "start": 29.005666,
+      "end": 29.161916
+    },
+    {
+      "text": "an",
+      "start": 29.161916,
+      "end": 29.318166
+    },
+    {
+      "text": "important",
+      "start": 29.346583,
+      "end": 29.957374
+    },
+    {
+      "text": "aspect",
+      "start": 30.014208,
+      "end": 30.497166
+    },
+    {
+      "text": "of",
+      "start": 30.539791,
+      "end": 30.653416
+    },
+    {
+      "text": "drawing",
+      "start": 30.738625,
+      "end": 31.065333
+    },
+    {
+      "text": "that",
+      "start": 31.150583,
+      "end": 31.377874
+    },
+    {
+      "text": "helps",
+      "start": 31.420458,
+      "end": 31.789791
+    },
+    {
+      "text": "to",
+      "start": 31.860791,
+      "end": 31.931832
+    },
+    {
+      "text": "bring",
+      "start": 32.03125,
+      "end": 32.286916
+    },
+    {
+      "text": "emotion",
+      "start": 32.329541,
+      "end": 32.940332
+    },
+    {
+      "text": "realism",
+      "start": 33.153416,
+      "end": 33.849457
+    },
+    {
+      "text": "and",
+      "start": 34.0625,
+      "end": 34.232958
+    },
+    {
+      "text": "appeal",
+      "start": 34.247166,
+      "end": 34.630707
+    },
+    {
+      "text": "to",
+      "start": 34.715916,
+      "end": 34.815332
+    },
+    {
+      "text": "the",
+      "start": 34.872166,
+      "end": 34.928999
+    },
+    {
+      "text": "artwork",
+      "start": 35.028416,
+      "end": 35.667624
+    },
+    {
+      "text": "Texture",
+      "start": 36.690333,
+      "end": 37.187499
+    },
+    {
+      "text": "helps",
+      "start": 37.215916,
+      "end": 37.656249
+    },
+    {
+      "text": "in",
+      "start": 37.698875,
+      "end": 37.826708
+    },
+    {
+      "text": "enhancing",
+      "start": 37.826708,
+      "end": 38.522749
+    },
+    {
+      "text": "realism",
+      "start": 38.565333,
+      "end": 39.232958
+    },
+    {
+      "text": "adding",
+      "start": 39.502833,
+      "end": 39.829541
+    },
+    {
+      "text": "visual",
+      "start": 39.872166,
+      "end": 40.269874
+    },
+    {
+      "text": "interest",
+      "start": 40.326708,
+      "end": 40.838083
+    },
+    {
+      "text": "providing",
+      "start": 41.193166,
+      "end": 41.775541
+    },
+    {
+      "text": "different",
+      "start": 41.846583,
+      "end": 42.301124
+    },
+    {
+      "text": "interpretations",
+      "start": 42.372166,
+      "end": 43.338082
+    },
+    {
+      "text": "for",
+      "start": 43.3665,
+      "end": 43.480125
+    },
+    {
+      "text": "viewers",
+      "start": 43.508541,
+      "end": 44.076707
+    },
+    {
+      "text": "and",
+      "start": 44.289791,
+      "end": 44.446041
+    },
+    {
+      "text": "helping",
+      "start": 44.46025,
+      "end": 44.943208
+    },
+    {
+      "text": "the",
+      "start": 45.014208,
+      "end": 45.056833
+    },
+    {
+      "text": "artist",
+      "start": 45.170458,
+      "end": 45.568166
+    },
+    {
+      "text": "convey",
+      "start": 45.681833,
+      "end": 46.051166
+    },
+    {
+      "text": "their",
+      "start": 46.122166,
+      "end": 46.292624
+    },
+    {
+      "text": "message",
+      "start": 46.321041,
+      "end": 46.775582
+    },
+    {
+      "text": "through",
+      "start": 46.875,
+      "end": 47.088083
+    },
+    {
+      "text": "drawing",
+      "start": 47.1875,
+      "end": 47.713083
+    },
+    {
+      "text": "There",
+      "start": 48.764208,
+      "end": 49.076708
+    },
+    {
+      "text": "are",
+      "start": 49.133541,
+      "end": 49.289791
+    },
+    {
+      "text": "two",
+      "start": 49.375,
+      "end": 49.488625
+    },
+    {
+      "text": "types",
+      "start": 49.573875,
+      "end": 49.914791
+    },
+    {
+      "text": "of",
+      "start": 49.943166,
+      "end": 50.070999
+    },
+    {
+      "text": "textures",
+      "start": 50.15625,
+      "end": 50.78125
+    },
+    {
+      "text": "the",
+      "start": 51.065333,
+      "end": 51.150541
+    },
+    {
+      "text": "textures",
+      "start": 51.235791,
+      "end": 51.747166
+    },
+    {
+      "text": "felt",
+      "start": 51.789791,
+      "end": 52.130707
+    },
+    {
+      "text": "by",
+      "start": 52.230125,
+      "end": 52.329541
+    },
+    {
+      "text": "touching",
+      "start": 52.414791,
+      "end": 52.883541
+    },
+    {
+      "text": "and",
+      "start": 53.054,
+      "end": 53.167625
+    },
+    {
+      "text": "the",
+      "start": 53.238625,
+      "end": 53.309666
+    },
+    {
+      "text": "textures",
+      "start": 53.394875,
+      "end": 53.892041
+    },
+    {
+      "text": "perceived",
+      "start": 53.977291,
+      "end": 54.360832
+    },
+    {
+      "text": "by",
+      "start": 54.517041,
+      "end": 54.616457
+    },
+    {
+      "text": "looking",
+      "start": 54.659083,
+      "end": 55.213041
+    },
+    {
+      "text": "An",
+      "start": 56.235791,
+      "end": 56.477249
+    },
+    {
+      "text": "artist",
+      "start": 56.534083,
+      "end": 56.917624
+    },
+    {
+      "text": "can",
+      "start": 57.017041,
+      "end": 57.173291
+    },
+    {
+      "text": "represent",
+      "start": 57.230125,
+      "end": 57.869333
+    },
+    {
+      "text": "texture",
+      "start": 57.926125,
+      "end": 58.380666
+    },
+    {
+      "text": "in",
+      "start": 58.4375,
+      "end": 58.551125
+    },
+    {
+      "text": "an",
+      "start": 58.551125,
+      "end": 58.707375
+    },
+    {
+      "text": "image",
+      "start": 58.778416,
+      "end": 59.232957
+    },
+    {
+      "text": "Figure 24",
+      "start": 60.39775,
+      "end": 61.448874
+    },
+    {
+      "text": "shows",
+      "start": 61.463083,
+      "end": 61.818208
+    },
+    {
+      "text": "different",
+      "start": 61.889208,
+      "end": 62.301124
+    },
+    {
+      "text": "appearances",
+      "start": 62.357958,
+      "end": 63.110791
+    },
+    {
+      "text": "of",
+      "start": 63.139208,
+      "end": 63.252833
+    },
+    {
+      "text": "textures",
+      "start": 63.338083,
+      "end": 63.877874
+    },
+    {
+      "text": "in",
+      "start": 63.892041,
+      "end": 63.963082
+    },
+    {
+      "text": "the",
+      "start": 64.019875,
+      "end": 64.048291
+    },
+    {
+      "text": "image",
+      "start": 64.190333,
+      "end": 64.630666
+    },
+    {
+      "text": "Image",
+      "start": 65.795458,
+      "end": 66.164791
+    },
+    {
+      "text": "description",
+      "start": 66.292625,
+      "end": 67.073875
+    },
+    {
+      "text": "A",
+      "start": 67.286916,
+      "end": 67.386332
+    },
+    {
+      "text": "square",
+      "start": 67.457375,
+      "end": 67.784083
+    },
+    {
+      "text": "texture",
+      "start": 67.869333,
+      "end": 68.267041
+    },
+    {
+      "text": "pattern",
+      "start": 68.3665,
+      "end": 68.721625
+    },
+    {
+      "text": "made",
+      "start": 68.778416,
+      "end": 68.991499
+    },
+    {
+      "text": "of",
+      "start": 69.019875,
+      "end": 69.161916
+    },
+    {
+      "text": "many",
+      "start": 69.176125,
+      "end": 69.488625
+    },
+    {
+      "text": "small",
+      "start": 69.602291,
+      "end": 69.886374
+    },
+    {
+      "text": "black",
+      "start": 69.985791,
+      "end": 70.255666
+    },
+    {
+      "text": "dots",
+      "start": 70.383541,
+      "end": 70.838082
+    },
+    {
+      "text": "Image",
+      "start": 71.903416,
+      "end": 72.286957
+    },
+    {
+      "text": "description",
+      "start": 72.414791,
+      "end": 73.196041
+    },
+    {
+      "text": "A",
+      "start": 73.394875,
+      "end": 73.494291
+    },
+    {
+      "text": "square",
+      "start": 73.565333,
+      "end": 73.906249
+    },
+    {
+      "text": "texture",
+      "start": 73.9915,
+      "end": 74.417625
+    },
+    {
+      "text": "pattern",
+      "start": 74.517041,
+      "end": 74.872166
+    },
+    {
+      "text": "with",
+      "start": 74.943166,
+      "end": 75.099416
+    },
+    {
+      "text": "many",
+      "start": 75.113625,
+      "end": 75.426125
+    },
+    {
+      "text": "thin",
+      "start": 75.511375,
+      "end": 75.752833
+    },
+    {
+      "text": "vertical",
+      "start": 75.809666,
+      "end": 76.335249
+    },
+    {
+      "text": "lines",
+      "start": 76.33525,
+      "end": 76.903416
+    },
+    {
+      "text": "Image",
+      "start": 77.96875,
+      "end": 78.366458
+    },
+    {
+      "text": "description",
+      "start": 78.494333,
+      "end": 79.275583
+    },
+    {
+      "text": "A",
+      "start": 79.474458,
+      "end": 79.573874
+    },
+    {
+      "text": "square",
+      "start": 79.644875,
+      "end": 79.971583
+    },
+    {
+      "text": "texture",
+      "start": 80.056833,
+      "end": 80.454541
+    },
+    {
+      "text": "pattern",
+      "start": 80.554,
+      "end": 80.909125
+    },
+    {
+      "text": "with",
+      "start": 80.951708,
+      "end": 81.107958
+    },
+    {
+      "text": "a",
+      "start": 81.164791,
+      "end": 81.249999
+    },
+    {
+      "text": "dense",
+      "start": 81.33525,
+      "end": 81.661958
+    },
+    {
+      "text": "tiny",
+      "start": 81.704541,
+      "end": 81.974416
+    },
+    {
+      "text": "crisscross",
+      "start": 82.059666,
+      "end": 82.642041
+    },
+    {
+      "text": "design",
+      "start": 82.727291,
+      "end": 83.224457
+    },
+    {
+      "text": "Image",
+      "start": 84.261375,
+      "end": 84.630708
+    },
+    {
+      "text": "description",
+      "start": 84.758541,
+      "end": 85.539791
+    },
+    {
+      "text": "A",
+      "start": 85.752833,
+      "end": 85.852249
+    },
+    {
+      "text": "square",
+      "start": 85.923291,
+      "end": 86.249999
+    },
+    {
+      "text": "texture",
+      "start": 86.33525,
+      "end": 86.732958
+    },
+    {
+      "text": "pattern",
+      "start": 86.832375,
+      "end": 87.173291
+    },
+    {
+      "text": "with",
+      "start": 87.230125,
+      "end": 87.386375
+    },
+    {
+      "text": "diagonal",
+      "start": 87.485791,
+      "end": 88.068166
+    },
+    {
+      "text": "parallel",
+      "start": 88.153416,
+      "end": 88.622166
+    },
+    {
+      "text": "lines",
+      "start": 88.622166,
+      "end": 89.176124
+    },
+    {
+      "text": "Figure 24",
+      "start": 90.2415,
+      "end": 91.392041
+    },
+    {
+      "text": "Different",
+      "start": 91.704541,
+      "end": 92.130666
+    },
+    {
+      "text": "appearances",
+      "start": 92.1875,
+      "end": 92.954541
+    },
+    {
+      "text": "of",
+      "start": 92.96875,
+      "end": 93.053958
+    },
+    {
+      "text": "the",
+      "start": 93.110791,
+      "end": 93.195999
+    },
+    {
+      "text": "texture",
+      "start": 93.28125,
+      "end": 93.835208
     }
   ]
 }

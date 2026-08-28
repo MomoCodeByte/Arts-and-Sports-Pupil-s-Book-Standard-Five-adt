@@ -2,429 +2,579 @@
   "audio": "page-054.mp3",
   "words": [
     {
-      "text": "48",
+      "text": "Image",
       "start": 0.106833,
-      "end": 0.817041
+      "end": 0.476166
     },
     {
-      "text": "Figure 4",
-      "start": 0.873875,
-      "end": 1.541458
+      "text": "description",
+      "start": 0.618166,
+      "end": 1.385207
     },
     {
-      "text": "A",
-      "start": 1.825583,
-      "end": 1.896624
-    },
-    {
-      "text": "pot",
-      "start": 1.996041,
-      "end": 2.223332
-    },
-    {
-      "text": "decorated",
-      "start": 2.336916,
-      "end": 2.947707
-    },
-    {
-      "text": "using",
-      "start": 3.004541,
-      "end": 3.302832
-    },
-    {
-      "text": "the",
-      "start": 3.388083,
-      "end": 3.416499
-    },
-    {
-      "text": "incising",
-      "start": 3.530125,
-      "end": 4.155125
-    },
-    {
-      "text": "and",
-      "start": 4.211916,
-      "end": 4.410791
-    },
-    {
-      "text": "carving",
-      "start": 4.425,
-      "end": 4.780125
-    },
-    {
-      "text": "method",
-      "start": 4.851125,
-      "end": 5.192041
-    },
-    {
-      "text": "Figure 5",
-      "start": 5.263083,
-      "end": 5.9874989
-    },
-    {
-      "text": "A",
-      "start": 6.243166,
-      "end": 6.314207
-    },
-    {
-      "text": "pot",
-      "start": 6.413625,
-      "end": 6.626708
-    },
-    {
-      "text": "decorated",
-      "start": 6.76875,
-      "end": 7.379541
-    },
-    {
-      "text": "using",
-      "start": 7.450583,
-      "end": 7.748874
-    },
-    {
-      "text": "the",
-      "start": 7.834083,
-      "end": 7.919291
-    },
-    {
-      "text": "scratching",
-      "start": 7.976125,
-      "end": 8.459083
-    },
-    {
-      "text": "method",
-      "start": 8.530125,
-      "end": 8.899458
-    },
-    {
-      "text": "b",
-      "start": 9.226125,
-      "end": 9.353958
-    },
-    {
-      "text": "Painted",
-      "start": 9.623875,
-      "end": 9.979
-    },
-    {
-      "text": "decorations",
-      "start": 10.05,
-      "end": 10.802833
-    },
-    {
-      "text": "To",
-      "start": 10.845458,
-      "end": 10.916499
-    },
-    {
-      "text": "decorate",
-      "start": 11.001708,
-      "end": 11.527291
-    },
-    {
-      "text": "a",
-      "start": 11.541458,
-      "end": 11.598291
-    },
-    {
-      "text": "pot",
-      "start": 11.683541,
-      "end": 11.924999
-    },
-    {
-      "text": "by",
-      "start": 12.052833,
-      "end": 12.152249
-    },
-    {
-      "text": "painting",
-      "start": 12.251708,
-      "end": 12.777291
-    },
-    {
-      "text": "use",
-      "start": 13.01875,
-      "end": 13.260208
-    },
-    {
-      "text": "a",
-      "start": 13.260208,
-      "end": 13.331249
-    },
-    {
-      "text": "brush",
-      "start": 13.430666,
-      "end": 13.757374
-    },
-    {
-      "text": "or",
-      "start": 13.842625,
-      "end": 13.927833
-    },
-    {
-      "text": "stick",
-      "start": 14.013083,
-      "end": 14.240374
-    },
-    {
-      "text": "to",
-      "start": 14.382375,
-      "end": 14.496
-    },
-    {
-      "text": "draw",
-      "start": 14.58125,
-      "end": 14.808541
-    },
-    {
-      "text": "lines",
-      "start": 14.851125,
-      "end": 15.348291
-    },
-    {
-      "text": "flowers",
-      "start": 15.575583,
-      "end": 16.214791
-    },
-    {
-      "text": "geometric",
-      "start": 16.484666,
-      "end": 17.138082
-    },
-    {
-      "text": "shapes",
-      "start": 17.180666,
-      "end": 17.620999
-    },
-    {
-      "text": "or",
-      "start": 17.8625,
-      "end": 18.032958
-    },
-    {
-      "text": "any",
-      "start": 18.089791,
-      "end": 18.345457
-    },
-    {
-      "text": "theme",
-      "start": 18.416458,
-      "end": 18.657916
-    },
-    {
-      "text": "that",
-      "start": 18.757375,
-      "end": 19.02725
-    },
-    {
-      "text": "you",
-      "start": 19.041458,
-      "end": 19.098291
-    },
-    {
-      "text": "like",
-      "start": 19.126708,
-      "end": 19.538624
-    },
-    {
-      "text": "Use",
-      "start": 20.568166,
-      "end": 20.866457
-    },
-    {
-      "text": "colours",
-      "start": 20.9375,
-      "end": 21.363625
-    },
-    {
-      "text": "that",
-      "start": 21.40625,
-      "end": 21.605125
-    },
-    {
-      "text": "are",
-      "start": 21.661916,
-      "end": 21.832374
-    },
-    {
-      "text": "appropriate",
-      "start": 21.832375,
-      "end": 22.428958
-    },
-    {
-      "text": "for",
-      "start": 22.457375,
-      "end": 22.571
-    },
-    {
-      "text": "the",
-      "start": 22.627833,
-      "end": 22.698874
+      "text": "Round",
+      "start": 1.640916,
+      "end": 1.924999
     },
     {
       "text": "clay",
-      "start": 22.798291,
-      "end": 23.039749
-    },
-    {
-      "text": "or",
-      "start": 23.125,
-      "end": 23.28125
-    },
-    {
-      "text": "use",
-      "start": 23.352291,
-      "end": 23.579582
-    },
-    {
-      "text": "other",
-      "start": 23.650583,
-      "end": 23.877874
-    },
-    {
-      "text": "coloured",
-      "start": 23.963083,
-      "end": 24.360791
-    },
-    {
-      "text": "clay",
-      "start": 24.389208,
-      "end": 24.616499
-    },
-    {
-      "text": "as",
-      "start": 24.6875,
-      "end": 24.872166
-    },
-    {
-      "text": "a",
-      "start": 24.872166,
-      "end": 24.943207
-    },
-    {
-      "text": "drawing",
-      "start": 25.028416,
-      "end": 25.369332
-    },
-    {
-      "text": "medium",
-      "start": 25.454541,
-      "end": 25.880666
-    },
-    {
-      "text": "The",
-      "start": 26.903416,
-      "end": 27.073874
-    },
-    {
-      "text": "clay",
-      "start": 27.159083,
-      "end": 27.414749
-    },
-    {
-      "text": "in",
-      "start": 27.5,
-      "end": 27.585208
-    },
-    {
-      "text": "the",
-      "start": 27.65625,
-      "end": 27.727291
+      "start": 1.967625,
+      "end": 2.180708
     },
     {
       "text": "pot",
-      "start": 27.8125,
-      "end": 27.997166
-    },
-    {
-      "text": "should",
-      "start": 28.039791,
-      "end": 28.181832
-    },
-    {
-      "text": "be",
-      "start": 28.309666,
-      "end": 28.380707
-    },
-    {
-      "text": "slightly",
-      "start": 28.465916,
-      "end": 28.892041
-    },
-    {
-      "text": "damp",
-      "start": 28.977291,
-      "end": 29.204582
-    },
-    {
-      "text": "to",
-      "start": 29.289791,
-      "end": 29.389207
-    },
-    {
-      "text": "make",
-      "start": 29.403416,
-      "end": 29.673291
-    },
-    {
-      "text": "it",
-      "start": 29.701708,
-      "end": 29.872166
-    },
-    {
-      "text": "easier",
-      "start": 29.929,
-      "end": 30.255708
-    },
-    {
-      "text": "to",
-      "start": 30.326708,
-      "end": 30.426124
-    },
-    {
-      "text": "draw",
-      "start": 30.511375,
-      "end": 30.738666
-    },
-    {
-      "text": "Figure 6",
-      "start": 31.789791,
-      "end": 32.6420829
-    },
-    {
-      "text": "shows",
-      "start": 32.65625,
-      "end": 32.96875
-    },
-    {
-      "text": "a",
-      "start": 32.96875,
-      "end": 33.039791
-    },
-    {
-      "text": "pot",
-      "start": 33.139208,
-      "end": 33.338083
-    },
-    {
-      "text": "decorated",
-      "start": 33.465916,
-      "end": 34.090916
+      "start": 2.280125,
+      "end": 2.521583
     },
     {
       "text": "with",
-      "start": 34.133541,
-      "end": 34.289791
+      "start": 2.578416,
+      "end": 2.692041
     },
     {
-      "text": "coloured",
-      "start": 34.346583,
-      "end": 34.701708
+      "text": "diamond",
+      "start": 2.791458,
+      "end": 3.203374
+    },
+    {
+      "text": "shapes",
+      "start": 3.246041,
+      "end": 3.629582
+    },
+    {
+      "text": "and",
+      "start": 3.700583,
+      "end": 3.842624
+    },
+    {
+      "text": "small",
+      "start": 3.95625,
+      "end": 4.240333
+    },
+    {
+      "text": "carved",
+      "start": 4.325583,
+      "end": 4.609666
+    },
+    {
+      "text": "circles",
+      "start": 4.680666,
+      "end": 5.220457
+    },
+    {
+      "text": "around",
+      "start": 5.291458,
+      "end": 5.632374
+    },
+    {
+      "text": "the",
+      "start": 5.731833,
+      "end": 5.802874
+    },
+    {
+      "text": "middle",
+      "start": 5.83125,
+      "end": 6.200583
+    },
+    {
+      "text": "Figure 4",
+      "start": 7.258541,
+      "end": 8.068166
+    },
+    {
+      "text": "A",
+      "start": 8.380666,
+      "end": 8.451707
+    },
+    {
+      "text": "pot",
+      "start": 8.551125,
+      "end": 8.75
+    },
+    {
+      "text": "decorated",
+      "start": 8.892041,
+      "end": 9.517041
+    },
+    {
+      "text": "using",
+      "start": 9.573875,
+      "end": 9.872166
+    },
+    {
+      "text": "the",
+      "start": 9.957375,
+      "end": 9.985791
+    },
+    {
+      "text": "incising",
+      "start": 10.085208,
+      "end": 10.710208
+    },
+    {
+      "text": "and",
+      "start": 10.752833,
+      "end": 10.937499
+    },
+    {
+      "text": "carving",
+      "start": 10.951708,
+      "end": 11.306833
+    },
+    {
+      "text": "method",
+      "start": 11.377833,
+      "end": 11.775541
+    },
+    {
+      "text": "Image",
+      "start": 11.860791,
+      "end": 12.159082
+    },
+    {
+      "text": "description",
+      "start": 12.301125,
+      "end": 13.03975
+    },
+    {
+      "text": "Round",
+      "start": 13.295458,
+      "end": 13.551124
+    },
+    {
+      "text": "clay",
+      "start": 13.607958,
+      "end": 13.806833
+    },
+    {
+      "text": "pot",
+      "start": 13.90625,
+      "end": 14.133541
+    },
+    {
+      "text": "with",
+      "start": 14.21875,
+      "end": 14.346583
+    },
+    {
+      "text": "scratched",
+      "start": 14.389208,
+      "end": 14.843749
+    },
+    {
+      "text": "zigzag",
+      "start": 14.943166,
+      "end": 15.454541
+    },
+    {
+      "text": "and",
+      "start": 15.511375,
+      "end": 15.639208
+    },
+    {
+      "text": "line",
+      "start": 15.653416,
+      "end": 15.937499
     },
     {
       "text": "patterns",
-      "start": 34.786916,
-      "end": 35.440332
+      "start": 16.022708,
+      "end": 16.519874
+    },
+    {
+      "text": "in",
+      "start": 16.534083,
+      "end": 16.690333
+    },
+    {
+      "text": "bands",
+      "start": 16.775583,
+      "end": 17.088083
+    },
+    {
+      "text": "around",
+      "start": 17.130666,
+      "end": 17.443166
+    },
+    {
+      "text": "the",
+      "start": 17.542625,
+      "end": 17.613666
+    },
+    {
+      "text": "body",
+      "start": 17.698875,
+      "end": 18.025583
+    },
+    {
+      "text": "Figure 5",
+      "start": 19.147708,
+      "end": 20.042624
+    },
+    {
+      "text": "A",
+      "start": 20.355125,
+      "end": 20.440333
+    },
+    {
+      "text": "pot",
+      "start": 20.539791,
+      "end": 20.752874
+    },
+    {
+      "text": "decorated",
+      "start": 20.894875,
+      "end": 21.519875
+    },
+    {
+      "text": "using",
+      "start": 21.576708,
+      "end": 21.874999
+    },
+    {
+      "text": "the",
+      "start": 21.960208,
+      "end": 22.045416
+    },
+    {
+      "text": "scratching",
+      "start": 22.116458,
+      "end": 22.585208
+    },
+    {
+      "text": "method",
+      "start": 22.65625,
+      "end": 23.053958
+    },
+    {
+      "text": "b",
+      "start": 23.366458,
+      "end": 23.480083
+    },
+    {
+      "text": "Painted",
+      "start": 23.75,
+      "end": 24.105125
+    },
+    {
+      "text": "decorations",
+      "start": 24.176125,
+      "end": 24.91475
+    },
+    {
+      "text": "To",
+      "start": 24.971583,
+      "end": 25.070999
+    },
+    {
+      "text": "decorate",
+      "start": 25.15625,
+      "end": 25.653416
+    },
+    {
+      "text": "a",
+      "start": 25.681833,
+      "end": 25.738666
+    },
+    {
+      "text": "pot",
+      "start": 25.838083,
+      "end": 26.065374
+    },
+    {
+      "text": "by",
+      "start": 26.179,
+      "end": 26.278416
+    },
+    {
+      "text": "painting",
+      "start": 26.377833,
+      "end": 26.903416
+    },
+    {
+      "text": "use",
+      "start": 27.130666,
+      "end": 27.400541
+    },
+    {
+      "text": "a",
+      "start": 27.400583,
+      "end": 27.471624
+    },
+    {
+      "text": "brush",
+      "start": 27.571041,
+      "end": 27.926166
+    },
+    {
+      "text": "or",
+      "start": 28.011375,
+      "end": 28.110791
+    },
+    {
+      "text": "stick",
+      "start": 28.181833,
+      "end": 28.423291
+    },
+    {
+      "text": "to",
+      "start": 28.565333,
+      "end": 28.678958
+    },
+    {
+      "text": "draw",
+      "start": 28.764208,
+      "end": 28.977291
+    },
+    {
+      "text": "lines",
+      "start": 29.019875,
+      "end": 29.53125
+    },
+    {
+      "text": "flowers",
+      "start": 29.744333,
+      "end": 30.383541
+    },
+    {
+      "text": "geometric",
+      "start": 30.653416,
+      "end": 31.306832
+    },
+    {
+      "text": "shapes",
+      "start": 31.349416,
+      "end": 31.761332
+    },
+    {
+      "text": "or",
+      "start": 32.017041,
+      "end": 32.201707
+    },
+    {
+      "text": "any",
+      "start": 32.258541,
+      "end": 32.514207
+    },
+    {
+      "text": "theme",
+      "start": 32.571041,
+      "end": 32.826707
+    },
+    {
+      "text": "that",
+      "start": 32.926125,
+      "end": 33.196
+    },
+    {
+      "text": "you",
+      "start": 33.21025,
+      "end": 33.267083
+    },
+    {
+      "text": "like",
+      "start": 33.295458,
+      "end": 33.707374
+    },
+    {
+      "text": "Use",
+      "start": 34.730125,
+      "end": 35.028416
+    },
+    {
+      "text": "colours",
+      "start": 35.099416,
+      "end": 35.525541
+    },
+    {
+      "text": "that",
+      "start": 35.568166,
+      "end": 35.767041
+    },
+    {
+      "text": "are",
+      "start": 35.823875,
+      "end": 35.994333
+    },
+    {
+      "text": "appropriate",
+      "start": 35.994333,
+      "end": 36.590916
+    },
+    {
+      "text": "for",
+      "start": 36.619333,
+      "end": 36.732958
+    },
+    {
+      "text": "the",
+      "start": 36.789791,
+      "end": 36.860832
+    },
+    {
+      "text": "clay",
+      "start": 36.96025,
+      "end": 37.201708
+    },
+    {
+      "text": "or",
+      "start": 37.286916,
+      "end": 37.443166
+    },
+    {
+      "text": "use",
+      "start": 37.514208,
+      "end": 37.741499
+    },
+    {
+      "text": "other",
+      "start": 37.8125,
+      "end": 38.039791
+    },
+    {
+      "text": "coloured",
+      "start": 38.125,
+      "end": 38.522708
+    },
+    {
+      "text": "clay",
+      "start": 38.551125,
+      "end": 38.778416
+    },
+    {
+      "text": "as",
+      "start": 38.849416,
+      "end": 39.034082
+    },
+    {
+      "text": "a",
+      "start": 39.034083,
+      "end": 39.105124
+    },
+    {
+      "text": "drawing",
+      "start": 39.190333,
+      "end": 39.531249
+    },
+    {
+      "text": "medium",
+      "start": 39.6165,
+      "end": 40.042625
+    },
+    {
+      "text": "The",
+      "start": 41.065333,
+      "end": 41.235791
+    },
+    {
+      "text": "clay",
+      "start": 41.321041,
+      "end": 41.576707
+    },
+    {
+      "text": "in",
+      "start": 41.661916,
+      "end": 41.747124
+    },
+    {
+      "text": "the",
+      "start": 41.818166,
+      "end": 41.889207
+    },
+    {
+      "text": "pot",
+      "start": 41.974416,
+      "end": 42.159082
+    },
+    {
+      "text": "should",
+      "start": 42.201708,
+      "end": 42.343749
+    },
+    {
+      "text": "be",
+      "start": 42.471583,
+      "end": 42.542624
+    },
+    {
+      "text": "slightly",
+      "start": 42.627833,
+      "end": 43.053958
+    },
+    {
+      "text": "damp",
+      "start": 43.139208,
+      "end": 43.366499
+    },
+    {
+      "text": "to",
+      "start": 43.451708,
+      "end": 43.551124
+    },
+    {
+      "text": "make",
+      "start": 43.565333,
+      "end": 43.835208
+    },
+    {
+      "text": "it",
+      "start": 43.863625,
+      "end": 44.034083
+    },
+    {
+      "text": "easier",
+      "start": 44.090916,
+      "end": 44.417624
+    },
+    {
+      "text": "to",
+      "start": 44.488625,
+      "end": 44.588041
+    },
+    {
+      "text": "draw",
+      "start": 44.673291,
+      "end": 44.900582
+    },
+    {
+      "text": "Figure 6",
+      "start": 45.951708,
+      "end": 46.803999
+    },
+    {
+      "text": "shows",
+      "start": 46.818166,
+      "end": 47.130666
+    },
+    {
+      "text": "a",
+      "start": 47.130666,
+      "end": 47.201707
+    },
+    {
+      "text": "pot",
+      "start": 47.301125,
+      "end": 47.5
+    },
+    {
+      "text": "decorated",
+      "start": 47.627833,
+      "end": 48.252833
+    },
+    {
+      "text": "with",
+      "start": 48.295458,
+      "end": 48.451708
+    },
+    {
+      "text": "coloured",
+      "start": 48.508541,
+      "end": 48.863666
+    },
+    {
+      "text": "patterns",
+      "start": 48.948875,
+      "end": 49.602291
     }
   ]
 }
