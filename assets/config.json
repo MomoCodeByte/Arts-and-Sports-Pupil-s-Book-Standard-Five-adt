@@ -1,6 +1,6 @@
 {
   "title": "Arts and Sports Pupil’s Book Standard Five",
-  "bundleVersion": "3",
+  "bundleVersion": "4",
   "languages": {
     "available": [
       "en",
@@ -21,7 +21,7 @@
     "notepad": false,
     "state": true,
     "characterDisplay": false,
-    "highlight": true,
+    "highlight": false,
     "activities": true
   },
   "analytics": {

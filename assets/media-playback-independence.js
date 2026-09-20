@@ -42,9 +42,7 @@
     var button = target.closest("button");
     if (!button) return false;
     var player = button.closest("[data-sign-language-player]") || button.parentElement;
-    var isDragHandle = button.matches('[aria-label="Drag sign language video"]') ||
-      button.hasAttribute("data-sign-language-drag-handle");
-    return Boolean(player && player.querySelector && player.querySelector("video") && !isDragHandle);
+    return Boolean(player && player.querySelector && player.querySelector("video") && !button.querySelector('[aria-label="Drag sign language video"]'));
   }
 
   function setPlaybackState(kind, state) {
@@ -64,6 +62,8 @@
     if (isNarrationAudio(this)) {
       observeNarrationAudio(this);
       setPlaybackState("read-aloud", "starting");
+      // The reader updates its shared media atom after play() resolves. Keep a
+      // brief guard around that update so it cannot pause the sign video.
       narrationActivationUntil = now() + 2000;
     }
     return nativePlay.apply(this, arguments);
@@ -81,7 +81,9 @@
   };
 
   function allowExplicitVideoClose(event) {
-    if (isSignLanguageCloseButton(event.target)) explicitVideoCloseUntil = now() + 2000;
+    if (isSignLanguageCloseButton(event.target)) {
+      explicitVideoCloseUntil = now() + 2000;
+    }
   }
 
   window.addEventListener("pointerdown", allowExplicitVideoClose, true);
@@ -92,6 +94,9 @@
     }
   }, true);
 
+  // React treats sign video playback as a request to stop narration. Catch
+  // only that synthetic coordination event before it reaches the reader; the
+  // native video itself continues playing and its controls remain functional.
   window.addEventListener("play", function (event) {
     if (!isSignLanguageVideo(event.target)) return;
     event.target.setAttribute("data-independent-media-playback", "");
@@ -102,6 +107,7 @@
   window.addEventListener("pause", function (event) {
     if (isSignLanguageVideo(event.target)) setPlaybackState("sign-language", "paused");
   }, true);
+
   window.addEventListener("ended", function (event) {
     if (isSignLanguageVideo(event.target)) setPlaybackState("sign-language", "ended");
   }, true);

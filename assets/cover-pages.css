@@ -1,0 +1,4 @@
+/* Cover artwork uses the full available width without printer marks. */
+.book-cover { max-width: 54rem; margin: 0 auto; padding-bottom: 6rem; }
+.cover-only-image { display: block; width: 100%; height: auto; }
+.adt-visually-hidden { position:absolute!important; width:1px!important; height:1px!important; margin:-1px!important; padding:0!important; overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important; }

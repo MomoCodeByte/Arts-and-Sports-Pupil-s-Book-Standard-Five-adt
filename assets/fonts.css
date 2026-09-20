@@ -1,83 +1,699 @@
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
-  src: url('./fonts/AtkinsonHyperlegible-400-latin.woff2') format('woff2');
+  font-family: "Atkinson Hyperlegible";
+  src: url("./fonts/AtkinsonHyperlegible-400-latin.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
-  src: url('./fonts/AtkinsonHyperlegible-400-latin-ext.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Atkinson Hyperlegible';
-  src: url('./fonts/AtkinsonHyperlegible-700-latin.woff2') format('woff2');
+  font-family: "Atkinson Hyperlegible";
+  src: url("./fonts/AtkinsonHyperlegible-700-latin.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+/*
+ * Sassoon Primary is extracted from the source book supplied for this
+ * conversion. The web copy is a checksum-normalised rebuild of the source
+ * subset; this keeps Sassoon's outlines and lets the browser render or fall
+ * back correctly for every letter instead of dropping Q, X, q, or x.
+ */
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
-  src: url('./fonts/AtkinsonHyperlegible-700-latin-ext.woff2') format('woff2');
+  font-family: "Sassoon Primary";
+  src: url("./fonts/SassoonPrimaryWeb.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Model-only variant: capitals are calibrated from the shared baseline to the
+ * top black handwriting rule; lowercase outlines remain unchanged.
+ */
+@font-face {
+  font-family: "Sassoon Primary Handwriting";
+  src: url("./fonts/SassoonPrimaryHandwriting.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Exact modelling face used by the source book on its four-line examples. */
+@font-face {
+  font-family: "Maandishi";
+  src: url("./fonts/Maandishi-web.ttf?v=30") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Same source Maandishi face, rebuilt from the Standard One PDF subset so the
+   capital O—absent from the Standard Two subset—retains its real outline. */
+@font-face {
+  font-family: "Maandishi Complete";
+  src: url("./fonts/Maandishi-title-web.ttf?v=33") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Complete upright fallback for glyphs omitted by the source PDF subset. */
+@font-face {
+  font-family: "Edu NSW ACT Foundation";
+  src: url("./fonts/EduNSWACTFoundation.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Reader chrome defaults to the highly legible navigation face. */
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* The whole book, including headings and answer fields, uses Sassoon Primary. */
+#content,
+#content * {
+  font-family: "Sassoon Primary", "Atkinson Hyperlegible", sans-serif;
+}
+
+#content.container {
+  width: 100%;
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#content {
+  color: #1e293b;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+#content h1,
+#content h2,
+#content h3 {
+  line-height: 1.2;
+}
+
+/* Tailwind's generated bundle omits this source-book heading colour. */
+#content .text-rose-600 {
+  color: #ed1c24;
+}
+
+#content img {
+  max-width: 100%;
+  height: auto;
+}
+
+#content input,
+#content textarea,
+#content select {
+  font: inherit;
+}
+
+#content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#content th,
+#content td {
+  vertical-align: top;
+}
+
+/* Keep source and website credits easy to read and tap, including long URLs. */
+#content .external-reference {
+  padding: 1.25rem;
+  border: 1px solid #bae6fd;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  overflow-wrap: anywhere;
+}
+
+#content .external-reference a {
   font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  text-underline-offset: 0.16em;
 }
 
-@font-face {
-  font-family: 'Merriweather';
-  src: url('./fonts/Merriweather-VariableFont.woff2') format('woff2');
-  font-weight: 300 800;
-  font-style: normal;
-  font-display: swap;
+.source-page-shell {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 64rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2.5rem 2rem 8rem;
 }
 
-@font-face {
-  font-family: 'Merriweather';
-  src: url('./fonts/Merriweather-Italic-VariableFont.woff2') format('woff2');
-  font-weight: 300 800;
-  font-style: italic;
-  font-display: swap;
+.source-page-image {
+  display: block;
+  width: 100%;
+  max-width: 44rem;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 18px 45px rgb(15 23 42 / 0.16);
 }
 
-/* Apply the font globally */
-body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select {
-  font-family: "Merriweather", serif;
+.source-tools-card {
+  width: min(100%, 44rem);
+  padding: 1.25rem;
+  border: 1px solid #bbf7d0;
+  border-radius: 1rem;
+  background: #f0fdf4;
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.08);
 }
 
-/* Chrome UI font. FontAwesome marker classes are exempt: this ID+universal
-   selector would otherwise beat FA's `.fa { font-family: "Font Awesome …" }`
-   rule and its ::before glyph would render as a missing character. */
-#nav-container, #nav-container *:not(.fa):not(.fas):not(.far):not(.fab):not(.fa-solid):not(.fa-regular):not(.fa-brands),
-#interface-container, #interface-container *:not(.fa):not(.fas):not(.far):not(.fab):not(.fa-solid):not(.fa-regular):not(.fa-brands) {
-  font-family: 'Atkinson Hyperlegible', sans-serif;
+.source-tools-card h2 {
+  margin-bottom: 0.75rem;
+  color: #166534;
 }
 
-
-/* Google Fonts — linked woff2 for offline / file:// use */
-/* latin-ext */
-@font-face {
-  font-family: 'Atkinson Hyperlegible';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('./fonts/gf-df7939d2e874c251.woff2') format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Atkinson Hyperlegible';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('./fonts/gf-dd9e78c55ee7f880.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+.digital-practice-card {
+  width: min(100%, 44rem);
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 2px solid #7dd3fc;
+  border-radius: 1rem;
+  background: #f0f9ff;
+  box-shadow: 0 8px 24px rgb(14 116 144 / 0.12);
 }
 
+.digital-practice-card > h2 {
+  margin-bottom: 1rem;
+  color: #075985;
+}
+
+.practice-response,
+.practice-fieldset {
+  margin-top: 1.25rem;
+}
+
+.practice-response > label,
+.practice-fieldset > legend,
+.practice-short-answer > label,
+.drawing-pad h3,
+.drawing-alternative label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+  font-weight: 700;
+}
+
+.practice-response textarea {
+  width: 100%;
+  resize: vertical;
+  border: 2px solid #38bdf8;
+  border-radius: 0.75rem;
+}
+
+.practice-fieldset {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid #bae6fd;
+  border-radius: 0.85rem;
+  background: rgb(255 255 255 / 0.78);
+}
+
+.practice-fieldset > legend {
+  padding: 0 0.4rem;
+  color: #075985;
+}
+
+.practice-input-grid,
+.drawing-pad-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.practice-short-answer {
+  min-width: 0;
+}
+
+#content .practice-short-answer input[type="text"] {
+  width: 100%;
+  border: 2px solid #7dd3fc;
+  border-radius: 0.65rem;
+}
+
+.drawing-pad {
+  min-width: 0;
+  padding: 0.85rem;
+  border: 1px solid #bae6fd;
+  border-radius: 0.75rem;
+  background: white;
+}
+
+.drawing-canvas {
+  display: block;
+  width: 100%;
+  aspect-ratio: 12 / 7;
+  border: 2px dashed #0ea5e9;
+  border-radius: 0.5rem;
+  background-color: white;
+  background-image:
+    linear-gradient(#e0f2fe 1px, transparent 1px),
+    linear-gradient(90deg, #e0f2fe 1px, transparent 1px);
+  background-size: 1.5rem 1.5rem;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.drawing-canvas:focus-visible,
+.drawing-clear:focus-visible,
+.digital-practice-card input:focus-visible,
+.digital-practice-card textarea:focus-visible,
+.drawing-alternative summary:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+.drawing-clear {
+  min-height: 2.75rem;
+  margin-top: 0.75rem;
+  padding: 0.55rem 0.9rem;
+  border: 0;
+  border-radius: 0.6rem;
+  background: #0369a1;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.drawing-alternative {
+  margin-top: 0.75rem;
+}
+
+.drawing-alternative summary {
+  min-height: 2.75rem;
+  padding: 0.55rem 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.drawing-alternative textarea {
+  width: 100%;
+  resize: vertical;
+  border: 2px solid #7dd3fc;
+  border-radius: 0.65rem;
+}
+
+@media (max-width: 640px) {
+  .source-page-shell {
+    padding: 1rem 0.75rem 8rem;
+  }
+
+  .source-tools-card {
+    padding: 1rem;
+  }
+
+  .practice-input-grid,
+  .drawing-pad-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Never allow the book face to leak into global reader controls. */
+#nav-container,
+#nav-container *,
+#interface-container,
+#interface-container * {
+  font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+}
+
+.handwriting-sample {
+  letter-spacing: 0.035em;
+}
+
+/* The semantic reader owns the ruled drawing surface. Text controls are kept
+   only inside the collapsed keyboard alternative, so global inputs must not
+   inherit book ruling or handwriting-line metrics. */
+
+.unit-banner {
+  background: linear-gradient(90deg, #0284c7, #06b6d4);
+  color: white;
+}
+
+.activity-band {
+  background: #f97316;
+  color: white;
+}
+
+.unit-topic-chip {
+  display: inline-block;
+  background: white;
+  color: #e11d48;
+}
+
+.source-unit-hero {
+  width: min(100%, 52rem);
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.source-unit-title {
+  width: 100%;
+  padding: 0.65rem 1.5rem 0.8rem;
+  border-radius: 0.85rem;
+  background: linear-gradient(#13a8df, #0284c7);
+  box-shadow: inset 0 -3px 0 rgb(3 105 161 / 0.35);
+  color: #fff;
+  font-size: clamp(2.75rem, 7vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.source-unit-subtitle {
+  margin-top: 1rem;
+  color: #27272a;
+  font-size: clamp(1.65rem, 3.5vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.source-rabbit-callout {
+  display: grid;
+  grid-template-columns: minmax(0, 18rem) minmax(9rem, 17rem);
+  align-items: center;
+  width: min(100%, 35rem);
+  margin: 0.75rem auto 0;
+}
+
+.source-speech-bubble {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 14rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 1.75rem;
+  border: 4px solid #4f65a1;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 4px 0 rgb(148 163 184 / 0.45);
+  color: #27272a;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  line-height: 1.55;
+  text-align: center;
+}
+
+ul.source-speech-bubble {
+  list-style: none;
+}
+
+.source-speech-bubble::before,
+.source-speech-bubble::after {
+  position: absolute;
+  top: 2.65rem;
+  width: 0;
+  height: 0;
+  border-top: 1.7rem solid transparent;
+  border-bottom: 1.7rem solid transparent;
+  content: "";
+  transform: rotate(-7deg);
+}
+
+.source-speech-bubble::before {
+  z-index: 2;
+  right: -3.15rem;
+  border-left: 3.75rem solid #4f65a1;
+}
+
+.source-speech-bubble::after {
+  z-index: 3;
+  top: 2.83rem;
+  right: -2.72rem;
+  border-top-width: 1.45rem;
+  border-bottom-width: 1.45rem;
+  border-left: 3.45rem solid #fff;
+}
+
+.source-rabbit {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 17rem);
+  margin-left: -1.75rem;
+}
+
+@media (max-width: 600px) {
+  .source-rabbit-callout {
+    grid-template-columns: minmax(0, 1.25fr) minmax(7rem, 0.75fr);
+  }
+
+  .source-speech-bubble {
+    min-height: 10.5rem;
+    padding: 1rem;
+    border-width: 3px;
+    font-size: 1.15rem;
+  }
+
+  .source-speech-bubble::before,
+  .source-speech-bubble::after {
+    top: 2rem;
+    border-top-width: 1.2rem;
+    border-bottom-width: 1.2rem;
+  }
+
+  .source-speech-bubble::before {
+    right: -2.25rem;
+    border-left-width: 2.75rem;
+  }
+
+  .source-speech-bubble::after {
+    top: 2.15rem;
+    right: -1.93rem;
+    border-top-width: 1rem;
+    border-bottom-width: 1rem;
+    border-left-width: 2.5rem;
+  }
+
+  .source-rabbit {
+    margin-left: -1.5rem;
+  }
+}
+
+.picture-answer-card {
+  display: flex;
+  min-height: 22rem;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #bae6fd;
+  border-radius: 1.25rem;
+  background: #f8fafc;
+  padding: 1rem;
+}
+
+.picture-answer-card img {
+  width: 100%;
+  max-width: 17rem;
+  max-height: 14rem;
+  object-fit: contain;
+}
+
+.picture-answer-card input {
+  width: 100%;
+  border: 2px solid #bae6fd;
+  border-radius: 0.75rem;
+  background-color: white;
+  padding: 0.75rem 1rem;
+  font-size: 1.25rem;
+}
+
+#content .picture-answer-card input[type="text"] {
+  padding: 0 1rem;
+}
+
+.contact-number-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.025em;
+}
+
+.contact-number-list a {
+  width: fit-content;
+  color: #0369a1;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  white-space: nowrap;
+}
+
+.book-toc-prelim {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.08);
+}
+
+.book-toc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  gap: 1.25rem;
+}
+
+.book-toc-card {
+  overflow: hidden;
+  border: 1px solid #cbd5e1;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.1);
+}
+
+.book-toc-card-one {
+  border-color: #bae6fd;
+}
+
+.book-toc-card-two {
+  border-color: #fed7aa;
+}
+
+.book-toc-card-three {
+  border-color: #a7f3d0;
+}
+
+.book-toc-unit-link {
+  display: block;
+  padding: 0.9rem 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.book-toc-card-one .book-toc-unit-link {
+  background: #0369a1;
+}
+
+.book-toc-card-two .book-toc-unit-link {
+  background: #f97316;
+}
+
+.book-toc-card-three .book-toc-unit-link {
+  background: #059669;
+}
+
+.book-toc-card-body {
+  padding: 1rem;
+}
+
+.book-toc-section-link,
+.book-toc-link {
+  display: grid;
+  min-height: 2.75rem;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 0.75rem;
+  align-items: start;
+  border-radius: 0.6rem;
+  color: #1e293b;
+  text-decoration: none;
+}
+
+.book-toc-section-link {
+  margin-bottom: 0.75rem;
+  padding: 0.55rem 0.6rem;
+  color: #be123c;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.book-toc-link {
+  padding: 0.42rem 0.55rem;
+}
+
+.book-toc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.book-toc-link:hover,
+.book-toc-section-link:hover,
+.book-toc-link:focus-visible,
+.book-toc-section-link:focus-visible {
+  background: #f1f5f9;
+  outline: 2px solid transparent;
+}
+
+.book-toc-unit-link:hover,
+.book-toc-unit-link:focus-visible {
+  filter: brightness(1.08);
+  outline: 3px solid #facc15;
+  outline-offset: -3px;
+}
+
+@media (max-width: 1100px) {
+  .book-toc-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .book-toc-prelim,
+  .book-toc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.passage-layout {
+  display: grid;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.passage-source-image {
+  display: block;
+  width: 100%;
+  max-height: 42rem;
+  object-fit: contain;
+}
+
+.passage-layout textarea {
+  min-height: 30rem;
+}
+
+@media (min-width: 1024px) {
+  .passage-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* The shared runtime owns the one-row mobile dock and its accessibility
+   sheet. Book CSS only reserves scroll space beneath the fixed controls. */
+@media (max-width: 767.98px) {
+  main {
+    padding-bottom: calc(var(--dock-height, 4rem) + 1rem + env(safe-area-inset-bottom));
+  }
+
+  body:has(#nav-container [class~="bottom-18"]) main {
+    padding-bottom: calc(var(--dock-height, 4rem) + 7rem + env(safe-area-inset-bottom));
+  }
+}
